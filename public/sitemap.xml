@@ -3,783 +3,778 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://example.com/posts/my-first-post/</loc>
-    <lastmod>2018-07-21T18:42:54+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/posts/install-and-manage-node-js-using-nvm/</loc>
+    <loc>https://rimonmostafiz.com/blog/install-and-manage-node-js-using-nvm/</loc>
     <lastmod>2018-07-07T04:17:09+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/posts/spring-bean-wiring-using-javaconfig/</loc>
+    <loc>https://rimonmostafiz.com/blog/spring-bean-wiring-using-javaconfig/</loc>
     <lastmod>2018-05-29T10:19:29+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/posts/auto-bean-wiring-of-spring/</loc>
+    <loc>https://rimonmostafiz.com/blog/auto-bean-wiring-of-spring/</loc>
     <lastmod>2018-05-28T07:44:03+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/posts/spring-application-context-and-configuration-metadata/</loc>
+    <loc>https://rimonmostafiz.com/blog/spring-application-context-and-configuration-metadata/</loc>
     <lastmod>2018-05-26T06:42:47+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/posts/the-spring-ioc-container/</loc>
+    <loc>https://rimonmostafiz.com/blog/the-spring-ioc-container/</loc>
     <lastmod>2018-03-15T11:00:47+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/posts/inversion-of-control-and-dependency-injection/</loc>
+    <loc>https://rimonmostafiz.com/blog/inversion-of-control-and-dependency-injection/</loc>
     <lastmod>2018-03-14T10:36:12+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/posts/know-your-response-object/</loc>
+    <loc>https://rimonmostafiz.com/blog/know-your-response-object/</loc>
     <lastmod>2018-01-09T06:30:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/posts/know-your-request-object/</loc>
+    <loc>https://rimonmostafiz.com/blog/know-your-request-object/</loc>
     <lastmod>2017-12-13T05:30:10+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/posts/up-and-running-with-servlet-in-tomcat/</loc>
+    <loc>https://rimonmostafiz.com/blog/up-and-running-with-servlet-in-tomcat/</loc>
     <lastmod>2017-12-12T16:57:27+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/posts/web-application-directory-structure-and-war-files/</loc>
+    <loc>https://rimonmostafiz.com/blog/web-application-directory-structure-and-war-files/</loc>
     <lastmod>2017-12-12T11:30:40+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/posts/basic-web-application-structure-of-javaee/</loc>
+    <loc>https://rimonmostafiz.com/blog/basic-web-application-structure-of-javaee/</loc>
     <lastmod>2017-12-12T10:08:51+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/posts/command-aliases-in-linux/</loc>
+    <loc>https://rimonmostafiz.com/blog/command-aliases-in-linux/</loc>
     <lastmod>2017-11-30T11:50:41+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/posts/a-bit-of-spring-part-one/</loc>
+    <loc>https://rimonmostafiz.com/blog/a-bit-of-spring-part-one/</loc>
     <lastmod>2017-10-30T09:19:54+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/posts/manage-jdk-using-sdkman/</loc>
+    <loc>https://rimonmostafiz.com/blog/manage-jdk-using-sdkman/</loc>
     <lastmod>2017-10-20T18:39:46+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/posts/installing-and-running-kibana/</loc>
+    <loc>https://rimonmostafiz.com/blog/installing-and-running-kibana/</loc>
     <lastmod>2017-09-16T09:19:51+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/posts/installing-and-running-elasticsearch/</loc>
+    <loc>https://rimonmostafiz.com/blog/installing-and-running-elasticsearch/</loc>
     <lastmod>2017-09-15T12:36:35+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/posts/basics-and-key-concepts-of-elasticsearch/</loc>
+    <loc>https://rimonmostafiz.com/blog/basics-and-key-concepts-of-elasticsearch/</loc>
     <lastmod>2017-09-15T10:26:28+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/posts/electronics-project-1/</loc>
+    <loc>https://rimonmostafiz.com/blog/electronics-project-1/</loc>
     <lastmod>2017-09-09T11:34:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/posts/electronics-project-2/</loc>
+    <loc>https://rimonmostafiz.com/blog/electronics-project-2/</loc>
     <lastmod>2017-09-09T10:58:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/posts/uva-10311-goldbach-and-euler/</loc>
+    <loc>https://rimonmostafiz.com/blog/uva-10311-goldbach-and-euler/</loc>
     <lastmod>2017-09-03T00:21:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/posts/uva-406-prime-cuts/</loc>
+    <loc>https://rimonmostafiz.com/blog/uva-406-prime-cuts/</loc>
     <lastmod>2017-08-29T21:39:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/posts/oracle-sql-developer-in-ubuntu/</loc>
+    <loc>https://rimonmostafiz.com/blog/oracle-sql-developer-in-ubuntu/</loc>
     <lastmod>2017-08-28T15:13:24+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/posts/git-notes/</loc>
+    <loc>https://rimonmostafiz.com/blog/git-notes/</loc>
     <lastmod>2017-08-17T12:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/posts/google-drive-in-ubuntu/</loc>
+    <loc>https://rimonmostafiz.com/blog/google-drive-in-ubuntu/</loc>
     <lastmod>2017-08-16T22:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/posts/sieve-of-eratosthenes-memory-efficient-implementation/</loc>
+    <loc>https://rimonmostafiz.com/blog/sieve-of-eratosthenes-memory-efficient-implementation/</loc>
     <lastmod>2017-08-16T00:30:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/posts/least-common-multiple/</loc>
+    <loc>https://rimonmostafiz.com/blog/least-common-multiple/</loc>
     <lastmod>2017-08-15T18:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/posts/greatest-common-divisor-gcd/</loc>
+    <loc>https://rimonmostafiz.com/blog/greatest-common-divisor-gcd/</loc>
     <lastmod>2017-08-15T16:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/categories/algorithms/</loc>
+    <loc>https://rimonmostafiz.com/categories/algorithms/</loc>
     <lastmod>2017-08-16T00:30:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/tags/alias/</loc>
+    <loc>https://rimonmostafiz.com/tags/alias/</loc>
     <lastmod>2017-11-30T11:50:41+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/tags/annotation/</loc>
+    <loc>https://rimonmostafiz.com/tags/annotation/</loc>
     <lastmod>2018-05-29T10:19:29+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/tags/applicaiton-context/</loc>
+    <loc>https://rimonmostafiz.com/tags/applicaiton-context/</loc>
     <lastmod>2018-03-15T11:00:47+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/tags/application-context/</loc>
+    <loc>https://rimonmostafiz.com/tags/application-context/</loc>
     <lastmod>2018-05-29T10:19:29+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/tags/arduino/</loc>
+    <loc>https://rimonmostafiz.com/tags/arduino/</loc>
     <lastmod>2017-09-09T11:34:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/tags/automatic-bean-wiring/</loc>
+    <loc>https://rimonmostafiz.com/tags/automatic-bean-wiring/</loc>
     <lastmod>2018-05-28T07:44:03+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/tags/autowired/</loc>
+    <loc>https://rimonmostafiz.com/tags/autowired/</loc>
     <lastmod>2018-05-28T07:44:03+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/tags/bashrc/</loc>
+    <loc>https://rimonmostafiz.com/tags/bashrc/</loc>
     <lastmod>2017-11-30T11:50:41+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/tags/bean/</loc>
+    <loc>https://rimonmostafiz.com/tags/bean/</loc>
     <lastmod>2018-05-28T07:44:03+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/tags/bean-wiring/</loc>
+    <loc>https://rimonmostafiz.com/tags/bean-wiring/</loc>
     <lastmod>2018-05-29T10:19:29+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/tags/beans/</loc>
+    <loc>https://rimonmostafiz.com/tags/beans/</loc>
     <lastmod>2018-05-26T06:42:47+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/categories/</loc>
+    <loc>https://rimonmostafiz.com/blog/</loc>
+    <lastmod>2018-07-07T04:17:09+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://rimonmostafiz.com/categories/</loc>
     <lastmod>2017-08-16T00:30:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/</loc>
-    <lastmod>2018-07-21T18:42:54+06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://example.com/tags/command/</loc>
+    <loc>https://rimonmostafiz.com/tags/command/</loc>
     <lastmod>2017-11-30T11:50:41+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/tags/component/</loc>
+    <loc>https://rimonmostafiz.com/tags/component/</loc>
     <lastmod>2018-05-28T07:44:03+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/tags/componentscan/</loc>
+    <loc>https://rimonmostafiz.com/tags/componentscan/</loc>
     <lastmod>2018-05-28T07:44:03+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/tags/configuration/</loc>
+    <loc>https://rimonmostafiz.com/tags/configuration/</loc>
     <lastmod>2018-05-29T10:19:29+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/tags/console/</loc>
+    <loc>https://rimonmostafiz.com/tags/console/</loc>
     <lastmod>2017-09-16T09:19:51+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/tags/constructor-injection/</loc>
+    <loc>https://rimonmostafiz.com/tags/constructor-injection/</loc>
     <lastmod>2018-05-29T10:19:29+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/tags/container/</loc>
+    <loc>https://rimonmostafiz.com/tags/container/</loc>
     <lastmod>2018-03-15T11:00:47+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/tags/context/</loc>
+    <loc>https://rimonmostafiz.com/tags/context/</loc>
     <lastmod>2018-03-15T11:00:47+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/tags/database/</loc>
+    <loc>https://rimonmostafiz.com/tags/database/</loc>
     <lastmod>2017-09-15T10:26:28+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/tags/dependency-injection/</loc>
+    <loc>https://rimonmostafiz.com/tags/dependency-injection/</loc>
     <lastmod>2018-03-14T10:36:12+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/tags/deployment-descriptor/</loc>
+    <loc>https://rimonmostafiz.com/tags/deployment-descriptor/</loc>
     <lastmod>2017-12-12T16:57:27+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/tags/di/</loc>
+    <loc>https://rimonmostafiz.com/tags/di/</loc>
     <lastmod>2018-03-14T10:36:12+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/tags/directory-structure/</loc>
+    <loc>https://rimonmostafiz.com/tags/directory-structure/</loc>
     <lastmod>2017-12-12T11:30:40+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/tags/elasticse/</loc>
+    <loc>https://rimonmostafiz.com/tags/elasticse/</loc>
     <lastmod>2017-09-16T09:19:51+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/tags/elasticsearch/</loc>
+    <loc>https://rimonmostafiz.com/tags/elasticsearch/</loc>
     <lastmod>2017-09-15T12:36:35+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/categories/elasticsearch/</loc>
+    <loc>https://rimonmostafiz.com/categories/elasticsearch/</loc>
     <lastmod>2017-09-16T09:19:51+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/categories/elasticsearch-series/</loc>
+    <loc>https://rimonmostafiz.com/categories/elasticsearch-series/</loc>
     <lastmod>2017-09-16T09:19:51+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/categories/electronics/</loc>
+    <loc>https://rimonmostafiz.com/categories/electronics/</loc>
     <lastmod>2017-09-09T11:34:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/tags/encode/</loc>
+    <loc>https://rimonmostafiz.com/tags/encode/</loc>
     <lastmod>2018-01-09T06:30:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/tags/explicit-wiring/</loc>
+    <loc>https://rimonmostafiz.com/tags/explicit-wiring/</loc>
     <lastmod>2018-05-29T10:19:29+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/tags/filter/</loc>
+    <loc>https://rimonmostafiz.com/tags/filter/</loc>
     <lastmod>2017-12-12T10:08:51+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/tags/framework/</loc>
+    <loc>https://rimonmostafiz.com/tags/framework/</loc>
     <lastmod>2018-03-15T11:00:47+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/tags/gcd/</loc>
+    <loc>https://rimonmostafiz.com/tags/gcd/</loc>
     <lastmod>2017-08-15T18:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/tags/git/</loc>
+    <loc>https://rimonmostafiz.com/tags/git/</loc>
     <lastmod>2017-08-17T12:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/categories/git/</loc>
+    <loc>https://rimonmostafiz.com/categories/git/</loc>
     <lastmod>2017-08-17T12:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/tags/google-drive/</loc>
+    <loc>https://rimonmostafiz.com/tags/google-drive/</loc>
     <lastmod>2017-08-16T22:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/tags/header/</loc>
+    <loc>https://rimonmostafiz.com/tags/header/</loc>
     <lastmod>2018-01-09T06:30:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/tags/idea/</loc>
+    <loc>https://rimonmostafiz.com/tags/idea/</loc>
     <lastmod>2017-09-03T00:21:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/tags/inversion-of-control/</loc>
+    <loc>https://rimonmostafiz.com/tags/inversion-of-control/</loc>
     <lastmod>2018-03-14T10:36:12+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/tags/ioc/</loc>
+    <loc>https://rimonmostafiz.com/tags/ioc/</loc>
     <lastmod>2018-03-15T11:00:47+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/tags/java/</loc>
+    <loc>https://rimonmostafiz.com/tags/java/</loc>
     <lastmod>2018-01-09T06:30:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/categories/java/</loc>
+    <loc>https://rimonmostafiz.com/categories/java/</loc>
     <lastmod>2018-01-09T06:30:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/tags/java-sconfig/</loc>
+    <loc>https://rimonmostafiz.com/tags/java-sconfig/</loc>
     <lastmod>2018-05-26T06:42:47+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/tags/javaee/</loc>
+    <loc>https://rimonmostafiz.com/tags/javaee/</loc>
     <lastmod>2018-01-09T06:30:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/categories/javaee/</loc>
+    <loc>https://rimonmostafiz.com/categories/javaee/</loc>
     <lastmod>2018-01-09T06:30:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/tags/jdk/</loc>
+    <loc>https://rimonmostafiz.com/tags/jdk/</loc>
     <lastmod>2017-10-20T18:39:46+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/tags/jsp/</loc>
+    <loc>https://rimonmostafiz.com/tags/jsp/</loc>
     <lastmod>2017-12-12T10:08:51+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/tags/kibana/</loc>
+    <loc>https://rimonmostafiz.com/tags/kibana/</loc>
     <lastmod>2017-09-16T09:19:51+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/tags/lcm/</loc>
+    <loc>https://rimonmostafiz.com/tags/lcm/</loc>
     <lastmod>2017-08-15T18:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/categories/learning/</loc>
+    <loc>https://rimonmostafiz.com/categories/learning/</loc>
     <lastmod>2018-05-29T10:19:29+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/tags/linux/</loc>
+    <loc>https://rimonmostafiz.com/tags/linux/</loc>
     <lastmod>2017-11-30T11:50:41+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/categories/linux/</loc>
+    <loc>https://rimonmostafiz.com/categories/linux/</loc>
     <lastmod>2017-11-30T11:50:41+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/tags/listeners/</loc>
+    <loc>https://rimonmostafiz.com/tags/listeners/</loc>
     <lastmod>2017-12-12T10:08:51+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/tags/math/</loc>
+    <loc>https://rimonmostafiz.com/tags/math/</loc>
     <lastmod>2017-08-15T18:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/categories/math/</loc>
+    <loc>https://rimonmostafiz.com/categories/math/</loc>
     <lastmod>2017-08-16T00:30:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/tags/maven/</loc>
+    <loc>https://rimonmostafiz.com/tags/maven/</loc>
     <lastmod>2017-12-12T16:57:27+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/tags/maven-project/</loc>
+    <loc>https://rimonmostafiz.com/tags/maven-project/</loc>
     <lastmod>2018-05-28T07:44:03+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/tags/metadata/</loc>
+    <loc>https://rimonmostafiz.com/tags/metadata/</loc>
     <lastmod>2018-05-26T06:42:47+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/tags/microcontroller/</loc>
+    <loc>https://rimonmostafiz.com/tags/microcontroller/</loc>
     <lastmod>2017-09-09T11:34:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/tags/node/</loc>
+    <loc>https://rimonmostafiz.com/tags/node/</loc>
     <lastmod>2018-07-07T04:17:09+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/tags/nodejs/</loc>
+    <loc>https://rimonmostafiz.com/tags/nodejs/</loc>
     <lastmod>2018-07-07T04:17:09+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/categories/nodejs/</loc>
+    <loc>https://rimonmostafiz.com/categories/nodejs/</loc>
     <lastmod>2018-07-07T04:17:09+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/tags/nosql/</loc>
+    <loc>https://rimonmostafiz.com/tags/nosql/</loc>
     <lastmod>2017-09-15T10:26:28+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/tags/notes/</loc>
+    <loc>https://rimonmostafiz.com/tags/notes/</loc>
     <lastmod>2017-10-20T18:39:46+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/tags/npm/</loc>
+    <loc>https://rimonmostafiz.com/tags/npm/</loc>
     <lastmod>2018-07-07T04:17:09+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/tags/number-theory/</loc>
+    <loc>https://rimonmostafiz.com/tags/number-theory/</loc>
     <lastmod>2017-08-16T00:30:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/tags/nvm/</loc>
+    <loc>https://rimonmostafiz.com/tags/nvm/</loc>
     <lastmod>2018-07-07T04:17:09+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/tags/oracle/</loc>
+    <loc>https://rimonmostafiz.com/tags/oracle/</loc>
     <lastmod>2017-10-20T18:39:46+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/tags/params/</loc>
+    <loc>https://rimonmostafiz.com/tags/params/</loc>
     <lastmod>2017-12-13T05:30:10+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/tags/post-variables/</loc>
+    <loc>https://rimonmostafiz.com/tags/post-variables/</loc>
     <lastmod>2017-12-13T05:30:10+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/posts/</loc>
-    <lastmod>2018-07-21T18:42:54+06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://example.com/tags/prime-number/</loc>
+    <loc>https://rimonmostafiz.com/tags/prime-number/</loc>
     <lastmod>2017-09-03T00:21:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/tags/principle/</loc>
+    <loc>https://rimonmostafiz.com/tags/principle/</loc>
     <lastmod>2018-03-14T10:36:12+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/tags/problem-solving/</loc>
+    <loc>https://rimonmostafiz.com/tags/problem-solving/</loc>
     <lastmod>2017-09-03T00:21:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/tags/project/</loc>
+    <loc>https://rimonmostafiz.com/tags/project/</loc>
     <lastmod>2017-09-09T11:34:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/tags/query-parameters/</loc>
+    <loc>https://rimonmostafiz.com/tags/query-parameters/</loc>
     <lastmod>2017-12-13T05:30:10+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/tags/request/</loc>
+    <loc>https://rimonmostafiz.com/tags/request/</loc>
     <lastmod>2017-12-13T05:30:10+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/tags/response/</loc>
+    <loc>https://rimonmostafiz.com/tags/response/</loc>
     <lastmod>2018-01-09T06:30:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/tags/restful/</loc>
+    <loc>https://rimonmostafiz.com/tags/restful/</loc>
     <lastmod>2017-09-16T09:19:51+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/tags/sdk/</loc>
+    <loc>https://rimonmostafiz.com/</loc>
+    <lastmod>2018-07-07T04:17:09+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://rimonmostafiz.com/tags/sdk/</loc>
     <lastmod>2017-10-20T18:39:46+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/tags/sdkman/</loc>
+    <loc>https://rimonmostafiz.com/tags/sdkman/</loc>
     <lastmod>2017-10-20T18:39:46+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/tags/sencor/</loc>
+    <loc>https://rimonmostafiz.com/tags/sencor/</loc>
     <lastmod>2017-09-09T11:34:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/tags/server/</loc>
+    <loc>https://rimonmostafiz.com/tags/server/</loc>
     <lastmod>2017-12-12T11:30:40+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/tags/servlet/</loc>
+    <loc>https://rimonmostafiz.com/tags/servlet/</loc>
     <lastmod>2018-01-09T06:30:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/tags/sieve/</loc>
+    <loc>https://rimonmostafiz.com/tags/sieve/</loc>
     <lastmod>2017-08-16T00:30:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/tags/spring/</loc>
+    <loc>https://rimonmostafiz.com/tags/spring/</loc>
     <lastmod>2018-03-14T10:36:12+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/categories/spring/</loc>
+    <loc>https://rimonmostafiz.com/categories/spring/</loc>
     <lastmod>2018-05-29T10:19:29+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/categories/spring-diary/</loc>
+    <loc>https://rimonmostafiz.com/categories/spring-diary/</loc>
     <lastmod>2018-05-29T10:19:29+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/tags/spring-ioc-container/</loc>
+    <loc>https://rimonmostafiz.com/tags/spring-ioc-container/</loc>
     <lastmod>2018-03-15T11:00:47+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/tags/spring-mvc/</loc>
+    <loc>https://rimonmostafiz.com/tags/spring-mvc/</loc>
     <lastmod>2017-10-30T09:19:54+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/tags/sqldeveloper/</loc>
+    <loc>https://rimonmostafiz.com/tags/sqldeveloper/</loc>
     <lastmod>2017-08-28T15:13:24+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/tags/</loc>
+    <loc>https://rimonmostafiz.com/tags/</loc>
     <lastmod>2017-11-30T11:50:41+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/categories/technology/</loc>
+    <loc>https://rimonmostafiz.com/categories/technology/</loc>
     <lastmod>2018-01-09T06:30:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/tags/terminal/</loc>
+    <loc>https://rimonmostafiz.com/tags/terminal/</loc>
     <lastmod>2017-11-30T11:50:41+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/tags/tomcat/</loc>
+    <loc>https://rimonmostafiz.com/tags/tomcat/</loc>
     <lastmod>2017-12-12T16:57:27+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/tags/ubuntu/</loc>
+    <loc>https://rimonmostafiz.com/tags/ubuntu/</loc>
     <lastmod>2017-11-30T11:50:41+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/tags/unix/</loc>
+    <loc>https://rimonmostafiz.com/tags/unix/</loc>
     <lastmod>2017-10-20T18:39:46+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/categories/uva/</loc>
+    <loc>https://rimonmostafiz.com/categories/uva/</loc>
     <lastmod>2017-09-03T00:21:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/tags/war/</loc>
+    <loc>https://rimonmostafiz.com/tags/war/</loc>
     <lastmod>2017-12-12T11:30:40+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/tags/web-app/</loc>
+    <loc>https://rimonmostafiz.com/tags/web-app/</loc>
     <lastmod>2017-12-12T11:30:40+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/categories/web-application/</loc>
+    <loc>https://rimonmostafiz.com/categories/web-application/</loc>
     <lastmod>2018-01-09T06:30:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/tags/wiring-beans/</loc>
+    <loc>https://rimonmostafiz.com/tags/wiring-beans/</loc>
     <lastmod>2018-05-28T07:44:03+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/tags/xml-config/</loc>
+    <loc>https://rimonmostafiz.com/tags/xml-config/</loc>
     <lastmod>2018-05-26T06:42:47+00:00</lastmod>
     <priority>0</priority>
   </url>

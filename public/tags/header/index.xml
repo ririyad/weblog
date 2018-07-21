@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Header on Chris Turner</title>
-    <link>https://example.com/tags/header/</link>
-    <description>Recent content in Header on Chris Turner</description>
+    <title>Header on Rimon&#39;s Weblog</title>
+    <link>https://rimonmostafiz.com/tags/header/</link>
+    <description>Recent content in Header on Rimon&#39;s Weblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Tue, 09 Jan 2018 06:30:00 +0000</lastBuildDate>
     
-	<atom:link href="https://example.com/tags/header/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://rimonmostafiz.com/tags/header/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Know Your Response Object</title>
-      <link>https://example.com/posts/know-your-response-object/</link>
+      <link>https://rimonmostafiz.com/blog/know-your-response-object/</link>
       <pubDate>Tue, 09 Jan 2018 06:30:00 +0000</pubDate>
       
-      <guid>https://example.com/posts/know-your-response-object/</guid>
+      <guid>https://rimonmostafiz.com/blog/know-your-response-object/</guid>
       <description>HttpServletResponse The HttpServletResponse interface extends ServletResponse and provides access to the HTTP protocol-specific properties of a response.
 You can use the response object to do things such as
  Set response headers
