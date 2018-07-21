@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Annotation on Rimon&#39;s Weblog</title>
-    <link>http://example.org/tags/annotation/</link>
-    <description>Recent content in Annotation on Rimon&#39;s Weblog</description>
+    <title>Annotation on Chris Turner</title>
+    <link>https://example.com/tags/annotation/</link>
+    <description>Recent content in Annotation on Chris Turner</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en-US</language>
     <lastBuildDate>Tue, 29 May 2018 10:19:29 +0000</lastBuildDate>
     
-	<atom:link href="http://example.org/tags/annotation/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://example.com/tags/annotation/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Spring Bean Wiring Using JavaConfig</title>
-      <link>http://example.org/posts/spring-bean-wiring-using-javaconfig/</link>
+      <link>https://example.com/posts/spring-bean-wiring-using-javaconfig/</link>
       <pubDate>Tue, 29 May 2018 10:19:29 +0000</pubDate>
       
-      <guid>http://example.org/posts/spring-bean-wiring-using-javaconfig/</guid>
+      <guid>https://example.com/posts/spring-bean-wiring-using-javaconfig/</guid>
       <description>In the previous post of my spring-diary, I wrote about how can we implicitly wire beans automatically in Spring container. In my previous post I created a new maven project and started writing code so that we can understand the topics more clearly. In this post, I am documenting my learning of how we can wire bean using Explicit Java Configuration. I will work on the same project I have created earlier.</description>
     </item>
     
     <item>
       <title>a bit of spring: part one</title>
-      <link>http://example.org/posts/a-bit-of-spring-part-one/</link>
+      <link>https://example.com/posts/a-bit-of-spring-part-one/</link>
       <pubDate>Mon, 30 Oct 2017 09:19:54 +0000</pubDate>
       
-      <guid>http://example.org/posts/a-bit-of-spring-part-one/</guid>
+      <guid>https://example.com/posts/a-bit-of-spring-part-one/</guid>
       <description>Spring MVC Java Configuration Hi All, This _should_ be the first in a series of &amp;ldquo;Rimon learns Spring&amp;rdquo; type blog posts I plan on writing as I learn bits of Spring. I am just documenting my learnings, not advising others based on what I&amp;rsquo;ve learned.
 Spring traditionally supports two types of configurations:
  XML based configuration

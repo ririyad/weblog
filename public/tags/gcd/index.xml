@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Gcd on Rimon&#39;s Weblog</title>
-    <link>http://example.org/tags/gcd/</link>
-    <description>Recent content in Gcd on Rimon&#39;s Weblog</description>
+    <title>Gcd on Chris Turner</title>
+    <link>https://example.com/tags/gcd/</link>
+    <description>Recent content in Gcd on Chris Turner</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en-US</language>
     <lastBuildDate>Tue, 15 Aug 2017 18:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://example.org/tags/gcd/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://example.com/tags/gcd/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Least Common Multiple (LCM)</title>
-      <link>http://example.org/posts/least-common-multiple/</link>
+      <link>https://example.com/posts/least-common-multiple/</link>
       <pubDate>Tue, 15 Aug 2017 18:00:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/least-common-multiple/</guid>
+      <guid>https://example.com/posts/least-common-multiple/</guid>
       <description>Least Common Multiple (LCM) of two number a and b is the smallest positive integer that is divisible by both a and b. Since division of integers by zero is undefined, this definition has meaning only if a and b are both different from zero.
 [cpp] int lcm(int a, int b) { for ( int i = 1; ; i ) { if ( i % a == 0 &amp;amp;&amp;amp; i % b == 0 ) { return i; } } } [/cpp]</description>
     </item>
     
     <item>
       <title>Greatest Common Divisor (GCD)</title>
-      <link>http://example.org/posts/greatest-common-divisor-gcd/</link>
+      <link>https://example.com/posts/greatest-common-divisor-gcd/</link>
       <pubDate>Tue, 15 Aug 2017 16:00:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/greatest-common-divisor-gcd/</guid>
+      <guid>https://example.com/posts/greatest-common-divisor-gcd/</guid>
       <description>Greatest Common Divisor (GCD) of two number a and b is the largest number that divides both a and b evenly.
 if g = gcd(a, b), then g divides both a and b when at least one of them is non zero.
 when gcd(a, b) == 1 then we said a and b is co-prime or relatively prime numbers.

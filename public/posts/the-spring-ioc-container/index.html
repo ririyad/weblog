@@ -1,122 +1,88 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en-US">
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    
-    <title>Rimon&#39;s Weblog  | The Spring IoC Container</title>
-    <meta name="HandheldFriendly" content="True">
-    <meta name="MobileOptimized" content="320">
-
-    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="map[]" />
+    <meta name="description" content="Describe your website">
+    <link rel="shortcut icon" type="image/x-icon" href="https://example.com/img/favicon.ico">
+    <title>The Spring IoC Container</title>
     <meta name="generator" content="Hugo 0.44" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://example.com/css/main.css" />
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,200bold,400old" />
     
-    
-      <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
-    
-
-    
-    
-      <link href="/dist/css/app.ab4b67a3ea25990fa8279f3b7ef08b61.css" rel="stylesheet">
-    
-
-    
+    <!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+			<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
 
     
-      
-    
-
-    
-
-    <meta property="og:title" content="The Spring IoC Container" />
-<meta property="og:description" content="Overview There is some confusion these days over the meaning of inversion of control due to the rise of _IoC containers. _An IoC container is a common characteristic of frameworks that implement Inversion of Control (IoC).
-Some people confuse the general principle here with the specific styles of inversion of control (such as dependency injection) that these containers use. It is a process whereby objects define their dependencies, that is, the other objects they work with, only through constructor arguments, arguments to a factory method, or properties that are set on the object instance after it is constructed or returned from a factory method." />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="http://example.org/posts/the-spring-ioc-container/" />
-
-
-
-<meta property="article:published_time" content="2018-03-15T11:00:47&#43;00:00"/>
-
-<meta property="article:modified_time" content="2018-03-15T11:00:47&#43;00:00"/>
-
-
-
-
-
-
-
-
-
-
-
-<meta itemprop="name" content="The Spring IoC Container">
-<meta itemprop="description" content="Overview There is some confusion these days over the meaning of inversion of control due to the rise of _IoC containers. _An IoC container is a common characteristic of frameworks that implement Inversion of Control (IoC).
-Some people confuse the general principle here with the specific styles of inversion of control (such as dependency injection) that these containers use. It is a process whereby objects define their dependencies, that is, the other objects they work with, only through constructor arguments, arguments to a factory method, or properties that are set on the object instance after it is constructed or returned from a factory method.">
-
-
-<meta itemprop="datePublished" content="2018-03-15T11:00:47&#43;00:00" />
-<meta itemprop="dateModified" content="2018-03-15T11:00:47&#43;00:00" />
-<meta itemprop="wordCount" content="527">
-
-
-
-<meta itemprop="keywords" content="applicaiton-context,beans,configuration,container,context,framework,ioc,metadata,spring-ioc-container," />
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="The Spring IoC Container"/>
-<meta name="twitter:description" content="Overview There is some confusion these days over the meaning of inversion of control due to the rise of _IoC containers. _An IoC container is a common characteristic of frameworks that implement Inversion of Control (IoC).
-Some people confuse the general principle here with the specific styles of inversion of control (such as dependency injection) that these containers use. It is a process whereby objects define their dependencies, that is, the other objects they work with, only through constructor arguments, arguments to a factory method, or properties that are set on the object instance after it is constructed or returned from a factory method."/>
-
   </head>
 
-  <body class="ma0 avenir bg-near-white">
+  <body>
+    <div id="wrap">
 
-    
-   
-  
-
-  <header>
-    <div class="bg-black">
-      <nav class="pv3 ph3 ph4-ns" role="navigation">
-  <div class="flex-l justify-between items-center center">
-    <a href="http://example.org/" class="f3 fw2 hover-white no-underline white-90 dib">
-      Rimon&#39;s Weblog
-    </a>
-    <div class="flex-l items-center">
       
+      <nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="https://example.com/"><i class="fa fa-home"></i></a>
+    </div>
+    <div id="navbar">
+      <ul class="nav navbar-nav navbar-right">
       
-
-
-
-
-
-
-
-
+        
+        <li><a href="/blog/">BLOG</a></li>
+        
+        <li><a href="/projects/">PROJECTS</a></li>
+        
+        <li><a href="/resume/">RESUME</a></li>
+        
+      
+      </ul>
     </div>
   </div>
 </nav>
 
-    </div>
-  </header>
-
-
-
-    <main class="pb7" role="main">
       
-  <article class="flex-l flex-wrap justify-between mw8 center ph3 ph0-l">
-
-    <header class="mt4 w-100">
-      <p class="f6 b helvetica tracked">
-          
-        POSTS
-      </p>
-      <h1 class="f1 athelas mb1">The Spring IoC Container</h1>
-      
-      <time class="f6 mv4 dib tracked" datetime="2018-03-15T11:00:47Z">March 15, 2018</time>
-    </header>
-
-    <main class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l">
+      <div class="container">
+        <div class="blog-post">
+          <h3>
+            <strong><a href="https://example.com/posts/the-spring-ioc-container/">The Spring IoC Container</a></strong>
+          </h3>
+        </div>
+        <div class="blog-title">
+          <h4>
+          March 15, 2018
+            &nbsp;&nbsp;
+            
+            <span class="label label-success">applicaiton-context</span>
+            
+            <span class="label label-success">beans</span>
+            
+            <span class="label label-success">configuration</span>
+            
+            <span class="label label-success">container</span>
+            
+            <span class="label label-success">context</span>
+            
+            <span class="label label-success">framework</span>
+            
+            <span class="label label-success">ioc</span>
+            
+            <span class="label label-success">metadata</span>
+            
+            <span class="label label-success">spring-ioc-container</span>
+            
+          </h4>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <div class="blogpost">
+              
 
 <h3 id="overview"><strong>Overview</strong></h3>
 
@@ -175,96 +141,99 @@ The container gets its instructions on what objects to instantiate, configure, a
 <p><img src="https://docs.spring.io/spring/docs/current/spring-framework-reference/images/container-magic.png" alt="" /></p>
 
 <p>The diagram is a high-level view of how Spring Container works. Your application classes are combined with configuration metadata so that after the <code>ApplicationContext</code> is created and initialized, you have a fully configured and executable system or application.</p>
-<ul class="pa0">
-  
-   <li class="list">
-     <a href="/tags/applicaiton-context" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">applicaiton-context</a>
-   </li>
-  
-   <li class="list">
-     <a href="/tags/beans" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">beans</a>
-   </li>
-  
-   <li class="list">
-     <a href="/tags/configuration" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">configuration</a>
-   </li>
-  
-   <li class="list">
-     <a href="/tags/container" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">container</a>
-   </li>
-  
-   <li class="list">
-     <a href="/tags/context" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">context</a>
-   </li>
-  
-   <li class="list">
-     <a href="/tags/framework" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">framework</a>
-   </li>
-  
-   <li class="list">
-     <a href="/tags/ioc" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">ioc</a>
-   </li>
-  
-   <li class="list">
-     <a href="/tags/metadata" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">metadata</a>
-   </li>
-  
-   <li class="list">
-     <a href="/tags/spring-ioc-container" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">spring-ioc-container</a>
-   </li>
-  
-</ul>
-<div class="mt6">
-        
-      </div>
-    </main>
 
-    <aside class="w-30-l mt6-l">
+              <hr>
+              <div class="related-posts">
+                <h5>Related Posts</h5>
+                
+                  <div class="row">
+                    <div class="col-sm-4 col-md-4 col-lg-4">
+                      <h6 style="text-align: right">
+                        May 29, 2018
+                      </h6>
+                    </div>
+                    <div class="col-sm-8 col-md-8 col-lg-8">
+                      <h6 style="text-align: left">
+                        <strong><a href="/posts/spring-bean-wiring-using-javaconfig/">Spring Bean Wiring Using JavaConfig</a></strong>
+                      </h6>
+                    </div>
+                  </div>
+                
+                  <div class="row">
+                    <div class="col-sm-4 col-md-4 col-lg-4">
+                      <h6 style="text-align: right">
+                        May 26, 2018
+                      </h6>
+                    </div>
+                    <div class="col-sm-8 col-md-8 col-lg-8">
+                      <h6 style="text-align: left">
+                        <strong><a href="/posts/spring-application-context-and-configuration-metadata/">Spring Application Context and Configuration Metadata</a></strong>
+                      </h6>
+                    </div>
+                  </div>
+                
+                  <div class="row">
+                    <div class="col-sm-4 col-md-4 col-lg-4">
+                      <h6 style="text-align: right">
+                        March 14, 2018
+                      </h6>
+                    </div>
+                    <div class="col-sm-8 col-md-8 col-lg-8">
+                      <h6 style="text-align: left">
+                        <strong><a href="/posts/inversion-of-control-and-dependency-injection/">Inversion of Control and Dependency Injection</a></strong>
+                      </h6>
+                    </div>
+                  </div>
+                
+              </div>
+            </div>
+          </div>
+          <hr>
+        <div class="disqus">
+  <div id="disqus_thread"></div>
+  <script type="text/javascript">
 
+    (function() {
+      
+      
+      if (window.location.hostname == "localhost")
+        return;
 
-
-
-  <div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
-    <p class="f5 b mb3">Related</p>
-    <ul class="pa0 list">
-	   
-	     <li  class="mb2">
-          <a href="/posts/inversion-of-control-and-dependency-injection/">Inversion of Control and Dependency Injection</a>
-        </li>
-	    
-	     <li  class="mb2">
-          <a href="/posts/a-bit-of-spring-part-one/">a bit of spring: part one</a>
-        </li>
-	    
-    </ul>
+      var disqus_shortname = '';
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  <a href="http://disqus.com/" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
 </div>
-
-</aside>
-
-  </article>
-
-    </main>
-    <footer class="bg-near-black bottom-0 w-100 pa3" role="contentinfo">
-  <div class="flex justify-between">
-  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://example.org/" >
-    &copy; 2018 Rimon&#39;s Weblog
-  </a>
-  
-
-
-
-
-
-
-
-
-  </div>
-</footer>
+        </div>
+      </div>
+      
+    </div>
 
     
+    <footer>
+  <div id="footer">
+    <div class="container">
+      <p class="text-muted">&copy; All rights reserved. Powered by <a href="https://gohugo.io/">Hugo</a> and
+      <a href="http://www.github.com/nurlansu/hugo-sustain/">sustain</a> with ♥</p>
+    </div>
+  </div>
+</footer>
+<div class="footer"></div>
 
-  <script src="/dist/js/app.3fc0f988d21662902933.js"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="https://example.com/js/docs.min.js"></script>
+<script src="https://example.com/js/main.js"></script>
+
+<script src="https://example.com/js/ie10-viewport-bug-workaround.js"></script>
 
 
+    
   </body>
 </html>

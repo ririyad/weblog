@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Spring Mvc on Rimon&#39;s Weblog</title>
-    <link>http://example.org/tags/spring-mvc/</link>
-    <description>Recent content in Spring Mvc on Rimon&#39;s Weblog</description>
+    <title>Spring Mvc on Chris Turner</title>
+    <link>https://example.com/tags/spring-mvc/</link>
+    <description>Recent content in Spring Mvc on Chris Turner</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en-US</language>
     <lastBuildDate>Mon, 30 Oct 2017 09:19:54 +0000</lastBuildDate>
     
-	<atom:link href="http://example.org/tags/spring-mvc/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://example.com/tags/spring-mvc/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>a bit of spring: part one</title>
-      <link>http://example.org/posts/a-bit-of-spring-part-one/</link>
+      <link>https://example.com/posts/a-bit-of-spring-part-one/</link>
       <pubDate>Mon, 30 Oct 2017 09:19:54 +0000</pubDate>
       
-      <guid>http://example.org/posts/a-bit-of-spring-part-one/</guid>
+      <guid>https://example.com/posts/a-bit-of-spring-part-one/</guid>
       <description>Spring MVC Java Configuration Hi All, This _should_ be the first in a series of &amp;ldquo;Rimon learns Spring&amp;rdquo; type blog posts I plan on writing as I learn bits of Spring. I am just documenting my learnings, not advising others based on what I&amp;rsquo;ve learned.
 Spring traditionally supports two types of configurations:
  XML based configuration

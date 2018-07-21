@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Microcontroller on Rimon&#39;s Weblog</title>
-    <link>http://example.org/tags/microcontroller/</link>
-    <description>Recent content in Microcontroller on Rimon&#39;s Weblog</description>
+    <title>Microcontroller on Chris Turner</title>
+    <link>https://example.com/tags/microcontroller/</link>
+    <description>Recent content in Microcontroller on Chris Turner</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en-US</language>
     <lastBuildDate>Sat, 09 Sep 2017 11:34:00 +0000</lastBuildDate>
     
-	<atom:link href="http://example.org/tags/microcontroller/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://example.com/tags/microcontroller/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Automatic Staircase Light Using Arduino, PIR Sensor &amp; Relay</title>
-      <link>http://example.org/posts/electronics-project-1/</link>
+      <link>https://example.com/posts/electronics-project-1/</link>
       <pubDate>Sat, 09 Sep 2017 11:34:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/electronics-project-1/</guid>
+      <guid>https://example.com/posts/electronics-project-1/</guid>
       <description>Companion Video: 
 https://www.youtube.com/watch?v=OZECTbhp9dU
 This automatic staircase light circuit switch on the staircase lights automatically when someone enters on the stairs and gets off after some time.
@@ -34,10 +34,10 @@ This automatic staircase light circuit switch on the staircase lights automatica
     
     <item>
       <title>Obstacle Sensor Using Arduino and Ultrasonic Sensor HC-SR04</title>
-      <link>http://example.org/posts/electronics-project-2/</link>
+      <link>https://example.com/posts/electronics-project-2/</link>
       <pubDate>Sat, 09 Sep 2017 10:58:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/electronics-project-2/</guid>
+      <guid>https://example.com/posts/electronics-project-2/</guid>
       <description>Companion Video:
 https://www.youtube.com/watch?v=HOt-lHT-Nms
 Objective for this project is to make an obstacle sensor which will detect some object in front of it and send some signal.

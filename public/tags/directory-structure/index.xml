@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Directory Structure on Rimon&#39;s Weblog</title>
-    <link>http://example.org/tags/directory-structure/</link>
-    <description>Recent content in Directory Structure on Rimon&#39;s Weblog</description>
+    <title>Directory Structure on Chris Turner</title>
+    <link>https://example.com/tags/directory-structure/</link>
+    <description>Recent content in Directory Structure on Chris Turner</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en-US</language>
     <lastBuildDate>Tue, 12 Dec 2017 11:30:40 +0000</lastBuildDate>
     
-	<atom:link href="http://example.org/tags/directory-structure/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://example.com/tags/directory-structure/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Web Application Directory Structure and WAR Files</title>
-      <link>http://example.org/posts/web-application-directory-structure-and-war-files/</link>
+      <link>https://example.com/posts/web-application-directory-structure-and-war-files/</link>
       <pubDate>Tue, 12 Dec 2017 11:30:40 +0000</pubDate>
       
-      <guid>http://example.org/posts/web-application-directory-structure-and-war-files/</guid>
+      <guid>https://example.com/posts/web-application-directory-structure-and-war-files/</guid>
       <description>Directory Structure and WAR Files Standard Java EE web applications are deployed as WAR files or “exploded” (unarchived) web application directories. All Java EE web application servers support WAR file application archives. Whether archived or exploded, the directory structure convention, as shown in Figure is the same.
  This structure contains classes and other application resources, the class files live in /WEB-INF/classes. The WEB-INF directory stores informational and instructional files that Java EE web application servers use to determine how to deploy and run the application.</description>
     </item>
