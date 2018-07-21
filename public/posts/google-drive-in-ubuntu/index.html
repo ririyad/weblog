@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Rimon&#39;s Weblog  | Google Drive in Ubuntu</title>
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="generator" content="Hugo 0.44" />
+    
+    
+      <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    
+
+    
+    
+      <link href="/dist/css/app.ab4b67a3ea25990fa8279f3b7ef08b61.css" rel="stylesheet">
+    
+
+    
+
+    
+      
+    
+
+    
+
+    <meta property="og:title" content="Google Drive in Ubuntu" />
+<meta property="og:description" content="Since there is no official Google Drive client for Ubuntu or Linux Mint but if you need to use it then there is an unofficial client called Grive2. Grive is a Google Drive client for GNU/Linux systems. It allows the synchronization of all your files on the cloud with a directory of your choice and the upload of new files to Google Drive.
+Those of you used Google Drive client on Windows or Mac, Grive2 will do the same for you in Ubuntu or Linux Mint." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://example.org/posts/google-drive-in-ubuntu/" />
+
+
+
+<meta property="article:published_time" content="2017-08-16T22:00:00&#43;00:00"/>
+
+<meta property="article:modified_time" content="2017-08-16T22:00:00&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="Google Drive in Ubuntu">
+<meta itemprop="description" content="Since there is no official Google Drive client for Ubuntu or Linux Mint but if you need to use it then there is an unofficial client called Grive2. Grive is a Google Drive client for GNU/Linux systems. It allows the synchronization of all your files on the cloud with a directory of your choice and the upload of new files to Google Drive.
+Those of you used Google Drive client on Windows or Mac, Grive2 will do the same for you in Ubuntu or Linux Mint.">
+
+
+<meta itemprop="datePublished" content="2017-08-16T22:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2017-08-16T22:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="373">
+
+
+
+<meta itemprop="keywords" content="google-drive,linux,notes,ubuntu," />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Google Drive in Ubuntu"/>
+<meta name="twitter:description" content="Since there is no official Google Drive client for Ubuntu or Linux Mint but if you need to use it then there is an unofficial client called Grive2. Grive is a Google Drive client for GNU/Linux systems. It allows the synchronization of all your files on the cloud with a directory of your choice and the upload of new files to Google Drive.
+Those of you used Google Drive client on Windows or Mac, Grive2 will do the same for you in Ubuntu or Linux Mint."/>
+
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="http://example.org/" class="f3 fw2 hover-white no-underline white-90 dib">
+      Rimon&#39;s Weblog
+    </a>
+    <div class="flex-l items-center">
+      
+      
+
+
+
+
+
+
+
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  <article class="flex-l flex-wrap justify-between mw8 center ph3 ph0-l">
+
+    <header class="mt4 w-100">
+      <p class="f6 b helvetica tracked">
+          
+        POSTS
+      </p>
+      <h1 class="f1 athelas mb1">Google Drive in Ubuntu</h1>
+      
+      <time class="f6 mv4 dib tracked" datetime="2017-08-16T22:00:00Z">August 16, 2017</time>
+    </header>
+
+    <main class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>Since there is no official Google Drive client for Ubuntu or Linux Mint but if you need to use it then there is an unofficial client called Grive2. Grive is a Google Drive client for GNU/Linux systems. It allows the synchronization of all your files on the cloud with a directory of your choice and the upload of new files to Google Drive.</p>
+
+<p>Those of you used Google Drive client on Windows or Mac, Grive2 will do the same for you in Ubuntu or Linux Mint.</p>
+
+<p>To install Grive2 in Ubuntu, Linux Mint and derivatives by using the main WebUpd8 PPA, use the following commands:</p>
+
+<p>[bash]
+sudo add-apt-repository ppa:nilarimogard/webupd8
+sudo apt-get update
+sudo apt-get install grive
+[/bash]</p>
+
+<p><strong>Step 1: </strong>Grive2 will download/upload new or changed files from the directory you run it. You can name it anything you want to. Let’s create a new folder – I&rsquo;ll create it on my <em>home folder and going to name it </em><strong><em>GoogleDrive</em></strong></p>
+
+<p>[bash]mkdir -p ~/GoogleDrive[/bash]</p>
+
+<p><strong>Step 2: </strong> Next, navigate using the terminal into the newly created “GoogleDrive” folder:</p>
+
+<p>[bash]cd ~/GoogleDrive[/bash]</p>
+
+<p><strong>Step 3: </strong>The first time you run Grive2, you must use the “-a” argument to grant it permission to access your Google Drive:</p>
+
+<p>[bash]grive -a[/bash]</p>
+
+<p>After running the command above, an URL should be displayed in the terminal.
+Copy that URL and paste it in a web browser. In the newly loaded page, you’ll be asked to give Grive permission to access your Google Drive and after clicking <strong>Allow access</strong>, an authentication code will be displayed. Copy that code and paste it in the terminal where you ran Grive2.
+That’s it. Grive 2 Will start syncing your files and folder from Google Drive, wait for sync to complete for the first time. Don&rsquo;t close the terminal.
+**
+** <strong>Now each time you want to sync Google Drive with your local _GoogleDrive_ folder, navigate to the _GoogleDrive_ folder and run grive (this time without “-a” since you’ve already authenticated Grive with Google Drive).</strong></p>
+
+<p>If you want to sync only one sub-folder (a folder from your <em>~/GoogleDrive</em> directory) with Google Drive, use:</p>
+
+<p>[bash]grive -s folder[/bash]</p>
+
+<p>(replace <em>folder</em> with the name of the sub-folder you want to sync)</p>
+
+<p>To see all the available options, type:</p>
+
+<p>[bash]grive &ndash;help[/bash]</p>
+
+<p><strong><em>Courtesy:</em></strong> <a href="http://askubuntu.com/"><em>askubuntu.com</em></a></p>
+<ul class="pa0">
+  
+   <li class="list">
+     <a href="/tags/google-drive" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">google-drive</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/linux" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">linux</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/notes" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">notes</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/ubuntu" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">ubuntu</a>
+   </li>
+  
+</ul>
+<div class="mt6">
+        
+      </div>
+    </main>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-near-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://example.org/" >
+    &copy; 2018 Rimon&#39;s Weblog
+  </a>
+  
+
+
+
+
+
+
+
+
+  </div>
+</footer>
+
+    
+
+  <script src="/dist/js/app.3fc0f988d21662902933.js"></script>
+
+
+  </body>
+</html>

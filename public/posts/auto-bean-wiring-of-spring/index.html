@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Rimon&#39;s Weblog  | Auto Bean Wiring of Spring</title>
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="generator" content="Hugo 0.44" />
+    
+    
+      <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    
+
+    
+    
+      <link href="/dist/css/app.ab4b67a3ea25990fa8279f3b7ef08b61.css" rel="stylesheet">
+    
+
+    
+
+    
+      
+    
+
+    
+
+    <meta property="og:title" content="Auto Bean Wiring of Spring" />
+<meta property="og:description" content="As we previously discussed that the Spring container is responsible for creating the beans in your application and coordinating the relationship between those objects vi DI. The act of creating these associations between application objects in the essence of dependency injection(DI) and is commonly referred to as wiring.
+Different Types of Bean Wiring Spring Offers three primary wiring mechanism
+ An explicit configuration in XML
+ An explicit configuration in Java" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://example.org/posts/auto-bean-wiring-of-spring/" />
+
+
+
+<meta property="article:published_time" content="2018-05-28T07:44:03&#43;00:00"/>
+
+<meta property="article:modified_time" content="2018-05-28T07:44:03&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="Auto Bean Wiring of Spring">
+<meta itemprop="description" content="As we previously discussed that the Spring container is responsible for creating the beans in your application and coordinating the relationship between those objects vi DI. The act of creating these associations between application objects in the essence of dependency injection(DI) and is commonly referred to as wiring.
+Different Types of Bean Wiring Spring Offers three primary wiring mechanism
+ An explicit configuration in XML
+ An explicit configuration in Java">
+
+
+<meta itemprop="datePublished" content="2018-05-28T07:44:03&#43;00:00" />
+<meta itemprop="dateModified" content="2018-05-28T07:44:03&#43;00:00" />
+<meta itemprop="wordCount" content="863">
+
+
+
+<meta itemprop="keywords" content="@Autowired,@Component,@ComponentScan,automatic-bean-wiring,bean,maven-project,wiring-beans," />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Auto Bean Wiring of Spring"/>
+<meta name="twitter:description" content="As we previously discussed that the Spring container is responsible for creating the beans in your application and coordinating the relationship between those objects vi DI. The act of creating these associations between application objects in the essence of dependency injection(DI) and is commonly referred to as wiring.
+Different Types of Bean Wiring Spring Offers three primary wiring mechanism
+ An explicit configuration in XML
+ An explicit configuration in Java"/>
+
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="http://example.org/" class="f3 fw2 hover-white no-underline white-90 dib">
+      Rimon&#39;s Weblog
+    </a>
+    <div class="flex-l items-center">
+      
+      
+
+
+
+
+
+
+
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  <article class="flex-l flex-wrap justify-between mw8 center ph3 ph0-l">
+
+    <header class="mt4 w-100">
+      <p class="f6 b helvetica tracked">
+          
+        POSTS
+      </p>
+      <h1 class="f1 athelas mb1">Auto Bean Wiring of Spring</h1>
+      
+      <time class="f6 mv4 dib tracked" datetime="2018-05-28T07:44:03Z">May 28, 2018</time>
+    </header>
+
+    <main class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l">
+
+<p>As we previously discussed that the Spring container is responsible for creating the beans in your application and coordinating the relationship between those objects vi DI. The act of creating these associations between application objects in the essence of dependency injection(DI) and is commonly referred to as wiring.</p>
+
+<h2 id="different-types-of-bean-wiring">Different Types of Bean Wiring</h2>
+
+<p>Spring Offers three primary wiring mechanism</p>
+
+<ul>
+<li><p>An explicit configuration in XML</p></li>
+
+<li><p>An explicit configuration in Java</p></li>
+
+<li><p>An Implicit bean discovery and automatic wiring</p></li>
+</ul>
+
+<p>In this post, I am going to write notes about Spring&rsquo;s automatic wiring, I will write about the other two in later posts.</p>
+
+<h3 id="automatically-wiring-beans">Automatically wiring beans</h3>
+
+<p>Spring attacks automatic wiring from two angles:</p>
+
+<ul>
+<li><p><strong>Component scanning</strong> - Spring automatically discovers beans to be created in the application context</p></li>
+
+<li><p><strong>Autowiring</strong> - Spring automatically satisfies bean dependencies</p></li>
+</ul>
+
+<p>To understand those concepts properly we will create a project for an online store, let&rsquo;s create a new maven project first</p>
+
+<p>[caption id=&ldquo;attachment_1204&rdquo; align=&ldquo;alignnone&rdquo; width=&ldquo;1278&rdquo;]<a href="http://www.rimonmostafiz.com/wp-content/uploads/2018/05/create_maven_project.gif"><img src="http://www.rimonmostafiz.com/wp-content/uploads/2018/05/create_maven_project.gif" alt="" /></a> Create a New Maven Project[/caption]</p>
+
+<h4 id="add-dependency">Add Dependency</h4>
+
+<p>Now we need to add spring dependency to our <code>pom.xml</code> file</p>
+
+<pre><code>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;project xmlns=&quot;http://maven.apache.org/POM/4.0.0&quot;
+         xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;
+         xsi:schemaLocation=&quot;http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd&quot;&gt;
+    &lt;modelVersion&gt;4.0.0&lt;/modelVersion&gt;
+
+    &lt;groupId&gt;com.rimonmostafiz&lt;/groupId&gt;
+    &lt;artifactId&gt;spring-diary&lt;/artifactId&gt;
+    &lt;version&gt;1.0-SNAPSHOT&lt;/version&gt;
+
+    &lt;dependencyManagement&gt;
+        &lt;dependencies&gt;
+            &lt;dependency&gt;
+                &lt;groupId&gt;org.springframework&lt;/groupId&gt;
+                &lt;artifactId&gt;spring-framework-bom&lt;/artifactId&gt;
+                &lt;version&gt;5.0.6.RELEASE&lt;/version&gt;
+                &lt;type&gt;pom&lt;/type&gt;
+                &lt;scope&gt;import&lt;/scope&gt;
+            &lt;/dependency&gt;
+        &lt;/dependencies&gt;
+    &lt;/dependencyManagement&gt;
+
+    &lt;dependencies&gt;
+        &lt;dependency&gt;
+            &lt;groupId&gt;org.springframework&lt;/groupId&gt;
+            &lt;artifactId&gt;spring-core&lt;/artifactId&gt;
+        &lt;/dependency&gt;
+
+        &lt;dependency&gt;
+            &lt;groupId&gt;org.springframework&lt;/groupId&gt;
+            &lt;artifactId&gt;spring-context&lt;/artifactId&gt;
+        &lt;/dependency&gt;
+
+        &lt;dependency&gt;
+            &lt;groupId&gt;org.springframework&lt;/groupId&gt;
+            &lt;artifactId&gt;spring-test&lt;/artifactId&gt;
+        &lt;/dependency&gt;
+
+        &lt;dependency&gt;
+            &lt;groupId&gt;junit&lt;/groupId&gt;
+            &lt;artifactId&gt;junit&lt;/artifactId&gt;
+            &lt;version&gt;4.12&lt;/version&gt;
+            &lt;scope&gt;test&lt;/scope&gt;
+        &lt;/dependency&gt;
+    &lt;/dependencies&gt;
+
+
+&lt;/project&gt;
+</code></pre>
+
+<p>We are adding <code>spring-core</code>, <code>spring-context</code>, <code>spring-test</code>, and <code>junit</code>for our dependency for now.</p>
+
+<p>Before going to the next part wait a minute and first think about an online store.
+Every online store has some items for sale, so the item is a dependency for a store.</p>
+
+<p>So we need an item for our store. The following listing shows Item, an interface that defines an item for the store.</p>
+
+<pre><code>package com.rimonmostafiz;
+
+public interface Item {
+    void readyForSell();
+}
+</code></pre>
+
+<p>As we added Item as an Interface we can have several Item implementations. Let&rsquo;s add one implementation of <code>Item</code> for now called <code>FoodItem</code></p>
+
+<pre><code>package com.rimonmostafiz;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class FoodItem implements Item {
+
+    String name = &quot;Pizza&quot;;
+    String price = &quot;10.09$&quot;;
+
+    public void readyForSell() {
+        System.out.println(name + &quot; is ready for sell at &quot; + price);
+    }
+}
+</code></pre>
+
+<p><code>FoodItem</code> is a simple class which implements the Item interface. what is important is <code>FoodItem</code> is annotated with <code>@Component.</code></p>
+
+<h4 id="component">@Component</h4>
+
+<p><code>@Component</code> Indicates that the annotated class is a &ldquo;component&rdquo;. Such classes are considered as candidates for auto-detection when using annotation-based configuration and classpath scanning. This annotation tells spring container that a bean should be created for the class.</p>
+
+<p>Now we need to write an explicit configuration to tell Spring to seek out all classes that are annotated with <code>@Component</code> and to create beans from them.
+The configuration class in the following listing shows the minimal configuration to make this possible.</p>
+
+<pre><code>package com.rimonmostafiz;
+
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+@ComponentScan
+public class StoreConfig { }
+</code></pre>
+
+<p>If we observe that <code>StoreConfig</code> doesn’t explicitly define any beans itself. Instead, it’s annotated with <code>@ComponentScan</code> to enable component scanning in Spring.</p>
+
+<h4 id="componentscan">@ComponentScan</h4>
+
+<p>The @ComponentScan annotation is used with the @Configuration annotation to tell Spring the packages to scan for annotated components.
+@ComponentScan also used to specify base packages and base package classes using basePackages or basePackageClasses attributes of @ComponentScan.
+@ComponentScan will default to scanning the same package as the configuration class.</p>
+
+<p>Therefore, because <code>StoreConfig</code> is in the <code>com.rimonmostafiz</code> package, Spring will scan that package and any sub-packages underneath it, looking for classes that are annotated with <code>@Component</code> . It should find the Item class and automatically create a bean for it in Spring.</p>
+
+<p>The above configuration class is same as the XML listed bellow</p>
+
+<pre><code>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;beans xmlns=&quot;http://www.springframework.org/schema/beans&quot;
+    xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;
+    xmlns:context=&quot;http://www.springframework.org/schema/context&quot;
+    xsi:schemaLocation=&quot;http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd&quot;&gt;
+
+    &lt;context:component-scan base-package=&quot;soundsystem&quot; /&gt;
+
+&lt;/beans&gt;
+</code></pre>
+
+<p>In the above XML we are using Spring&rsquo;s <code>context</code>namespace to turn on component scanning via XML configuration. Even though XML is an option for enabling component scanning, I’m going to focus on using the preferred Java-based configuration for the remainder of this discussion.</p>
+
+<p>To test that component scanning is working we can write a simple JUnit test that creates a Spring application context and asserts that the Item bean is, in fact, created.</p>
+
+<pre><code>package com.rimonmostafiz;
+
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.test.context.ContextConfiguration;
+import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
+
+import static org.junit.Assert.assertNotNull;
+
+@RunWith(SpringJUnit4ClassRunner.class)
+@ContextConfiguration(classes = StoreConfig.class)
+public class StoreTest {
+
+    @Autowired
+    Item foodItem;
+
+    @Test
+    public void foodItemIsNotNull() {
+        assertNotNull(foodItem);
+    }
+}
+</code></pre>
+
+<p>Here the <code>@ContextConfiguration</code> annotation tells it to load its configuration from the <code>StoreConfig</code>class. Because that configuration class includes <code>@ComponentScan</code> ,  the resulting application context should include the <code>Item</code> bean. To prove that, the test has a property of type <code>Item</code> that is annotated with <code>@Autowired</code> to inject the <code>Item</code> bean into the test.
+Finally, a simple test method asserts that the foodItem property isn’t null. If it’s not null, that means Spring was able to discover the <code>Item</code> class, automatically create it as a bean in the Spring application context, and inject it into the test.</p>
+
+<h4 id="autowired">@Autowired</h4>
+
+<p>Aautowiring is a means of letting Spring automatically satisfy a bean’s dependencies by finding other beans in the application context that are a match to the bean’s needs. To indicate that autowiring should be performed, we can use <code>@Autowired</code> annotation.</p>
+
+<h4 id="test">Test</h4>
+
+<p>If you now run the test it will pass.</p>
+
+<p>[video width=&ldquo;1324&rdquo; height=&ldquo;910&rdquo; mp4=&ldquo;<a href="http://www.rimonmostafiz.com/wp-content/uploads/2018/05/autowiring_test_spring_diary.mp4&quot;][/video">http://www.rimonmostafiz.com/wp-content/uploads/2018/05/autowiring_test_spring_diary.mp4&quot;][/video</a>]</p>
+<ul class="pa0">
+  
+   <li class="list">
+     <a href="/tags/autowired" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">@Autowired</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/component" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">@Component</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/componentscan" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">@ComponentScan</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/automatic-bean-wiring" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">automatic-bean-wiring</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/bean" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">bean</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/maven-project" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">maven-project</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/wiring-beans" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">wiring-beans</a>
+   </li>
+  
+</ul>
+<div class="mt6">
+        
+      </div>
+    </main>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-near-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://example.org/" >
+    &copy; 2018 Rimon&#39;s Weblog
+  </a>
+  
+
+
+
+
+
+
+
+
+  </div>
+</footer>
+
+    
+
+  <script src="/dist/js/app.3fc0f988d21662902933.js"></script>
+
+
+  </body>
+</html>

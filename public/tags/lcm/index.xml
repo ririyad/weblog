@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lcm on Rimon&#39;s Weblog</title>
+    <link>http://example.org/tags/lcm/</link>
+    <description>Recent content in Lcm on Rimon&#39;s Weblog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 15 Aug 2017 18:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://example.org/tags/lcm/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Least Common Multiple (LCM)</title>
+      <link>http://example.org/posts/least-common-multiple/</link>
+      <pubDate>Tue, 15 Aug 2017 18:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/least-common-multiple/</guid>
+      <description>Least Common Multiple (LCM) of two number a and b is the smallest positive integer that is divisible by both a and b. Since division of integers by zero is undefined, this definition has meaning only if a and b are both different from zero.
+[cpp] int lcm(int a, int b) { for ( int i = 1; ; i ) { if ( i % a == 0 &amp;amp;&amp;amp; i % b == 0 ) { return i; } } } [/cpp]</description>
+    </item>
+    
+  </channel>
+</rss>

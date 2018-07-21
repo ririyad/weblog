@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Rimon&#39;s Weblog  | Spring Bean Wiring Using JavaConfig</title>
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="generator" content="Hugo 0.44" />
+    
+    
+      <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    
+
+    
+    
+      <link href="/dist/css/app.ab4b67a3ea25990fa8279f3b7ef08b61.css" rel="stylesheet">
+    
+
+    
+
+    
+      
+    
+
+    
+
+    <meta property="og:title" content="Spring Bean Wiring Using JavaConfig" />
+<meta property="og:description" content="In the previous post of my spring-diary, I wrote about how can we implicitly wire beans automatically in Spring container. In my previous post I created a new maven project and started writing code so that we can understand the topics more clearly. In this post, I am documenting my learning of how we can wire bean using Explicit Java Configuration. I will work on the same project I have created earlier." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://example.org/posts/spring-bean-wiring-using-javaconfig/" />
+
+
+
+<meta property="article:published_time" content="2018-05-29T10:19:29&#43;00:00"/>
+
+<meta property="article:modified_time" content="2018-05-29T10:19:29&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="Spring Bean Wiring Using JavaConfig">
+<meta itemprop="description" content="In the previous post of my spring-diary, I wrote about how can we implicitly wire beans automatically in Spring container. In my previous post I created a new maven project and started writing code so that we can understand the topics more clearly. In this post, I am documenting my learning of how we can wire bean using Explicit Java Configuration. I will work on the same project I have created earlier.">
+
+
+<meta itemprop="datePublished" content="2018-05-29T10:19:29&#43;00:00" />
+<meta itemprop="dateModified" content="2018-05-29T10:19:29&#43;00:00" />
+<meta itemprop="wordCount" content="902">
+
+
+
+<meta itemprop="keywords" content="annotation,application-context,bean-wiring,configuration,constructor-injection,explicit-wiring," />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Spring Bean Wiring Using JavaConfig"/>
+<meta name="twitter:description" content="In the previous post of my spring-diary, I wrote about how can we implicitly wire beans automatically in Spring container. In my previous post I created a new maven project and started writing code so that we can understand the topics more clearly. In this post, I am documenting my learning of how we can wire bean using Explicit Java Configuration. I will work on the same project I have created earlier."/>
+
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="http://example.org/" class="f3 fw2 hover-white no-underline white-90 dib">
+      Rimon&#39;s Weblog
+    </a>
+    <div class="flex-l items-center">
+      
+      
+
+
+
+
+
+
+
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  <article class="flex-l flex-wrap justify-between mw8 center ph3 ph0-l">
+
+    <header class="mt4 w-100">
+      <p class="f6 b helvetica tracked">
+          
+        POSTS
+      </p>
+      <h1 class="f1 athelas mb1">Spring Bean Wiring Using JavaConfig</h1>
+      
+      <time class="f6 mv4 dib tracked" datetime="2018-05-29T10:19:29Z">May 29, 2018</time>
+    </header>
+
+    <main class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l">
+
+<p>In the <a href="https://wp.me/p94Vft-ji">previous post</a> of my <a href="https://www.rimonmostafiz.com/category/spring-diary/">spring-diary</a>, I wrote about how can we implicitly wire beans automatically in Spring container. In my previous post I created a new maven project and started writing code so that we can understand the topics more clearly. In this post, I am documenting my learning of how we can wire bean using Explicit Java Configuration. I will work on the same project I have created earlier.</p>
+
+<h2 id="explicit-wiring-using-java">Explicit wiring using Java</h2>
+
+<p>When an automatic configuration isn’t an option then we must configure Spring explicitly. Let’s say that we want to wire components from some third-party library into our application. Because we don’t have the source code for that library, there’s no opportunity to annotate its classes with <code>@Component</code> and <code>@Autowired</code> annotations. Therefore, automatic configuration isn’t an option.</p>
+
+<p>We have two choices for explicit configuration: Java and XML .</p>
+
+<p>JavaConfig is the preferred option for explicit configuration because it’s more powerful, type-safe, and refactor-friendly.</p>
+
+<h3 id="create-a-configuration-class">Create a configuration class</h3>
+
+<p>To wire bean in JavaConfig, we need to create a Configuration Class and mark that with <code>@Configuration</code> annotation.</p>
+
+<p>This annotation identifies this class as a configuration class, and it’s expected to contain details of beans that are to be created in the Spring application context.</p>
+
+<pre><code>package com.rimonmostafiz;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+public class StoreConfig { }
+</code></pre>
+
+<h3 id="declare-a-bean">Declare A bean</h3>
+
+<p>To declare a bean in JavaConfig, we should create a method in our configuration class and creates an instance of the desired class and annotate the method with <code>@Bean</code></p>
+
+<pre><code>package com.rimonmostafiz;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+public class StoreConfig {
+    @Bean
+    Item foodItem() {
+        return new FoodItem();
+    }
+}
+</code></pre>
+
+<p>Here the <code>@Bean</code> annotation tells spring that this method will return an object and that should be registered as a bean in the Spring application context.</p>
+
+<p>By default, the bean will be given an Id same as the method name annotated with <code>@Bean</code>. If we want to give the bean a different name then we can supply a name attribute in <code>@Bean</code> annotation like the example below</p>
+
+<pre><code>package com.rimonmostafiz;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+public class StoreConfig {
+    @Bean(name = &quot;myFoodItemBean&quot;)
+    Item foodItem() {
+        return new FoodItem();
+    }
+}
+</code></pre>
+
+<h3 id="inject-bean-in-javaconfig">Inject Bean in JavaConfig</h3>
+
+<p>So we Created a simple Item bean. It was simple and easy as It wasn&rsquo;t dependent on any other bean.<br />
+But now we are going to declare a Store bean which is dependent on Item bean. How to do it in JavaConfig?</p>
+
+<pre><code>package com.rimonmostafiz;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+public class StoreConfig {
+    @Bean(name = &quot;myFoodItemBean&quot;)
+    Item foodItem() {
+        return new FoodItem();
+    }
+
+    @Bean
+    Store store() {
+        return new Store(foodItem());
+    }
+}
+</code></pre>
+
+<p>Here our <code>store()</code>method is similarly annotated with <code>@Bean</code> to indicate that it will produce an instance of a bean to be registered in the Spring application context.
+As no name attribute is present in @Bean so by default the bean name will be store, the same as the method&rsquo;s name.</p>
+
+<p>The body of the method is different from the <code>foodItem()</code> method. The store instance is created by calling its constructor that takes a Item. It appears that the Item is provided by calling foodItem , but that’s not exactly true. Because the foodItem() method is annotated with @Bean , Spring will intercept any calls to it and ensure that the bean produced by that method is returned rather than allowing it to be invoked again.
+For example, we want to introduce another Store bean that is just like the first one.</p>
+
+<pre><code>@Bean
+Store store() {
+    return new Store(foodItem());
+}
+
+@Bean
+Store anotherStore() {
+    return new Store(foodItem());
+}
+</code></pre>
+
+<p>Now here things get little tricky. If the call to foodItem() was treated like any other call to a Java method, then each store would be given its own instance of FoodItem.
+If you have two Store, there’s no physical way for a single item to simultaneously be present in two stores. Right?
+In software, however, there’s no reason you couldn’t inject the same instance into as many other beans as you want. By default, all beans in Spring are singletons, and there’s no reason you need to create a duplicate instance for the second Store bean. So Spring intercepts the call to foodItem() and makes sure that what is returned is the Spring bean that was created when Spring itself called foodItem() to create the Store bean. Therefore, both our Store beans will be given the same instance of FoodItem.</p>
+
+<p>Referring to a bean by calling its method can be confusing. There’s another way that might be easier to digest:</p>
+
+<pre><code>@Bean
+Store store(Item foodItem) {
+    return new Store(foodItem);
+}
+</code></pre>
+
+<p>Here, the store() method asks for an Item as a parameter. When spring calls sotre() to create a Store bean, it autowire an Item into the configuration method. This approach is to refer to other beans is usually the best choice because it doesn&rsquo;t depend on the Item bean being declared in the same configuration class. In fact, you can even declare Item bean in XML configuration or automatically scanned and wired beans. No matter how its created spring will hand it to this configuration method to create the Store bean.</p>
+
+<h3 id="run-application">Run Application</h3>
+
+<p>Let&rsquo;s test all this java configuration by creating an <code>App</code> class.</p>
+
+<p>[video width=&ldquo;1326&rdquo; height=&ldquo;906&rdquo; mp4=&ldquo;<a href="http://www.rimonmostafiz.com/wp-content/uploads/2018/05/wiring_bean_using_java_config.mp4&quot;][/video">http://www.rimonmostafiz.com/wp-content/uploads/2018/05/wiring_bean_using_java_config.mp4&quot;][/video</a>]</p>
+
+<p>App.class Code</p>
+
+<pre><code>package com.rimonmostafiz;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+public class App {
+    public static void main(String[] args) {
+        ApplicationContext context = new AnnotationConfigApplicationContext(StoreConfig.class);
+        Store store = (Store) context.getBean(&quot;store&quot;);
+        store.showNotice();
+    }
+}
+</code></pre>
+<ul class="pa0">
+  
+   <li class="list">
+     <a href="/tags/annotation" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">annotation</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/application-context" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">application-context</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/bean-wiring" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">bean-wiring</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/configuration" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">configuration</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/constructor-injection" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">constructor-injection</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/explicit-wiring" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">explicit-wiring</a>
+   </li>
+  
+</ul>
+<div class="mt6">
+        
+      </div>
+    </main>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+  <div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
+    <p class="f5 b mb3">Related</p>
+    <ul class="pa0 list">
+	   
+	     <li  class="mb2">
+          <a href="/posts/spring-application-context-and-configuration-metadata/">Spring Application Context and Configuration Metadata</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/posts/a-bit-of-spring-part-one/">a bit of spring: part one</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/posts/the-spring-ioc-container/">The Spring IoC Container</a>
+        </li>
+	    
+    </ul>
+</div>
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-near-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://example.org/" >
+    &copy; 2018 Rimon&#39;s Weblog
+  </a>
+  
+
+
+
+
+
+
+
+
+  </div>
+</footer>
+
+    
+
+  <script src="/dist/js/app.3fc0f988d21662902933.js"></script>
+
+
+  </body>
+</html>

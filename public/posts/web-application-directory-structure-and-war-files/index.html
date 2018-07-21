@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Rimon&#39;s Weblog  | Web Application Directory Structure and WAR Files</title>
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="generator" content="Hugo 0.44" />
+    
+    
+      <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    
+
+    
+    
+      <link href="/dist/css/app.ab4b67a3ea25990fa8279f3b7ef08b61.css" rel="stylesheet">
+    
+
+    
+
+    
+      
+    
+
+    
+
+    <meta property="og:title" content="Web Application Directory Structure and WAR Files" />
+<meta property="og:description" content="Directory Structure and WAR Files Standard Java EE web applications are deployed as WAR files or “exploded” (unarchived) web application directories. All Java EE web application servers support WAR file application archives. Whether archived or exploded, the directory structure convention, as shown in Figure is the same.
+ This structure contains classes and other application resources, the class files live in /WEB-INF/classes. The WEB-INF directory stores informational and instructional files that Java EE web application servers use to determine how to deploy and run the application." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://example.org/posts/web-application-directory-structure-and-war-files/" />
+
+
+
+<meta property="article:published_time" content="2017-12-12T11:30:40&#43;00:00"/>
+
+<meta property="article:modified_time" content="2017-12-12T11:30:40&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="Web Application Directory Structure and WAR Files">
+<meta itemprop="description" content="Directory Structure and WAR Files Standard Java EE web applications are deployed as WAR files or “exploded” (unarchived) web application directories. All Java EE web application servers support WAR file application archives. Whether archived or exploded, the directory structure convention, as shown in Figure is the same.
+ This structure contains classes and other application resources, the class files live in /WEB-INF/classes. The WEB-INF directory stores informational and instructional files that Java EE web application servers use to determine how to deploy and run the application.">
+
+
+<meta itemprop="datePublished" content="2017-12-12T11:30:40&#43;00:00" />
+<meta itemprop="dateModified" content="2017-12-12T11:30:40&#43;00:00" />
+<meta itemprop="wordCount" content="408">
+
+
+
+<meta itemprop="keywords" content="directory-structure,java,javaee,server,war,web-app," />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Web Application Directory Structure and WAR Files"/>
+<meta name="twitter:description" content="Directory Structure and WAR Files Standard Java EE web applications are deployed as WAR files or “exploded” (unarchived) web application directories. All Java EE web application servers support WAR file application archives. Whether archived or exploded, the directory structure convention, as shown in Figure is the same.
+ This structure contains classes and other application resources, the class files live in /WEB-INF/classes. The WEB-INF directory stores informational and instructional files that Java EE web application servers use to determine how to deploy and run the application."/>
+
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="http://example.org/" class="f3 fw2 hover-white no-underline white-90 dib">
+      Rimon&#39;s Weblog
+    </a>
+    <div class="flex-l items-center">
+      
+      
+
+
+
+
+
+
+
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  <article class="flex-l flex-wrap justify-between mw8 center ph3 ph0-l">
+
+    <header class="mt4 w-100">
+      <p class="f6 b helvetica tracked">
+          
+        POSTS
+      </p>
+      <h1 class="f1 athelas mb1">Web Application Directory Structure and WAR Files</h1>
+      
+      <time class="f6 mv4 dib tracked" datetime="2017-12-12T11:30:40Z">December 12, 2017</time>
+    </header>
+
+    <main class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l">
+
+<h3 id="directory-structure-and-war-files">Directory Structure and WAR Files</h3>
+
+<p>Standard Java EE web applications are deployed as <strong>WAR</strong> files or <strong>“exploded” (unarchived)</strong> web application directories. All Java EE web application servers support WAR file application archives. Whether archived or exploded, the directory structure convention, as shown in Figure is the same.</p>
+
+<p><img src="http://www.rimonmostafiz.com/wp-content/uploads/2017/12/directory-structure-and-WAR-files-229x300.jpg" alt="" /></p>
+
+<ul>
+<li><p>This structure contains classes and other application resources, the class files live in <strong><em>/WEB-INF/classes</em></strong>. The <strong>WEB-INF</strong> directory stores informational and instructional files that Java EE web application servers use to determine how to deploy and run the application. Its classes directory acts as the package root. All compiled application class files and other resources live within this directory.</p></li>
+
+<li><p>WAR files can contain bundled JAR files, which live in _<strong>/WEB-INF/lib.  </strong>_All the classes in the JAR files in this directory are also available to the application on the application’s classpath.</p></li>
+
+<li><p>The <em><strong>/WEB-INF/tags</strong></em> and _<strong>/WEB-INF/tld</strong>_ directories are reserved for holding JSP tag files and tag library descriptors, respectively.</p></li>
+
+<li><p>The <em><strong>i18n</strong></em> directory is not actually part of the Java EE specifications, but it is a convention that most application developers follow for storing internationalization (<em><strong>i18n</strong></em>) and localization (<em><strong>L10n</strong></em>) files.</p></li>
+
+<li><p>There are two different <em><strong>META-INF</strong></em> directories.</p>
+
+<ul>
+<li><p>The root-level <em><strong>/META-INF</strong></em> directory contains the application manifest file. This directory is not on the application classpath. You cannot
+use the ClassLoader to obtain resources in this directory.
+It contains resources for specific web containers or application servers.
+For example, Apache Tomcat looks for and uses a _context._xml file in this directory to help customize how the application is deployed in Tomcat.
+None of these files are part of the Java EE specification, and the supported files can vary from one application server or web container to the next.</p></li>
+
+<li><p><em><strong>WEB-INF/classes/META-INF</strong></em> is on the classpath.
+Any application resources you desire in this directory, and they become accessible through the ClassLoader.
+Some Java EE components specify files that belong in this directory.
+For example, the Java Persistence API specifies two files, _persistence.xml, <em>and orm</em>.xml_ — that live in <em><strong>/WEB-INF/classes/META-INF</strong></em>.</p></li>
+</ul></li>
+</ul>
+
+<p>Most files contained within a <strong>WAR</strong> file or <strong>exploded</strong> web application directory are resources directly accessible through a URL.
+For example, the file <em>/bar.html</em> relative to the root of an application deployed to <em><a href="http://example.org/foo">http://example.org/foo</a></em> is accessible from <em><a href="http://example.org/foo/bar.html">http://example.org/foo/bar.html</a></em>.
+In the absence of any filter or security rules to the contrary, this holds true for all resources in your application except those resources under the <em><strong>/WEB-INF</strong></em> and <em><strong>/META-INF</strong></em> directories. The files in these directories are protected resources that are not accessible via URL.</p>
+<ul class="pa0">
+  
+   <li class="list">
+     <a href="/tags/directory-structure" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">directory-structure</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/java" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">java</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/javaee" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">javaee</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/server" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">server</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/war" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">war</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/web-app" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">web-app</a>
+   </li>
+  
+</ul>
+<div class="mt6">
+        
+      </div>
+    </main>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+  <div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
+    <p class="f5 b mb3">Related</p>
+    <ul class="pa0 list">
+	   
+	     <li  class="mb2">
+          <a href="/posts/basic-web-application-structure-of-javaee/">Basic Web Application Structure of JavaEE</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/posts/a-bit-of-spring-part-one/">a bit of spring: part one</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/posts/manage-jdk-using-sdkman/">Manage JDK Using SDKMAN</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/posts/installing-and-running-elasticsearch/">Installing and Running Elasticsearch</a>
+        </li>
+	    
+    </ul>
+</div>
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-near-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://example.org/" >
+    &copy; 2018 Rimon&#39;s Weblog
+  </a>
+  
+
+
+
+
+
+
+
+
+  </div>
+</footer>
+
+    
+
+  <script src="/dist/js/app.3fc0f988d21662902933.js"></script>
+
+
+  </body>
+</html>
