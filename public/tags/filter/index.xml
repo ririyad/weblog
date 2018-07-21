@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Filter on Rimon&#39;s Weblog</title>
-    <link>http://example.org/tags/filter/</link>
-    <description>Recent content in Filter on Rimon&#39;s Weblog</description>
+    <title>Filter on Chris Turner</title>
+    <link>https://example.com/tags/filter/</link>
+    <description>Recent content in Filter on Chris Turner</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en-US</language>
     <lastBuildDate>Tue, 12 Dec 2017 10:08:51 +0000</lastBuildDate>
     
-	<atom:link href="http://example.org/tags/filter/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://example.com/tags/filter/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Basic Web Application Structure of JavaEE</title>
-      <link>http://example.org/posts/basic-web-application-structure-of-javaee/</link>
+      <link>https://example.com/posts/basic-web-application-structure-of-javaee/</link>
       <pubDate>Tue, 12 Dec 2017 10:08:51 +0000</pubDate>
       
-      <guid>http://example.org/posts/basic-web-application-structure-of-javaee/</guid>
+      <guid>https://example.com/posts/basic-web-application-structure-of-javaee/</guid>
       <description>Basic Web Application Structure A lot of components go into making a Java EE application.
  Application Code and Third Party Libraries it depends on
  Deployment Descriptor, which includes instructions for deploying and starting the application

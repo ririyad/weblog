@@ -1,157 +1,157 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Rimon&#39;s Weblog</title>
-    <link>http://example.org/categories/</link>
-    <description>Recent content in Categories on Rimon&#39;s Weblog</description>
+    <title>Categories on Chris Turner</title>
+    <link>https://example.com/categories/</link>
+    <description>Recent content in Categories on Chris Turner</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en-US</language>
     <lastBuildDate>Wed, 16 Aug 2017 00:30:00 +0000</lastBuildDate>
     
-	<atom:link href="http://example.org/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://example.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Algorithms</title>
-      <link>http://example.org/categories/algorithms/</link>
+      <link>https://example.com/categories/algorithms/</link>
       <pubDate>Wed, 16 Aug 2017 00:30:00 +0000</pubDate>
       
-      <guid>http://example.org/categories/algorithms/</guid>
+      <guid>https://example.com/categories/algorithms/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Elasticsearch</title>
-      <link>http://example.org/categories/elasticsearch/</link>
+      <link>https://example.com/categories/elasticsearch/</link>
       <pubDate>Sat, 16 Sep 2017 09:19:51 +0000</pubDate>
       
-      <guid>http://example.org/categories/elasticsearch/</guid>
+      <guid>https://example.com/categories/elasticsearch/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Elasticsearch Series</title>
-      <link>http://example.org/categories/elasticsearch-series/</link>
+      <link>https://example.com/categories/elasticsearch-series/</link>
       <pubDate>Sat, 16 Sep 2017 09:19:51 +0000</pubDate>
       
-      <guid>http://example.org/categories/elasticsearch-series/</guid>
+      <guid>https://example.com/categories/elasticsearch-series/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Electronics</title>
-      <link>http://example.org/categories/electronics/</link>
+      <link>https://example.com/categories/electronics/</link>
       <pubDate>Sat, 09 Sep 2017 11:34:00 +0000</pubDate>
       
-      <guid>http://example.org/categories/electronics/</guid>
+      <guid>https://example.com/categories/electronics/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Git</title>
-      <link>http://example.org/categories/git/</link>
+      <link>https://example.com/categories/git/</link>
       <pubDate>Thu, 17 Aug 2017 12:00:00 +0000</pubDate>
       
-      <guid>http://example.org/categories/git/</guid>
+      <guid>https://example.com/categories/git/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Java</title>
-      <link>http://example.org/categories/java/</link>
+      <link>https://example.com/categories/java/</link>
       <pubDate>Tue, 09 Jan 2018 06:30:00 +0000</pubDate>
       
-      <guid>http://example.org/categories/java/</guid>
+      <guid>https://example.com/categories/java/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Javaee</title>
-      <link>http://example.org/categories/javaee/</link>
+      <link>https://example.com/categories/javaee/</link>
       <pubDate>Tue, 09 Jan 2018 06:30:00 +0000</pubDate>
       
-      <guid>http://example.org/categories/javaee/</guid>
+      <guid>https://example.com/categories/javaee/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Learning</title>
-      <link>http://example.org/categories/learning/</link>
+      <link>https://example.com/categories/learning/</link>
       <pubDate>Tue, 29 May 2018 10:19:29 +0000</pubDate>
       
-      <guid>http://example.org/categories/learning/</guid>
+      <guid>https://example.com/categories/learning/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Linux</title>
-      <link>http://example.org/categories/linux/</link>
+      <link>https://example.com/categories/linux/</link>
       <pubDate>Thu, 30 Nov 2017 11:50:41 +0000</pubDate>
       
-      <guid>http://example.org/categories/linux/</guid>
+      <guid>https://example.com/categories/linux/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Math</title>
-      <link>http://example.org/categories/math/</link>
+      <link>https://example.com/categories/math/</link>
       <pubDate>Wed, 16 Aug 2017 00:30:00 +0000</pubDate>
       
-      <guid>http://example.org/categories/math/</guid>
+      <guid>https://example.com/categories/math/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Nodejs</title>
-      <link>http://example.org/categories/nodejs/</link>
+      <link>https://example.com/categories/nodejs/</link>
       <pubDate>Sat, 07 Jul 2018 04:17:09 +0000</pubDate>
       
-      <guid>http://example.org/categories/nodejs/</guid>
+      <guid>https://example.com/categories/nodejs/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Spring</title>
-      <link>http://example.org/categories/spring/</link>
+      <link>https://example.com/categories/spring/</link>
       <pubDate>Tue, 29 May 2018 10:19:29 +0000</pubDate>
       
-      <guid>http://example.org/categories/spring/</guid>
+      <guid>https://example.com/categories/spring/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Spring Diary</title>
-      <link>http://example.org/categories/spring-diary/</link>
+      <link>https://example.com/categories/spring-diary/</link>
       <pubDate>Tue, 29 May 2018 10:19:29 +0000</pubDate>
       
-      <guid>http://example.org/categories/spring-diary/</guid>
+      <guid>https://example.com/categories/spring-diary/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Technology</title>
-      <link>http://example.org/categories/technology/</link>
+      <link>https://example.com/categories/technology/</link>
       <pubDate>Tue, 09 Jan 2018 06:30:00 +0000</pubDate>
       
-      <guid>http://example.org/categories/technology/</guid>
+      <guid>https://example.com/categories/technology/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Uva</title>
-      <link>http://example.org/categories/uva/</link>
+      <link>https://example.com/categories/uva/</link>
       <pubDate>Sun, 03 Sep 2017 00:21:00 +0000</pubDate>
       
-      <guid>http://example.org/categories/uva/</guid>
+      <guid>https://example.com/categories/uva/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Web Application</title>
-      <link>http://example.org/categories/web-application/</link>
+      <link>https://example.com/categories/web-application/</link>
       <pubDate>Tue, 09 Jan 2018 06:30:00 +0000</pubDate>
       
-      <guid>http://example.org/categories/web-application/</guid>
+      <guid>https://example.com/categories/web-application/</guid>
       <description></description>
     </item>
     

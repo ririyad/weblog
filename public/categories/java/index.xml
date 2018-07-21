@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Java on Rimon&#39;s Weblog</title>
-    <link>http://example.org/categories/java/</link>
-    <description>Recent content in Java on Rimon&#39;s Weblog</description>
+    <title>Java on Chris Turner</title>
+    <link>https://example.com/categories/java/</link>
+    <description>Recent content in Java on Chris Turner</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en-US</language>
     <lastBuildDate>Tue, 09 Jan 2018 06:30:00 +0000</lastBuildDate>
     
-	<atom:link href="http://example.org/categories/java/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://example.com/categories/java/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Know Your Response Object</title>
-      <link>http://example.org/posts/know-your-response-object/</link>
+      <link>https://example.com/posts/know-your-response-object/</link>
       <pubDate>Tue, 09 Jan 2018 06:30:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/know-your-response-object/</guid>
+      <guid>https://example.com/posts/know-your-response-object/</guid>
       <description>HttpServletResponse The HttpServletResponse interface extends ServletResponse and provides access to the HTTP protocol-specific properties of a response.
 You can use the response object to do things such as
  Set response headers
@@ -29,10 +29,10 @@ You can use the response object to do things such as
     
     <item>
       <title>Know Your Request Object</title>
-      <link>http://example.org/posts/know-your-request-object/</link>
+      <link>https://example.com/posts/know-your-request-object/</link>
       <pubDate>Wed, 13 Dec 2017 05:30:10 +0000</pubDate>
       
-      <guid>http://example.org/posts/know-your-request-object/</guid>
+      <guid>https://example.com/posts/know-your-request-object/</guid>
       <description>HTTPServletRequest The HServletRequestttp interface is an extension of ServletRequest that provides additional HTTP protocol-specific information about a received request. It specifies dozens of methods that you can use to obtain details about an HTTP request. It also permits you to set request attributes (different from request parameters).
 Request Param Request parameters come in two different forms:
  Query parameters (also called URI parameters)
@@ -41,30 +41,30 @@ Request Param Request parameters come in two different forms:
     
     <item>
       <title>Up and Running With Servlet in Tomcat</title>
-      <link>http://example.org/posts/up-and-running-with-servlet-in-tomcat/</link>
+      <link>https://example.com/posts/up-and-running-with-servlet-in-tomcat/</link>
       <pubDate>Tue, 12 Dec 2017 16:57:27 +0000</pubDate>
       
-      <guid>http://example.org/posts/up-and-running-with-servlet-in-tomcat/</guid>
+      <guid>https://example.com/posts/up-and-running-with-servlet-in-tomcat/</guid>
       <description>Up and Running With Servlet in Tomcat Companion Video https://youtu.be/lTyAPWR6104
 First, let&amp;rsquo;s create a maven project and add the dependency. As a prerequisite, JDK 8 will be needed. If you are using Linux based operating system then I have written a post on how to install and manage different versions of JDK in your system. You can visit this post if JDK 8 is not installed on your system.</description>
     </item>
     
     <item>
       <title>Web Application Directory Structure and WAR Files</title>
-      <link>http://example.org/posts/web-application-directory-structure-and-war-files/</link>
+      <link>https://example.com/posts/web-application-directory-structure-and-war-files/</link>
       <pubDate>Tue, 12 Dec 2017 11:30:40 +0000</pubDate>
       
-      <guid>http://example.org/posts/web-application-directory-structure-and-war-files/</guid>
+      <guid>https://example.com/posts/web-application-directory-structure-and-war-files/</guid>
       <description>Directory Structure and WAR Files Standard Java EE web applications are deployed as WAR files or “exploded” (unarchived) web application directories. All Java EE web application servers support WAR file application archives. Whether archived or exploded, the directory structure convention, as shown in Figure is the same.
  This structure contains classes and other application resources, the class files live in /WEB-INF/classes. The WEB-INF directory stores informational and instructional files that Java EE web application servers use to determine how to deploy and run the application.</description>
     </item>
     
     <item>
       <title>Basic Web Application Structure of JavaEE</title>
-      <link>http://example.org/posts/basic-web-application-structure-of-javaee/</link>
+      <link>https://example.com/posts/basic-web-application-structure-of-javaee/</link>
       <pubDate>Tue, 12 Dec 2017 10:08:51 +0000</pubDate>
       
-      <guid>http://example.org/posts/basic-web-application-structure-of-javaee/</guid>
+      <guid>https://example.com/posts/basic-web-application-structure-of-javaee/</guid>
       <description>Basic Web Application Structure A lot of components go into making a Java EE application.
  Application Code and Third Party Libraries it depends on
  Deployment Descriptor, which includes instructions for deploying and starting the application
@@ -75,10 +75,10 @@ First, let&amp;rsquo;s create a maven project and add the dependency. As a prere
     
     <item>
       <title>a bit of spring: part one</title>
-      <link>http://example.org/posts/a-bit-of-spring-part-one/</link>
+      <link>https://example.com/posts/a-bit-of-spring-part-one/</link>
       <pubDate>Mon, 30 Oct 2017 09:19:54 +0000</pubDate>
       
-      <guid>http://example.org/posts/a-bit-of-spring-part-one/</guid>
+      <guid>https://example.com/posts/a-bit-of-spring-part-one/</guid>
       <description>Spring MVC Java Configuration Hi All, This _should_ be the first in a series of &amp;ldquo;Rimon learns Spring&amp;rdquo; type blog posts I plan on writing as I learn bits of Spring. I am just documenting my learnings, not advising others based on what I&amp;rsquo;ve learned.
 Spring traditionally supports two types of configurations:
  XML based configuration
@@ -88,10 +88,10 @@ Spring traditionally supports two types of configurations:
     
     <item>
       <title>Manage JDK Using SDKMAN</title>
-      <link>http://example.org/posts/manage-jdk-using-sdkman/</link>
+      <link>https://example.com/posts/manage-jdk-using-sdkman/</link>
       <pubDate>Fri, 20 Oct 2017 18:39:46 +0000</pubDate>
       
-      <guid>http://example.org/posts/manage-jdk-using-sdkman/</guid>
+      <guid>https://example.com/posts/manage-jdk-using-sdkman/</guid>
       <description>What is SDKMAN? [SDKMAN!](http://sdkman.io/index.html) is a tool for managing parallel versions of multiple Software Development Kits on most Unix based systems. It provides a convenient Command Line Interface (CLI) and API for installing, switching, removing and listing Candidates. Its also open source. You can see the codes form [SDKMAN&#39;s github repository](https://github.com/sdkman). As a developer its very common that you work on multiple projects which use different JDK version. Obviously, you can use update-alternatives to manage multiple JDK libraries on the same system to select which one you want to use as the main one.</description>
     </item>
     

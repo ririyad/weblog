@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Elasticse on Rimon&#39;s Weblog</title>
-    <link>http://example.org/tags/elasticse/</link>
-    <description>Recent content in Elasticse on Rimon&#39;s Weblog</description>
+    <title>Elasticse on Chris Turner</title>
+    <link>https://example.com/tags/elasticse/</link>
+    <description>Recent content in Elasticse on Chris Turner</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en-US</language>
     <lastBuildDate>Sat, 16 Sep 2017 09:19:51 +0000</lastBuildDate>
     
-	<atom:link href="http://example.org/tags/elasticse/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://example.com/tags/elasticse/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Installing and Running Kibana</title>
-      <link>http://example.org/posts/installing-and-running-kibana/</link>
+      <link>https://example.com/posts/installing-and-running-kibana/</link>
       <pubDate>Sat, 16 Sep 2017 09:19:51 +0000</pubDate>
       
-      <guid>http://example.org/posts/installing-and-running-kibana/</guid>
+      <guid>https://example.com/posts/installing-and-running-kibana/</guid>
       <description>Installing Kibana and Console _This article is part of a series. Check out the full series [icon name=&amp;ldquo;external-link&amp;rdquo; class=&amp;ldquo;&amp;rdquo; unprefixedclass=&amp;ldquo;&amp;rdquo;]
 Kibana is an open source analytics and visualization platform designed to work with Elasticsearch and Console (Previously its name was Sence, Sence was renamed to Console and it is available on Kibana 5.*) is a Kibana plugin [](https://www.elastic.co/guide/en/elasticsearch/guide/2.x/running-elasticsearch.html#id-1.4.3.13.19.2.2)[](https://www.elastic.co/guide/en/elasticsearch/guide/2.x/running-elasticsearch.html#id-1.4.3.13.19.2.3)that provides an interactive console for submitting requests to Elasticsearch directly from your browser.</description>
     </item>

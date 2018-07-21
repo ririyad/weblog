@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Deployment Descriptor on Rimon&#39;s Weblog</title>
-    <link>http://example.org/tags/deployment-descriptor/</link>
-    <description>Recent content in Deployment Descriptor on Rimon&#39;s Weblog</description>
+    <title>Deployment Descriptor on Chris Turner</title>
+    <link>https://example.com/tags/deployment-descriptor/</link>
+    <description>Recent content in Deployment Descriptor on Chris Turner</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en-US</language>
     <lastBuildDate>Tue, 12 Dec 2017 16:57:27 +0000</lastBuildDate>
     
-	<atom:link href="http://example.org/tags/deployment-descriptor/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://example.com/tags/deployment-descriptor/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Up and Running With Servlet in Tomcat</title>
-      <link>http://example.org/posts/up-and-running-with-servlet-in-tomcat/</link>
+      <link>https://example.com/posts/up-and-running-with-servlet-in-tomcat/</link>
       <pubDate>Tue, 12 Dec 2017 16:57:27 +0000</pubDate>
       
-      <guid>http://example.org/posts/up-and-running-with-servlet-in-tomcat/</guid>
+      <guid>https://example.com/posts/up-and-running-with-servlet-in-tomcat/</guid>
       <description>Up and Running With Servlet in Tomcat Companion Video https://youtu.be/lTyAPWR6104
 First, let&amp;rsquo;s create a maven project and add the dependency. As a prerequisite, JDK 8 will be needed. If you are using Linux based operating system then I have written a post on how to install and manage different versions of JDK in your system. You can visit this post if JDK 8 is not installed on your system.</description>
     </item>
