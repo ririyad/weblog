@@ -1,796 +1,796 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Chris Turner</title>
-    <link>https://example.com/tags/</link>
-    <description>Recent content in Tags on Chris Turner</description>
+    <title>Tags on Rimon&#39;s Weblog</title>
+    <link>https://rimonmostafiz.com/tags/</link>
+    <description>Recent content in Tags on Rimon&#39;s Weblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Thu, 30 Nov 2017 11:50:41 +0000</lastBuildDate>
     
-	<atom:link href="https://example.com/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://rimonmostafiz.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Alias</title>
-      <link>https://example.com/tags/alias/</link>
+      <link>https://rimonmostafiz.com/tags/alias/</link>
       <pubDate>Thu, 30 Nov 2017 11:50:41 +0000</pubDate>
       
-      <guid>https://example.com/tags/alias/</guid>
+      <guid>https://rimonmostafiz.com/tags/alias/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Annotation</title>
-      <link>https://example.com/tags/annotation/</link>
+      <link>https://rimonmostafiz.com/tags/annotation/</link>
       <pubDate>Tue, 29 May 2018 10:19:29 +0000</pubDate>
       
-      <guid>https://example.com/tags/annotation/</guid>
+      <guid>https://rimonmostafiz.com/tags/annotation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Applicaiton Context</title>
-      <link>https://example.com/tags/applicaiton-context/</link>
+      <link>https://rimonmostafiz.com/tags/applicaiton-context/</link>
       <pubDate>Thu, 15 Mar 2018 11:00:47 +0000</pubDate>
       
-      <guid>https://example.com/tags/applicaiton-context/</guid>
+      <guid>https://rimonmostafiz.com/tags/applicaiton-context/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Application Context</title>
-      <link>https://example.com/tags/application-context/</link>
+      <link>https://rimonmostafiz.com/tags/application-context/</link>
       <pubDate>Tue, 29 May 2018 10:19:29 +0000</pubDate>
       
-      <guid>https://example.com/tags/application-context/</guid>
+      <guid>https://rimonmostafiz.com/tags/application-context/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Arduino</title>
-      <link>https://example.com/tags/arduino/</link>
+      <link>https://rimonmostafiz.com/tags/arduino/</link>
       <pubDate>Sat, 09 Sep 2017 11:34:00 +0000</pubDate>
       
-      <guid>https://example.com/tags/arduino/</guid>
+      <guid>https://rimonmostafiz.com/tags/arduino/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Automatic Bean Wiring</title>
-      <link>https://example.com/tags/automatic-bean-wiring/</link>
+      <link>https://rimonmostafiz.com/tags/automatic-bean-wiring/</link>
       <pubDate>Mon, 28 May 2018 07:44:03 +0000</pubDate>
       
-      <guid>https://example.com/tags/automatic-bean-wiring/</guid>
+      <guid>https://rimonmostafiz.com/tags/automatic-bean-wiring/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Autowired</title>
-      <link>https://example.com/tags/autowired/</link>
+      <link>https://rimonmostafiz.com/tags/autowired/</link>
       <pubDate>Mon, 28 May 2018 07:44:03 +0000</pubDate>
       
-      <guid>https://example.com/tags/autowired/</guid>
+      <guid>https://rimonmostafiz.com/tags/autowired/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Bashrc</title>
-      <link>https://example.com/tags/bashrc/</link>
+      <link>https://rimonmostafiz.com/tags/bashrc/</link>
       <pubDate>Thu, 30 Nov 2017 11:50:41 +0000</pubDate>
       
-      <guid>https://example.com/tags/bashrc/</guid>
+      <guid>https://rimonmostafiz.com/tags/bashrc/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Bean</title>
-      <link>https://example.com/tags/bean/</link>
+      <link>https://rimonmostafiz.com/tags/bean/</link>
       <pubDate>Mon, 28 May 2018 07:44:03 +0000</pubDate>
       
-      <guid>https://example.com/tags/bean/</guid>
+      <guid>https://rimonmostafiz.com/tags/bean/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Bean Wiring</title>
-      <link>https://example.com/tags/bean-wiring/</link>
+      <link>https://rimonmostafiz.com/tags/bean-wiring/</link>
       <pubDate>Tue, 29 May 2018 10:19:29 +0000</pubDate>
       
-      <guid>https://example.com/tags/bean-wiring/</guid>
+      <guid>https://rimonmostafiz.com/tags/bean-wiring/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Beans</title>
-      <link>https://example.com/tags/beans/</link>
+      <link>https://rimonmostafiz.com/tags/beans/</link>
       <pubDate>Sat, 26 May 2018 06:42:47 +0000</pubDate>
       
-      <guid>https://example.com/tags/beans/</guid>
+      <guid>https://rimonmostafiz.com/tags/beans/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Command</title>
-      <link>https://example.com/tags/command/</link>
+      <link>https://rimonmostafiz.com/tags/command/</link>
       <pubDate>Thu, 30 Nov 2017 11:50:41 +0000</pubDate>
       
-      <guid>https://example.com/tags/command/</guid>
+      <guid>https://rimonmostafiz.com/tags/command/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Component</title>
-      <link>https://example.com/tags/component/</link>
+      <link>https://rimonmostafiz.com/tags/component/</link>
       <pubDate>Mon, 28 May 2018 07:44:03 +0000</pubDate>
       
-      <guid>https://example.com/tags/component/</guid>
+      <guid>https://rimonmostafiz.com/tags/component/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Componentscan</title>
-      <link>https://example.com/tags/componentscan/</link>
+      <link>https://rimonmostafiz.com/tags/componentscan/</link>
       <pubDate>Mon, 28 May 2018 07:44:03 +0000</pubDate>
       
-      <guid>https://example.com/tags/componentscan/</guid>
+      <guid>https://rimonmostafiz.com/tags/componentscan/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Configuration</title>
-      <link>https://example.com/tags/configuration/</link>
+      <link>https://rimonmostafiz.com/tags/configuration/</link>
       <pubDate>Tue, 29 May 2018 10:19:29 +0000</pubDate>
       
-      <guid>https://example.com/tags/configuration/</guid>
+      <guid>https://rimonmostafiz.com/tags/configuration/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Console</title>
-      <link>https://example.com/tags/console/</link>
+      <link>https://rimonmostafiz.com/tags/console/</link>
       <pubDate>Sat, 16 Sep 2017 09:19:51 +0000</pubDate>
       
-      <guid>https://example.com/tags/console/</guid>
+      <guid>https://rimonmostafiz.com/tags/console/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Constructor Injection</title>
-      <link>https://example.com/tags/constructor-injection/</link>
+      <link>https://rimonmostafiz.com/tags/constructor-injection/</link>
       <pubDate>Tue, 29 May 2018 10:19:29 +0000</pubDate>
       
-      <guid>https://example.com/tags/constructor-injection/</guid>
+      <guid>https://rimonmostafiz.com/tags/constructor-injection/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Container</title>
-      <link>https://example.com/tags/container/</link>
+      <link>https://rimonmostafiz.com/tags/container/</link>
       <pubDate>Thu, 15 Mar 2018 11:00:47 +0000</pubDate>
       
-      <guid>https://example.com/tags/container/</guid>
+      <guid>https://rimonmostafiz.com/tags/container/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Context</title>
-      <link>https://example.com/tags/context/</link>
+      <link>https://rimonmostafiz.com/tags/context/</link>
       <pubDate>Thu, 15 Mar 2018 11:00:47 +0000</pubDate>
       
-      <guid>https://example.com/tags/context/</guid>
+      <guid>https://rimonmostafiz.com/tags/context/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Database</title>
-      <link>https://example.com/tags/database/</link>
+      <link>https://rimonmostafiz.com/tags/database/</link>
       <pubDate>Fri, 15 Sep 2017 10:26:28 +0000</pubDate>
       
-      <guid>https://example.com/tags/database/</guid>
+      <guid>https://rimonmostafiz.com/tags/database/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Dependency Injection</title>
-      <link>https://example.com/tags/dependency-injection/</link>
+      <link>https://rimonmostafiz.com/tags/dependency-injection/</link>
       <pubDate>Wed, 14 Mar 2018 10:36:12 +0000</pubDate>
       
-      <guid>https://example.com/tags/dependency-injection/</guid>
+      <guid>https://rimonmostafiz.com/tags/dependency-injection/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Deployment Descriptor</title>
-      <link>https://example.com/tags/deployment-descriptor/</link>
+      <link>https://rimonmostafiz.com/tags/deployment-descriptor/</link>
       <pubDate>Tue, 12 Dec 2017 16:57:27 +0000</pubDate>
       
-      <guid>https://example.com/tags/deployment-descriptor/</guid>
+      <guid>https://rimonmostafiz.com/tags/deployment-descriptor/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Di</title>
-      <link>https://example.com/tags/di/</link>
+      <link>https://rimonmostafiz.com/tags/di/</link>
       <pubDate>Wed, 14 Mar 2018 10:36:12 +0000</pubDate>
       
-      <guid>https://example.com/tags/di/</guid>
+      <guid>https://rimonmostafiz.com/tags/di/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Directory Structure</title>
-      <link>https://example.com/tags/directory-structure/</link>
+      <link>https://rimonmostafiz.com/tags/directory-structure/</link>
       <pubDate>Tue, 12 Dec 2017 11:30:40 +0000</pubDate>
       
-      <guid>https://example.com/tags/directory-structure/</guid>
+      <guid>https://rimonmostafiz.com/tags/directory-structure/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Elasticse</title>
-      <link>https://example.com/tags/elasticse/</link>
+      <link>https://rimonmostafiz.com/tags/elasticse/</link>
       <pubDate>Sat, 16 Sep 2017 09:19:51 +0000</pubDate>
       
-      <guid>https://example.com/tags/elasticse/</guid>
+      <guid>https://rimonmostafiz.com/tags/elasticse/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Elasticsearch</title>
-      <link>https://example.com/tags/elasticsearch/</link>
+      <link>https://rimonmostafiz.com/tags/elasticsearch/</link>
       <pubDate>Fri, 15 Sep 2017 12:36:35 +0000</pubDate>
       
-      <guid>https://example.com/tags/elasticsearch/</guid>
+      <guid>https://rimonmostafiz.com/tags/elasticsearch/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Encode</title>
-      <link>https://example.com/tags/encode/</link>
+      <link>https://rimonmostafiz.com/tags/encode/</link>
       <pubDate>Tue, 09 Jan 2018 06:30:00 +0000</pubDate>
       
-      <guid>https://example.com/tags/encode/</guid>
+      <guid>https://rimonmostafiz.com/tags/encode/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Explicit Wiring</title>
-      <link>https://example.com/tags/explicit-wiring/</link>
+      <link>https://rimonmostafiz.com/tags/explicit-wiring/</link>
       <pubDate>Tue, 29 May 2018 10:19:29 +0000</pubDate>
       
-      <guid>https://example.com/tags/explicit-wiring/</guid>
+      <guid>https://rimonmostafiz.com/tags/explicit-wiring/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Filter</title>
-      <link>https://example.com/tags/filter/</link>
+      <link>https://rimonmostafiz.com/tags/filter/</link>
       <pubDate>Tue, 12 Dec 2017 10:08:51 +0000</pubDate>
       
-      <guid>https://example.com/tags/filter/</guid>
+      <guid>https://rimonmostafiz.com/tags/filter/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Framework</title>
-      <link>https://example.com/tags/framework/</link>
+      <link>https://rimonmostafiz.com/tags/framework/</link>
       <pubDate>Thu, 15 Mar 2018 11:00:47 +0000</pubDate>
       
-      <guid>https://example.com/tags/framework/</guid>
+      <guid>https://rimonmostafiz.com/tags/framework/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Gcd</title>
-      <link>https://example.com/tags/gcd/</link>
+      <link>https://rimonmostafiz.com/tags/gcd/</link>
       <pubDate>Tue, 15 Aug 2017 18:00:00 +0000</pubDate>
       
-      <guid>https://example.com/tags/gcd/</guid>
+      <guid>https://rimonmostafiz.com/tags/gcd/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Git</title>
-      <link>https://example.com/tags/git/</link>
+      <link>https://rimonmostafiz.com/tags/git/</link>
       <pubDate>Thu, 17 Aug 2017 12:00:00 +0000</pubDate>
       
-      <guid>https://example.com/tags/git/</guid>
+      <guid>https://rimonmostafiz.com/tags/git/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Google Drive</title>
-      <link>https://example.com/tags/google-drive/</link>
+      <link>https://rimonmostafiz.com/tags/google-drive/</link>
       <pubDate>Wed, 16 Aug 2017 22:00:00 +0000</pubDate>
       
-      <guid>https://example.com/tags/google-drive/</guid>
+      <guid>https://rimonmostafiz.com/tags/google-drive/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Header</title>
-      <link>https://example.com/tags/header/</link>
+      <link>https://rimonmostafiz.com/tags/header/</link>
       <pubDate>Tue, 09 Jan 2018 06:30:00 +0000</pubDate>
       
-      <guid>https://example.com/tags/header/</guid>
+      <guid>https://rimonmostafiz.com/tags/header/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Idea</title>
-      <link>https://example.com/tags/idea/</link>
+      <link>https://rimonmostafiz.com/tags/idea/</link>
       <pubDate>Sun, 03 Sep 2017 00:21:00 +0000</pubDate>
       
-      <guid>https://example.com/tags/idea/</guid>
+      <guid>https://rimonmostafiz.com/tags/idea/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Inversion of Control</title>
-      <link>https://example.com/tags/inversion-of-control/</link>
+      <link>https://rimonmostafiz.com/tags/inversion-of-control/</link>
       <pubDate>Wed, 14 Mar 2018 10:36:12 +0000</pubDate>
       
-      <guid>https://example.com/tags/inversion-of-control/</guid>
+      <guid>https://rimonmostafiz.com/tags/inversion-of-control/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ioc</title>
-      <link>https://example.com/tags/ioc/</link>
+      <link>https://rimonmostafiz.com/tags/ioc/</link>
       <pubDate>Thu, 15 Mar 2018 11:00:47 +0000</pubDate>
       
-      <guid>https://example.com/tags/ioc/</guid>
+      <guid>https://rimonmostafiz.com/tags/ioc/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Java</title>
-      <link>https://example.com/tags/java/</link>
+      <link>https://rimonmostafiz.com/tags/java/</link>
       <pubDate>Tue, 09 Jan 2018 06:30:00 +0000</pubDate>
       
-      <guid>https://example.com/tags/java/</guid>
+      <guid>https://rimonmostafiz.com/tags/java/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Java Sconfig</title>
-      <link>https://example.com/tags/java-sconfig/</link>
+      <link>https://rimonmostafiz.com/tags/java-sconfig/</link>
       <pubDate>Sat, 26 May 2018 06:42:47 +0000</pubDate>
       
-      <guid>https://example.com/tags/java-sconfig/</guid>
+      <guid>https://rimonmostafiz.com/tags/java-sconfig/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Javaee</title>
-      <link>https://example.com/tags/javaee/</link>
+      <link>https://rimonmostafiz.com/tags/javaee/</link>
       <pubDate>Tue, 09 Jan 2018 06:30:00 +0000</pubDate>
       
-      <guid>https://example.com/tags/javaee/</guid>
+      <guid>https://rimonmostafiz.com/tags/javaee/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Jdk</title>
-      <link>https://example.com/tags/jdk/</link>
+      <link>https://rimonmostafiz.com/tags/jdk/</link>
       <pubDate>Fri, 20 Oct 2017 18:39:46 +0000</pubDate>
       
-      <guid>https://example.com/tags/jdk/</guid>
+      <guid>https://rimonmostafiz.com/tags/jdk/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Jsp</title>
-      <link>https://example.com/tags/jsp/</link>
+      <link>https://rimonmostafiz.com/tags/jsp/</link>
       <pubDate>Tue, 12 Dec 2017 10:08:51 +0000</pubDate>
       
-      <guid>https://example.com/tags/jsp/</guid>
+      <guid>https://rimonmostafiz.com/tags/jsp/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Kibana</title>
-      <link>https://example.com/tags/kibana/</link>
+      <link>https://rimonmostafiz.com/tags/kibana/</link>
       <pubDate>Sat, 16 Sep 2017 09:19:51 +0000</pubDate>
       
-      <guid>https://example.com/tags/kibana/</guid>
+      <guid>https://rimonmostafiz.com/tags/kibana/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Lcm</title>
-      <link>https://example.com/tags/lcm/</link>
+      <link>https://rimonmostafiz.com/tags/lcm/</link>
       <pubDate>Tue, 15 Aug 2017 18:00:00 +0000</pubDate>
       
-      <guid>https://example.com/tags/lcm/</guid>
+      <guid>https://rimonmostafiz.com/tags/lcm/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Linux</title>
-      <link>https://example.com/tags/linux/</link>
+      <link>https://rimonmostafiz.com/tags/linux/</link>
       <pubDate>Thu, 30 Nov 2017 11:50:41 +0000</pubDate>
       
-      <guid>https://example.com/tags/linux/</guid>
+      <guid>https://rimonmostafiz.com/tags/linux/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Listeners</title>
-      <link>https://example.com/tags/listeners/</link>
+      <link>https://rimonmostafiz.com/tags/listeners/</link>
       <pubDate>Tue, 12 Dec 2017 10:08:51 +0000</pubDate>
       
-      <guid>https://example.com/tags/listeners/</guid>
+      <guid>https://rimonmostafiz.com/tags/listeners/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Math</title>
-      <link>https://example.com/tags/math/</link>
+      <link>https://rimonmostafiz.com/tags/math/</link>
       <pubDate>Tue, 15 Aug 2017 18:00:00 +0000</pubDate>
       
-      <guid>https://example.com/tags/math/</guid>
+      <guid>https://rimonmostafiz.com/tags/math/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Maven</title>
-      <link>https://example.com/tags/maven/</link>
+      <link>https://rimonmostafiz.com/tags/maven/</link>
       <pubDate>Tue, 12 Dec 2017 16:57:27 +0000</pubDate>
       
-      <guid>https://example.com/tags/maven/</guid>
+      <guid>https://rimonmostafiz.com/tags/maven/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Maven Project</title>
-      <link>https://example.com/tags/maven-project/</link>
+      <link>https://rimonmostafiz.com/tags/maven-project/</link>
       <pubDate>Mon, 28 May 2018 07:44:03 +0000</pubDate>
       
-      <guid>https://example.com/tags/maven-project/</guid>
+      <guid>https://rimonmostafiz.com/tags/maven-project/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Metadata</title>
-      <link>https://example.com/tags/metadata/</link>
+      <link>https://rimonmostafiz.com/tags/metadata/</link>
       <pubDate>Sat, 26 May 2018 06:42:47 +0000</pubDate>
       
-      <guid>https://example.com/tags/metadata/</guid>
+      <guid>https://rimonmostafiz.com/tags/metadata/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Microcontroller</title>
-      <link>https://example.com/tags/microcontroller/</link>
+      <link>https://rimonmostafiz.com/tags/microcontroller/</link>
       <pubDate>Sat, 09 Sep 2017 11:34:00 +0000</pubDate>
       
-      <guid>https://example.com/tags/microcontroller/</guid>
+      <guid>https://rimonmostafiz.com/tags/microcontroller/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Node</title>
-      <link>https://example.com/tags/node/</link>
+      <link>https://rimonmostafiz.com/tags/node/</link>
       <pubDate>Sat, 07 Jul 2018 04:17:09 +0000</pubDate>
       
-      <guid>https://example.com/tags/node/</guid>
+      <guid>https://rimonmostafiz.com/tags/node/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Nodejs</title>
-      <link>https://example.com/tags/nodejs/</link>
+      <link>https://rimonmostafiz.com/tags/nodejs/</link>
       <pubDate>Sat, 07 Jul 2018 04:17:09 +0000</pubDate>
       
-      <guid>https://example.com/tags/nodejs/</guid>
+      <guid>https://rimonmostafiz.com/tags/nodejs/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Nosql</title>
-      <link>https://example.com/tags/nosql/</link>
+      <link>https://rimonmostafiz.com/tags/nosql/</link>
       <pubDate>Fri, 15 Sep 2017 10:26:28 +0000</pubDate>
       
-      <guid>https://example.com/tags/nosql/</guid>
+      <guid>https://rimonmostafiz.com/tags/nosql/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Notes</title>
-      <link>https://example.com/tags/notes/</link>
+      <link>https://rimonmostafiz.com/tags/notes/</link>
       <pubDate>Fri, 20 Oct 2017 18:39:46 +0000</pubDate>
       
-      <guid>https://example.com/tags/notes/</guid>
+      <guid>https://rimonmostafiz.com/tags/notes/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Npm</title>
-      <link>https://example.com/tags/npm/</link>
+      <link>https://rimonmostafiz.com/tags/npm/</link>
       <pubDate>Sat, 07 Jul 2018 04:17:09 +0000</pubDate>
       
-      <guid>https://example.com/tags/npm/</guid>
+      <guid>https://rimonmostafiz.com/tags/npm/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Number Theory</title>
-      <link>https://example.com/tags/number-theory/</link>
+      <link>https://rimonmostafiz.com/tags/number-theory/</link>
       <pubDate>Wed, 16 Aug 2017 00:30:00 +0000</pubDate>
       
-      <guid>https://example.com/tags/number-theory/</guid>
+      <guid>https://rimonmostafiz.com/tags/number-theory/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Nvm</title>
-      <link>https://example.com/tags/nvm/</link>
+      <link>https://rimonmostafiz.com/tags/nvm/</link>
       <pubDate>Sat, 07 Jul 2018 04:17:09 +0000</pubDate>
       
-      <guid>https://example.com/tags/nvm/</guid>
+      <guid>https://rimonmostafiz.com/tags/nvm/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Oracle</title>
-      <link>https://example.com/tags/oracle/</link>
+      <link>https://rimonmostafiz.com/tags/oracle/</link>
       <pubDate>Fri, 20 Oct 2017 18:39:46 +0000</pubDate>
       
-      <guid>https://example.com/tags/oracle/</guid>
+      <guid>https://rimonmostafiz.com/tags/oracle/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Params</title>
-      <link>https://example.com/tags/params/</link>
+      <link>https://rimonmostafiz.com/tags/params/</link>
       <pubDate>Wed, 13 Dec 2017 05:30:10 +0000</pubDate>
       
-      <guid>https://example.com/tags/params/</guid>
+      <guid>https://rimonmostafiz.com/tags/params/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Post Variables</title>
-      <link>https://example.com/tags/post-variables/</link>
+      <link>https://rimonmostafiz.com/tags/post-variables/</link>
       <pubDate>Wed, 13 Dec 2017 05:30:10 +0000</pubDate>
       
-      <guid>https://example.com/tags/post-variables/</guid>
+      <guid>https://rimonmostafiz.com/tags/post-variables/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Prime Number</title>
-      <link>https://example.com/tags/prime-number/</link>
+      <link>https://rimonmostafiz.com/tags/prime-number/</link>
       <pubDate>Sun, 03 Sep 2017 00:21:00 +0000</pubDate>
       
-      <guid>https://example.com/tags/prime-number/</guid>
+      <guid>https://rimonmostafiz.com/tags/prime-number/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Principle</title>
-      <link>https://example.com/tags/principle/</link>
+      <link>https://rimonmostafiz.com/tags/principle/</link>
       <pubDate>Wed, 14 Mar 2018 10:36:12 +0000</pubDate>
       
-      <guid>https://example.com/tags/principle/</guid>
+      <guid>https://rimonmostafiz.com/tags/principle/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Problem Solving</title>
-      <link>https://example.com/tags/problem-solving/</link>
+      <link>https://rimonmostafiz.com/tags/problem-solving/</link>
       <pubDate>Sun, 03 Sep 2017 00:21:00 +0000</pubDate>
       
-      <guid>https://example.com/tags/problem-solving/</guid>
+      <guid>https://rimonmostafiz.com/tags/problem-solving/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Project</title>
-      <link>https://example.com/tags/project/</link>
+      <link>https://rimonmostafiz.com/tags/project/</link>
       <pubDate>Sat, 09 Sep 2017 11:34:00 +0000</pubDate>
       
-      <guid>https://example.com/tags/project/</guid>
+      <guid>https://rimonmostafiz.com/tags/project/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Query Parameters</title>
-      <link>https://example.com/tags/query-parameters/</link>
+      <link>https://rimonmostafiz.com/tags/query-parameters/</link>
       <pubDate>Wed, 13 Dec 2017 05:30:10 +0000</pubDate>
       
-      <guid>https://example.com/tags/query-parameters/</guid>
+      <guid>https://rimonmostafiz.com/tags/query-parameters/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Request</title>
-      <link>https://example.com/tags/request/</link>
+      <link>https://rimonmostafiz.com/tags/request/</link>
       <pubDate>Wed, 13 Dec 2017 05:30:10 +0000</pubDate>
       
-      <guid>https://example.com/tags/request/</guid>
+      <guid>https://rimonmostafiz.com/tags/request/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Response</title>
-      <link>https://example.com/tags/response/</link>
+      <link>https://rimonmostafiz.com/tags/response/</link>
       <pubDate>Tue, 09 Jan 2018 06:30:00 +0000</pubDate>
       
-      <guid>https://example.com/tags/response/</guid>
+      <guid>https://rimonmostafiz.com/tags/response/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Restful</title>
-      <link>https://example.com/tags/restful/</link>
+      <link>https://rimonmostafiz.com/tags/restful/</link>
       <pubDate>Sat, 16 Sep 2017 09:19:51 +0000</pubDate>
       
-      <guid>https://example.com/tags/restful/</guid>
+      <guid>https://rimonmostafiz.com/tags/restful/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Sdk</title>
-      <link>https://example.com/tags/sdk/</link>
+      <link>https://rimonmostafiz.com/tags/sdk/</link>
       <pubDate>Fri, 20 Oct 2017 18:39:46 +0000</pubDate>
       
-      <guid>https://example.com/tags/sdk/</guid>
+      <guid>https://rimonmostafiz.com/tags/sdk/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Sdkman</title>
-      <link>https://example.com/tags/sdkman/</link>
+      <link>https://rimonmostafiz.com/tags/sdkman/</link>
       <pubDate>Fri, 20 Oct 2017 18:39:46 +0000</pubDate>
       
-      <guid>https://example.com/tags/sdkman/</guid>
+      <guid>https://rimonmostafiz.com/tags/sdkman/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Sencor</title>
-      <link>https://example.com/tags/sencor/</link>
+      <link>https://rimonmostafiz.com/tags/sencor/</link>
       <pubDate>Sat, 09 Sep 2017 11:34:00 +0000</pubDate>
       
-      <guid>https://example.com/tags/sencor/</guid>
+      <guid>https://rimonmostafiz.com/tags/sencor/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Server</title>
-      <link>https://example.com/tags/server/</link>
+      <link>https://rimonmostafiz.com/tags/server/</link>
       <pubDate>Tue, 12 Dec 2017 11:30:40 +0000</pubDate>
       
-      <guid>https://example.com/tags/server/</guid>
+      <guid>https://rimonmostafiz.com/tags/server/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Servlet</title>
-      <link>https://example.com/tags/servlet/</link>
+      <link>https://rimonmostafiz.com/tags/servlet/</link>
       <pubDate>Tue, 09 Jan 2018 06:30:00 +0000</pubDate>
       
-      <guid>https://example.com/tags/servlet/</guid>
+      <guid>https://rimonmostafiz.com/tags/servlet/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Sieve</title>
-      <link>https://example.com/tags/sieve/</link>
+      <link>https://rimonmostafiz.com/tags/sieve/</link>
       <pubDate>Wed, 16 Aug 2017 00:30:00 +0000</pubDate>
       
-      <guid>https://example.com/tags/sieve/</guid>
+      <guid>https://rimonmostafiz.com/tags/sieve/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Spring</title>
-      <link>https://example.com/tags/spring/</link>
+      <link>https://rimonmostafiz.com/tags/spring/</link>
       <pubDate>Wed, 14 Mar 2018 10:36:12 +0000</pubDate>
       
-      <guid>https://example.com/tags/spring/</guid>
+      <guid>https://rimonmostafiz.com/tags/spring/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Spring Ioc Container</title>
-      <link>https://example.com/tags/spring-ioc-container/</link>
+      <link>https://rimonmostafiz.com/tags/spring-ioc-container/</link>
       <pubDate>Thu, 15 Mar 2018 11:00:47 +0000</pubDate>
       
-      <guid>https://example.com/tags/spring-ioc-container/</guid>
+      <guid>https://rimonmostafiz.com/tags/spring-ioc-container/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Spring Mvc</title>
-      <link>https://example.com/tags/spring-mvc/</link>
+      <link>https://rimonmostafiz.com/tags/spring-mvc/</link>
       <pubDate>Mon, 30 Oct 2017 09:19:54 +0000</pubDate>
       
-      <guid>https://example.com/tags/spring-mvc/</guid>
+      <guid>https://rimonmostafiz.com/tags/spring-mvc/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Sqldeveloper</title>
-      <link>https://example.com/tags/sqldeveloper/</link>
+      <link>https://rimonmostafiz.com/tags/sqldeveloper/</link>
       <pubDate>Mon, 28 Aug 2017 15:13:24 +0000</pubDate>
       
-      <guid>https://example.com/tags/sqldeveloper/</guid>
+      <guid>https://rimonmostafiz.com/tags/sqldeveloper/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Terminal</title>
-      <link>https://example.com/tags/terminal/</link>
+      <link>https://rimonmostafiz.com/tags/terminal/</link>
       <pubDate>Thu, 30 Nov 2017 11:50:41 +0000</pubDate>
       
-      <guid>https://example.com/tags/terminal/</guid>
+      <guid>https://rimonmostafiz.com/tags/terminal/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Tomcat</title>
-      <link>https://example.com/tags/tomcat/</link>
+      <link>https://rimonmostafiz.com/tags/tomcat/</link>
       <pubDate>Tue, 12 Dec 2017 16:57:27 +0000</pubDate>
       
-      <guid>https://example.com/tags/tomcat/</guid>
+      <guid>https://rimonmostafiz.com/tags/tomcat/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ubuntu</title>
-      <link>https://example.com/tags/ubuntu/</link>
+      <link>https://rimonmostafiz.com/tags/ubuntu/</link>
       <pubDate>Thu, 30 Nov 2017 11:50:41 +0000</pubDate>
       
-      <guid>https://example.com/tags/ubuntu/</guid>
+      <guid>https://rimonmostafiz.com/tags/ubuntu/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Unix</title>
-      <link>https://example.com/tags/unix/</link>
+      <link>https://rimonmostafiz.com/tags/unix/</link>
       <pubDate>Fri, 20 Oct 2017 18:39:46 +0000</pubDate>
       
-      <guid>https://example.com/tags/unix/</guid>
+      <guid>https://rimonmostafiz.com/tags/unix/</guid>
       <description></description>
     </item>
     
     <item>
       <title>War</title>
-      <link>https://example.com/tags/war/</link>
+      <link>https://rimonmostafiz.com/tags/war/</link>
       <pubDate>Tue, 12 Dec 2017 11:30:40 +0000</pubDate>
       
-      <guid>https://example.com/tags/war/</guid>
+      <guid>https://rimonmostafiz.com/tags/war/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Web App</title>
-      <link>https://example.com/tags/web-app/</link>
+      <link>https://rimonmostafiz.com/tags/web-app/</link>
       <pubDate>Tue, 12 Dec 2017 11:30:40 +0000</pubDate>
       
-      <guid>https://example.com/tags/web-app/</guid>
+      <guid>https://rimonmostafiz.com/tags/web-app/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Wiring Beans</title>
-      <link>https://example.com/tags/wiring-beans/</link>
+      <link>https://rimonmostafiz.com/tags/wiring-beans/</link>
       <pubDate>Mon, 28 May 2018 07:44:03 +0000</pubDate>
       
-      <guid>https://example.com/tags/wiring-beans/</guid>
+      <guid>https://rimonmostafiz.com/tags/wiring-beans/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Xml Config</title>
-      <link>https://example.com/tags/xml-config/</link>
+      <link>https://rimonmostafiz.com/tags/xml-config/</link>
       <pubDate>Sat, 26 May 2018 06:42:47 +0000</pubDate>
       
-      <guid>https://example.com/tags/xml-config/</guid>
+      <guid>https://rimonmostafiz.com/tags/xml-config/</guid>
       <description></description>
     </item>
     

@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Maven Project on Chris Turner</title>
-    <link>https://example.com/tags/maven-project/</link>
-    <description>Recent content in Maven Project on Chris Turner</description>
+    <title>Maven Project on Rimon&#39;s Weblog</title>
+    <link>https://rimonmostafiz.com/tags/maven-project/</link>
+    <description>Recent content in Maven Project on Rimon&#39;s Weblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Mon, 28 May 2018 07:44:03 +0000</lastBuildDate>
     
-	<atom:link href="https://example.com/tags/maven-project/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://rimonmostafiz.com/tags/maven-project/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Auto Bean Wiring of Spring</title>
-      <link>https://example.com/posts/auto-bean-wiring-of-spring/</link>
+      <link>https://rimonmostafiz.com/blog/auto-bean-wiring-of-spring/</link>
       <pubDate>Mon, 28 May 2018 07:44:03 +0000</pubDate>
       
-      <guid>https://example.com/posts/auto-bean-wiring-of-spring/</guid>
+      <guid>https://rimonmostafiz.com/blog/auto-bean-wiring-of-spring/</guid>
       <description>As we previously discussed that the Spring container is responsible for creating the beans in your application and coordinating the relationship between those objects vi DI. The act of creating these associations between application objects in the essence of dependency injection(DI) and is commonly referred to as wiring.
 Different Types of Bean Wiring Spring Offers three primary wiring mechanism
  An explicit configuration in XML

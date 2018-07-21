@@ -1,51 +1,51 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Ubuntu on Chris Turner</title>
-    <link>https://example.com/tags/ubuntu/</link>
-    <description>Recent content in Ubuntu on Chris Turner</description>
+    <title>Ubuntu on Rimon&#39;s Weblog</title>
+    <link>https://rimonmostafiz.com/tags/ubuntu/</link>
+    <description>Recent content in Ubuntu on Rimon&#39;s Weblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Thu, 30 Nov 2017 11:50:41 +0000</lastBuildDate>
     
-	<atom:link href="https://example.com/tags/ubuntu/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://rimonmostafiz.com/tags/ubuntu/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Command Aliases in Ubuntu Linux</title>
-      <link>https://example.com/posts/command-aliases-in-linux/</link>
+      <link>https://rimonmostafiz.com/blog/command-aliases-in-linux/</link>
       <pubDate>Thu, 30 Nov 2017 11:50:41 +0000</pubDate>
       
-      <guid>https://example.com/posts/command-aliases-in-linux/</guid>
+      <guid>https://rimonmostafiz.com/blog/command-aliases-in-linux/</guid>
       <description>How to set up alias in Linux Every time I need to see different projects logs from application servers logs folder from different terminal window, I have to go to Weblogic&amp;rsquo;s logs folder and then open the log file using less or tail -f project-name.log 
 cd /home/rimonmostafiz/Applications/Oracle/Middleware/Oracle_Home/user_projects/domains/base_domain/logs/ less project-name.log or tail -f project-name.log  I don&amp;rsquo;t want to write this long string Everytime, Wouldn’t it be easier to just type something like the following?</description>
     </item>
     
     <item>
       <title>Manage JDK Using SDKMAN</title>
-      <link>https://example.com/posts/manage-jdk-using-sdkman/</link>
+      <link>https://rimonmostafiz.com/blog/manage-jdk-using-sdkman/</link>
       <pubDate>Fri, 20 Oct 2017 18:39:46 +0000</pubDate>
       
-      <guid>https://example.com/posts/manage-jdk-using-sdkman/</guid>
+      <guid>https://rimonmostafiz.com/blog/manage-jdk-using-sdkman/</guid>
       <description>What is SDKMAN? [SDKMAN!](http://sdkman.io/index.html) is a tool for managing parallel versions of multiple Software Development Kits on most Unix based systems. It provides a convenient Command Line Interface (CLI) and API for installing, switching, removing and listing Candidates. Its also open source. You can see the codes form [SDKMAN&#39;s github repository](https://github.com/sdkman). As a developer its very common that you work on multiple projects which use different JDK version. Obviously, you can use update-alternatives to manage multiple JDK libraries on the same system to select which one you want to use as the main one.</description>
     </item>
     
     <item>
       <title>Installing and Running Elasticsearch</title>
-      <link>https://example.com/posts/installing-and-running-elasticsearch/</link>
+      <link>https://rimonmostafiz.com/blog/installing-and-running-elasticsearch/</link>
       <pubDate>Fri, 15 Sep 2017 12:36:35 +0000</pubDate>
       
-      <guid>https://example.com/posts/installing-and-running-elasticsearch/</guid>
+      <guid>https://rimonmostafiz.com/blog/installing-and-running-elasticsearch/</guid>
       <description>&amp;ldquo;tagline&amp;rdquo;: &amp;ldquo;You Know, for Search&amp;rdquo; _This article is part of a series. Check out the full series [icon name=&amp;ldquo;external-link&amp;rdquo; class=&amp;ldquo;&amp;rdquo; unprefixedclass=&amp;ldquo;&amp;rdquo;]
 The easiest way to understand what Elasticsearch is to play with it, so let’s get started. Elastic search is easy to install. In this tutorial, I will walk you through the elasticsearch installation process in Ubuntu 16.04. Elasticsearch requires a recent version of java. Oracle JDK version 1.8 is recommended.</description>
     </item>
     
     <item>
       <title>Oracle SQL Developer in Ubuntu</title>
-      <link>https://example.com/posts/oracle-sql-developer-in-ubuntu/</link>
+      <link>https://rimonmostafiz.com/blog/oracle-sql-developer-in-ubuntu/</link>
       <pubDate>Mon, 28 Aug 2017 15:13:24 +0000</pubDate>
       
-      <guid>https://example.com/posts/oracle-sql-developer-in-ubuntu/</guid>
+      <guid>https://rimonmostafiz.com/blog/oracle-sql-developer-in-ubuntu/</guid>
       <description>You will need a free Oracle account to log in and download SQL Developer from Oracle Technology Network site. For ubuntu download the _Other Platforms version. At the time of writing this post, I download version is sqldeveloper-17.2.0.188.1159-no-jre.zip. _You will also need Java to run Oracle SQL developer.
 After download, I moved the download file to /home/rimonmostafiz/Applications (you can choose any other location you prefer).
 Move the download file to /home/rimonmostafiz/Applications.</description>
@@ -53,10 +53,10 @@ Move the download file to /home/rimonmostafiz/Applications.</description>
     
     <item>
       <title>Google Drive in Ubuntu</title>
-      <link>https://example.com/posts/google-drive-in-ubuntu/</link>
+      <link>https://rimonmostafiz.com/blog/google-drive-in-ubuntu/</link>
       <pubDate>Wed, 16 Aug 2017 22:00:00 +0000</pubDate>
       
-      <guid>https://example.com/posts/google-drive-in-ubuntu/</guid>
+      <guid>https://rimonmostafiz.com/blog/google-drive-in-ubuntu/</guid>
       <description>Since there is no official Google Drive client for Ubuntu or Linux Mint but if you need to use it then there is an unofficial client called Grive2. Grive is a Google Drive client for GNU/Linux systems. It allows the synchronization of all your files on the cloud with a directory of your choice and the upload of new files to Google Drive.
 Those of you used Google Drive client on Windows or Mac, Grive2 will do the same for you in Ubuntu or Linux Mint.</description>
     </item>

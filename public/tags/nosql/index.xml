@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Nosql on Chris Turner</title>
-    <link>https://example.com/tags/nosql/</link>
-    <description>Recent content in Nosql on Chris Turner</description>
+    <title>Nosql on Rimon&#39;s Weblog</title>
+    <link>https://rimonmostafiz.com/tags/nosql/</link>
+    <description>Recent content in Nosql on Rimon&#39;s Weblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Fri, 15 Sep 2017 10:26:28 +0000</lastBuildDate>
     
-	<atom:link href="https://example.com/tags/nosql/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://rimonmostafiz.com/tags/nosql/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Basics and Key Concepts of Elasticsearch</title>
-      <link>https://example.com/posts/basics-and-key-concepts-of-elasticsearch/</link>
+      <link>https://rimonmostafiz.com/blog/basics-and-key-concepts-of-elasticsearch/</link>
       <pubDate>Fri, 15 Sep 2017 10:26:28 +0000</pubDate>
       
-      <guid>https://example.com/posts/basics-and-key-concepts-of-elasticsearch/</guid>
+      <guid>https://rimonmostafiz.com/blog/basics-and-key-concepts-of-elasticsearch/</guid>
       <description>Getting Started with Elasticsearch Basics _This article is part of a series. Check out the full series [icon name=&amp;ldquo;external-link&amp;rdquo; class=&amp;ldquo;&amp;rdquo; unprefixedclass=&amp;ldquo;&amp;rdquo;]
 This week finally I started learning Elasticsearch, I decided to keep some notes and share my concepts and understanding on this blog. So that if anyone wants to learn Elasticsearch he/she can learn with me.
 In this part, I will write about the some Elasticsearch theory and basic concepts anyone needs to understand.</description>

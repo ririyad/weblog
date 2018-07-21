@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Constructor Injection on Chris Turner</title>
-    <link>https://example.com/tags/constructor-injection/</link>
-    <description>Recent content in Constructor Injection on Chris Turner</description>
+    <title>Constructor Injection on Rimon&#39;s Weblog</title>
+    <link>https://rimonmostafiz.com/tags/constructor-injection/</link>
+    <description>Recent content in Constructor Injection on Rimon&#39;s Weblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Tue, 29 May 2018 10:19:29 +0000</lastBuildDate>
     
-	<atom:link href="https://example.com/tags/constructor-injection/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://rimonmostafiz.com/tags/constructor-injection/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Spring Bean Wiring Using JavaConfig</title>
-      <link>https://example.com/posts/spring-bean-wiring-using-javaconfig/</link>
+      <link>https://rimonmostafiz.com/blog/spring-bean-wiring-using-javaconfig/</link>
       <pubDate>Tue, 29 May 2018 10:19:29 +0000</pubDate>
       
-      <guid>https://example.com/posts/spring-bean-wiring-using-javaconfig/</guid>
+      <guid>https://rimonmostafiz.com/blog/spring-bean-wiring-using-javaconfig/</guid>
       <description>In the previous post of my spring-diary, I wrote about how can we implicitly wire beans automatically in Spring container. In my previous post I created a new maven project and started writing code so that we can understand the topics more clearly. In this post, I am documenting my learning of how we can wire bean using Explicit Java Configuration. I will work on the same project I have created earlier.</description>
     </item>
     
