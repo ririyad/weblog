@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Spring Diary on Rimon&#39;s Weblog</title>
+    <link>http://example.org/categories/spring-diary/</link>
+    <description>Recent content in Spring Diary on Rimon&#39;s Weblog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 29 May 2018 10:19:29 +0000</lastBuildDate>
+    
+	<atom:link href="http://example.org/categories/spring-diary/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Spring Bean Wiring Using JavaConfig</title>
+      <link>http://example.org/posts/spring-bean-wiring-using-javaconfig/</link>
+      <pubDate>Tue, 29 May 2018 10:19:29 +0000</pubDate>
+      
+      <guid>http://example.org/posts/spring-bean-wiring-using-javaconfig/</guid>
+      <description>In the previous post of my spring-diary, I wrote about how can we implicitly wire beans automatically in Spring container. In my previous post I created a new maven project and started writing code so that we can understand the topics more clearly. In this post, I am documenting my learning of how we can wire bean using Explicit Java Configuration. I will work on the same project I have created earlier.</description>
+    </item>
+    
+    <item>
+      <title>Auto Bean Wiring of Spring</title>
+      <link>http://example.org/posts/auto-bean-wiring-of-spring/</link>
+      <pubDate>Mon, 28 May 2018 07:44:03 +0000</pubDate>
+      
+      <guid>http://example.org/posts/auto-bean-wiring-of-spring/</guid>
+      <description>As we previously discussed that the Spring container is responsible for creating the beans in your application and coordinating the relationship between those objects vi DI. The act of creating these associations between application objects in the essence of dependency injection(DI) and is commonly referred to as wiring.
+Different Types of Bean Wiring Spring Offers three primary wiring mechanism
+ An explicit configuration in XML
+ An explicit configuration in Java</description>
+    </item>
+    
+    <item>
+      <title>Spring Application Context and Configuration Metadata</title>
+      <link>http://example.org/posts/spring-application-context-and-configuration-metadata/</link>
+      <pubDate>Sat, 26 May 2018 06:42:47 +0000</pubDate>
+      
+      <guid>http://example.org/posts/spring-application-context-and-configuration-metadata/</guid>
+      <description>In the last post of Spring Diary, we discussed the basics of spring IoC Container and we saw a high-level view of how Spring Container works.
+In this post, we will learn about how can we Instantiate a Spring IoC container(using ApplicaitonContext Interface) and configure that container using configuration metadata.
+Spring IoC container consumes a form of _configuration metadata. _This configuration metadata represents how you as an application developer tell the Spring container to instantiate, configure, and assemble the objects in your application.</description>
+    </item>
+    
+    <item>
+      <title>The Spring IoC Container</title>
+      <link>http://example.org/posts/the-spring-ioc-container/</link>
+      <pubDate>Thu, 15 Mar 2018 11:00:47 +0000</pubDate>
+      
+      <guid>http://example.org/posts/the-spring-ioc-container/</guid>
+      <description>Overview There is some confusion these days over the meaning of inversion of control due to the rise of _IoC containers. _An IoC container is a common characteristic of frameworks that implement Inversion of Control (IoC).
+Some people confuse the general principle here with the specific styles of inversion of control (such as dependency injection) that these containers use. It is a process whereby objects define their dependencies, that is, the other objects they work with, only through constructor arguments, arguments to a factory method, or properties that are set on the object instance after it is constructed or returned from a factory method.</description>
+    </item>
+    
+    <item>
+      <title>Inversion of Control and Dependency Injection</title>
+      <link>http://example.org/posts/inversion-of-control-and-dependency-injection/</link>
+      <pubDate>Wed, 14 Mar 2018 10:36:12 +0000</pubDate>
+      
+      <guid>http://example.org/posts/inversion-of-control-and-dependency-injection/</guid>
+      <description>Inversion of control (IoC) In software engineering, inversion of control (IoC) is a design principle. It is used to invert different kinds of controls. More Specifically invert the control of your custom written program or objects of a program is transferred to a container or framework.
+In traditional programming, our custom code that expresses the purpose of the program calls reusable libraries to take care of generic tasks, but with inversion of control, it is the framework that calls into the custom, or task-specific, code.</description>
+    </item>
+    
+  </channel>
+</rss>

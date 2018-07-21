@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Rimon&#39;s Weblog  | Automatic Staircase Light Using Arduino, PIR Sensor &amp; Relay</title>
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="generator" content="Hugo 0.44" />
+    
+    
+      <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    
+
+    
+    
+      <link href="/dist/css/app.ab4b67a3ea25990fa8279f3b7ef08b61.css" rel="stylesheet">
+    
+
+    
+
+    
+      
+    
+
+    
+
+    <meta property="og:title" content="Automatic Staircase Light Using Arduino, PIR Sensor &amp; Relay" />
+<meta property="og:description" content="Companion Video: 
+https://www.youtube.com/watch?v=OZECTbhp9dU
+This automatic staircase light circuit switch on the staircase lights automatically when someone enters on the stairs and gets off after some time.
+ There are three important components in this circuit
+ PIR Sensor (Passive Infrared Sensor)
+ Relay
+ Arduino UNO
+   Components required for this project:
+ Arduino UNO
+ One breadboard
+ PIR Sencor
+ Relay Module
+ 1N4007 rectifier Diode" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://example.org/posts/electronics-project-1/" />
+
+
+
+<meta property="article:published_time" content="2017-09-09T11:34:00&#43;00:00"/>
+
+<meta property="article:modified_time" content="2017-09-09T11:34:00&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="Automatic Staircase Light Using Arduino, PIR Sensor &amp; Relay">
+<meta itemprop="description" content="Companion Video: 
+https://www.youtube.com/watch?v=OZECTbhp9dU
+This automatic staircase light circuit switch on the staircase lights automatically when someone enters on the stairs and gets off after some time.
+ There are three important components in this circuit
+ PIR Sensor (Passive Infrared Sensor)
+ Relay
+ Arduino UNO
+   Components required for this project:
+ Arduino UNO
+ One breadboard
+ PIR Sencor
+ Relay Module
+ 1N4007 rectifier Diode">
+
+
+<meta itemprop="datePublished" content="2017-09-09T11:34:00&#43;00:00" />
+<meta itemprop="dateModified" content="2017-09-09T11:34:00&#43;00:00" />
+<meta itemprop="wordCount" content="496">
+
+
+
+<meta itemprop="keywords" content="arduino,microcontroller,project,sencor," />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Automatic Staircase Light Using Arduino, PIR Sensor &amp; Relay"/>
+<meta name="twitter:description" content="Companion Video: 
+https://www.youtube.com/watch?v=OZECTbhp9dU
+This automatic staircase light circuit switch on the staircase lights automatically when someone enters on the stairs and gets off after some time.
+ There are three important components in this circuit
+ PIR Sensor (Passive Infrared Sensor)
+ Relay
+ Arduino UNO
+   Components required for this project:
+ Arduino UNO
+ One breadboard
+ PIR Sencor
+ Relay Module
+ 1N4007 rectifier Diode"/>
+
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="http://example.org/" class="f3 fw2 hover-white no-underline white-90 dib">
+      Rimon&#39;s Weblog
+    </a>
+    <div class="flex-l items-center">
+      
+      
+
+
+
+
+
+
+
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  <article class="flex-l flex-wrap justify-between mw8 center ph3 ph0-l">
+
+    <header class="mt4 w-100">
+      <p class="f6 b helvetica tracked">
+          
+        POSTS
+      </p>
+      <h1 class="f1 athelas mb1">Automatic Staircase Light Using Arduino, PIR Sensor &amp; Relay</h1>
+      
+      <time class="f6 mv4 dib tracked" datetime="2017-09-09T11:34:00Z">September 9, 2017</time>
+    </header>
+
+    <main class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p><strong>Companion Video: </strong></p>
+
+<p><a href="https://www.youtube.com/watch?v=OZECTbhp9dU">https://www.youtube.com/watch?v=OZECTbhp9dU</a></p>
+
+<p>This automatic staircase light circuit switch on the staircase lights automatically when someone enters on the stairs and gets off after some time.</p>
+
+<ul>
+<li><p>There are three important components in this circuit</p>
+
+<ul>
+<li><p>PIR Sensor (Passive Infrared Sensor)</p></li>
+
+<li><p>Relay</p></li>
+
+<li><p>Arduino UNO</p></li>
+</ul></li>
+</ul>
+
+<p><strong>Components required for this project:</strong></p>
+
+<ul>
+<li><p>Arduino UNO</p></li>
+
+<li><p>One breadboard</p></li>
+
+<li><p>PIR Sencor</p></li>
+
+<li><p>Relay Module</p></li>
+
+<li><p>1N4007 rectifier Diode</p></li>
+
+<li><p>Jumper wires</p></li>
+
+<li><p>Power Plug and Bulb</p></li>
+
+<li><p>Battery</p></li>
+
+<li><p>220v AC supply</p></li>
+</ul>
+
+<p><strong>Description about the components: PIR</strong></p>
+
+<p><a href="http://www.rimonmostafiz.com/wp-content/uploads/2016/01/555-28027_1.png"><img src="http://www.rimonmostafiz.com/wp-content/uploads/2016/01/555-28027_1-300x300.png" alt="" /></a><a href="http://www.rimonmostafiz.com/wp-content/uploads/2016/01/proximity_PIRbackLabeled.jpg"><img src="http://www.rimonmostafiz.com/wp-content/uploads/2016/01/proximity_PIRbackLabeled-300x225.jpg" alt="" /></a></p>
+
+<p>PIR sensor is used here to detect the Human body movement, whenever there is any body movement the voltage at output pin changes.</p>
+
+<p>Basically it detects the Change in Heat, and produce output whenever such detection occurs.</p>
+
+<p><strong>Description about the components: Relay</strong></p>
+
+<p><a href="http://www.rimonmostafiz.com/wp-content/uploads/2016/01/SPDT-Relay-Working.gif"><img src="http://www.rimonmostafiz.com/wp-content/uploads/2016/01/SPDT-Relay-Working-300x121.gif" alt="" /></a></p>
+
+<ul>
+<li><p>Relay is an electromagnetic switch, which is controlled by small current, and used to switch ON and OFF relatively much larger current</p></li>
+
+<li><p>By applying small current we can switch ON the relay which allow much larger current to flow</p></li>
+
+<li><p>Relay is configured by using a small Driver circuit which consist a Transistor, Diode and a resistor</p></li>
+
+<li><p>Transistor is used to amplify the current so that full current (from the DC source – 9v battery) can flow through coil to fully energies it</p></li>
+</ul>
+
+<p><strong>Little Description about the components: Relay Module</strong></p>
+
+<p><a href="http://www.rimonmostafiz.com/wp-content/uploads/2016/01/DSC03886-Copya.jpg"><img src="http://www.rimonmostafiz.com/wp-content/uploads/2016/01/DSC03886-Copya-300x130.jpg" alt="" /></a></p>
+
+<ul>
+<li><p>Relay is configured by using a small Driver circuit which consist a Transistor, Diode and a resistor</p></li>
+
+<li><p>Transistor is used to amplify the current so that full current (from the DC source – 9v battery) can flow through coil to fully energies it</p></li>
+
+<li><p>Resistor is used to provide biasing to transistor</p></li>
+
+<li><p>And Diode is used to prevent reverse current flow, when the transistor is switched OFF</p></li>
+</ul>
+
+<p><strong> </strong></p>
+
+<p><strong> </strong></p>
+
+<p><strong>Little Description about the components: UNO</strong></p>
+
+<p><a href="http://www.rimonmostafiz.com/wp-content/uploads/2016/01/Arduino_Uno_-_R3.jpg"><img src="http://www.rimonmostafiz.com/wp-content/uploads/2016/01/Arduino_Uno_-_R3-300x300.jpg" alt="" /></a></p>
+
+<ul>
+<li><p>The Uno is a microcontroller board based on the ATmega328P.</p></li>
+
+<li><p>It has 14 digital input/output pins (of which 6 can be used as PWM outputs), 6 analog inputs, a 16 MHz quartz crystal, a USB connection, a power jack, an ICSP header and a reset button</p></li>
+
+<li><p>It contains everything needed to support the micro controller, simply connect it to a computer with a USB cable or power it with a AC-to-DC adapter or battery to get started</p></li>
+</ul>
+
+<p><strong>Assembly of the project:</strong></p>
+
+<ul>
+<li><p>PIR sensor out to Pin 4 and the Relay input to Pin 8 of Arduino.</p></li>
+
+<li><p>The light bulb has one of the 120V wire spliced to connect the end connected to the power plug to the COM(Common) Pin of the Relay module and the one going to the lamp is connected to the NC(Normally Closed) Pin.</p></li>
+
+<li><p>We use a bread board to connect the VCC and Ground to both modules from our UNO, but we connect a 1N4007 rectifier Diode to the VCC line of the Relay Module to allow the current to go only one way.</p></li>
+</ul>
+
+<p><a href="http://www.rimonmostafiz.com/wp-content/uploads/2016/01/Schematic-Ir-Motion.png"><img src="http://www.rimonmostafiz.com/wp-content/uploads/2016/01/Schematic-Ir-Motion-300x229.png" alt="" /></a></p>
+
+<p>Copy the code of the Arduino from this <a href="https://github.com/rimonmostafiz/mix_repo/blob/master/relay.ino">link</a> and upload it in Arduino. Done!!!</p>
+
+<p><strong>Uses of the project:</strong></p>
+
+<ul>
+<li><p>This project is easy to made and fun to use.</p></li>
+
+<li><p>Can also use in corridor.</p></li>
+
+<li><p>We can save some electricity bill with it</p></li>
+</ul>
+<ul class="pa0">
+  
+   <li class="list">
+     <a href="/tags/arduino" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">arduino</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/microcontroller" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">microcontroller</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/project" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">project</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/sencor" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">sencor</a>
+   </li>
+  
+</ul>
+<div class="mt6">
+        
+      </div>
+    </main>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+  <div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
+    <p class="f5 b mb3">Related</p>
+    <ul class="pa0 list">
+	   
+	     <li  class="mb2">
+          <a href="/posts/electronics-project-2/">Obstacle Sensor Using Arduino and Ultrasonic Sensor HC-SR04</a>
+        </li>
+	    
+    </ul>
+</div>
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-near-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://example.org/" >
+    &copy; 2018 Rimon&#39;s Weblog
+  </a>
+  
+
+
+
+
+
+
+
+
+  </div>
+</footer>
+
+    
+
+  <script src="/dist/js/app.3fc0f988d21662902933.js"></script>
+
+
+  </body>
+</html>

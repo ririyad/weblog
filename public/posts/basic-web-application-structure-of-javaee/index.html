@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Rimon&#39;s Weblog  | Basic Web Application Structure of JavaEE</title>
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="generator" content="Hugo 0.44" />
+    
+    
+      <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    
+
+    
+    
+      <link href="/dist/css/app.ab4b67a3ea25990fa8279f3b7ef08b61.css" rel="stylesheet">
+    
+
+    
+
+    
+      
+    
+
+    
+
+    <meta property="og:title" content="Basic Web Application Structure of JavaEE" />
+<meta property="og:description" content="Basic Web Application Structure A lot of components go into making a Java EE application.
+ Application Code and Third Party Libraries it depends on
+ Deployment Descriptor, which includes instructions for deploying and starting the application
+ ClassLoders which is responsible for isolating your application form other web applications on the same server
+ Finally the WAR and EAR files
+  Servlets, Filters, Listeners, and JSPs  Servlets are a key component of any Java EE applications." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://example.org/posts/basic-web-application-structure-of-javaee/" />
+
+
+
+<meta property="article:published_time" content="2017-12-12T10:08:51&#43;00:00"/>
+
+<meta property="article:modified_time" content="2017-12-12T10:08:51&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="Basic Web Application Structure of JavaEE">
+<meta itemprop="description" content="Basic Web Application Structure A lot of components go into making a Java EE application.
+ Application Code and Third Party Libraries it depends on
+ Deployment Descriptor, which includes instructions for deploying and starting the application
+ ClassLoders which is responsible for isolating your application form other web applications on the same server
+ Finally the WAR and EAR files
+  Servlets, Filters, Listeners, and JSPs  Servlets are a key component of any Java EE applications.">
+
+
+<meta itemprop="datePublished" content="2017-12-12T10:08:51&#43;00:00" />
+<meta itemprop="dateModified" content="2017-12-12T10:08:51&#43;00:00" />
+<meta itemprop="wordCount" content="175">
+
+
+
+<meta itemprop="keywords" content="filter,java,javaee,jsp,listeners,servlet,web-app," />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Basic Web Application Structure of JavaEE"/>
+<meta name="twitter:description" content="Basic Web Application Structure A lot of components go into making a Java EE application.
+ Application Code and Third Party Libraries it depends on
+ Deployment Descriptor, which includes instructions for deploying and starting the application
+ ClassLoders which is responsible for isolating your application form other web applications on the same server
+ Finally the WAR and EAR files
+  Servlets, Filters, Listeners, and JSPs  Servlets are a key component of any Java EE applications."/>
+
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="http://example.org/" class="f3 fw2 hover-white no-underline white-90 dib">
+      Rimon&#39;s Weblog
+    </a>
+    <div class="flex-l items-center">
+      
+      
+
+
+
+
+
+
+
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  <article class="flex-l flex-wrap justify-between mw8 center ph3 ph0-l">
+
+    <header class="mt4 w-100">
+      <p class="f6 b helvetica tracked">
+          
+        POSTS
+      </p>
+      <h1 class="f1 athelas mb1">Basic Web Application Structure of JavaEE</h1>
+      
+      <time class="f6 mv4 dib tracked" datetime="2017-12-12T10:08:51Z">December 12, 2017</time>
+    </header>
+
+    <main class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l">
+
+<h3 id="basic-web-application-structure">Basic Web Application Structure</h3>
+
+<p>A lot of components go into making a Java EE application.</p>
+
+<ul>
+<li><p>Application Code and Third Party Libraries it depends on</p></li>
+
+<li><p><code>Deployment Descriptor</code>, which includes instructions for deploying and starting the application</p></li>
+
+<li><p><code>ClassLoders</code> which is responsible for isolating your application form other web applications on the same server</p></li>
+
+<li><p>Finally the <code>WAR</code> and <code>EAR</code> files</p></li>
+</ul>
+
+<h3 id="servlets-filters-listeners-and-jsps">Servlets, Filters, Listeners, and JSPs</h3>
+
+<ul>
+<li><p><code>Servlets</code> are a key component of any Java EE applications. Servlets are Java classes responsible for accepting and responding to the HTTP request.</p></li>
+
+<li><p>Nearly every request to your application goes through a Servlet of some type, except those requests that are erroneous or intercepted by some other component. <code>Filter</code> is one such component that can intercept requests to your Servlets.</p></li>
+
+<li><p>Java EE web applications support various types of <code>listeners</code>, which can notify your code of multiple events, such as application startup, application shutdown, HTTP session creation, and session destruction.</p></li>
+
+<li><p>And finally, we have <code>jsp(JavaServer Pages)</code>, which provides you with the means to easily create dynamic, HTML based graphical user interfaces for web applications.</p></li>
+</ul>
+<ul class="pa0">
+  
+   <li class="list">
+     <a href="/tags/filter" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">filter</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/java" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">java</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/javaee" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">javaee</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/jsp" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">jsp</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/listeners" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">listeners</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/servlet" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">servlet</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/web-app" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">web-app</a>
+   </li>
+  
+</ul>
+<div class="mt6">
+        
+      </div>
+    </main>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+  <div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
+    <p class="f5 b mb3">Related</p>
+    <ul class="pa0 list">
+	   
+	     <li  class="mb2">
+          <a href="/posts/a-bit-of-spring-part-one/">a bit of spring: part one</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/posts/manage-jdk-using-sdkman/">Manage JDK Using SDKMAN</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/posts/installing-and-running-elasticsearch/">Installing and Running Elasticsearch</a>
+        </li>
+	    
+    </ul>
+</div>
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-near-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://example.org/" >
+    &copy; 2018 Rimon&#39;s Weblog
+  </a>
+  
+
+
+
+
+
+
+
+
+  </div>
+</footer>
+
+    
+
+  <script src="/dist/js/app.3fc0f988d21662902933.js"></script>
+
+
+  </body>
+</html>

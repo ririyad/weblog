@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Git on Rimon&#39;s Weblog</title>
+    <link>http://example.org/categories/git/</link>
+    <description>Recent content in Git on Rimon&#39;s Weblog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 17 Aug 2017 12:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://example.org/categories/git/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Git Notes</title>
+      <link>http://example.org/posts/git-notes/</link>
+      <pubDate>Thu, 17 Aug 2017 12:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/git-notes/</guid>
+      <description>Git is a distributed version control system. Every dev has a working copy of the code and full change history on their local machine, by Linus Torvalds.
+Here is a git cheat sheet for everyday life. Will update this in future&amp;hellip;
+[bash gutter=&amp;ldquo;false&amp;rdquo;] git init
+transform the current directory into a Git repository. This adds a .git folder to the current directory and makes it possible to start recording revisions git config &amp;ndash;global user.</description>
+    </item>
+    
+  </channel>
+</rss>

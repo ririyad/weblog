@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Rimon&#39;s Weblog  | Sieve Of Eratosthenes (Memory Efficient Implementation)</title>
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="generator" content="Hugo 0.44" />
+    
+    
+      <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    
+
+    
+    
+      <link href="/dist/css/app.ab4b67a3ea25990fa8279f3b7ef08b61.css" rel="stylesheet">
+    
+
+    
+
+    
+      
+    
+
+    
+
+    <meta property="og:title" content="Sieve Of Eratosthenes (Memory Efficient Implementation)" />
+<meta property="og:description" content="Say we want to find all prime numbers up to an integer N where N is 108. If we write a regular implementation of Sieve Of Eratosthenes using a bool array for each integer in the range [1:N] then we could end up using N bytes of memory, which would roughly be 95 MB which is a huge memory.
+ Lets see how can we reduce the memory, the main idea here is we can store a Boolean value in a single bit, so we can store 8 Boolean values in a single byte." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://example.org/posts/sieve-of-eratosthenes-memory-efficient-implementation/" />
+
+
+
+<meta property="article:published_time" content="2017-08-16T00:30:00&#43;00:00"/>
+
+<meta property="article:modified_time" content="2017-08-16T00:30:00&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="Sieve Of Eratosthenes (Memory Efficient Implementation)">
+<meta itemprop="description" content="Say we want to find all prime numbers up to an integer N where N is 108. If we write a regular implementation of Sieve Of Eratosthenes using a bool array for each integer in the range [1:N] then we could end up using N bytes of memory, which would roughly be 95 MB which is a huge memory.
+ Lets see how can we reduce the memory, the main idea here is we can store a Boolean value in a single bit, so we can store 8 Boolean values in a single byte.">
+
+
+<meta itemprop="datePublished" content="2017-08-16T00:30:00&#43;00:00" />
+<meta itemprop="dateModified" content="2017-08-16T00:30:00&#43;00:00" />
+<meta itemprop="wordCount" content="542">
+
+
+
+<meta itemprop="keywords" content="number-theory,prime-number,sieve," />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Sieve Of Eratosthenes (Memory Efficient Implementation)"/>
+<meta name="twitter:description" content="Say we want to find all prime numbers up to an integer N where N is 108. If we write a regular implementation of Sieve Of Eratosthenes using a bool array for each integer in the range [1:N] then we could end up using N bytes of memory, which would roughly be 95 MB which is a huge memory.
+ Lets see how can we reduce the memory, the main idea here is we can store a Boolean value in a single bit, so we can store 8 Boolean values in a single byte."/>
+
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="http://example.org/" class="f3 fw2 hover-white no-underline white-90 dib">
+      Rimon&#39;s Weblog
+    </a>
+    <div class="flex-l items-center">
+      
+      
+
+
+
+
+
+
+
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  <article class="flex-l flex-wrap justify-between mw8 center ph3 ph0-l">
+
+    <header class="mt4 w-100">
+      <p class="f6 b helvetica tracked">
+          
+        POSTS
+      </p>
+      <h1 class="f1 athelas mb1">Sieve Of Eratosthenes (Memory Efficient Implementation)</h1>
+      
+      <time class="f6 mv4 dib tracked" datetime="2017-08-16T00:30:00Z">August 16, 2017</time>
+    </header>
+
+    <main class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>Say we want to find all prime numbers up to an integer <strong>N </strong>where <strong>N</strong> is <strong>10</strong><strong>8</strong>. If we write a regular implementation of <a href="http://en.wikipedia.org/wiki/Sieve_of_Eratosthenes">Sieve Of Eratosthenes</a> using a bool array for each integer in the range <strong>[1:</strong><em><strong>N</strong></em><strong>] </strong>then we could end up using <strong>N</strong> bytes of memory, which would roughly be <strong>95 </strong><strong>MB</strong> which is a huge memory.</p>
+
+<p> </p>
+
+<p>Lets see how can we reduce the memory, the main idea here is we can store a Boolean value in a single bit, so we can store <strong>8 </strong><strong>Boolean</strong> values in a single byte. Yet another idea is we know there is only one even prime number which is <strong>2</strong> so we don&rsquo;t need to calculate for other even numbers. With this in mind we can reduce the memory requirement half by simply not storing information for even numbers, but obviously we need to handle this only even number <strong>2</strong> on our own.</p>
+
+<p> </p>
+
+<p>With these If we store this information in <strong>4-byte</strong> integers, then we require only <strong>N/32</strong> integers.</p>
+
+<p>[code language=&ldquo;cpp&rdquo;]
+#include <iostream>
+#include <cstdio></p>
+
+<p>using namespace std;</p>
+
+<p>#define MAX 100000000  // 10^8
+#define LMT 10000      // sqrt of MAX
+#define LEN 5800032    // maximum possible different primes</p>
+
+<p>unsigned flag[MAX&gt;&gt;6], primes[LEN];</p>
+
+<p>#define ifc(n) (flag[n&gt;&gt;6]&amp;(1&lt;&lt;((n&gt;&gt;1)&amp;31)))
+#define isc(n) (flag[n&gt;&gt;6]|=(1&lt;&lt;((n&gt;&gt;1)&amp;31)))</p>
+
+<p>void sieve() {
+    unsigned i, j, k;
+    for(i=3; i&lt;LMT; i+=2)
+        if(!ifc(i))
+            for(j=i*i, k=(i&lt;&lt;1); j&lt;MAX; j+=k)
+                isc(j);
+    primes[0] = 2;
+    for(i=3, k=1; i&lt;MAX; i+=2)
+        if(!ifc(i))
+            primes[k++] = i;
+}</p>
+
+<p>int main() {
+    sieve();
+    return 0;
+}
+[/code]</p>
+
+<p><strong>Explanation:</strong>
+**
+**</p>
+
+<p>Lets talk about the these macros first</p>
+
+<p>[cpp]
+#define MAX 100000000 // 10^8
+#define LMT 10000 // sqrt of MAX
+#define LEN 5800032 // maximum possible different primes
+[/cpp]</p>
+
+<p><strong>MAX</strong> is the maximum range (<strong>10</strong><strong>8</strong>), we need to calculate our prime numbers up to MAX
+<strong>LMT</strong> is the sqrt of MAX, a number <strong>X</strong> is prime if it is not divisible by any prime number up to sqrt of <strong>X</strong>. this is the main idea of  <a href="http://en.wikipedia.org/wiki/Sieve_of_Eratosthenes">Sieve Of Eratosthenes</a>.
+<strong>LEN</strong> is size of Array we store out primes.</p>
+
+<p>The variable declaration </p>
+
+<p>[cpp]unsigned flag[MAX&gt;&gt;6], primes[LEN];[/cpp]</p>
+
+<p><strong>flag[MAX&gt;&gt;6]</strong> is actually <strong>flag[MAX/64]</strong> and And why we divide <strong>MAX</strong> by <strong>64</strong> ?
+Next the <strong>primes</strong> Array for storing all primes up to <strong>MAX</strong></p>
+
+<p>Now the super macro, which is doing all the things for us</p>
+
+<p>[cpp]
+#define ifc(n) (flag[n&gt;&gt;6]&amp;(1&lt;&lt;((n&gt;&gt;1)&amp;31)))
+#define isc(n) (flag[n&gt;&gt;6]|=(1&lt;&lt;((n&gt;&gt;1)&amp;31)))
+[/cpp]</p>
+
+<p>ifc checks if a specific bit is 1 or 0
+isc sets a specific bit 1 to mark it as composite in flag array.</p>
+
+<p>In bit-wise sieve a specific value <strong>N</strong> located in** [N/32]**<strong>th</strong> index, and on that index <strong>[N%32]</strong><strong>th</strong> bit from <strong>LSB</strong>(Right to left). But as we are considering the odd numbers only, we can map <strong>N</strong> with <strong>N/2</strong>.</p>
+
+<p>Now if we replace <strong>N</strong> with <strong>N/2</strong>,
+The  <strong>[</strong><strong>N/32]th</strong> index now becomes <strong>[N/2/32] = [N/64] = [N&gt;&gt;6] </strong>
+And <strong>[</strong><strong>N%32]th</strong> bit position becomes <strong>((N/2)%32) = (N&gt;&gt;1)&amp;31</strong>
+We know, modding with a power of <strong>2</strong> is same as <strong>AND</strong>ing(&amp;) with <strong>(same power of 2)-1</strong>.
+But why we are using bit shifting/Operations? Because bit is fun and faster.</p>
+
+<p>This  implementation reserves about <strong>[</strong><strong>108</strong><strong>/64]=[MAX&gt;&gt;64]</strong> integers for the flag array, which is about <strong>6MB</strong> of memory. Since there are <strong>5.8 Million</strong> primes under <strong>10</strong><strong>8</strong>, this would require an extra <strong>4*5.8</strong><strong><em>10</em></strong>*6<strong> bytes of array(primes array) which is roughly </strong>22 MB<strong>. Still much more better then </strong>95 MB**.</p>
+<ul class="pa0">
+  
+   <li class="list">
+     <a href="/tags/number-theory" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">number-theory</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/prime-number" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">prime-number</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/sieve" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">sieve</a>
+   </li>
+  
+</ul>
+<div class="mt6">
+        
+      </div>
+    </main>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+  <div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
+    <p class="f5 b mb3">Related</p>
+    <ul class="pa0 list">
+	   
+	     <li  class="mb2">
+          <a href="/posts/least-common-multiple/">Least Common Multiple (LCM)</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/posts/greatest-common-divisor-gcd/">Greatest Common Divisor (GCD)</a>
+        </li>
+	    
+    </ul>
+</div>
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-near-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://example.org/" >
+    &copy; 2018 Rimon&#39;s Weblog
+  </a>
+  
+
+
+
+
+
+
+
+
+  </div>
+</footer>
+
+    
+
+  <script src="/dist/js/app.3fc0f988d21662902933.js"></script>
+
+
+  </body>
+</html>

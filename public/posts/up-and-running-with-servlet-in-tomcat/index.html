@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Rimon&#39;s Weblog  | Up and Running With Servlet in Tomcat</title>
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="generator" content="Hugo 0.44" />
+    
+    
+      <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    
+
+    
+    
+      <link href="/dist/css/app.ab4b67a3ea25990fa8279f3b7ef08b61.css" rel="stylesheet">
+    
+
+    
+
+    
+      
+    
+
+    
+
+    <meta property="og:title" content="Up and Running With Servlet in Tomcat" />
+<meta property="og:description" content="Up and Running With Servlet in Tomcat Companion Video https://youtu.be/lTyAPWR6104
+First, let&rsquo;s create a maven project and add the dependency. As a prerequisite, JDK 8 will be needed. If you are using Linux based operating system then I have written a post on how to install and manage different versions of JDK in your system. You can visit this post if JDK 8 is not installed on your system." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://example.org/posts/up-and-running-with-servlet-in-tomcat/" />
+
+
+
+<meta property="article:published_time" content="2017-12-12T16:57:27&#43;00:00"/>
+
+<meta property="article:modified_time" content="2017-12-12T16:57:27&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="Up and Running With Servlet in Tomcat">
+<meta itemprop="description" content="Up and Running With Servlet in Tomcat Companion Video https://youtu.be/lTyAPWR6104
+First, let&rsquo;s create a maven project and add the dependency. As a prerequisite, JDK 8 will be needed. If you are using Linux based operating system then I have written a post on how to install and manage different versions of JDK in your system. You can visit this post if JDK 8 is not installed on your system.">
+
+
+<meta itemprop="datePublished" content="2017-12-12T16:57:27&#43;00:00" />
+<meta itemprop="dateModified" content="2017-12-12T16:57:27&#43;00:00" />
+<meta itemprop="wordCount" content="800">
+
+
+
+<meta itemprop="keywords" content="deployment-descriptor,java,javaee,maven,servlet,tomcat," />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Up and Running With Servlet in Tomcat"/>
+<meta name="twitter:description" content="Up and Running With Servlet in Tomcat Companion Video https://youtu.be/lTyAPWR6104
+First, let&rsquo;s create a maven project and add the dependency. As a prerequisite, JDK 8 will be needed. If you are using Linux based operating system then I have written a post on how to install and manage different versions of JDK in your system. You can visit this post if JDK 8 is not installed on your system."/>
+
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="http://example.org/" class="f3 fw2 hover-white no-underline white-90 dib">
+      Rimon&#39;s Weblog
+    </a>
+    <div class="flex-l items-center">
+      
+      
+
+
+
+
+
+
+
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  <article class="flex-l flex-wrap justify-between mw8 center ph3 ph0-l">
+
+    <header class="mt4 w-100">
+      <p class="f6 b helvetica tracked">
+          
+        POSTS
+      </p>
+      <h1 class="f1 athelas mb1">Up and Running With Servlet in Tomcat</h1>
+      
+      <time class="f6 mv4 dib tracked" datetime="2017-12-12T16:57:27Z">December 12, 2017</time>
+    </header>
+
+    <main class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l">
+
+<h2 id="up-and-running-with-servlet-in-tomcat">Up and Running With Servlet in Tomcat</h2>
+
+<h3 id="companion-video"><strong>Companion Video</strong></h3>
+
+<p><a href="https://youtu.be/lTyAPWR6104">https://youtu.be/lTyAPWR6104</a></p>
+
+<p>First, let&rsquo;s create a maven project and add the dependency.
+As a prerequisite, JDK 8 will be needed. If you are using Linux based operating system then I have written a post on how to install and manage different versions of JDK in your system. You can visit <a href="https://wp.me/p94Vft-cK">this post</a> if JDK 8 is not installed on your system.</p>
+
+<h3 id="maven-dependency">Maven Dependency</h3>
+
+<pre><code>&lt;dependency&gt;
+    &lt;groupId&gt;javax.servlet&lt;/groupId&gt;
+    &lt;artifactId&gt;javax.servlet-api&lt;/artifactId&gt;
+    &lt;version&gt;3.1.0&lt;/version&gt;
+    &lt;scope&gt;provided&lt;/scope&gt;
+&lt;/dependency&gt;
+</code></pre>
+
+<h3 id="creating-a-servlet-class">Creating a servlet Class</h3>
+
+<p>In Java, a Servlet is what receives and responds to requests from the end user. The Java EE API specification defines a Servlet as follows:</p>
+
+<blockquote>A Servlet is a small Java program that runs within a Web server. Servlets receive and respond to requests from Web clients, usually across HTTP, the HyperText Transfer Protocol.</blockquote>
+
+<p>Every Servlet implements the <code>javax.servlet.Servlet interface</code>, but usually not directly. In almost all cases, Servlets inherit from <code>javax.servlet.GenericServlet</code>GenericServlet is still a protocol-independent Servlet with the lone, abstract service method, but it contains several helper methods for logging and getting information about the application and Servlet configuration.</p>
+
+<p>For responding to HTTP-specific requests, <code>javax.servlet.http.HttpServlet</code> extends <code>GenericServlet</code> and implements the service method to accept only HTTP requests.</p>
+
+<pre><code>import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import java.io.IOException;
+
+/**
+ * @author Rimon Mostafiz
+ */
+public class StartingServlet extends HttpServlet {
+}
+</code></pre>
+
+<p>Above service is already prepared to accept an HTTP request and respond to it with an<code>405 Method Not Allowed</code> error.</p>
+
+<p>So let us override the doGet method to add support for the HTTP method GET:</p>
+
+<pre><code>import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import java.io.IOException;
+
+/**
+ * @author Rimon Mostafiz
+ */
+public class StartingServlet extends HttpServlet {
+   @Override
+   protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+       resp.getWriter().println(&quot;Hello&quot;);
+   }
+}
+</code></pre>
+
+<h3 id="initializer-and-destroyer">Initializer and Destroyer</h3>
+
+<p>When a web container first starts a Servlet, it calls that Servlet’s init method. Later when the web container shuts down the Servlet, it calls the Servlet’s destroy method.</p>
+
+<p>These methods are not the same as the Java constructor and finalizer, and they are not called at the same time as the constructor and finalizer. Normally, these methods do nothing, but you can override them to perform some action</p>
+
+<pre><code>@Override
+public void init() throws ServletException {
+     System.out.println(&quot;Servlet &quot; + this.getServletName() + &quot; has started.&quot;);
+}
+
+@Override
+public void destroy() {
+    System.out.println(&quot;Servlet &quot; + this.getServletName() + &quot; has stopped.&quot;);
+}
+</code></pre>
+
+<p>init is called after the Servlet is constructed but before it can respond to the first request. Unlike when the constructor is called, when init is called all the properties have been set on the Servlet, giving you access to the ServletConfig and <code>javax.servlet.ServletContext</code> objects.</p>
+
+<p>The init method is called when the Servlet starts. If the Servlet is configured to start automatically when the web application is deployed and started, that is when it is called. Otherwise, it is not called until the first request for that Servlet is received.
+Likewise, destroy is called immediately after the Servlet can no longer accept any requests. This typically happens either when the web application is stopped or undeployed or when the web container shuts down.</p>
+
+<h3 id="adding-the-deployment-descriptor-web-xml">Adding the Deployment Descriptor(web.xml)</h3>
+
+<p>It describes how the web application should be deployed.Its written In XML.
+The deployment descriptor is a file which will be used by Application Server/Web Container. It directs a deployment tool to deploy a module or application with the specified security settings and describes other specific configuration requirements and/or container options.
+The web application deployment descriptor is named web.xml, and when included with a web application, it must reside in a WEB-INF subdirectory at the web application root.</p>
+
+<pre><code>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; ?&gt;
+&lt;web-app
+        xmlns=&quot;http://xmlns.jcp.org/xml/ns/javaee&quot;
+        xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;
+        xsi:schemaLocation=&quot;http://xmlns.jcp.org/xml/ns/javaee
+                            http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd&quot;
+        version=&quot;3.1&quot;&gt;
+
+    &lt;display-name&gt;java-web-app&lt;/display-name&gt;
+
+    &lt;servlet&gt;
+        &lt;servlet-name&gt;startingServlet&lt;/servlet-name&gt;
+        &lt;servlet-class&gt;StartingServlet&lt;/servlet-class&gt;
+    &lt;/servlet&gt;
+
+    &lt;servlet-mapping&gt;
+        &lt;servlet-name&gt;startingServlet&lt;/servlet-name&gt;
+        &lt;url-pattern&gt;/hello&lt;/url-pattern&gt;
+    &lt;/servlet-mapping&gt;
+
+&lt;/web-app&gt;
+</code></pre>
+
+<p>In the above file, we instructed the web container to create an instance of the Servlet we wrote earlier, using the <code>&lt;servlet&gt;</code> tag. And we used <code>&lt;servlet-mapping&gt;</code> tag to mapped the servlet. All requests to the application-relative URL <em>/hello</em> will be handled by the startingServlet.</p>
+
+<h3 id="pom-xml-file">pom.xml File</h3>
+
+<p>Final pom.xml file looks like this</p>
+
+<pre><code>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;project xmlns=&quot;http://maven.apache.org/POM/4.0.0&quot;
+         xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;
+         xsi:schemaLocation=&quot;http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd&quot;&gt;
+    &lt;modelVersion&gt;4.0.0&lt;/modelVersion&gt;
+
+    &lt;groupId&gt;com.rimonmostafiz&lt;/groupId&gt;
+    &lt;artifactId&gt;java-web-app&lt;/artifactId&gt;
+    &lt;version&gt;1.0-SNAPSHOT&lt;/version&gt;
+
+    &lt;dependencies&gt;
+        &lt;dependency&gt;
+            &lt;groupId&gt;javax.servlet&lt;/groupId&gt;
+            &lt;artifactId&gt;javax.servlet-api&lt;/artifactId&gt;
+            &lt;version&gt;3.1.0&lt;/version&gt;
+            &lt;scope&gt;provided&lt;/scope&gt;
+        &lt;/dependency&gt;
+    &lt;/dependencies&gt;
+
+    &lt;build&gt;
+        &lt;sourceDirectory&gt;src/main/java&lt;/sourceDirectory&gt;
+        &lt;resources&gt;
+            &lt;resource&gt;
+                &lt;directory&gt;src/main/resources&lt;/directory&gt;
+            &lt;/resource&gt;
+        &lt;/resources&gt;
+
+        &lt;testSourceDirectory&gt;src/test/java&lt;/testSourceDirectory&gt;
+        &lt;testResources&gt;
+            &lt;testResource&gt;
+                &lt;directory&gt;src/test/resources&lt;/directory&gt;
+            &lt;/testResource&gt;
+        &lt;/testResources&gt;
+
+        &lt;plugins&gt;
+            &lt;plugin&gt;
+                &lt;groupId&gt;org.apache.maven.plugins&lt;/groupId&gt;
+                &lt;artifactId&gt;maven-war-plugin&lt;/artifactId&gt;
+                &lt;version&gt;3.0.0&lt;/version&gt;
+                &lt;configuration&gt;
+                    &lt;warSourceDirectory&gt;web&lt;/warSourceDirectory&gt;
+                &lt;/configuration&gt;
+            &lt;/plugin&gt;
+
+            &lt;plugin&gt;
+                &lt;groupId&gt;org.apache.maven.plugins&lt;/groupId&gt;
+                &lt;artifactId&gt;maven-compiler-plugin&lt;/artifactId&gt;
+                &lt;version&gt;3.6.1&lt;/version&gt;
+                &lt;configuration&gt;
+                    &lt;source&gt;1.8&lt;/source&gt;
+                    &lt;target&gt;1.8&lt;/target&gt;
+                &lt;/configuration&gt;
+            &lt;/plugin&gt;
+        &lt;/plugins&gt;
+    &lt;/build&gt;
+
+
+&lt;/project&gt;
+</code></pre>
+
+<p>Now If you want to run this in tomcat then I have made a video how to create this whole project and configure tomcat in IntelliJ-IDEA to run this. Check the video from the top of the post.</p>
+
+<p>I am not an expert, I already told That I&rsquo;m just documenting my learnings. So If you find any anomaly feel free to add a comment. Also, any queries, thoughts, and suggestions will be appreciated.</p>
+<ul class="pa0">
+  
+   <li class="list">
+     <a href="/tags/deployment-descriptor" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">deployment-descriptor</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/java" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">java</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/javaee" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">javaee</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/maven" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">maven</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/servlet" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">servlet</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/tomcat" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">tomcat</a>
+   </li>
+  
+</ul>
+<div class="mt6">
+        
+      </div>
+    </main>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+  <div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
+    <p class="f5 b mb3">Related</p>
+    <ul class="pa0 list">
+	   
+	     <li  class="mb2">
+          <a href="/posts/basic-web-application-structure-of-javaee/">Basic Web Application Structure of JavaEE</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/posts/web-application-directory-structure-and-war-files/">Web Application Directory Structure and WAR Files</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/posts/a-bit-of-spring-part-one/">a bit of spring: part one</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/posts/manage-jdk-using-sdkman/">Manage JDK Using SDKMAN</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/posts/installing-and-running-elasticsearch/">Installing and Running Elasticsearch</a>
+        </li>
+	    
+    </ul>
+</div>
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-near-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://example.org/" >
+    &copy; 2018 Rimon&#39;s Weblog
+  </a>
+  
+
+
+
+
+
+
+
+
+  </div>
+</footer>
+
+    
+
+  <script src="/dist/js/app.3fc0f988d21662902933.js"></script>
+
+
+  </body>
+</html>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Java Sconfig on Rimon&#39;s Weblog</title>
+    <link>http://example.org/tags/java-sconfig/</link>
+    <description>Recent content in Java Sconfig on Rimon&#39;s Weblog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 26 May 2018 06:42:47 +0000</lastBuildDate>
+    
+	<atom:link href="http://example.org/tags/java-sconfig/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Spring Application Context and Configuration Metadata</title>
+      <link>http://example.org/posts/spring-application-context-and-configuration-metadata/</link>
+      <pubDate>Sat, 26 May 2018 06:42:47 +0000</pubDate>
+      
+      <guid>http://example.org/posts/spring-application-context-and-configuration-metadata/</guid>
+      <description>In the last post of Spring Diary, we discussed the basics of spring IoC Container and we saw a high-level view of how Spring Container works.
+In this post, we will learn about how can we Instantiate a Spring IoC container(using ApplicaitonContext Interface) and configure that container using configuration metadata.
+Spring IoC container consumes a form of _configuration metadata. _This configuration metadata represents how you as an application developer tell the Spring container to instantiate, configure, and assemble the objects in your application.</description>
+    </item>
+    
+  </channel>
+</rss>

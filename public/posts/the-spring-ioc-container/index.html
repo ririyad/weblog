@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Rimon&#39;s Weblog  | The Spring IoC Container</title>
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="generator" content="Hugo 0.44" />
+    
+    
+      <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    
+
+    
+    
+      <link href="/dist/css/app.ab4b67a3ea25990fa8279f3b7ef08b61.css" rel="stylesheet">
+    
+
+    
+
+    
+      
+    
+
+    
+
+    <meta property="og:title" content="The Spring IoC Container" />
+<meta property="og:description" content="Overview There is some confusion these days over the meaning of inversion of control due to the rise of _IoC containers. _An IoC container is a common characteristic of frameworks that implement Inversion of Control (IoC).
+Some people confuse the general principle here with the specific styles of inversion of control (such as dependency injection) that these containers use. It is a process whereby objects define their dependencies, that is, the other objects they work with, only through constructor arguments, arguments to a factory method, or properties that are set on the object instance after it is constructed or returned from a factory method." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://example.org/posts/the-spring-ioc-container/" />
+
+
+
+<meta property="article:published_time" content="2018-03-15T11:00:47&#43;00:00"/>
+
+<meta property="article:modified_time" content="2018-03-15T11:00:47&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="The Spring IoC Container">
+<meta itemprop="description" content="Overview There is some confusion these days over the meaning of inversion of control due to the rise of _IoC containers. _An IoC container is a common characteristic of frameworks that implement Inversion of Control (IoC).
+Some people confuse the general principle here with the specific styles of inversion of control (such as dependency injection) that these containers use. It is a process whereby objects define their dependencies, that is, the other objects they work with, only through constructor arguments, arguments to a factory method, or properties that are set on the object instance after it is constructed or returned from a factory method.">
+
+
+<meta itemprop="datePublished" content="2018-03-15T11:00:47&#43;00:00" />
+<meta itemprop="dateModified" content="2018-03-15T11:00:47&#43;00:00" />
+<meta itemprop="wordCount" content="527">
+
+
+
+<meta itemprop="keywords" content="applicaiton-context,beans,configuration,container,context,framework,ioc,metadata,spring-ioc-container," />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="The Spring IoC Container"/>
+<meta name="twitter:description" content="Overview There is some confusion these days over the meaning of inversion of control due to the rise of _IoC containers. _An IoC container is a common characteristic of frameworks that implement Inversion of Control (IoC).
+Some people confuse the general principle here with the specific styles of inversion of control (such as dependency injection) that these containers use. It is a process whereby objects define their dependencies, that is, the other objects they work with, only through constructor arguments, arguments to a factory method, or properties that are set on the object instance after it is constructed or returned from a factory method."/>
+
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="http://example.org/" class="f3 fw2 hover-white no-underline white-90 dib">
+      Rimon&#39;s Weblog
+    </a>
+    <div class="flex-l items-center">
+      
+      
+
+
+
+
+
+
+
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  <article class="flex-l flex-wrap justify-between mw8 center ph3 ph0-l">
+
+    <header class="mt4 w-100">
+      <p class="f6 b helvetica tracked">
+          
+        POSTS
+      </p>
+      <h1 class="f1 athelas mb1">The Spring IoC Container</h1>
+      
+      <time class="f6 mv4 dib tracked" datetime="2018-03-15T11:00:47Z">March 15, 2018</time>
+    </header>
+
+    <main class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l">
+
+<h3 id="overview"><strong>Overview</strong></h3>
+
+<p>There is some confusion these days over the meaning of <em><strong>inversion of control</strong></em> due to the rise of _<strong>IoC containers. </strong>_An IoC container is a common characteristic of frameworks that implement Inversion of Control (IoC).</p>
+
+<p>Some people confuse the general principle here with the specific styles of inversion of control (such as dependency injection) that these containers use. It is a process whereby objects define their dependencies, that is, the other objects they work with, only through constructor arguments, arguments to a factory method, or properties that are set on the object instance after it is constructed or returned from a factory method. The container then _injects_ those dependencies when it creates the bean. This process is fundamentally the inverse, hence the name _Inversion of Control_ (IoC), of the bean itself controlling the instantiation or location of its dependencies by using a direct construction of classes, or a mechanism such as the _Service Locator_ pattern.</p>
+
+<h3 id="toc_1">**</h3>
+
+<p>Spring IoC Container
+**</p>
+
+<p>The container is at the core of the Spring Framework. Spring’s container uses DI to manage the components that make up an application. This container is responsible for instantiating, configuring and assembling objects known as <em>beans</em>, as well as managing their lifecycle.</p>
+
+<p>Spring comes with several container implementations of IoC Container. In Spring, <code>org.springframework.beans</code>and <code>org.springframework.context</code>packages are the basis of Spring&rsquo;s IoC Container.</p>
+
+<ul>
+<li><p>The <a href="https://docs.spring.io/spring-framework/docs/5.0.4.RELEASE/javadoc-api/org/springframework/beans/factory/BeanFactory.html"><code>BeanFactory</code></a> (defined by <code>org.springframework.beans.factory.BeanFactory</code>interface): It provides an advanced configuration mechanism capable of managing any type of object. It Provides the configuration framework and basic functionality.</p></li>
+
+<li><p>The <a href="https://docs.spring.io/spring-framework/docs/5.0.4.RELEASE/javadoc-api/org/springframework/context/ApplicationContext.html"><code>ApplicationContext</code></a> (defined by <code>org.springframework.context.ApplicationContext</code>interface): Its a sub-interface of<code>BeanFactory</code> It adds more enterprise-specific functionality like easier integration with Spring’s AOP features; message resource handling (for use in internationalization), event publication; and application-layer specific contexts.</p></li>
+</ul>
+
+<h3 id="overview-of-container">**Overview of Container</h3>
+
+<p>**</p>
+
+<p>The above interfaces represent the Spring IoC container and are responsible for instantiating, configuring, and assembling the aforementioned beans. The next question pop out from the brain, what the hack is a bean?</p>
+
+<blockquote>
+
+> 
+> 
+
+**Bean**
+
+Object in the Spring framework that we initialize through Spring container is called Spring Bean.
+The objects that form the backbone of your application and that are managed by the Spring IoC _container_ are called _beans. _A bean is an object that is instantiated, assembled, and otherwise managed by a Spring IoC container. Otherwise, a bean is simply one of many objects in your application.Any normal Java POJO class can be a Spring Bean if it’s configured to be initialized via container by providing configuration metadata information.
+
+
+> 
+> </blockquote>
+
+<p>Now the questions are,</p>
+
+<ol>
+<li><p>How container loads the beans?</p></li>
+
+<li><p>How does the container know which beans to wire together?</p></li>
+
+<li><p>Is it happening magically?</p></li>
+</ol>
+
+<p>Nothing is happening magically inside the container, In order to assemble beans, the container uses configuration metadata.
+The container gets its instructions on what objects to instantiate, configure, and assemble by reading this configuration metadata. which can be represented in XML, Java annotations, or Java code. As an Application Developer, it&rsquo;s your job to write this configuration metadata.</p>
+
+<p><img src="https://docs.spring.io/spring/docs/current/spring-framework-reference/images/container-magic.png" alt="" /></p>
+
+<p>The diagram is a high-level view of how Spring Container works. Your application classes are combined with configuration metadata so that after the <code>ApplicationContext</code> is created and initialized, you have a fully configured and executable system or application.</p>
+<ul class="pa0">
+  
+   <li class="list">
+     <a href="/tags/applicaiton-context" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">applicaiton-context</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/beans" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">beans</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/configuration" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">configuration</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/container" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">container</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/context" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">context</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/framework" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">framework</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/ioc" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">ioc</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/metadata" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">metadata</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/spring-ioc-container" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">spring-ioc-container</a>
+   </li>
+  
+</ul>
+<div class="mt6">
+        
+      </div>
+    </main>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+  <div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
+    <p class="f5 b mb3">Related</p>
+    <ul class="pa0 list">
+	   
+	     <li  class="mb2">
+          <a href="/posts/inversion-of-control-and-dependency-injection/">Inversion of Control and Dependency Injection</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/posts/a-bit-of-spring-part-one/">a bit of spring: part one</a>
+        </li>
+	    
+    </ul>
+</div>
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-near-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://example.org/" >
+    &copy; 2018 Rimon&#39;s Weblog
+  </a>
+  
+
+
+
+
+
+
+
+
+  </div>
+</footer>
+
+    
+
+  <script src="/dist/js/app.3fc0f988d21662902933.js"></script>
+
+
+  </body>
+</html>

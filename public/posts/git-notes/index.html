@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Rimon&#39;s Weblog  | Git Notes</title>
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="generator" content="Hugo 0.44" />
+    
+    
+      <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    
+
+    
+    
+      <link href="/dist/css/app.ab4b67a3ea25990fa8279f3b7ef08b61.css" rel="stylesheet">
+    
+
+    
+
+    
+      
+    
+
+    
+
+    <meta property="og:title" content="Git Notes" />
+<meta property="og:description" content="Git is a distributed version control system. Every dev has a working copy of the code and full change history on their local machine, by Linus Torvalds.
+Here is a git cheat sheet for everyday life. Will update this in future&hellip;
+[bash gutter=&ldquo;false&rdquo;] git init
+transform the current directory into a Git repository. This adds a .git folder to the current directory and makes it possible to start recording revisions git config &ndash;global user." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://example.org/posts/git-notes/" />
+
+
+
+<meta property="article:published_time" content="2017-08-17T12:00:00&#43;00:00"/>
+
+<meta property="article:modified_time" content="2017-08-17T12:00:00&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="Git Notes">
+<meta itemprop="description" content="Git is a distributed version control system. Every dev has a working copy of the code and full change history on their local machine, by Linus Torvalds.
+Here is a git cheat sheet for everyday life. Will update this in future&hellip;
+[bash gutter=&ldquo;false&rdquo;] git init
+transform the current directory into a Git repository. This adds a .git folder to the current directory and makes it possible to start recording revisions git config &ndash;global user.">
+
+
+<meta itemprop="datePublished" content="2017-08-17T12:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2017-08-17T12:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="469">
+
+
+
+<meta itemprop="keywords" content="command,git,notes," />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Git Notes"/>
+<meta name="twitter:description" content="Git is a distributed version control system. Every dev has a working copy of the code and full change history on their local machine, by Linus Torvalds.
+Here is a git cheat sheet for everyday life. Will update this in future&hellip;
+[bash gutter=&ldquo;false&rdquo;] git init
+transform the current directory into a Git repository. This adds a .git folder to the current directory and makes it possible to start recording revisions git config &ndash;global user."/>
+
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="http://example.org/" class="f3 fw2 hover-white no-underline white-90 dib">
+      Rimon&#39;s Weblog
+    </a>
+    <div class="flex-l items-center">
+      
+      
+
+
+
+
+
+
+
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  <article class="flex-l flex-wrap justify-between mw8 center ph3 ph0-l">
+
+    <header class="mt4 w-100">
+      <p class="f6 b helvetica tracked">
+          
+        POSTS
+      </p>
+      <h1 class="f1 athelas mb1">Git Notes</h1>
+      
+      <time class="f6 mv4 dib tracked" datetime="2017-08-17T12:00:00Z">August 17, 2017</time>
+    </header>
+
+    <main class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l">
+
+<p>Git is a distributed version control system. Every dev has a working copy of the code and full change history on their local machine, by <a href="https://en.wikipedia.org/wiki/Linus_Torvalds/">Linus Torvalds</a>.</p>
+
+<p>Here is a git cheat sheet for everyday life. Will update this in future&hellip;</p>
+
+<p>[bash gutter=&ldquo;false&rdquo;]
+git init</p>
+
+<h1 id="transform-the-current-directory-into-a-git-repository-this-adds-a-git-folder-to-the-current-directory-and-makes-it-possible-to-start-recording-revisions">transform the current directory into a Git repository. This adds a .git folder to the current directory and makes it possible to start recording revisions</h1>
+
+<p>git config &ndash;global user.email &ldquo;you@example.com&rdquo;
+git config &ndash;global user.name &ldquo;Your Name&rdquo;
+git config &ndash;global color.status auto
+git config &ndash;global color.diff auto
+git config &ndash;global color.branch auto</p>
+
+<p>git clone <git host>:/repo/<project name>.git</p>
+
+<h1 id="clone-repository-to-local-system">clone repository to local system</h1>
+
+<p>git add <file name></p>
+
+<h1 id="add-file-to-local-repository">add file to local repository</h1>
+
+<h1 id="the-git-add-command-moves-changes-from-the-working-directory-to-staging-area-staging-area-is-virtual-temporary-area-where-we-prepare-a-snapshot-of-a-set-of-changes-before-committing-them-to-the-official-history">the git add command moves changes from the working directory to staging area, staging area is virtual temporary area where we prepare a snapshot of a set of changes before committing them to the official history</h1>
+
+<p>git add -A</p>
+
+<h1 id="stages-all">stages All</h1>
+
+<p>git add .</p>
+
+<h1 id="stages-new-and-modified-without-deleted">stages new and modified, without deleted</h1>
+
+<p>git add -u</p>
+
+<h1 id="stages-modified-and-deleted-without-new">stages modified and deleted, without new</h1>
+
+<p>git status</p>
+
+<h1 id="check-the-status-of-the-file">check the Status of the file</h1>
+
+<h1 id="the-git-status-command-displays-the-state-of-the-working-directory-and-the-staged-snapshot">the git status command displays the state of the working directory and the staged snapshot</h1>
+
+<p>git checkout &ndash; <file></p>
+
+<h1 id="reverts-back-the-modified-file-to-the-one-in-the-repository">reverts back the modified file to the one in the repository</h1>
+
+<p>git commit -m &ldquo;commit message&rdquo;</p>
+
+<h1 id="the-git-commit-takes-the-staged-snapshot-think-as-all-files-and-commits-it-to-the-project-history">the git commit takes the staged snapshot(think as all files) and commits it to the project history.</h1>
+
+<p>git commit &ndash;amend</p>
+
+<h1 id="update-the-last-commit-message">update the last commit message</h1>
+
+<p>git push origin <branch name></p>
+
+<h1 id="this-command-specifies-that-you-are-pushing-to-the-a-branch">this command specifies that you are pushing to the a branch</h1>
+
+<h1 id="a-branch-represents-an-independent-line-of-development-for-your-repository-think-of-it-as-a-brand-new-working-directory-staging-area-and-project-history-before-you-create-any-new-branches-you-automatically-start-out-with-the-main-branch-called-master">a branch represents an independent line of development for your repository. Think of it as a brand-new working directory, staging area, and project history. Before you create any new branches, you automatically start out with the main branch (called master).</h1>
+
+<p>git diff <commit id 1> <commit id 2></p>
+
+<h1 id="show-changes-between-two-different-commit">show changes between two different commit</h1>
+
+<p>git diff</p>
+
+<h1 id="with-no-arguments-shows-the-difference-between-working-directory-and-staging-area">with no arguments shows the difference between working directory and staging area *</h1>
+
+<p>git diff &ndash;staged</p>
+
+<h1 id="show-the-difference-between-the-staging-area-and-latest-commit-in-repository-files-which-are-not-same">show the difference between the staging area and latest commit in repository files which are not same</h1>
+
+<p>git log</p>
+
+<h1 id="show-log">show log</h1>
+
+<p>git log &ndash;stat</p>
+
+<h1 id="give-some-statistics-about-which-file-have-changed-in-each-commit">give some statistics about which file have changed in each commit</h1>
+
+<p>git log &ndash;graph &ndash;oneline master coins.
+#see the visual representation of the commit history is</p>
+
+<p>git config &ndash;global color.ui auto</p>
+
+<p>git checkout <commit id></p>
+
+<h1 id="go-to-specific-version-of-code-using-commit-id">go to specific version of code using commit id</h1>
+
+<p>git checkout <branch name></p>
+
+<h1 id="select-the-branch">select the branch</h1>
+
+<p>git checkout -b <new branch name></p>
+
+<h1 id="combine-of-2-command-git-branch-new-branch-name-git-checkout-new-branch-name">combine of 2 command [git branch <new branch name>] &amp; [git checkout <new branch name>]</h1>
+
+<p>git pull &ndash;all</p>
+
+<h1 id="the-git-pull-command-merges-the-file-from-your-remote-repository-into-your-local-repository-with-a-single-command">the git pull command merges the file from your remote repository into your local repository with a single command</h1>
+
+<p>git tag</p>
+
+<h1 id="normal-tag">normal tag</h1>
+
+<p>git tag -a</p>
+
+<h1 id="anotated-tag">anotated tag</h1>
+
+<p>git reset &ndash;hard</p>
+
+<h1 id="discard-any-changes-in-the-working-directory-or-staging-area-very-careful-for-this-command-its-cant-be-reversible">discard any changes in the working directory or staging area (very careful for this command, its cant be reversible)</h1>
+
+<p>git branch
+#show all branches</p>
+
+<p>git stash
+git stash list
+git stash pop
+[/bash]</p>
+<ul class="pa0">
+  
+   <li class="list">
+     <a href="/tags/command" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">command</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/git" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">git</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/notes" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">notes</a>
+   </li>
+  
+</ul>
+<div class="mt6">
+        
+      </div>
+    </main>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+  <div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
+    <p class="f5 b mb3">Related</p>
+    <ul class="pa0 list">
+	   
+	     <li  class="mb2">
+          <a href="/posts/google-drive-in-ubuntu/">Google Drive in Ubuntu</a>
+        </li>
+	    
+    </ul>
+</div>
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-near-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://example.org/" >
+    &copy; 2018 Rimon&#39;s Weblog
+  </a>
+  
+
+
+
+
+
+
+
+
+  </div>
+</footer>
+
+    
+
+  <script src="/dist/js/app.3fc0f988d21662902933.js"></script>
+
+
+  </body>
+</html>
