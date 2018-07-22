@@ -1061,39 +1061,40 @@ margin-left: -4%;
 
 <p>Node Version Manager (NVM) is a simple bash script to manage multiple active node.js versions.</p>
 
-<h3 id="install-nvm">Install NVM</h3>
+<h2 id="install-nvm">Install NVM</h2>
 
 <p>To install or update nvm, you can use the install script using cURL or Wget</p>
 
 <pre><code>$ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
-#or
 $ wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
 </code></pre>
 
 <p>The script clones the nvm repository to <code>~/.nvm</code> and adds the source line to your profile (<code>~/.bash_profile</code>, <code>~/.zshrc</code>,<code>~/.profile</code>, or <code>~/.bashrc</code>).</p>
 
-<pre><code>&lt;span class=&quot;pl-k&quot;&gt;export&lt;/span&gt; NVM_DIR=&lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;pl-smi&quot;&gt;$HOME&lt;/span&gt;/.nvm&lt;span class=&quot;pl-pds&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;
-[ &lt;span class=&quot;pl-k&quot;&gt;-s&lt;/span&gt; &lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;pl-smi&quot;&gt;$NVM_DIR&lt;/span&gt;/nvm.sh&lt;span class=&quot;pl-pds&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt; ] &lt;span class=&quot;pl-k&quot;&gt;&amp;&amp;&lt;/span&gt; &lt;span class=&quot;pl-cce&quot;&gt;\.&lt;/span&gt; &lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;pl-smi&quot;&gt;$NVM_DIR&lt;/span&gt;/nvm.sh&lt;span class=&quot;pl-pds&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;pl-c&quot;&gt;# This loads nvm&lt;/span&gt;
+<pre><code>export NVM_DIR=&quot;$HOME/.nvm&quot;
+[ -s &quot;$NVM_DIR/nvm.sh&quot; ] &amp;&amp; \. &quot;$NVM_DIR/nvm.sh&quot; # This loads nvm
 </code></pre>
 
 <h3 id="verify-installation">Verify installation</h3>
 
 <p>To verify that nvm has been installed, do:</p>
 
-<pre><code>&lt;span class=&quot;pl-c1&quot;&gt;$ command&lt;/span&gt; -v nvm
+<pre><code>$ command -v nvm
 </code></pre>
 
-<p>which should output &lsquo;nvm&rsquo; if the installation was successful. Please note that will<code>which nvm</code> not work, since <code>nvm</code> is a sourced shell function, not an executable binary.
+<p>which should output <code>nvm</code> if the installation was successful.</p>
+
+<p>Please note that will<code>which nvm</code> not work, since <code>nvm</code> is a sourced shell function, not an executable binary.
 After running the install script, if you get <code>nvm: command not found</code> or see no feedback from your terminal, simply close your current terminal, open a new terminal, and try verifying again.</p>
 
-<h3 id="usage">Usage</h3>
+<h2 id="usage">Usage</h2>
 
 <p>With <code>nvm</code> installed, you can install isolated Node.js versions. For information about the versions of Node.js that are available, type:</p>
 
-<pre><code>&lt;code&gt;nvm ls-remote&lt;/code&gt;
+<pre><code>$ nvm ls-remote
 </code></pre>
 
-<p>Which gives</p>
+<p>Which will give you something like</p>
 
 <pre><code> ...
  v8.0.0
@@ -1150,14 +1151,14 @@ v10.5.0
 v10.6.0
 </code></pre>
 
-<p>As you can see, the current LTS version at the time of this writing is v8.11.3. You can install that by typing:</p>
+<p>As you can see, at the time of writing this article the current LTS version of <code>node</code> is <code>v8.11.3</code>. You can install that by typing:</p>
 
-<pre><code>&lt;code&gt;$ nvm install 8.11.3&lt;/code&gt;
+<pre><code>$ nvm install 8.11.3
 </code></pre>
 
 <p>Usually, <code>nvm</code> will switch to use the most recently installed version. You can tell <code>nvm</code> to use the version you just downloaded by typing:</p>
 
-<pre><code>&lt;code&gt;$ nvm use 8.11.3&lt;/code&gt;
+<pre><code>$ nvm use 8.11.3
 </code></pre>
 
 <p>To download, compile, and install the latest release of node, You can simply do this:</p>
@@ -1175,94 +1176,92 @@ v10.6.0
 <pre><code>$ nvm run node --version
 </code></pre>
 
-<p>Or, you can run any arbitrary command in a subshell with the desired version of node:</p>
+<p>Or, you can run any arbitrary command in a sub shell with the desired version of node:</p>
 
-<pre><code>nvm &lt;span class=&quot;pl-c1&quot;&gt;exec&lt;/span&gt; 4.2 node --version
+<pre><code>$ nvm 4.2 node --version
 </code></pre>
 
 <p>When you install Node.js using <code>nvm</code>, the executable is called <code>node</code>. You can see the version currently being used by the shell by typing:</p>
 
-<pre><code>node -v
+<pre><code>$ node -v
 </code></pre>
 
 <p>If you have multiple Node.js versions, you can see what is installed by typing:</p>
 
-<pre><code>node ls
+<pre><code>$ node ls
 </code></pre>
 
 <p>If you wish to default one of the versions, type:</p>
 
-<pre><code>nvm alias default &lt;span class=&quot;highlight&quot;&gt;8.11.3&lt;/span&gt;
+<pre><code>$ nvm alias default 8.11.3
 </code></pre>
 
 <p>This version will be automatically selected when a new session spawns. You can also reference it by the alias like this:</p>
 
-<pre><code>&lt;code&gt;nvm use default&lt;/code&gt;
+<pre><code>$ nvm use default
 </code></pre>
 
 <p>Each version of Node.js will keep track of its own packages and has <code>npm</code> available to manage these.</p>
 
 <p>You can have <code>npm</code> install packages to the Node.js project&rsquo;s <code>./node_modules</code> directory. Use the following syntax to install the <code>express</code> module:</p>
 
-<pre><code>&lt;code&gt;npm install express&lt;/code&gt;
+<pre><code>$ npm install express
 </code></pre>
 
 <p>If you&rsquo;d like to install the module globally, making it available to other projects using the same version of Node.js, you can add the <code>-g</code> flag:</p>
 
-<pre><code>&lt;code&gt;npm install -g express&lt;/code&gt;
+<pre><code>$ npm install -g express
 </code></pre>
 
 <p>This will install the package in:</p>
 
-<pre><code>&lt;code&gt;~/.nvm/versions/node/&lt;span class=&quot;highlight&quot;&gt;node_version&lt;/span&gt;/lib/node_modules/&lt;span class=&quot;highlight&quot;&gt;express&lt;/span&gt;
-&lt;/code&gt;
+<pre><code>~/.nvm/versions/node/node_version/lib/node_modules/express
 </code></pre>
 
 <p>Installing the module globally will let you run the commands from the command line, but you&rsquo;ll have to link the package into your local sphere to require it from within a program:</p>
 
-<pre><code>&lt;code&gt;npm link express&lt;/code&gt;
+<pre><code>$ npm link express
 </code></pre>
 
 <p>You can learn more about the options available to you with nvm by typing:</p>
 
-<pre><code>&lt;code&gt;nvm help&lt;/code&gt;
+<pre><code>$ nvm help
 </code></pre>
 
-<h3 id="removing-node-js">Removing Node.js</h3>
+<h2 id="removing-node-js">Removing Node.js</h2>
 
 <p>To uninstall a version of Node.js that you have enabled using <code>nvm</code>, first determine whether or not the version you would like to remove is the currently active version:</p>
 
-<pre><code>&lt;code&gt;nvm current&lt;/code&gt;
+<pre><code>$ nvm current
 </code></pre>
 
 <p>If the version you are targeting is <strong>not</strong> the currently active version, you can run:</p>
 
-<pre><code>&lt;code&gt;nvm uninstall &lt;span class=&quot;highlight&quot;&gt;node_version&lt;/span&gt;&lt;/code&gt;
+<pre><code>$ nvm uninstall node_version
 </code></pre>
 
 <p>This command will uninstall the selected version of Node.js.</p>
 
 <p>If the version you would like to remove <strong>is</strong> the currently active version, you must first deactivate <code>nvm</code> to enable your changes:</p>
 
-<pre><code>&lt;code&gt;nvm deactivate&lt;/code&gt;
+<pre><code>$ nvm deactivate
 </code></pre>
 
-<p>You can now uninstall the current version using the uninstall command above, which will remove all files associated with the targeted version of Node.js except the cached files that can be used for reinstallment.</p>
+<p>You can now uninstall the current version using the uninstall command above, which will remove all files associated with the targeted version of Node.js except the cached files that can be used for re-installment.</p>
 
-<h3 id="manual-uninstall">Manual Uninstall</h3>
+<h2 id="manual-uninstall">Manual Uninstall</h2>
 
 <p>To remove nvm manually, execute the following:</p>
 
-<pre><code>$ rm -rf &lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;pl-smi&quot;&gt;$NVM_DIR&lt;/span&gt;&lt;span class=&quot;pl-pds&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;
+<pre><code>$ rm -rf &quot;$NVM_DIR&quot;
 </code></pre>
 
-<p>Edit ~/.bashrc (or other shell resource config) and remove the lines below:</p>
+<p>Edit <code>~/.bashrc</code> (or other shell resource configuration) and remove the lines below:</p>
 
-<pre><code>&lt;span class=&quot;pl-k&quot;&gt;export&lt;/span&gt; NVM_DIR=&lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;pl-smi&quot;&gt;$HOME&lt;/span&gt;/.nvm&lt;span class=&quot;pl-pds&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;
-[ &lt;span class=&quot;pl-k&quot;&gt;-s&lt;/span&gt; &lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;pl-smi&quot;&gt;$NVM_DIR&lt;/span&gt;/nvm.sh&lt;span class=&quot;pl-pds&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt; ] &lt;span class=&quot;pl-k&quot;&gt;&amp;&amp;&lt;/span&gt; &lt;span class=&quot;pl-cce&quot;&gt;\.&lt;/span&gt; &lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;pl-smi&quot;&gt;$NVM_DIR&lt;/span&gt;/nvm.sh&lt;span class=&quot;pl-pds&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;pl-c&quot;&gt;# This loads nvm&lt;/span&gt;
-[[ &lt;span class=&quot;pl-k&quot;&gt;-r&lt;/span&gt; &lt;span class=&quot;pl-smi&quot;&gt;$NVM_DIR&lt;/span&gt;/bash_completion ]] &lt;span class=&quot;pl-k&quot;&gt;&amp;&amp;&lt;/span&gt; &lt;span class=&quot;pl-cce&quot;&gt;\.&lt;/span&gt; &lt;span class=&quot;pl-smi&quot;&gt;$NVM_DIR&lt;/span&gt;/bash_completion
+<pre><code>export NVM_DIR=&quot;$HOME/.nvm&quot;
+[ -s &quot;$NVM_DIR/nvm.sh&quot; ] &amp;&amp; \. &quot;$NVM_DIR/nvm.sh&quot; # This loads nvm
+[[ -r $NVM_DIR/bash_completion ]] &amp;&amp; \. $NVM_DIR/bash_completion
 </code></pre>
-
 
 
                 <br>
