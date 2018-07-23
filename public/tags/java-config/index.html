@@ -15,9 +15,9 @@
 <meta property="og:site_name" content="Rimon&#39;s Weblog" />
 <meta property="og:locale" content="nn_NO" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://rimonmostafiz.com/blog/spring-application-context-and-configuration-metadata/" />
-<meta property="og:title" content="Spring Application Context and Configuration Metadata" />
-<meta property="twitter:title" content="Spring Application Context and Configuration Metadata">
+<meta property="og:url" content="https://rimonmostafiz.com/tags/java-config/" />
+<meta property="og:title" content="Java Config" />
+<meta property="twitter:title" content="Java Config">
 
     <meta property="og:image" content="https://rimonmostafiz.com/img/banner.png">
     <meta property="twitter:card" content="summary_large_image">
@@ -29,10 +29,10 @@
 <title>
 
 
-     Rimon&#39;s Weblog - Spring Application Context and Configuration Metadata 
+     Rimon&#39;s Weblog - Java Config 
 
 </title>
-<link rel="canonical" href="https://rimonmostafiz.com/blog/spring-application-context-and-configuration-metadata/">
+<link rel="canonical" href="https://rimonmostafiz.com/tags/java-config/">
 
 
 <style media="screen">
@@ -977,6 +977,8 @@ margin-left: -4%;
 
 
 
+  <link href="https://rimonmostafiz.com/tags/java-config/index.xml" rel="alternate" type="application/rss+xml" title="Rimon&#39;s Weblog" />
+
 
 </head>
 
@@ -984,7 +986,7 @@ margin-left: -4%;
 <body>
 
 
-<div class="header column">
+<div class="header header-home column">
 
     <div class="container">
         
@@ -1009,218 +1011,24 @@ margin-left: -4%;
     </div>
 </div>
 
-
-
-
-
-<div class="main post non-narrow zero-top-spacing column">
+<div class="main column">
     <div class="container">
         <div class="content">
-            <div class="front-matter">
-                <div class="title-container">
-                    <div class="page-heading">
-
-    Spring Application Context and Configuration Metadata
-
-</div>
-
-                </div>
-                <div class="meta">
-                    <div class="date" title="Sat May 26 2018 06:42:47 &#43;0000">May 26, 2018</div>
+            <div class="posts">
+                <div class="page-heading">Posts about Java Config</div>
+                <ul>
                     
-                        
-                        <div class="author middot" title="rimonmostafiz">rimonmostafiz</div>
-                        
+                        <li class="post-item">
+    <span class="meta">May 26, 2018</span>
+    <a href="https://rimonmostafiz.com/blog/spring-application-context-and-configuration-metadata/"><span>Spring Application Context and Configuration Metadata</span></a>
+</li>
+
                     
-                    <div class="reading-time middot">4 minute read</div>
-                    <div class="tags">
-                        <ul>
-                          
-                            <li class="middot"><a href="https://rimonmostafiz.com/tags/application-context">application-context</a> </li>
-                          
-                            <li class="middot"><a href="https://rimonmostafiz.com/tags/beans">beans</a> </li>
-                          
-                            <li class="middot"><a href="https://rimonmostafiz.com/tags/configuration">configuration</a> </li>
-                          
-                            <li class="middot"><a href="https://rimonmostafiz.com/tags/java-config">java-config</a> </li>
-                          
-                            <li class="middot"><a href="https://rimonmostafiz.com/tags/metadata">metadata</a> </li>
-                          
-                            <li class="middot"><a href="https://rimonmostafiz.com/tags/xml-config">xml-config</a> </li>
-                          
-                        </ul>
-                    </div>
-                    <div class="tags">
-                        <ul>
-                          
-                          
-                        </ul>
-                    </div>
-                </div>
+                </ul>
             </div>
-            <div class="markdown">
-                
-    
-    
-
-<p>In the <a href="http://www.rimonmostafiz.com/blog/auto-bean-wiring-of-spring/">last post</a> of Spring Diary, we discussed the basics of spring IoC Container and we saw a high-level view of how Spring Container works.</p>
-
-<p>In this post, we will learn about how can we Instantiate a Spring IoC container(using <code>ApplicaitonContext</code> Interface) and configure that container using configuration metadata.</p>
-
-<p>Spring IoC container consumes a form of configuration metadata. This configuration metadata represents how you as an application developer tell the Spring container to instantiate, configure, and assemble the objects in your application.</p>
-
-<p>We have three choices to configure container using configuration metadata</p>
-
-<ul>
-<li><p><strong>XML-based configuration:</strong> Configuration metadata is traditionally supplied in a simple and intuitive XML format. Spring configuration consists of at least one and typically more than one bean definition that the container must manage. XML-based configuration metadata shows these beans configured as <code>&lt;bean/&gt;</code> elements inside a top-level <code>&lt;beans/&gt;</code> element.</p></li>
-
-<li><p><strong><a href="https://docs.spring.io/spring/docs/current/spring-framework-reference/core.html#beans-annotation-config">Annotation-based configuration</a>:</strong> Spring 2.5 introduced support for annotation-based configuration metadata.</p></li>
-
-<li><p><strong><a href="https://docs.spring.io/spring/docs/current/spring-framework-reference/core.html#beans-java">Java-based configuration</a>:</strong> Starting with Spring 3.0, many features provided by the Spring JavaConfig project became part of the core Spring Framework. Thus you can define beans external to your application classes by using Java rather than XML files.</p>
-
-<p>&lt;?xml version=&ldquo;1.0&rdquo; encoding=&ldquo;UTF-8&rdquo;?&gt;
-<beans xmlns="http://www.springframework.org/schema/beans"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://www.springframework.org/schema/beans
-        http://www.springframework.org/schema/beans/spring-beans.xsd"></p>
-
-<pre><code>&lt;bean id=&quot;...&quot; class=&quot;...&quot;&gt;
-    &lt;!-- collaborators and configuration for this bean go here --&gt;
-&lt;/bean&gt;  
-
-&lt;bean id=&quot;...&quot; class=&quot;...&quot;&gt;
-    &lt;!-- collaborators and configuration for this bean go here --&gt;
-&lt;/bean&gt;
-
-&lt;!-- more bean definitions go here --&gt;
-</code></pre>
-
-<p></beans></p></li>
-</ul>
-
-<p>The above example shows the basic structure of XML-based configuration metadata, where The attribute<code>id</code> is a string that you use to identify the individual bean definition. The attribute<code>class</code> defines the type of the bean and uses the fully qualified class name. The value of the id attribute refers to collaborating objects.</p>
-
-<h3 id="instantiating-a-container-using-the-application-context">Instantiating a container using the application context</h3>
-
-<p>Spring comes with several flavors of the application context. Here are a few that you’ll most likely encounter:</p>
-
-<ul>
-<li><p><strong>AnnotationConfigApplicationContext:</strong> Loads a Spring application context from one or more Java-based configuration classes</p></li>
-
-<li><p><strong>AnnotationConfigWebApplicationContext:</strong>  Loads a Spring web application context from one or more Java-based configuration classes</p></li>
-
-<li><p><strong>ClassPathXmlApplicationContext:</strong> Loads a context definition from one or more XML files located in the classpath, treating context-definition files as class-path resources</p></li>
-
-<li><p><strong>FileSystemXmlApplicationContext:</strong> Loads a context definition from one or more XML files in the filesystem</p></li>
-
-<li><p><strong>XmlWebApplicationContext:</strong> Loads context definitions from one or more XML files contained in a web application</p></li>
-</ul>
-
-<p>Let&rsquo;s see first how can we load beans from <code>FileSystemXmlApplicationContest</code> and from the application’s <code>classpath</code> using <code>ClassPathXmlApplicationContext</code>, both of them are quite similar</p>
-
-<pre><code>ApplicationContext context = new FileSystemXmlApplicationContext(&quot;/home/rimonmostafiz/Projects/spring-diary/beans.xml&quot;);
-
-ApplicationContext context = new ClassPathXmlApplicationContext(&quot;service.xml&quot;, &quot;daos.xml&quot;);
-</code></pre>
-
-<p>The following example shows the service layer objects <code>(services.xml)</code> configuration file:</p>
-
-<pre><code>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
-&lt;beans xmlns=&quot;http://www.springframework.org/schema/beans&quot;
-    xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;
-    xsi:schemaLocation=&quot;http://www.springframework.org/schema/beans
-        http://www.springframework.org/schema/beans/spring-beans.xsd&quot;&gt;
-
-    &lt;!-- services --&gt;
-
-    &lt;bean id=&quot;petStore&quot; class=&quot;org.rimonmostafiz.samples.jpetstore.services.PetStoreServiceImpl&quot;&gt;
-        &lt;property name=&quot;accountDao&quot; ref=&quot;accountDao&quot;/&gt;
-        &lt;property name=&quot;itemDao&quot; ref=&quot;itemDao&quot;/&gt;
-        &lt;!-- additional collaborators and configuration for this bean go here --&gt;
-    &lt;/bean&gt;
-
-    &lt;!-- more bean definitions for services go here --&gt;
-
-&lt;/beans&gt;
-</code></pre>
-
-<p>The following example shows the data access objects <code>daos.xml</code> file:</p>
-
-<pre><code>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
-&lt;beans xmlns=&quot;http://www.springframework.org/schema/beans&quot;
-    xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;
-    xsi:schemaLocation=&quot;http://www.springframework.org/schema/beans
-        http://www.springframework.org/schema/beans/spring-beans.xsd&quot;&gt;
-
-    &lt;bean id=&quot;accountDao&quot;
-        class=&quot;org.rimonmostafiz.samples.jpetstore.dao.jpa.JpaAccountDao&quot;&gt;
-        &lt;!-- additional collaborators and configuration for this bean go here --&gt;
-    &lt;/bean&gt;
-
-    &lt;bean id=&quot;itemDao&quot; class=&quot;org.rimonmostafiz.samples.jpetstore.dao.jpa.JpaItemDao&quot;&gt;
-        &lt;!-- additional collaborators and configuration for this bean go here --&gt;
-    &lt;/bean&gt;
-
-    &lt;!-- more bean definitions for data access objects go here --&gt;
-
-&lt;/beans&gt;
-</code></pre>
-
-<p>In the preceding example, the service layer consists of the class <code>PetStoreServiceImpl</code>, and two data access objects of the type <code>JpaAccountDao</code> and <code>JpaItemDao</code> (based on the JPA Object/Relational mapping standard). The <code>property name</code> element refers to the name of the JavaBean property, and the <code>ref</code> element refers to the name of another bean definition. This linkage between <code>id</code> and <code>ref</code> elements expresses the dependency between collaborating objects.</p>
-
-<p>Now if we want to load application context from a Java configuration, we can use <code>AnnotationConfigApplicationContext</code>, Instead of specifying an XML file from which to load the Spring application context, <code>AnnotationConfigApplicationContext</code> loads configuration metadata from a configuration class</p>
-
-<pre><code>ApplicationContext context = new AnnotationConfigApplicationContext(com.rimonmostafiz.springdiary.config.AppConfig.class);
-</code></pre>
-
-<p>Instead of specifying an XML file from which to load the Spring application context,
-<code>AnnotationConfigApplicationContext</code> has been given a configuration class from
-which to load beans. With an application context in hand, we can retrieve beans from the Spring container by calling the context’s <code>getBean()</code> method.</p>
-
-
-                <br>
-            </div>
-            
-            
-                <div class="navigation">
-                    
-                    <div>
-                        <img class="icon" src="https://rimonmostafiz.com/img/back.svg" alt="back" />
-                        <a href="https://rimonmostafiz.com/blog/the-spring-ioc-container/">The Spring IoC Container</a>
-                    </div>
-                    
-                    <div style="width: 100%;"></div>
-                    
-                    <div>
-                        <a href="https://rimonmostafiz.com/blog/auto-bean-wiring-of-spring/">Auto Bean Wiring of Spring</a>
-                        <img class="icon" src="https://rimonmostafiz.com/img/next.svg" alt="next" />
-                    </div>
-                    
-                </div>
-            
-            <br>
-            
-
-            <div id="disqus_thread"></div>
-            <script>
-              (function() {
-                var d = document, s = d.createElement('script');
-                s.src = 'https://rimonmostafiz.disqus.com/embed.js';
-                s.setAttribute('data-timestamp', +new Date());
-                (d.head || d.body).appendChild(s);
-              })();
-            </script>
-            <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-
-            
-
-            
         </div>
     </div>
 </div>
-
-
-
 <div class="footer column">
     <div class="container">
 

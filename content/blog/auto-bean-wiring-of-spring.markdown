@@ -3,7 +3,7 @@ author: rimonmostafiz
 comments: true
 date: 2018-05-28 07:44:03+00:00
 layout: post
-link: http://www.rimonmostafiz.com/auto-bean-wiring-of-spring/
+link: http://www.rimonmostafiz.com/blog/auto-bean-wiring-of-spring/
 slug: auto-bean-wiring-of-spring
 title: Auto Bean Wiring of Spring
 wordpress_id: 1196
