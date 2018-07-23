@@ -1076,27 +1076,28 @@ margin-left: -4%;
 
 <li><p><strong><a href="https://docs.spring.io/spring/docs/current/spring-framework-reference/core.html#beans-annotation-config">Annotation-based configuration</a>:</strong> Spring 2.5 introduced support for annotation-based configuration metadata.</p></li>
 
-<li><p><strong><a href="https://docs.spring.io/spring/docs/current/spring-framework-reference/core.html#beans-java">Java-based configuration</a>:</strong> Starting with Spring 3.0, many features provided by the Spring JavaConfig project became part of the core Spring Framework. Thus you can define beans external to your application classes by using Java rather than XML files.</p>
-
-<p>&lt;?xml version=&ldquo;1.0&rdquo; encoding=&ldquo;UTF-8&rdquo;?&gt;
-<beans xmlns="http://www.springframework.org/schema/beans"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://www.springframework.org/schema/beans
-        http://www.springframework.org/schema/beans/spring-beans.xsd"></p>
-
-<pre><code>&lt;bean id=&quot;...&quot; class=&quot;...&quot;&gt;
-    &lt;!-- collaborators and configuration for this bean go here --&gt;
-&lt;/bean&gt;  
-
-&lt;bean id=&quot;...&quot; class=&quot;...&quot;&gt;
-    &lt;!-- collaborators and configuration for this bean go here --&gt;
-&lt;/bean&gt;
-
-&lt;!-- more bean definitions go here --&gt;
-</code></pre>
-
-<p></beans></p></li>
+<li><p><strong><a href="https://docs.spring.io/spring/docs/current/spring-framework-reference/core.html#beans-java">Java-based configuration</a>:</strong> Starting with Spring 3.0, many features provided by the Spring JavaConfig project became part of the core Spring Framework. Thus you can define beans external to your application classes by using Java rather than XML files.</p></li>
 </ul>
+
+<h4 id="basic-structure-of-xml-based-configuration">Basic Structure of XML-based Configuration</h4>
+
+<pre><code>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;beans xmlns=&quot;http://www.springframework.org/schema/beans&quot;
+    xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;
+    xsi:schemaLocation=&quot;http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd&quot;&gt;
+
+    &lt;bean id=&quot;...&quot; class=&quot;...&quot;&gt;
+    &lt;!-- collaborators and configuration for this bean go here --&gt;
+    &lt;/bean&gt;  
+
+    &lt;bean id=&quot;...&quot; class=&quot;...&quot;&gt;
+    &lt;!-- collaborators and configuration for this bean go here --&gt;
+    &lt;/bean&gt;
+
+    &lt;!-- more bean definitions go here --&gt;
+&lt;/beans&gt;
+</code></pre>
 
 <p>The above example shows the basic structure of XML-based configuration metadata, where The attribute<code>id</code> is a string that you use to identify the individual bean definition. The attribute<code>class</code> defines the type of the bean and uses the fully qualified class name. The value of the id attribute refers to collaborating objects.</p>
 
@@ -1125,43 +1126,45 @@ ApplicationContext context = new ClassPathXmlApplicationContext(&quot;servic
 
 <p>The following example shows the service layer objects <code>(services.xml)</code> configuration file:</p>
 
-<pre><code>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
-&lt;beans xmlns=&quot;http://www.springframework.org/schema/beans&quot;
-    xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;
-    xsi:schemaLocation=&quot;http://www.springframework.org/schema/beans
-        http://www.springframework.org/schema/beans/spring-beans.xsd&quot;&gt;
+<pre><code>    &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 
-    &lt;!-- services --&gt;
+    &lt;beans xmlns=&quot;http://www.springframework.org/schema/beans&quot;
+      xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;
+      xsi:schemaLocation=&quot;http://www.springframework.org/schema/beans
+          http://www.springframework.org/schema/beans/spring-beans.xsd&quot;&gt;
 
-    &lt;bean id=&quot;petStore&quot; class=&quot;org.rimonmostafiz.samples.jpetstore.services.PetStoreServiceImpl&quot;&gt;
-        &lt;property name=&quot;accountDao&quot; ref=&quot;accountDao&quot;/&gt;
-        &lt;property name=&quot;itemDao&quot; ref=&quot;itemDao&quot;/&gt;
-        &lt;!-- additional collaborators and configuration for this bean go here --&gt;
-    &lt;/bean&gt;
+      &lt;!-- services --&gt;
 
-    &lt;!-- more bean definitions for services go here --&gt;
+      &lt;bean id=&quot;petStore&quot; class=&quot;org.rimonmostafiz.samples.jpetstore.services.PetStoreServiceImpl&quot;&gt;
+          &lt;property name=&quot;accountDao&quot; ref=&quot;accountDao&quot;/&gt;
+          &lt;property name=&quot;itemDao&quot; ref=&quot;itemDao&quot;/&gt;
+          &lt;!-- additional collaborators and configuration for this bean go here --&gt;
+      &lt;/bean&gt;
 
-&lt;/beans&gt;
+      &lt;!-- more bean definitions for services go here --&gt;
+
+    &lt;/beans&gt;
 </code></pre>
 
 <p>The following example shows the data access objects <code>daos.xml</code> file:</p>
 
 <pre><code>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+
 &lt;beans xmlns=&quot;http://www.springframework.org/schema/beans&quot;
-    xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;
-    xsi:schemaLocation=&quot;http://www.springframework.org/schema/beans
-        http://www.springframework.org/schema/beans/spring-beans.xsd&quot;&gt;
+  xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;
+  xsi:schemaLocation=&quot;http://www.springframework.org/schema/beans
+      http://www.springframework.org/schema/beans/spring-beans.xsd&quot;&gt;
 
-    &lt;bean id=&quot;accountDao&quot;
-        class=&quot;org.rimonmostafiz.samples.jpetstore.dao.jpa.JpaAccountDao&quot;&gt;
-        &lt;!-- additional collaborators and configuration for this bean go here --&gt;
-    &lt;/bean&gt;
+  &lt;bean id=&quot;accountDao&quot;
+      class=&quot;org.rimonmostafiz.samples.jpetstore.dao.jpa.JpaAccountDao&quot;&gt;
+      &lt;!-- additional collaborators and configuration for this bean go here --&gt;
+  &lt;/bean&gt;
 
-    &lt;bean id=&quot;itemDao&quot; class=&quot;org.rimonmostafiz.samples.jpetstore.dao.jpa.JpaItemDao&quot;&gt;
-        &lt;!-- additional collaborators and configuration for this bean go here --&gt;
-    &lt;/bean&gt;
+  &lt;bean id=&quot;itemDao&quot; class=&quot;org.rimonmostafiz.samples.jpetstore.dao.jpa.JpaItemDao&quot;&gt;
+      &lt;!-- additional collaborators and configuration for this bean go here --&gt;
+  &lt;/bean&gt;
 
-    &lt;!-- more bean definitions for data access objects go here --&gt;
+  &lt;!-- more bean definitions for data access objects go here --&gt;
 
 &lt;/beans&gt;
 </code></pre>
