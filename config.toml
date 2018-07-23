@@ -8,7 +8,7 @@ layoutdir = "layouts"
 publishdir = "public"
 author = "Rimon Mostafiz"
 title = "Rimon's Weblog"
-disqusshortname = ""
+disqusShortname = "rimonmostafiz"
 pluralizelisttitles = false
 
 [permalinks]
