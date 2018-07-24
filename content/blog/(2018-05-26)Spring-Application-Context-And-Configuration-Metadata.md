@@ -1,23 +1,13 @@
----
-author: rimonmostafiz
-comments: true
-date: 2018-05-26 06:42:47+00:00
-layout: post
-link: http://www.rimonmostafiz.com/blog/spring-application-context-and-configuration-metadata/
-slug: spring-application-context-and-configuration-metadata
-title: Spring Application Context and Configuration Metadata
-categories:
-- learning
-- spring
-- spring-diary
-tags:
-- application-context
-- beans
-- configuration
-- java-config
-- metadata
-- xml-config
----
++++
+date = "2018-05-26"
+tags = ["spring", "application-context", "configuration"]
+title = "Spring Application Context and Configuration Metadata"
+description = ""
+meta_img = ""
+hacker_news_id = ""
+lobsters_id = ""
+author = "Rimon Mostafiz"
++++
 
 In the [last post](http://www.rimonmostafiz.com/blog/auto-bean-wiring-of-spring/) of Spring Diary, we discussed the basics of spring IoC Container and we saw a high-level view of how Spring Container works.
 
@@ -34,8 +24,7 @@ We have three choices to configure container using configuration metadata
   * **[Java-based configuration](https://docs.spring.io/spring/docs/current/spring-framework-reference/core.html#beans-java):** Starting with Spring 3.0, many features provided by the Spring JavaConfig project became part of the core Spring Framework. Thus you can define beans external to your application classes by using Java rather than XML files.
 
 
-#### Basic Structure of XML-based Configuration
-
+## Basic Structure of XML-based Configuration
     <?xml version="1.0" encoding="UTF-8"?>
     <beans xmlns="http://www.springframework.org/schema/beans"
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -55,7 +44,7 @@ We have three choices to configure container using configuration metadata
 
 The above example shows the basic structure of XML-based configuration metadata, where The attribute`id` is a string that you use to identify the individual bean definition. The attribute`class` defines the type of the bean and uses the fully qualified class name. The value of the id attribute refers to collaborating objects.
 
-### Instantiating a container using the application context
+## Instantiating a container using the application context
 
 Spring comes with several flavors of the application context. Here are a few that you’ll most likely encounter:
 

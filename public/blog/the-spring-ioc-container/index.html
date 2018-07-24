@@ -7,7 +7,7 @@
 <meta name="MobileOptimized" content="320">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="referrer" content="no-referrer">
-<meta name="description" content="Example blog">
+<meta name="description" content="Yet Another Phony Software Engineer">
 
 
     <meta property="twitter:site" content="@rimonmostafiz">
@@ -563,7 +563,7 @@ div.main .content .markdown a code:hover {
 }
 div.main .content .markdown p {
   
-  text-align: justify;
+  text-align: left;
   
   margin-top: 0;
   margin-bottom: 1em;
@@ -971,7 +971,7 @@ margin-left: -4%;
 
 <link rel="shortcut icon"
 
-    href="https://rimonmostafiz.com/img/code.png"
+    href="https://rimonmostafiz.com/img/favicon.png"
 
 >
 
@@ -988,7 +988,7 @@ margin-left: -4%;
 
     <div class="container">
         
-        <a href="https://rimonmostafiz.com/"><img class="logo" src="https://rimonmostafiz.com/img/semicolon.jpg" alt="logo"></a>
+        <a href="https://rimonmostafiz.com/"><img class="logo" src="https://rimonmostafiz.com/img/logo.jpg" alt="logo"></a>
         
         <div class="content">
             <a href="https://rimonmostafiz.com/"><div class="name"><h1>Rimon&#39;s Weblog</h1></div></a>
@@ -1026,39 +1026,31 @@ margin-left: -4%;
 
                 </div>
                 <div class="meta">
-                    <div class="date" title="Thu Mar 15 2018 11:00:47 &#43;0000">Mar 15, 2018</div>
+                    <div class="date" title="Thu Mar 15 2018 00:00:00 UTC">Mar 15, 2018</div>
                     
                         
-                        <div class="author middot" title="rimonmostafiz">rimonmostafiz</div>
+                        <div class="author middot" title="Rimon Mostafiz">Rimon Mostafiz</div>
                         
                     
                     <div class="reading-time middot">3 minute read</div>
                     <div class="tags">
                         <ul>
                           
-                            <li class="middot"><a href="https://rimonmostafiz.com/tags/applicaiton-context">applicaiton-context</a> </li>
-                          
-                            <li class="middot"><a href="https://rimonmostafiz.com/tags/beans">beans</a> </li>
-                          
-                            <li class="middot"><a href="https://rimonmostafiz.com/tags/configuration">configuration</a> </li>
-                          
-                            <li class="middot"><a href="https://rimonmostafiz.com/tags/container">container</a> </li>
-                          
-                            <li class="middot"><a href="https://rimonmostafiz.com/tags/context">context</a> </li>
-                          
-                            <li class="middot"><a href="https://rimonmostafiz.com/tags/framework">framework</a> </li>
+                            <li class="middot"><a href="https://rimonmostafiz.com/tags/spring">spring</a> </li>
                           
                             <li class="middot"><a href="https://rimonmostafiz.com/tags/ioc">ioc</a> </li>
                           
-                            <li class="middot"><a href="https://rimonmostafiz.com/tags/metadata">metadata</a> </li>
-                          
-                            <li class="middot"><a href="https://rimonmostafiz.com/tags/spring-ioc-container">spring-ioc-container</a> </li>
+                            <li class="middot"><a href="https://rimonmostafiz.com/tags/framework">framework</a> </li>
                           
                         </ul>
                     </div>
                     <div class="tags">
                         <ul>
                           
+                            
+                          
+                          
+                            
                           
                         </ul>
                     </div>
@@ -1069,61 +1061,49 @@ margin-left: -4%;
     
     
 
-<h3 id="overview"><strong>Overview</strong></h3>
+<h2 id="overview">Overview</h2>
 
-<p>There is some confusion these days over the meaning of <em><strong>inversion of control</strong></em> due to the rise of _<strong>IoC containers. </strong>_An IoC container is a common characteristic of frameworks that implement Inversion of Control (IoC).</p>
+<p>There is some confusion these days over the meaning of <em><strong>inversion of control</strong></em> due to the rise of <em><strong>IoC containers</strong></em>.</p>
 
-<p>Some people confuse the general principle here with the specific styles of inversion of control (such as dependency injection) that these containers use. It is a process whereby objects define their dependencies, that is, the other objects they work with, only through constructor arguments, arguments to a factory method, or properties that are set on the object instance after it is constructed or returned from a factory method. The container then _injects_ those dependencies when it creates the bean. This process is fundamentally the inverse, hence the name _Inversion of Control_ (IoC), of the bean itself controlling the instantiation or location of its dependencies by using a direct construction of classes, or a mechanism such as the _Service Locator_ pattern.</p>
+<p><strong>An IoC container is a common characteristic of frameworks that implement Inversion of Control (IoC).</strong></p>
 
-<h3 id="toc_1">**</h3>
+<p>Some people confuse the general principle here with the specific styles of inversion of control (such as dependency injection) that these containers use. It is a process whereby objects define their dependencies, that is, the other objects they work with, only through constructor arguments, arguments to a factory method, or properties that are set on the object instance after it is constructed or returned from a factory method. The container then <strong>injects</strong> those dependencies when it creates the bean. This process is fundamentally the inverse, hence the name <em>Inversion of Control</em> (IoC), of the bean itself controlling the instantiation or location of its dependencies by using a direct construction of classes, or a mechanism such as the <em><strong>Service Locator</strong></em> pattern.</p>
 
-<p>Spring IoC Container
-**</p>
+<h2 id="spring-ioc-container">Spring IoC Container</h2>
 
-<p>The container is at the core of the Spring Framework. Spring’s container uses DI to manage the components that make up an application. This container is responsible for instantiating, configuring and assembling objects known as <em>beans</em>, as well as managing their lifecycle.</p>
+<p>The container is at the core of the Spring Framework. Spring’s container uses DI to manage the components that make up an application. This container is responsible for instantiating, configuring and assembling objects known as <em>beans</em>, as well as managing their life-cycle.</p>
 
-<p>Spring comes with several container implementations of IoC Container. In Spring, <code>org.springframework.beans</code>and <code>org.springframework.context</code>packages are the basis of Spring&rsquo;s IoC Container.</p>
+<p>Spring comes with several container implementations of IoC Container.
+In Spring, <code>org.springframework.beans</code>and <code>org.springframework.context</code>packages are the basis of Spring&rsquo;s IoC Container.</p>
 
 <ul>
-<li><p>The <a href="https://docs.spring.io/spring-framework/docs/5.0.4.RELEASE/javadoc-api/org/springframework/beans/factory/BeanFactory.html"><code>BeanFactory</code></a> (defined by <code>org.springframework.beans.factory.BeanFactory</code>interface): It provides an advanced configuration mechanism capable of managing any type of object. It Provides the configuration framework and basic functionality.</p></li>
+<li><p><strong>The <a href="https://docs.spring.io/spring-framework/docs/5.0.4.RELEASE/javadoc-api/org/springframework/beans/factory/BeanFactory.html"><code>BeanFactory</code></a></strong>: Defined by <code>org.springframework.beans.factory.BeanFactory</code> interface. It provides an advanced configuration mechanism capable of managing any type of object. It Provides the configuration framework and basic functionality.</p></li>
 
-<li><p>The <a href="https://docs.spring.io/spring-framework/docs/5.0.4.RELEASE/javadoc-api/org/springframework/context/ApplicationContext.html"><code>ApplicationContext</code></a> (defined by <code>org.springframework.context.ApplicationContext</code>interface): Its a sub-interface of<code>BeanFactory</code> It adds more enterprise-specific functionality like easier integration with Spring’s AOP features; message resource handling (for use in internationalization), event publication; and application-layer specific contexts.</p></li>
+<li><p><strong>The <a href="https://docs.spring.io/spring-framework/docs/5.0.4.RELEASE/javadoc-api/org/springframework/context/ApplicationContext.html"><code>ApplicationContext</code></a></strong>: Defined by <code>org.springframework.context.ApplicationContext</code> interface. Its a sub-interface of <code>BeanFactory</code> It adds more enterprise-specific functionality like easier integration with Spring’s AOP features; message resource handling (for use in internationalization), event publication; and application-layer specific contexts.</p></li>
 </ul>
 
-<h3 id="overview-of-container">**Overview of Container</h3>
-
-<p>**</p>
+<h2 id="overview-of-container">Overview of Container</h2>
 
 <p>The above interfaces represent the Spring IoC container and are responsible for instantiating, configuring, and assembling the aforementioned beans. The next question pop out from the brain, what the hack is a bean?</p>
 
+<p><strong>Bean</strong></p>
+
 <blockquote>
+<p>Object in the Spring framework that we initialize through Spring container is called Spring Bean.
+The objects that form the backbone of your application and that are managed by the <strong>Spring IoC container</strong> are called <strong>beans</strong>.</p>
 
-> 
-> 
+<p>A bean is an object that is instantiated, assembled, and otherwise managed by a Spring IoC container. Otherwise, a bean is simply one of many objects in your application.Any normal <strong>Java POJO</strong> class can be a Spring Bean if it’s configured to be initialized via container by providing configuration metadata information.</p>
+</blockquote>
 
-**Bean**
-
-Object in the Spring framework that we initialize through Spring container is called Spring Bean.
-The objects that form the backbone of your application and that are managed by the Spring IoC _container_ are called _beans. _A bean is an object that is instantiated, assembled, and otherwise managed by a Spring IoC container. Otherwise, a bean is simply one of many objects in your application.Any normal Java POJO class can be a Spring Bean if it’s configured to be initialized via container by providing configuration metadata information.
-
-
-> 
-> </blockquote>
-
-<p>Now the questions are,</p>
-
-<ol>
-<li><p>How container loads the beans?</p></li>
-
-<li><p>How does the container know which beans to wire together?</p></li>
-
-<li><p>Is it happening magically?</p></li>
-</ol>
+<p>Now the questions are,
+  1. How container loads the beans?
+  2. How does the container know which beans to wire together?
+  3. Is it happening magically?</p>
 
 <p>Nothing is happening magically inside the container, In order to assemble beans, the container uses configuration metadata.
 The container gets its instructions on what objects to instantiate, configure, and assemble by reading this configuration metadata. which can be represented in XML, Java annotations, or Java code. As an Application Developer, it&rsquo;s your job to write this configuration metadata.</p>
 
-<p><img src="https://docs.spring.io/spring/docs/current/spring-framework-reference/images/container-magic.png" alt="" /></p>
+<p><img src="https://docs.spring.io/spring/docs/current/spring-framework-reference/images/container-magic.png" alt="Container Magic" /></p>
 
 <p>The diagram is a high-level view of how Spring Container works. Your application classes are combined with configuration metadata so that after the <code>ApplicationContext</code> is created and initialized, you have a fully configured and executable system or application.</p>
 

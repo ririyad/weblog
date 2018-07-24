@@ -6,7 +6,7 @@
     <description>Recent content in Npm on Rimon&#39;s Weblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Sat, 07 Jul 2018 04:17:09 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 07 Jul 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://rimonmostafiz.com/tags/npm/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>Install and Manage Node Js Using NVM</title>
       <link>https://rimonmostafiz.com/blog/install-and-manage-node-js-using-nvm/</link>
-      <pubDate>Sat, 07 Jul 2018 04:17:09 +0000</pubDate>
+      <pubDate>Sat, 07 Jul 2018 00:00:00 +0000</pubDate>
       
       <guid>https://rimonmostafiz.com/blog/install-and-manage-node-js-using-nvm/</guid>
       <description>Node Version Manager (NVM) is a simple bash script to manage multiple active node.js versions.

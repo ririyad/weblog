@@ -17,14 +17,15 @@ blog = "blog/:slug/"
 [params]
 dateform = "Jan 2, 2006"
 dateformfull = "Mon Jan 2 2006 15:04:05 MST"
-description = "Example blog"
+description = "Yet Another Phony Software Engineer"
 copyright = "Copyright © 2018 Rimon Mostafiz"
-logofile = "img/semicolon.jpg"
-faviconfile = "img/code.png"
+logofile = "img/logo.jpg"
+faviconfile = "img/favicon.png"
 highlightjs = true
 progressively = true
-align_left = false
+align_left = true
 lang = "en"
+
 github = "rimonmostafiz"
 email = "ferary.rimon@gmail.com"
 linkedin = "rimonmostafiz"
@@ -32,4 +33,4 @@ twitter = "rimonmostafiz"
 social_banner = "img/banner.png"
 posts_navigation = true
 small_banner_logo = false
-latestpostcount=5
+latestpostcount = 5
