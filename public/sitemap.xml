@@ -4,27 +4,27 @@
   
   <url>
     <loc>https://rimonmostafiz.com/blog/install-and-manage-node-js-using-nvm/</loc>
-    <lastmod>2018-07-07T04:17:09+00:00</lastmod>
+    <lastmod>2018-07-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://rimonmostafiz.com/blog/spring-bean-wiring-using-javaconfig/</loc>
-    <lastmod>2018-05-29T10:19:29+00:00</lastmod>
+    <lastmod>2018-05-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://rimonmostafiz.com/blog/auto-bean-wiring-of-spring/</loc>
-    <lastmod>2018-05-28T07:44:03+00:00</lastmod>
+    <lastmod>2018-05-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://rimonmostafiz.com/blog/spring-application-context-and-configuration-metadata/</loc>
-    <lastmod>2018-05-26T06:42:47+00:00</lastmod>
+    <lastmod>2018-05-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://rimonmostafiz.com/blog/the-spring-ioc-container/</loc>
-    <lastmod>2018-03-15T11:00:47+00:00</lastmod>
+    <lastmod>2018-03-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -151,19 +151,19 @@
   
   <url>
     <loc>https://rimonmostafiz.com/tags/annotation/</loc>
-    <lastmod>2018-05-29T10:19:29+00:00</lastmod>
+    <lastmod>2017-10-30T09:19:54+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://rimonmostafiz.com/tags/applicaiton-context/</loc>
-    <lastmod>2018-03-15T11:00:47+00:00</lastmod>
+    <loc>https://rimonmostafiz.com/tags/annotations/</loc>
+    <lastmod>2018-05-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://rimonmostafiz.com/tags/application-context/</loc>
-    <lastmod>2018-05-29T10:19:29+00:00</lastmod>
+    <lastmod>2018-05-26T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -175,7 +175,7 @@
   
   <url>
     <loc>https://rimonmostafiz.com/tags/autowired/</loc>
-    <lastmod>2018-05-28T07:44:03+00:00</lastmod>
+    <lastmod>2018-05-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -187,19 +187,13 @@
   
   <url>
     <loc>https://rimonmostafiz.com/tags/bean-wiring/</loc>
-    <lastmod>2018-05-29T10:19:29+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://rimonmostafiz.com/tags/beans/</loc>
-    <lastmod>2018-05-26T06:42:47+00:00</lastmod>
+    <lastmod>2018-05-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://rimonmostafiz.com/blog/</loc>
-    <lastmod>2018-07-07T04:17:09+00:00</lastmod>
+    <lastmod>2018-07-07T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -217,19 +211,13 @@
   
   <url>
     <loc>https://rimonmostafiz.com/tags/component/</loc>
-    <lastmod>2018-05-28T07:44:03+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://rimonmostafiz.com/tags/componentscan/</loc>
-    <lastmod>2018-05-28T07:44:03+00:00</lastmod>
+    <lastmod>2018-05-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://rimonmostafiz.com/tags/configuration/</loc>
-    <lastmod>2018-05-29T10:19:29+00:00</lastmod>
+    <lastmod>2018-05-26T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -240,20 +228,8 @@
   </url>
   
   <url>
-    <loc>https://rimonmostafiz.com/tags/constructor-injection/</loc>
-    <lastmod>2018-05-29T10:19:29+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://rimonmostafiz.com/tags/container/</loc>
-    <lastmod>2018-03-15T11:00:47+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://rimonmostafiz.com/tags/context/</loc>
-    <lastmod>2018-03-15T11:00:47+00:00</lastmod>
+    <lastmod>2018-03-14T10:36:12+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -324,12 +300,6 @@
   </url>
   
   <url>
-    <loc>https://rimonmostafiz.com/tags/explicit-wiring/</loc>
-    <lastmod>2018-05-29T10:19:29+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://rimonmostafiz.com/tags/filter/</loc>
     <lastmod>2017-12-12T10:08:51+00:00</lastmod>
     <priority>0</priority>
@@ -337,7 +307,7 @@
   
   <url>
     <loc>https://rimonmostafiz.com/tags/framework/</loc>
-    <lastmod>2018-03-15T11:00:47+00:00</lastmod>
+    <lastmod>2018-03-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -385,7 +355,7 @@
   
   <url>
     <loc>https://rimonmostafiz.com/tags/ioc/</loc>
-    <lastmod>2018-03-15T11:00:47+00:00</lastmod>
+    <lastmod>2018-03-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -398,12 +368,6 @@
   <url>
     <loc>https://rimonmostafiz.com/categories/java/</loc>
     <lastmod>2018-01-09T06:30:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://rimonmostafiz.com/tags/java-config/</loc>
-    <lastmod>2018-05-26T06:42:47+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -445,7 +409,7 @@
   
   <url>
     <loc>https://rimonmostafiz.com/categories/learning/</loc>
-    <lastmod>2018-05-29T10:19:29+00:00</lastmod>
+    <lastmod>2018-03-14T10:36:12+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -486,32 +450,14 @@
   </url>
   
   <url>
-    <loc>https://rimonmostafiz.com/tags/metadata/</loc>
-    <lastmod>2018-05-26T06:42:47+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://rimonmostafiz.com/tags/microcontroller/</loc>
     <lastmod>2017-09-09T11:34:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://rimonmostafiz.com/tags/node/</loc>
-    <lastmod>2018-07-07T04:17:09+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://rimonmostafiz.com/tags/nodejs/</loc>
-    <lastmod>2018-07-07T04:17:09+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://rimonmostafiz.com/categories/nodejs/</loc>
-    <lastmod>2018-07-07T04:17:09+00:00</lastmod>
+    <lastmod>2018-07-07T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -529,7 +475,7 @@
   
   <url>
     <loc>https://rimonmostafiz.com/tags/npm/</loc>
-    <lastmod>2018-07-07T04:17:09+00:00</lastmod>
+    <lastmod>2018-07-07T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -541,7 +487,7 @@
   
   <url>
     <loc>https://rimonmostafiz.com/tags/nvm/</loc>
-    <lastmod>2018-07-07T04:17:09+00:00</lastmod>
+    <lastmod>2018-07-07T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -613,7 +559,7 @@
   
   <url>
     <loc>https://rimonmostafiz.com/</loc>
-    <lastmod>2018-07-07T04:17:09+00:00</lastmod>
+    <lastmod>2018-07-07T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -655,25 +601,19 @@
   
   <url>
     <loc>https://rimonmostafiz.com/tags/spring/</loc>
-    <lastmod>2018-03-14T10:36:12+00:00</lastmod>
+    <lastmod>2018-05-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://rimonmostafiz.com/categories/spring/</loc>
-    <lastmod>2018-05-29T10:19:29+00:00</lastmod>
+    <lastmod>2018-03-14T10:36:12+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://rimonmostafiz.com/categories/spring-diary/</loc>
-    <lastmod>2018-05-29T10:19:29+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://rimonmostafiz.com/tags/spring-ioc-container/</loc>
-    <lastmod>2018-03-15T11:00:47+00:00</lastmod>
+    <lastmod>2018-03-14T10:36:12+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -746,12 +686,6 @@
   <url>
     <loc>https://rimonmostafiz.com/categories/web-application/</loc>
     <lastmod>2018-01-09T06:30:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://rimonmostafiz.com/tags/xml-config/</loc>
-    <lastmod>2018-05-26T06:42:47+00:00</lastmod>
     <priority>0</priority>
   </url>
   

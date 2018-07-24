@@ -6,7 +6,7 @@
     <description>Recent content in Component on Rimon&#39;s Weblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Mon, 28 May 2018 07:44:03 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 28 May 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://rimonmostafiz.com/tags/component/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>Auto Bean Wiring of Spring</title>
       <link>https://rimonmostafiz.com/blog/auto-bean-wiring-of-spring/</link>
-      <pubDate>Mon, 28 May 2018 07:44:03 +0000</pubDate>
+      <pubDate>Mon, 28 May 2018 00:00:00 +0000</pubDate>
       
       <guid>https://rimonmostafiz.com/blog/auto-bean-wiring-of-spring/</guid>
       <description>As we previously discussed that the Spring container is responsible for creating the beans in your application and coordinating the relationship between those objects vi DI. The act of creating these associations between application objects in the essence of dependency injection(DI) and is commonly referred to as wiring.

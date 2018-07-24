@@ -1,21 +1,13 @@
----
-author: rimonmostafiz
-comments: true
-date: 2018-05-28 07:44:03+00:00
-layout: post
-link: http://www.rimonmostafiz.com/blog/auto-bean-wiring-of-spring/
-slug: auto-bean-wiring-of-spring
-title: Auto Bean Wiring of Spring
-wordpress_id: 1196
-categories:
-- learning
-- spring
-- spring-diary
-tags:
-- Autowired
-- Component
-- ComponentScan
----
++++
+date = "2018-05-28"
+tags = ["spring", "component", "Autowired"]
+title = "Auto Bean Wiring of Spring"
+description = ""
+meta_img = ""
+hacker_news_id = ""
+lobsters_id = ""
+author = "Rimon Mostafiz"
++++
 
 As we previously discussed that the Spring container is responsible for creating the beans in your application and coordinating the relationship between those objects vi DI. The act of creating these associations between application objects in the essence of dependency injection(DI) and is commonly referred to as wiring.
 
@@ -28,7 +20,7 @@ Spring Offers three primary wiring mechanism
 
 In this post, I am going to write notes about Spring's automatic wiring, I will write about the other two in later posts.
 
-### Automatically wiring beans
+## Automatically wiring beans
 Spring attacks automatic wiring from two angles:
 
   * **Component scanning** - Spring automatically discovers beans to be created in the application context
@@ -39,7 +31,7 @@ To understand those concepts properly we will create a project for an online st
 
 ![Create Maven Project](/img/create-maven-project.gif)
 
-#### Add Dependency
+### Add Dependency
 
 Now we need to add spring dependency to our `pom.xml` file
 
@@ -123,7 +115,7 @@ As we added Item as an Interface we can have several Item implementations. Let's
 
 `FoodItem` is a simple class which implements the Item interface. what is important is `FoodItem` is annotated with `@Component.`
 
-#### @Component
+### @Component
 
 `@Component` Indicates that the annotated class is a "component". Such classes are considered as candidates for auto-detection when using annotation-based configuration and classpath scanning. This annotation tells spring container that a bean should be created for the class.
 
@@ -140,7 +132,7 @@ The configuration class in the following listing shows the minimal configuration
     public class StoreConfig { }
 
 If we observe that `StoreConfig` doesn’t explicitly define any beans itself. Instead, it’s annotated with `@ComponentScan` to enable component scanning in Spring.
-#### @ComponentScan
+### @ComponentScan
 
 The @ComponentScan annotation is used with the @Configuration annotation to tell Spring the packages to scan for annotated components.
 @ComponentScan also used to specify base packages and base package classes using basePackages or basePackageClasses attributes of @ComponentScan.
@@ -194,12 +186,12 @@ To test that component scanning is working we can write a simple JUnit test that
 Here the `@ContextConfiguration` annotation tells it to load its configuration from the `StoreConfig`class. Because that configuration class includes `@ComponentScan` ,  the resulting application context should include the `Item` bean. To prove that, the test has a property of type `Item` that is annotated with `@Autowired` to inject the `Item` bean into the test.
 Finally, a simple test method asserts that the foodItem property isn’t null. If it’s not null, that means Spring was able to discover the `Item` class, automatically create it as a bean in the Spring application context, and inject it into the test.
 
-#### @Autowired
+### @Autowired
 
 Aautowiring is a means of letting Spring automatically satisfy a bean’s dependencies by finding other beans in the application context that are a match to the bean’s needs. To indicate that autowiring should be performed, we can use `@Autowired` annotation.
 
 
 
-#### Test
+## Test
 If you now run the test it will pass.
 ![Test](/video/autowiring-test-spring-diary.mp4)
