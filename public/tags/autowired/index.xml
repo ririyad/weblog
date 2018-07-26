@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Autowired on Rimon&#39;s Weblog</title>
-    <link>https://rimonmostafiz.com/tags/autowired/</link>
-    <description>Recent content in Autowired on Rimon&#39;s Weblog</description>
+    <title>Autowired on /dev/rimon/weblog</title>
+    <link>/tags/autowired/</link>
+    <description>Recent content in Autowired on /dev/rimon/weblog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language>
+    <copyright>© Creative Commons Attribution-ShareAlike 4.0 International License</copyright>
     <lastBuildDate>Mon, 28 May 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://rimonmostafiz.com/tags/autowired/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/autowired/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Auto Bean Wiring of Spring</title>
-      <link>https://rimonmostafiz.com/blog/auto-bean-wiring-of-spring/</link>
+      <link>/blog/2018-05-28auto-bean-wiring-of-spring/</link>
       <pubDate>Mon, 28 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://rimonmostafiz.com/blog/auto-bean-wiring-of-spring/</guid>
+      <guid>/blog/2018-05-28auto-bean-wiring-of-spring/</guid>
       <description>As we previously discussed that the Spring container is responsible for creating the beans in your application and coordinating the relationship between those objects vi DI. The act of creating these associations between application objects in the essence of dependency injection(DI) and is commonly referred to as wiring.
 Different Types of Bean Wiring Spring Offers three primary wiring mechanism
  An explicit configuration in XML An explicit configuration in Java An Implicit bean discovery and automatic wiring  In this post, I am going to write notes about Spring&amp;rsquo;s automatic wiring, I will write about the other two in later posts.</description>

@@ -1,42 +1,42 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Elasticsearch Series on Rimon&#39;s Weblog</title>
-    <link>https://rimonmostafiz.com/categories/elasticsearch-series/</link>
-    <description>Recent content in Elasticsearch Series on Rimon&#39;s Weblog</description>
+    <title>Elasticsearch-series on /dev/rimon/weblog</title>
+    <link>/categories/elasticsearch-series/</link>
+    <description>Recent content in Elasticsearch-series on /dev/rimon/weblog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language>
+    <copyright>© Creative Commons Attribution-ShareAlike 4.0 International License</copyright>
     <lastBuildDate>Sat, 16 Sep 2017 09:19:51 +0000</lastBuildDate>
     
-	<atom:link href="https://rimonmostafiz.com/categories/elasticsearch-series/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/categories/elasticsearch-series/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Installing and Running Kibana</title>
-      <link>https://rimonmostafiz.com/blog/installing-and-running-kibana/</link>
+      <link>/blog/installing-and-running-kibana/</link>
       <pubDate>Sat, 16 Sep 2017 09:19:51 +0000</pubDate>
       
-      <guid>https://rimonmostafiz.com/blog/installing-and-running-kibana/</guid>
+      <guid>/blog/installing-and-running-kibana/</guid>
       <description>Installing Kibana and Console _This article is part of a series. Check out the full series [icon name=&amp;ldquo;external-link&amp;rdquo; class=&amp;ldquo;&amp;rdquo; unprefixedclass=&amp;ldquo;&amp;rdquo;]
 Kibana is an open source analytics and visualization platform designed to work with Elasticsearch and Console (Previously its name was Sence, Sence was renamed to Console and it is available on Kibana 5.*) is a Kibana plugin [](https://www.elastic.co/guide/en/elasticsearch/guide/2.x/running-elasticsearch.html#id-1.4.3.13.19.2.2)[](https://www.elastic.co/guide/en/elasticsearch/guide/2.x/running-elasticsearch.html#id-1.4.3.13.19.2.3)that provides an interactive console for submitting requests to Elasticsearch directly from your browser.</description>
     </item>
     
     <item>
       <title>Installing and Running Elasticsearch</title>
-      <link>https://rimonmostafiz.com/blog/installing-and-running-elasticsearch/</link>
+      <link>/blog/installing-and-running-elasticsearch/</link>
       <pubDate>Fri, 15 Sep 2017 12:36:35 +0000</pubDate>
       
-      <guid>https://rimonmostafiz.com/blog/installing-and-running-elasticsearch/</guid>
+      <guid>/blog/installing-and-running-elasticsearch/</guid>
       <description>&amp;ldquo;tagline&amp;rdquo;: &amp;ldquo;You Know, for Search&amp;rdquo; _This article is part of a series. Check out the full series [icon name=&amp;ldquo;external-link&amp;rdquo; class=&amp;ldquo;&amp;rdquo; unprefixedclass=&amp;ldquo;&amp;rdquo;]
 The easiest way to understand what Elasticsearch is to play with it, so let’s get started. Elastic search is easy to install. In this tutorial, I will walk you through the elasticsearch installation process in Ubuntu 16.04. Elasticsearch requires a recent version of java. Oracle JDK version 1.8 is recommended.</description>
     </item>
     
     <item>
       <title>Basics and Key Concepts of Elasticsearch</title>
-      <link>https://rimonmostafiz.com/blog/basics-and-key-concepts-of-elasticsearch/</link>
+      <link>/blog/basics-and-key-concepts-of-elasticsearch/</link>
       <pubDate>Fri, 15 Sep 2017 10:26:28 +0000</pubDate>
       
-      <guid>https://rimonmostafiz.com/blog/basics-and-key-concepts-of-elasticsearch/</guid>
+      <guid>/blog/basics-and-key-concepts-of-elasticsearch/</guid>
       <description>Getting Started with Elasticsearch Basics _This article is part of a series. Check out the full series [icon name=&amp;ldquo;external-link&amp;rdquo; class=&amp;ldquo;&amp;rdquo; unprefixedclass=&amp;ldquo;&amp;rdquo;]
 This week finally I started learning Elasticsearch, I decided to keep some notes and share my concepts and understanding on this blog. So that if anyone wants to learn Elasticsearch he/she can learn with me.
 In this part, I will write about the some Elasticsearch theory and basic concepts anyone needs to understand.</description>

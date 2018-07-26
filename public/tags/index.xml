@@ -1,670 +1,670 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Rimon&#39;s Weblog</title>
-    <link>https://rimonmostafiz.com/tags/</link>
-    <description>Recent content in Tags on Rimon&#39;s Weblog</description>
+    <title>Tags on /dev/rimon/weblog</title>
+    <link>/tags/</link>
+    <description>Recent content in Tags on /dev/rimon/weblog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language>
+    <copyright>© Creative Commons Attribution-ShareAlike 4.0 International License</copyright>
     <lastBuildDate>Thu, 30 Nov 2017 11:50:41 +0000</lastBuildDate>
     
-	<atom:link href="https://rimonmostafiz.com/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Alias</title>
-      <link>https://rimonmostafiz.com/tags/alias/</link>
+      <link>/tags/alias/</link>
       <pubDate>Thu, 30 Nov 2017 11:50:41 +0000</pubDate>
       
-      <guid>https://rimonmostafiz.com/tags/alias/</guid>
+      <guid>/tags/alias/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Annotation</title>
-      <link>https://rimonmostafiz.com/tags/annotation/</link>
+      <link>/tags/annotation/</link>
       <pubDate>Mon, 30 Oct 2017 09:19:54 +0000</pubDate>
       
-      <guid>https://rimonmostafiz.com/tags/annotation/</guid>
+      <guid>/tags/annotation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Annotations</title>
-      <link>https://rimonmostafiz.com/tags/annotations/</link>
+      <link>/tags/annotations/</link>
       <pubDate>Tue, 29 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://rimonmostafiz.com/tags/annotations/</guid>
+      <guid>/tags/annotations/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Application Context</title>
-      <link>https://rimonmostafiz.com/tags/application-context/</link>
+      <title>Application-context</title>
+      <link>/tags/application-context/</link>
       <pubDate>Sat, 26 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://rimonmostafiz.com/tags/application-context/</guid>
+      <guid>/tags/application-context/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Arduino</title>
-      <link>https://rimonmostafiz.com/tags/arduino/</link>
+      <link>/tags/arduino/</link>
       <pubDate>Sat, 09 Sep 2017 11:34:00 +0000</pubDate>
       
-      <guid>https://rimonmostafiz.com/tags/arduino/</guid>
+      <guid>/tags/arduino/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Autowired</title>
-      <link>https://rimonmostafiz.com/tags/autowired/</link>
+      <link>/tags/autowired/</link>
       <pubDate>Mon, 28 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://rimonmostafiz.com/tags/autowired/</guid>
+      <guid>/tags/autowired/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Bashrc</title>
-      <link>https://rimonmostafiz.com/tags/bashrc/</link>
+      <link>/tags/bashrc/</link>
       <pubDate>Thu, 30 Nov 2017 11:50:41 +0000</pubDate>
       
-      <guid>https://rimonmostafiz.com/tags/bashrc/</guid>
+      <guid>/tags/bashrc/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Bean Wiring</title>
-      <link>https://rimonmostafiz.com/tags/bean-wiring/</link>
+      <title>Bean-wiring</title>
+      <link>/tags/bean-wiring/</link>
       <pubDate>Tue, 29 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://rimonmostafiz.com/tags/bean-wiring/</guid>
+      <guid>/tags/bean-wiring/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Command</title>
-      <link>https://rimonmostafiz.com/tags/command/</link>
+      <link>/tags/command/</link>
       <pubDate>Thu, 30 Nov 2017 11:50:41 +0000</pubDate>
       
-      <guid>https://rimonmostafiz.com/tags/command/</guid>
+      <guid>/tags/command/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Component</title>
-      <link>https://rimonmostafiz.com/tags/component/</link>
+      <link>/tags/component/</link>
       <pubDate>Mon, 28 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://rimonmostafiz.com/tags/component/</guid>
+      <guid>/tags/component/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Configuration</title>
-      <link>https://rimonmostafiz.com/tags/configuration/</link>
+      <link>/tags/configuration/</link>
       <pubDate>Sat, 26 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://rimonmostafiz.com/tags/configuration/</guid>
+      <guid>/tags/configuration/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Console</title>
-      <link>https://rimonmostafiz.com/tags/console/</link>
+      <link>/tags/console/</link>
       <pubDate>Sat, 16 Sep 2017 09:19:51 +0000</pubDate>
       
-      <guid>https://rimonmostafiz.com/tags/console/</guid>
+      <guid>/tags/console/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Container</title>
-      <link>https://rimonmostafiz.com/tags/container/</link>
+      <link>/tags/container/</link>
       <pubDate>Wed, 14 Mar 2018 10:36:12 +0000</pubDate>
       
-      <guid>https://rimonmostafiz.com/tags/container/</guid>
+      <guid>/tags/container/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Database</title>
-      <link>https://rimonmostafiz.com/tags/database/</link>
+      <link>/tags/database/</link>
       <pubDate>Fri, 15 Sep 2017 10:26:28 +0000</pubDate>
       
-      <guid>https://rimonmostafiz.com/tags/database/</guid>
+      <guid>/tags/database/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Dependency Injection</title>
-      <link>https://rimonmostafiz.com/tags/dependency-injection/</link>
+      <title>Dependency injection</title>
+      <link>/tags/dependency-injection/</link>
       <pubDate>Wed, 14 Mar 2018 10:36:12 +0000</pubDate>
       
-      <guid>https://rimonmostafiz.com/tags/dependency-injection/</guid>
+      <guid>/tags/dependency-injection/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Deployment Descriptor</title>
-      <link>https://rimonmostafiz.com/tags/deployment-descriptor/</link>
+      <title>Deployment-descriptor</title>
+      <link>/tags/deployment-descriptor/</link>
       <pubDate>Tue, 12 Dec 2017 16:57:27 +0000</pubDate>
       
-      <guid>https://rimonmostafiz.com/tags/deployment-descriptor/</guid>
+      <guid>/tags/deployment-descriptor/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Di</title>
-      <link>https://rimonmostafiz.com/tags/di/</link>
+      <link>/tags/di/</link>
       <pubDate>Wed, 14 Mar 2018 10:36:12 +0000</pubDate>
       
-      <guid>https://rimonmostafiz.com/tags/di/</guid>
+      <guid>/tags/di/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Directory Structure</title>
-      <link>https://rimonmostafiz.com/tags/directory-structure/</link>
+      <title>Directory-structure</title>
+      <link>/tags/directory-structure/</link>
       <pubDate>Tue, 12 Dec 2017 11:30:40 +0000</pubDate>
       
-      <guid>https://rimonmostafiz.com/tags/directory-structure/</guid>
+      <guid>/tags/directory-structure/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Elasticse</title>
-      <link>https://rimonmostafiz.com/tags/elasticse/</link>
+      <link>/tags/elasticse/</link>
       <pubDate>Sat, 16 Sep 2017 09:19:51 +0000</pubDate>
       
-      <guid>https://rimonmostafiz.com/tags/elasticse/</guid>
+      <guid>/tags/elasticse/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Elasticsearch</title>
-      <link>https://rimonmostafiz.com/tags/elasticsearch/</link>
+      <link>/tags/elasticsearch/</link>
       <pubDate>Fri, 15 Sep 2017 12:36:35 +0000</pubDate>
       
-      <guid>https://rimonmostafiz.com/tags/elasticsearch/</guid>
+      <guid>/tags/elasticsearch/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Encode</title>
-      <link>https://rimonmostafiz.com/tags/encode/</link>
+      <link>/tags/encode/</link>
       <pubDate>Tue, 09 Jan 2018 06:30:00 +0000</pubDate>
       
-      <guid>https://rimonmostafiz.com/tags/encode/</guid>
+      <guid>/tags/encode/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Filter</title>
-      <link>https://rimonmostafiz.com/tags/filter/</link>
+      <link>/tags/filter/</link>
       <pubDate>Tue, 12 Dec 2017 10:08:51 +0000</pubDate>
       
-      <guid>https://rimonmostafiz.com/tags/filter/</guid>
+      <guid>/tags/filter/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Framework</title>
-      <link>https://rimonmostafiz.com/tags/framework/</link>
+      <link>/tags/framework/</link>
       <pubDate>Thu, 15 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://rimonmostafiz.com/tags/framework/</guid>
+      <guid>/tags/framework/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Gcd</title>
-      <link>https://rimonmostafiz.com/tags/gcd/</link>
+      <link>/tags/gcd/</link>
       <pubDate>Tue, 15 Aug 2017 18:00:00 +0000</pubDate>
       
-      <guid>https://rimonmostafiz.com/tags/gcd/</guid>
+      <guid>/tags/gcd/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Git</title>
-      <link>https://rimonmostafiz.com/tags/git/</link>
+      <link>/tags/git/</link>
       <pubDate>Thu, 17 Aug 2017 12:00:00 +0000</pubDate>
       
-      <guid>https://rimonmostafiz.com/tags/git/</guid>
+      <guid>/tags/git/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Google Drive</title>
-      <link>https://rimonmostafiz.com/tags/google-drive/</link>
+      <title>Google-drive</title>
+      <link>/tags/google-drive/</link>
       <pubDate>Wed, 16 Aug 2017 22:00:00 +0000</pubDate>
       
-      <guid>https://rimonmostafiz.com/tags/google-drive/</guid>
+      <guid>/tags/google-drive/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Header</title>
-      <link>https://rimonmostafiz.com/tags/header/</link>
+      <link>/tags/header/</link>
       <pubDate>Tue, 09 Jan 2018 06:30:00 +0000</pubDate>
       
-      <guid>https://rimonmostafiz.com/tags/header/</guid>
+      <guid>/tags/header/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Idea</title>
-      <link>https://rimonmostafiz.com/tags/idea/</link>
+      <link>/tags/idea/</link>
       <pubDate>Sun, 03 Sep 2017 00:21:00 +0000</pubDate>
       
-      <guid>https://rimonmostafiz.com/tags/idea/</guid>
+      <guid>/tags/idea/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Inversion of Control</title>
-      <link>https://rimonmostafiz.com/tags/inversion-of-control/</link>
+      <title>Inversion of control</title>
+      <link>/tags/inversion-of-control/</link>
       <pubDate>Wed, 14 Mar 2018 10:36:12 +0000</pubDate>
       
-      <guid>https://rimonmostafiz.com/tags/inversion-of-control/</guid>
+      <guid>/tags/inversion-of-control/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ioc</title>
-      <link>https://rimonmostafiz.com/tags/ioc/</link>
+      <link>/tags/ioc/</link>
       <pubDate>Thu, 15 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://rimonmostafiz.com/tags/ioc/</guid>
+      <guid>/tags/ioc/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Java</title>
-      <link>https://rimonmostafiz.com/tags/java/</link>
+      <link>/tags/java/</link>
       <pubDate>Tue, 09 Jan 2018 06:30:00 +0000</pubDate>
       
-      <guid>https://rimonmostafiz.com/tags/java/</guid>
+      <guid>/tags/java/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Javaee</title>
-      <link>https://rimonmostafiz.com/tags/javaee/</link>
+      <link>/tags/javaee/</link>
       <pubDate>Tue, 09 Jan 2018 06:30:00 +0000</pubDate>
       
-      <guid>https://rimonmostafiz.com/tags/javaee/</guid>
+      <guid>/tags/javaee/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Jdk</title>
-      <link>https://rimonmostafiz.com/tags/jdk/</link>
+      <link>/tags/jdk/</link>
       <pubDate>Fri, 20 Oct 2017 18:39:46 +0000</pubDate>
       
-      <guid>https://rimonmostafiz.com/tags/jdk/</guid>
+      <guid>/tags/jdk/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Jsp</title>
-      <link>https://rimonmostafiz.com/tags/jsp/</link>
+      <link>/tags/jsp/</link>
       <pubDate>Tue, 12 Dec 2017 10:08:51 +0000</pubDate>
       
-      <guid>https://rimonmostafiz.com/tags/jsp/</guid>
+      <guid>/tags/jsp/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Kibana</title>
-      <link>https://rimonmostafiz.com/tags/kibana/</link>
+      <link>/tags/kibana/</link>
       <pubDate>Sat, 16 Sep 2017 09:19:51 +0000</pubDate>
       
-      <guid>https://rimonmostafiz.com/tags/kibana/</guid>
+      <guid>/tags/kibana/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Lcm</title>
-      <link>https://rimonmostafiz.com/tags/lcm/</link>
+      <link>/tags/lcm/</link>
       <pubDate>Tue, 15 Aug 2017 18:00:00 +0000</pubDate>
       
-      <guid>https://rimonmostafiz.com/tags/lcm/</guid>
+      <guid>/tags/lcm/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Linux</title>
-      <link>https://rimonmostafiz.com/tags/linux/</link>
+      <link>/tags/linux/</link>
       <pubDate>Thu, 30 Nov 2017 11:50:41 +0000</pubDate>
       
-      <guid>https://rimonmostafiz.com/tags/linux/</guid>
+      <guid>/tags/linux/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Listeners</title>
-      <link>https://rimonmostafiz.com/tags/listeners/</link>
+      <link>/tags/listeners/</link>
       <pubDate>Tue, 12 Dec 2017 10:08:51 +0000</pubDate>
       
-      <guid>https://rimonmostafiz.com/tags/listeners/</guid>
+      <guid>/tags/listeners/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Math</title>
-      <link>https://rimonmostafiz.com/tags/math/</link>
+      <link>/tags/math/</link>
       <pubDate>Tue, 15 Aug 2017 18:00:00 +0000</pubDate>
       
-      <guid>https://rimonmostafiz.com/tags/math/</guid>
+      <guid>/tags/math/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Maven</title>
-      <link>https://rimonmostafiz.com/tags/maven/</link>
+      <link>/tags/maven/</link>
       <pubDate>Tue, 12 Dec 2017 16:57:27 +0000</pubDate>
       
-      <guid>https://rimonmostafiz.com/tags/maven/</guid>
+      <guid>/tags/maven/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Microcontroller</title>
-      <link>https://rimonmostafiz.com/tags/microcontroller/</link>
+      <link>/tags/microcontroller/</link>
       <pubDate>Sat, 09 Sep 2017 11:34:00 +0000</pubDate>
       
-      <guid>https://rimonmostafiz.com/tags/microcontroller/</guid>
+      <guid>/tags/microcontroller/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Nodejs</title>
-      <link>https://rimonmostafiz.com/tags/nodejs/</link>
+      <link>/tags/nodejs/</link>
       <pubDate>Sat, 07 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://rimonmostafiz.com/tags/nodejs/</guid>
+      <guid>/tags/nodejs/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Nosql</title>
-      <link>https://rimonmostafiz.com/tags/nosql/</link>
+      <link>/tags/nosql/</link>
       <pubDate>Fri, 15 Sep 2017 10:26:28 +0000</pubDate>
       
-      <guid>https://rimonmostafiz.com/tags/nosql/</guid>
+      <guid>/tags/nosql/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Notes</title>
-      <link>https://rimonmostafiz.com/tags/notes/</link>
+      <link>/tags/notes/</link>
       <pubDate>Fri, 20 Oct 2017 18:39:46 +0000</pubDate>
       
-      <guid>https://rimonmostafiz.com/tags/notes/</guid>
+      <guid>/tags/notes/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Npm</title>
-      <link>https://rimonmostafiz.com/tags/npm/</link>
+      <link>/tags/npm/</link>
       <pubDate>Sat, 07 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://rimonmostafiz.com/tags/npm/</guid>
+      <guid>/tags/npm/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Number Theory</title>
-      <link>https://rimonmostafiz.com/tags/number-theory/</link>
+      <title>Number-theory</title>
+      <link>/tags/number-theory/</link>
       <pubDate>Wed, 16 Aug 2017 00:30:00 +0000</pubDate>
       
-      <guid>https://rimonmostafiz.com/tags/number-theory/</guid>
+      <guid>/tags/number-theory/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Nvm</title>
-      <link>https://rimonmostafiz.com/tags/nvm/</link>
+      <link>/tags/nvm/</link>
       <pubDate>Sat, 07 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://rimonmostafiz.com/tags/nvm/</guid>
+      <guid>/tags/nvm/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Oracle</title>
-      <link>https://rimonmostafiz.com/tags/oracle/</link>
+      <link>/tags/oracle/</link>
       <pubDate>Fri, 20 Oct 2017 18:39:46 +0000</pubDate>
       
-      <guid>https://rimonmostafiz.com/tags/oracle/</guid>
+      <guid>/tags/oracle/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Params</title>
-      <link>https://rimonmostafiz.com/tags/params/</link>
+      <link>/tags/params/</link>
       <pubDate>Wed, 13 Dec 2017 05:30:10 +0000</pubDate>
       
-      <guid>https://rimonmostafiz.com/tags/params/</guid>
+      <guid>/tags/params/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Post Variables</title>
-      <link>https://rimonmostafiz.com/tags/post-variables/</link>
+      <title>Post-variables</title>
+      <link>/tags/post-variables/</link>
       <pubDate>Wed, 13 Dec 2017 05:30:10 +0000</pubDate>
       
-      <guid>https://rimonmostafiz.com/tags/post-variables/</guid>
+      <guid>/tags/post-variables/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Prime Number</title>
-      <link>https://rimonmostafiz.com/tags/prime-number/</link>
+      <title>Prime-number</title>
+      <link>/tags/prime-number/</link>
       <pubDate>Sun, 03 Sep 2017 00:21:00 +0000</pubDate>
       
-      <guid>https://rimonmostafiz.com/tags/prime-number/</guid>
+      <guid>/tags/prime-number/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Principle</title>
-      <link>https://rimonmostafiz.com/tags/principle/</link>
+      <link>/tags/principle/</link>
       <pubDate>Wed, 14 Mar 2018 10:36:12 +0000</pubDate>
       
-      <guid>https://rimonmostafiz.com/tags/principle/</guid>
+      <guid>/tags/principle/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Problem Solving</title>
-      <link>https://rimonmostafiz.com/tags/problem-solving/</link>
+      <title>Problem-solving</title>
+      <link>/tags/problem-solving/</link>
       <pubDate>Sun, 03 Sep 2017 00:21:00 +0000</pubDate>
       
-      <guid>https://rimonmostafiz.com/tags/problem-solving/</guid>
+      <guid>/tags/problem-solving/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Project</title>
-      <link>https://rimonmostafiz.com/tags/project/</link>
+      <link>/tags/project/</link>
       <pubDate>Sat, 09 Sep 2017 11:34:00 +0000</pubDate>
       
-      <guid>https://rimonmostafiz.com/tags/project/</guid>
+      <guid>/tags/project/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Query Parameters</title>
-      <link>https://rimonmostafiz.com/tags/query-parameters/</link>
+      <title>Query-parameters</title>
+      <link>/tags/query-parameters/</link>
       <pubDate>Wed, 13 Dec 2017 05:30:10 +0000</pubDate>
       
-      <guid>https://rimonmostafiz.com/tags/query-parameters/</guid>
+      <guid>/tags/query-parameters/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Request</title>
-      <link>https://rimonmostafiz.com/tags/request/</link>
+      <link>/tags/request/</link>
       <pubDate>Wed, 13 Dec 2017 05:30:10 +0000</pubDate>
       
-      <guid>https://rimonmostafiz.com/tags/request/</guid>
+      <guid>/tags/request/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Response</title>
-      <link>https://rimonmostafiz.com/tags/response/</link>
+      <link>/tags/response/</link>
       <pubDate>Tue, 09 Jan 2018 06:30:00 +0000</pubDate>
       
-      <guid>https://rimonmostafiz.com/tags/response/</guid>
+      <guid>/tags/response/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Restful</title>
-      <link>https://rimonmostafiz.com/tags/restful/</link>
+      <link>/tags/restful/</link>
       <pubDate>Sat, 16 Sep 2017 09:19:51 +0000</pubDate>
       
-      <guid>https://rimonmostafiz.com/tags/restful/</guid>
+      <guid>/tags/restful/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Sdk</title>
-      <link>https://rimonmostafiz.com/tags/sdk/</link>
+      <link>/tags/sdk/</link>
       <pubDate>Fri, 20 Oct 2017 18:39:46 +0000</pubDate>
       
-      <guid>https://rimonmostafiz.com/tags/sdk/</guid>
+      <guid>/tags/sdk/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Sdkman</title>
-      <link>https://rimonmostafiz.com/tags/sdkman/</link>
+      <link>/tags/sdkman/</link>
       <pubDate>Fri, 20 Oct 2017 18:39:46 +0000</pubDate>
       
-      <guid>https://rimonmostafiz.com/tags/sdkman/</guid>
+      <guid>/tags/sdkman/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Sencor</title>
-      <link>https://rimonmostafiz.com/tags/sencor/</link>
+      <link>/tags/sencor/</link>
       <pubDate>Sat, 09 Sep 2017 11:34:00 +0000</pubDate>
       
-      <guid>https://rimonmostafiz.com/tags/sencor/</guid>
+      <guid>/tags/sencor/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Server</title>
-      <link>https://rimonmostafiz.com/tags/server/</link>
+      <link>/tags/server/</link>
       <pubDate>Tue, 12 Dec 2017 11:30:40 +0000</pubDate>
       
-      <guid>https://rimonmostafiz.com/tags/server/</guid>
+      <guid>/tags/server/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Servlet</title>
-      <link>https://rimonmostafiz.com/tags/servlet/</link>
+      <link>/tags/servlet/</link>
       <pubDate>Tue, 09 Jan 2018 06:30:00 +0000</pubDate>
       
-      <guid>https://rimonmostafiz.com/tags/servlet/</guid>
+      <guid>/tags/servlet/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Sieve</title>
-      <link>https://rimonmostafiz.com/tags/sieve/</link>
+      <link>/tags/sieve/</link>
       <pubDate>Wed, 16 Aug 2017 00:30:00 +0000</pubDate>
       
-      <guid>https://rimonmostafiz.com/tags/sieve/</guid>
+      <guid>/tags/sieve/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Spring</title>
-      <link>https://rimonmostafiz.com/tags/spring/</link>
+      <link>/tags/spring/</link>
       <pubDate>Tue, 29 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://rimonmostafiz.com/tags/spring/</guid>
+      <guid>/tags/spring/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Spring Mvc</title>
-      <link>https://rimonmostafiz.com/tags/spring-mvc/</link>
+      <title>Spring-mvc</title>
+      <link>/tags/spring-mvc/</link>
       <pubDate>Mon, 30 Oct 2017 09:19:54 +0000</pubDate>
       
-      <guid>https://rimonmostafiz.com/tags/spring-mvc/</guid>
+      <guid>/tags/spring-mvc/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Sqldeveloper</title>
-      <link>https://rimonmostafiz.com/tags/sqldeveloper/</link>
+      <link>/tags/sqldeveloper/</link>
       <pubDate>Mon, 28 Aug 2017 15:13:24 +0000</pubDate>
       
-      <guid>https://rimonmostafiz.com/tags/sqldeveloper/</guid>
+      <guid>/tags/sqldeveloper/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Terminal</title>
-      <link>https://rimonmostafiz.com/tags/terminal/</link>
+      <link>/tags/terminal/</link>
       <pubDate>Thu, 30 Nov 2017 11:50:41 +0000</pubDate>
       
-      <guid>https://rimonmostafiz.com/tags/terminal/</guid>
+      <guid>/tags/terminal/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Tomcat</title>
-      <link>https://rimonmostafiz.com/tags/tomcat/</link>
+      <link>/tags/tomcat/</link>
       <pubDate>Tue, 12 Dec 2017 16:57:27 +0000</pubDate>
       
-      <guid>https://rimonmostafiz.com/tags/tomcat/</guid>
+      <guid>/tags/tomcat/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ubuntu</title>
-      <link>https://rimonmostafiz.com/tags/ubuntu/</link>
+      <link>/tags/ubuntu/</link>
       <pubDate>Thu, 30 Nov 2017 11:50:41 +0000</pubDate>
       
-      <guid>https://rimonmostafiz.com/tags/ubuntu/</guid>
+      <guid>/tags/ubuntu/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Unix</title>
-      <link>https://rimonmostafiz.com/tags/unix/</link>
+      <link>/tags/unix/</link>
       <pubDate>Fri, 20 Oct 2017 18:39:46 +0000</pubDate>
       
-      <guid>https://rimonmostafiz.com/tags/unix/</guid>
+      <guid>/tags/unix/</guid>
       <description></description>
     </item>
     
     <item>
       <title>War</title>
-      <link>https://rimonmostafiz.com/tags/war/</link>
+      <link>/tags/war/</link>
       <pubDate>Tue, 12 Dec 2017 11:30:40 +0000</pubDate>
       
-      <guid>https://rimonmostafiz.com/tags/war/</guid>
+      <guid>/tags/war/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Web App</title>
-      <link>https://rimonmostafiz.com/tags/web-app/</link>
+      <title>Web-app</title>
+      <link>/tags/web-app/</link>
       <pubDate>Tue, 12 Dec 2017 11:30:40 +0000</pubDate>
       
-      <guid>https://rimonmostafiz.com/tags/web-app/</guid>
+      <guid>/tags/web-app/</guid>
       <description></description>
     </item>
     

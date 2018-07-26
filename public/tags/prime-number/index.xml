@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Prime Number on Rimon&#39;s Weblog</title>
-    <link>https://rimonmostafiz.com/tags/prime-number/</link>
-    <description>Recent content in Prime Number on Rimon&#39;s Weblog</description>
+    <title>Prime-number on /dev/rimon/weblog</title>
+    <link>/tags/prime-number/</link>
+    <description>Recent content in Prime-number on /dev/rimon/weblog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language>
+    <copyright>© Creative Commons Attribution-ShareAlike 4.0 International License</copyright>
     <lastBuildDate>Sun, 03 Sep 2017 00:21:00 +0000</lastBuildDate>
     
-	<atom:link href="https://rimonmostafiz.com/tags/prime-number/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/prime-number/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>UVa 10311 - Goldbach and Euler</title>
-      <link>https://rimonmostafiz.com/blog/uva-10311-goldbach-and-euler/</link>
+      <link>/blog/uva-10311-goldbach-and-euler/</link>
       <pubDate>Sun, 03 Sep 2017 00:21:00 +0000</pubDate>
       
-      <guid>https://rimonmostafiz.com/blog/uva-10311-goldbach-and-euler/</guid>
+      <guid>/blog/uva-10311-goldbach-and-euler/</guid>
       <description>Problem Statement:
 UVa 10311 - Goldbach and Euler
 We can express the problem statement like: Given an integer N (0 &amp;lt; N ≤ 108).
@@ -31,10 +31,10 @@ First of all we need to find prime numbers between [0:108].</description>
     
     <item>
       <title>UVa 406 - Prime Cuts</title>
-      <link>https://rimonmostafiz.com/blog/uva-406-prime-cuts/</link>
+      <link>/blog/uva-406-prime-cuts/</link>
       <pubDate>Tue, 29 Aug 2017 21:39:00 +0000</pubDate>
       
-      <guid>https://rimonmostafiz.com/blog/uva-406-prime-cuts/</guid>
+      <guid>/blog/uva-406-prime-cuts/</guid>
       <description>Problem Statement:
 UVa 406 – Prime Cuts
 Before beginning I want to say the problem description seems quite awkward to me, for me it took a time to understand what is actually asked by the problem. but when I found out its very easy to code.
@@ -44,10 +44,10 @@ First of all use Sieve of Eratosthenes to generate primes between 1000. You w
     
     <item>
       <title>Sieve Of Eratosthenes (Memory Efficient Implementation)</title>
-      <link>https://rimonmostafiz.com/blog/sieve-of-eratosthenes-memory-efficient-implementation/</link>
+      <link>/blog/sieve-of-eratosthenes-memory-efficient-implementation/</link>
       <pubDate>Wed, 16 Aug 2017 00:30:00 +0000</pubDate>
       
-      <guid>https://rimonmostafiz.com/blog/sieve-of-eratosthenes-memory-efficient-implementation/</guid>
+      <guid>/blog/sieve-of-eratosthenes-memory-efficient-implementation/</guid>
       <description>Say we want to find all prime numbers up to an integer N where N is 108. If we write a regular implementation of Sieve Of Eratosthenes using a bool array for each integer in the range [1:N] then we could end up using N bytes of memory, which would roughly be 95 MB which is a huge memory.
  Lets see how can we reduce the memory, the main idea here is we can store a Boolean value in a single bit, so we can store 8 Boolean values in a single byte.</description>
     </item>

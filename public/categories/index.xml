@@ -1,148 +1,148 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Rimon&#39;s Weblog</title>
-    <link>https://rimonmostafiz.com/categories/</link>
-    <description>Recent content in Categories on Rimon&#39;s Weblog</description>
+    <title>Categories on /dev/rimon/weblog</title>
+    <link>/categories/</link>
+    <description>Recent content in Categories on /dev/rimon/weblog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language>
+    <copyright>© Creative Commons Attribution-ShareAlike 4.0 International License</copyright>
     <lastBuildDate>Wed, 16 Aug 2017 00:30:00 +0000</lastBuildDate>
     
-	<atom:link href="https://rimonmostafiz.com/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Algorithms</title>
-      <link>https://rimonmostafiz.com/categories/algorithms/</link>
+      <link>/categories/algorithms/</link>
       <pubDate>Wed, 16 Aug 2017 00:30:00 +0000</pubDate>
       
-      <guid>https://rimonmostafiz.com/categories/algorithms/</guid>
+      <guid>/categories/algorithms/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Elasticsearch</title>
-      <link>https://rimonmostafiz.com/categories/elasticsearch/</link>
+      <link>/categories/elasticsearch/</link>
       <pubDate>Sat, 16 Sep 2017 09:19:51 +0000</pubDate>
       
-      <guid>https://rimonmostafiz.com/categories/elasticsearch/</guid>
+      <guid>/categories/elasticsearch/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Elasticsearch Series</title>
-      <link>https://rimonmostafiz.com/categories/elasticsearch-series/</link>
+      <title>Elasticsearch-series</title>
+      <link>/categories/elasticsearch-series/</link>
       <pubDate>Sat, 16 Sep 2017 09:19:51 +0000</pubDate>
       
-      <guid>https://rimonmostafiz.com/categories/elasticsearch-series/</guid>
+      <guid>/categories/elasticsearch-series/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Electronics</title>
-      <link>https://rimonmostafiz.com/categories/electronics/</link>
+      <link>/categories/electronics/</link>
       <pubDate>Sat, 09 Sep 2017 11:34:00 +0000</pubDate>
       
-      <guid>https://rimonmostafiz.com/categories/electronics/</guid>
+      <guid>/categories/electronics/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Git</title>
-      <link>https://rimonmostafiz.com/categories/git/</link>
+      <link>/categories/git/</link>
       <pubDate>Thu, 17 Aug 2017 12:00:00 +0000</pubDate>
       
-      <guid>https://rimonmostafiz.com/categories/git/</guid>
+      <guid>/categories/git/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Java</title>
-      <link>https://rimonmostafiz.com/categories/java/</link>
+      <link>/categories/java/</link>
       <pubDate>Tue, 09 Jan 2018 06:30:00 +0000</pubDate>
       
-      <guid>https://rimonmostafiz.com/categories/java/</guid>
+      <guid>/categories/java/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Javaee</title>
-      <link>https://rimonmostafiz.com/categories/javaee/</link>
+      <link>/categories/javaee/</link>
       <pubDate>Tue, 09 Jan 2018 06:30:00 +0000</pubDate>
       
-      <guid>https://rimonmostafiz.com/categories/javaee/</guid>
+      <guid>/categories/javaee/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Learning</title>
-      <link>https://rimonmostafiz.com/categories/learning/</link>
+      <link>/categories/learning/</link>
       <pubDate>Wed, 14 Mar 2018 10:36:12 +0000</pubDate>
       
-      <guid>https://rimonmostafiz.com/categories/learning/</guid>
+      <guid>/categories/learning/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Linux</title>
-      <link>https://rimonmostafiz.com/categories/linux/</link>
+      <link>/categories/linux/</link>
       <pubDate>Thu, 30 Nov 2017 11:50:41 +0000</pubDate>
       
-      <guid>https://rimonmostafiz.com/categories/linux/</guid>
+      <guid>/categories/linux/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Math</title>
-      <link>https://rimonmostafiz.com/categories/math/</link>
+      <link>/categories/math/</link>
       <pubDate>Wed, 16 Aug 2017 00:30:00 +0000</pubDate>
       
-      <guid>https://rimonmostafiz.com/categories/math/</guid>
+      <guid>/categories/math/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Spring</title>
-      <link>https://rimonmostafiz.com/categories/spring/</link>
+      <link>/categories/spring/</link>
       <pubDate>Wed, 14 Mar 2018 10:36:12 +0000</pubDate>
       
-      <guid>https://rimonmostafiz.com/categories/spring/</guid>
+      <guid>/categories/spring/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Spring Diary</title>
-      <link>https://rimonmostafiz.com/categories/spring-diary/</link>
+      <title>Spring-diary</title>
+      <link>/categories/spring-diary/</link>
       <pubDate>Wed, 14 Mar 2018 10:36:12 +0000</pubDate>
       
-      <guid>https://rimonmostafiz.com/categories/spring-diary/</guid>
+      <guid>/categories/spring-diary/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Technology</title>
-      <link>https://rimonmostafiz.com/categories/technology/</link>
+      <link>/categories/technology/</link>
       <pubDate>Tue, 09 Jan 2018 06:30:00 +0000</pubDate>
       
-      <guid>https://rimonmostafiz.com/categories/technology/</guid>
+      <guid>/categories/technology/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Uva</title>
-      <link>https://rimonmostafiz.com/categories/uva/</link>
+      <link>/categories/uva/</link>
       <pubDate>Sun, 03 Sep 2017 00:21:00 +0000</pubDate>
       
-      <guid>https://rimonmostafiz.com/categories/uva/</guid>
+      <guid>/categories/uva/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Web Application</title>
-      <link>https://rimonmostafiz.com/categories/web-application/</link>
+      <title>Web-application</title>
+      <link>/categories/web-application/</link>
       <pubDate>Tue, 09 Jan 2018 06:30:00 +0000</pubDate>
       
-      <guid>https://rimonmostafiz.com/categories/web-application/</guid>
+      <guid>/categories/web-application/</guid>
       <description></description>
     </item>
     

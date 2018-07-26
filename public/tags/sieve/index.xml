@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Sieve on Rimon&#39;s Weblog</title>
-    <link>https://rimonmostafiz.com/tags/sieve/</link>
-    <description>Recent content in Sieve on Rimon&#39;s Weblog</description>
+    <title>Sieve on /dev/rimon/weblog</title>
+    <link>/tags/sieve/</link>
+    <description>Recent content in Sieve on /dev/rimon/weblog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language>
+    <copyright>© Creative Commons Attribution-ShareAlike 4.0 International License</copyright>
     <lastBuildDate>Wed, 16 Aug 2017 00:30:00 +0000</lastBuildDate>
     
-	<atom:link href="https://rimonmostafiz.com/tags/sieve/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/sieve/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Sieve Of Eratosthenes (Memory Efficient Implementation)</title>
-      <link>https://rimonmostafiz.com/blog/sieve-of-eratosthenes-memory-efficient-implementation/</link>
+      <link>/blog/sieve-of-eratosthenes-memory-efficient-implementation/</link>
       <pubDate>Wed, 16 Aug 2017 00:30:00 +0000</pubDate>
       
-      <guid>https://rimonmostafiz.com/blog/sieve-of-eratosthenes-memory-efficient-implementation/</guid>
+      <guid>/blog/sieve-of-eratosthenes-memory-efficient-implementation/</guid>
       <description>Say we want to find all prime numbers up to an integer N where N is 108. If we write a regular implementation of Sieve Of Eratosthenes using a bool array for each integer in the range [1:N] then we could end up using N bytes of memory, which would roughly be 95 MB which is a huge memory.
  Lets see how can we reduce the memory, the main idea here is we can store a Boolean value in a single bit, so we can store 8 Boolean values in a single byte.</description>
     </item>
