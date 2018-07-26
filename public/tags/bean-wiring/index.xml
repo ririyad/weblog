@@ -13,10 +13,10 @@
     
     <item>
       <title>Spring Bean Wiring Using JavaConfig</title>
-      <link>/blog/2018-05-29spring-bean-wiring-using-javaconfig/</link>
+      <link>/posts/2018-05-29-spring-bean-wiring-using-javaconfig/</link>
       <pubDate>Tue, 29 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>/blog/2018-05-29spring-bean-wiring-using-javaconfig/</guid>
+      <guid>/posts/2018-05-29-spring-bean-wiring-using-javaconfig/</guid>
       <description>In the previous post, I wrote about how can we implicitly wire beans automatically in Spring container. In my previous post I created a new maven project and started writing code so that we can understand the topics more clearly. In this post, I am documenting my learning of how we can wire bean using Explicit Java Configuration. I will work on the same project I have created earlier.</description>
     </item>
     

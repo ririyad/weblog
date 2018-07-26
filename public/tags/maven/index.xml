@@ -13,10 +13,10 @@
     
     <item>
       <title>Up and Running With Servlet in Tomcat</title>
-      <link>/blog/up-and-running-with-servlet-in-tomcat/</link>
+      <link>/posts/up-and-running-with-servlet-in-tomcat/</link>
       <pubDate>Tue, 12 Dec 2017 16:57:27 +0000</pubDate>
       
-      <guid>/blog/up-and-running-with-servlet-in-tomcat/</guid>
+      <guid>/posts/up-and-running-with-servlet-in-tomcat/</guid>
       <description>Up and Running With Servlet in Tomcat Companion Video https://youtu.be/lTyAPWR6104
 First, let&amp;rsquo;s create a maven project and add the dependency. As a prerequisite, JDK 8 will be needed. If you are using Linux based operating system then I have written a post on how to install and manage different versions of JDK in your system. You can visit this post if JDK 8 is not installed on your system.</description>
     </item>

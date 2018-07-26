@@ -13,10 +13,10 @@
     
     <item>
       <title>Know Your Response Object</title>
-      <link>/blog/know-your-response-object/</link>
+      <link>/posts/know-your-response-object/</link>
       <pubDate>Tue, 09 Jan 2018 06:30:00 +0000</pubDate>
       
-      <guid>/blog/know-your-response-object/</guid>
+      <guid>/posts/know-your-response-object/</guid>
       <description>HttpServletResponse The HttpServletResponse interface extends ServletResponse and provides access to the HTTP protocol-specific properties of a response.
 You can use the response object to do things such as
  Set response headers

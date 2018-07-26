@@ -13,10 +13,10 @@
     
     <item>
       <title>Command Aliases in Ubuntu Linux</title>
-      <link>/blog/command-aliases-in-linux/</link>
+      <link>/posts/command-aliases-in-linux/</link>
       <pubDate>Thu, 30 Nov 2017 11:50:41 +0000</pubDate>
       
-      <guid>/blog/command-aliases-in-linux/</guid>
+      <guid>/posts/command-aliases-in-linux/</guid>
       <description>How to set up alias in Linux Every time I need to see different projects logs from application servers logs folder from different terminal window, I have to go to Weblogic&amp;rsquo;s logs folder and then open the log file using less or tail -f project-name.log 
 cd /home/rimonmostafiz/Applications/Oracle/Middleware/Oracle_Home/user_projects/domains/base_domain/logs/ less project-name.log or tail -f project-name.log  I don&amp;rsquo;t want to write this long string Everytime, Wouldn’t it be easier to just type something like the following?</description>
     </item>

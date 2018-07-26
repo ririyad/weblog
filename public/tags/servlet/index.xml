@@ -13,10 +13,10 @@
     
     <item>
       <title>Know Your Response Object</title>
-      <link>/blog/know-your-response-object/</link>
+      <link>/posts/know-your-response-object/</link>
       <pubDate>Tue, 09 Jan 2018 06:30:00 +0000</pubDate>
       
-      <guid>/blog/know-your-response-object/</guid>
+      <guid>/posts/know-your-response-object/</guid>
       <description>HttpServletResponse The HttpServletResponse interface extends ServletResponse and provides access to the HTTP protocol-specific properties of a response.
 You can use the response object to do things such as
  Set response headers
@@ -29,20 +29,20 @@ You can use the response object to do things such as
     
     <item>
       <title>Up and Running With Servlet in Tomcat</title>
-      <link>/blog/up-and-running-with-servlet-in-tomcat/</link>
+      <link>/posts/up-and-running-with-servlet-in-tomcat/</link>
       <pubDate>Tue, 12 Dec 2017 16:57:27 +0000</pubDate>
       
-      <guid>/blog/up-and-running-with-servlet-in-tomcat/</guid>
+      <guid>/posts/up-and-running-with-servlet-in-tomcat/</guid>
       <description>Up and Running With Servlet in Tomcat Companion Video https://youtu.be/lTyAPWR6104
 First, let&amp;rsquo;s create a maven project and add the dependency. As a prerequisite, JDK 8 will be needed. If you are using Linux based operating system then I have written a post on how to install and manage different versions of JDK in your system. You can visit this post if JDK 8 is not installed on your system.</description>
     </item>
     
     <item>
       <title>Basic Web Application Structure of JavaEE</title>
-      <link>/blog/basic-web-application-structure-of-javaee/</link>
+      <link>/posts/basic-web-application-structure-of-javaee/</link>
       <pubDate>Tue, 12 Dec 2017 10:08:51 +0000</pubDate>
       
-      <guid>/blog/basic-web-application-structure-of-javaee/</guid>
+      <guid>/posts/basic-web-application-structure-of-javaee/</guid>
       <description>Basic Web Application Structure A lot of components go into making a Java EE application.
  Application Code and Third Party Libraries it depends on
  Deployment Descriptor, which includes instructions for deploying and starting the application
@@ -53,10 +53,10 @@ First, let&amp;rsquo;s create a maven project and add the dependency. As a prere
     
     <item>
       <title>a bit of spring: part one</title>
-      <link>/blog/a-bit-of-spring-part-one/</link>
+      <link>/posts/a-bit-of-spring-part-one/</link>
       <pubDate>Mon, 30 Oct 2017 09:19:54 +0000</pubDate>
       
-      <guid>/blog/a-bit-of-spring-part-one/</guid>
+      <guid>/posts/a-bit-of-spring-part-one/</guid>
       <description>Spring MVC Java Configuration Hi All, This _should_ be the first in a series of &amp;ldquo;Rimon learns Spring&amp;rdquo; type blog posts I plan on writing as I learn bits of Spring. I am just documenting my learnings, not advising others based on what I&amp;rsquo;ve learned.
 Spring traditionally supports two types of configurations:
  XML based configuration
