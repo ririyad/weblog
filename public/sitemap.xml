@@ -3,138 +3,143 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/blog/2018-07-07install-and-manage-node-js-using-nvm/</loc>
+    <loc>/posts/2018-07-07-install-and-manage-node-js-using-nvm/</loc>
     <lastmod>2018-07-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/blog/2018-05-29spring-bean-wiring-using-javaconfig/</loc>
+    <loc>/posts/2018-05-29-spring-bean-wiring-using-javaconfig/</loc>
     <lastmod>2018-05-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/blog/2018-05-28auto-bean-wiring-of-spring/</loc>
+    <loc>/posts/2018-05-28-auto-bean-wiring-of-spring/</loc>
     <lastmod>2018-05-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/blog/2018-05-26spring-application-context-and-configuration-metadata/</loc>
+    <loc>/posts/2018-05-26-spring-application-context-and-configuration-metadata/</loc>
     <lastmod>2018-05-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/blog/2018-03-15the-spring-ioc-container/</loc>
+    <loc>/posts/2018-03-15-the-spring-ioc-container/</loc>
     <lastmod>2018-03-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/blog/inversion-of-control-and-dependency-injection/</loc>
+    <loc>/posts/inversion-of-control-and-dependency-injection/</loc>
     <lastmod>2018-03-14T10:36:12+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/blog/know-your-response-object/</loc>
+    <loc>/posts/know-your-response-object/</loc>
     <lastmod>2018-01-09T06:30:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/blog/know-your-request-object/</loc>
+    <loc>/posts/know-your-request-object/</loc>
     <lastmod>2017-12-13T05:30:10+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/blog/up-and-running-with-servlet-in-tomcat/</loc>
+    <loc>/posts/up-and-running-with-servlet-in-tomcat/</loc>
     <lastmod>2017-12-12T16:57:27+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/blog/web-application-directory-structure-and-war-files/</loc>
+    <loc>/posts/web-application-directory-structure-and-war-files/</loc>
     <lastmod>2017-12-12T11:30:40+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/blog/basic-web-application-structure-of-javaee/</loc>
+    <loc>/posts/basic-web-application-structure-of-javaee/</loc>
     <lastmod>2017-12-12T10:08:51+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/blog/command-aliases-in-linux/</loc>
+    <loc>/posts/command-aliases-in-linux/</loc>
     <lastmod>2017-11-30T11:50:41+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/blog/a-bit-of-spring-part-one/</loc>
+    <loc>/posts/a-bit-of-spring-part-one/</loc>
     <lastmod>2017-10-30T09:19:54+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/blog/manage-jdk-using-sdkman/</loc>
+    <loc>/posts/manage-jdk-using-sdkman/</loc>
     <lastmod>2017-10-20T18:39:46+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/blog/installing-and-running-kibana/</loc>
+    <loc>/posts/installing-and-running-kibana/</loc>
     <lastmod>2017-09-16T09:19:51+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/blog/installing-and-running-elasticsearch/</loc>
+    <loc>/posts/installing-and-running-elasticsearch/</loc>
     <lastmod>2017-09-15T12:36:35+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/blog/basics-and-key-concepts-of-elasticsearch/</loc>
+    <loc>/posts/basics-and-key-concepts-of-elasticsearch/</loc>
     <lastmod>2017-09-15T10:26:28+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/blog/electronics-project-1/</loc>
+    <loc>/posts/electronics-project-1/</loc>
     <lastmod>2017-09-09T11:34:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/blog/electronics-project-2/</loc>
+    <loc>/posts/electronics-project-2/</loc>
     <lastmod>2017-09-09T10:58:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/blog/uva-10311-goldbach-and-euler/</loc>
+    <loc>/posts/uva-10311-goldbach-and-euler/</loc>
     <lastmod>2017-09-03T00:21:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/blog/uva-406-prime-cuts/</loc>
+    <loc>/posts/uva-406-prime-cuts/</loc>
     <lastmod>2017-08-29T21:39:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/blog/oracle-sql-developer-in-ubuntu/</loc>
+    <loc>/posts/oracle-sql-developer-in-ubuntu/</loc>
     <lastmod>2017-08-28T15:13:24+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/blog/git-notes/</loc>
+    <loc>/posts/git-notes/</loc>
     <lastmod>2017-08-17T12:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/blog/google-drive-in-ubuntu/</loc>
+    <loc>/posts/google-drive-in-ubuntu/</loc>
     <lastmod>2017-08-16T22:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/blog/sieve-of-eratosthenes-memory-efficient-implementation/</loc>
+    <loc>/posts/sieve-of-eratosthenes-memory-efficient-implementation/</loc>
     <lastmod>2017-08-16T00:30:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/blog/least-common-multiple/</loc>
+    <loc>/posts/least-common-multiple/</loc>
     <lastmod>2017-08-15T18:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/blog/greatest-common-divisor-gcd/</loc>
+    <loc>/posts/greatest-common-divisor-gcd/</loc>
     <lastmod>2017-08-15T16:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pages/whoami/</loc>
+    <lastmod>2017-08-15T15:31:05+00:00</lastmod>
   </url>
   
   <url>
@@ -199,12 +204,6 @@
   <url>
     <loc>/tags/bean-wiring/</loc>
     <lastmod>2018-05-29T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/blog/</loc>
-    <lastmod>2018-07-07T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -509,6 +508,12 @@
   </url>
   
   <url>
+    <loc>/pages/</loc>
+    <lastmod>2017-08-15T15:31:05+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tags/params/</loc>
     <lastmod>2017-12-13T05:30:10+00:00</lastmod>
     <priority>0</priority>
@@ -517,6 +522,12 @@
   <url>
     <loc>/tags/post-variables/</loc>
     <lastmod>2017-12-13T05:30:10+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/posts/</loc>
+    <lastmod>2018-07-07T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -565,6 +576,12 @@
   <url>
     <loc>/tags/restful/</loc>
     <lastmod>2017-09-16T09:19:51+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/authors/rimonmostafiz/</loc>
+    <lastmod>2018-07-07T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

@@ -13,10 +13,10 @@
     
     <item>
       <title>Basic Web Application Structure of JavaEE</title>
-      <link>/blog/basic-web-application-structure-of-javaee/</link>
+      <link>/posts/basic-web-application-structure-of-javaee/</link>
       <pubDate>Tue, 12 Dec 2017 10:08:51 +0000</pubDate>
       
-      <guid>/blog/basic-web-application-structure-of-javaee/</guid>
+      <guid>/posts/basic-web-application-structure-of-javaee/</guid>
       <description>Basic Web Application Structure A lot of components go into making a Java EE application.
  Application Code and Third Party Libraries it depends on
  Deployment Descriptor, which includes instructions for deploying and starting the application

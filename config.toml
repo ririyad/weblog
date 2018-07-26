@@ -22,7 +22,7 @@ enableEmoji = true
 defaultContentLanguage = "en"
 
 [params.info]
-description = ""
+description = "It's not what you read, it's what you ignore"
 title404 = "Nothing's here!"
 
 [params.assets]
@@ -49,12 +49,13 @@ accentColor = "#ffcd00"
 hideMainMenu = false
 
 [params.sidebar]
-enable = false
+enable = true
 
 [params.widgets]
 homepage = ["recent_posts"]
-sidebar = ["about","search","sidebar_menu","taxonomy_cloud"]
-footer = ["social_menu"]
+#sidebar = ["about","search","sidebar_menu","taxonomy_cloud"]
+sidebar = ["about", "sidebar_menu", "social_menu"]
+#footer = ["taxonomy_cloud"]
 
 [params.opengraph.facebook]
 admins = [] # array of Facebook IDs
@@ -136,7 +137,17 @@ url = "/"
 name = "Blog"
 weight = -10
 identifier = "blog"
-url = "/blog"
+url = "/posts"
+
+[[menu.main]]
+name = "WhoAmI"
+weight = -9
+identifier = "whoami"
+url = "/pages/whoami"
+
+[sidebar_menu]
+title = ""
+mirror = "main"
 
 
 [blackfriday]

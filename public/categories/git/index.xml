@@ -13,10 +13,10 @@
     
     <item>
       <title>Git Notes</title>
-      <link>/blog/git-notes/</link>
+      <link>/posts/git-notes/</link>
       <pubDate>Thu, 17 Aug 2017 12:00:00 +0000</pubDate>
       
-      <guid>/blog/git-notes/</guid>
+      <guid>/posts/git-notes/</guid>
       <description>Git is a distributed version control system. Every dev has a working copy of the code and full change history on their local machine, by Linus Torvalds.
 Here is a git cheat sheet for everyday life. Will update this in future&amp;hellip;
 [bash gutter=&amp;ldquo;false&amp;rdquo;] git init

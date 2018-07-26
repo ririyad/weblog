@@ -13,10 +13,10 @@
     
     <item>
       <title>Manage JDK Using SDKMAN</title>
-      <link>/blog/manage-jdk-using-sdkman/</link>
+      <link>/posts/manage-jdk-using-sdkman/</link>
       <pubDate>Fri, 20 Oct 2017 18:39:46 +0000</pubDate>
       
-      <guid>/blog/manage-jdk-using-sdkman/</guid>
+      <guid>/posts/manage-jdk-using-sdkman/</guid>
       <description>What is SDKMAN? [SDKMAN!](http://sdkman.io/index.html) is a tool for managing parallel versions of multiple Software Development Kits on most Unix based systems. It provides a convenient Command Line Interface (CLI) and API for installing, switching, removing and listing Candidates. Its also open source. You can see the codes form [SDKMAN&#39;s github repository](https://github.com/sdkman). As a developer its very common that you work on multiple projects which use different JDK version. Obviously, you can use update-alternatives to manage multiple JDK libraries on the same system to select which one you want to use as the main one.</description>
     </item>
     

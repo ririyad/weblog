@@ -13,10 +13,10 @@
     
     <item>
       <title>Spring Application Context and Configuration Metadata</title>
-      <link>/blog/2018-05-26spring-application-context-and-configuration-metadata/</link>
+      <link>/posts/2018-05-26-spring-application-context-and-configuration-metadata/</link>
       <pubDate>Sat, 26 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>/blog/2018-05-26spring-application-context-and-configuration-metadata/</guid>
+      <guid>/posts/2018-05-26-spring-application-context-and-configuration-metadata/</guid>
       <description>In the last post of Spring Diary, we discussed the basics of spring IoC Container and we saw a high-level view of how Spring Container works.
 In this post, we will learn about how can we Instantiate a Spring IoC container(using ApplicaitonContext Interface) and configure that container using configuration metadata.
 Spring IoC container consumes a form of configuration metadata. This configuration metadata represents how you as an application developer tell the Spring container to instantiate, configure, and assemble the objects in your application.</description>
@@ -24,10 +24,10 @@ Spring IoC container consumes a form of configuration metadata. This configura
     
     <item>
       <title>a bit of spring: part one</title>
-      <link>/blog/a-bit-of-spring-part-one/</link>
+      <link>/posts/a-bit-of-spring-part-one/</link>
       <pubDate>Mon, 30 Oct 2017 09:19:54 +0000</pubDate>
       
-      <guid>/blog/a-bit-of-spring-part-one/</guid>
+      <guid>/posts/a-bit-of-spring-part-one/</guid>
       <description>Spring MVC Java Configuration Hi All, This _should_ be the first in a series of &amp;ldquo;Rimon learns Spring&amp;rdquo; type blog posts I plan on writing as I learn bits of Spring. I am just documenting my learnings, not advising others based on what I&amp;rsquo;ve learned.
 Spring traditionally supports two types of configurations:
  XML based configuration

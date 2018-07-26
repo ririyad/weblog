@@ -13,10 +13,10 @@
     
     <item>
       <title>Web Application Directory Structure and WAR Files</title>
-      <link>/blog/web-application-directory-structure-and-war-files/</link>
+      <link>/posts/web-application-directory-structure-and-war-files/</link>
       <pubDate>Tue, 12 Dec 2017 11:30:40 +0000</pubDate>
       
-      <guid>/blog/web-application-directory-structure-and-war-files/</guid>
+      <guid>/posts/web-application-directory-structure-and-war-files/</guid>
       <description>Directory Structure and WAR Files Standard Java EE web applications are deployed as WAR files or “exploded” (unarchived) web application directories. All Java EE web application servers support WAR file application archives. Whether archived or exploded, the directory structure convention, as shown in Figure is the same.
  This structure contains classes and other application resources, the class files live in /WEB-INF/classes. The WEB-INF directory stores informational and instructional files that Java EE web application servers use to determine how to deploy and run the application.</description>
     </item>
