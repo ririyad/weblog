@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Annotation on Rimon&#39;s Weblog</title>
-    <link>https://rimonmostafiz.com/tags/annotation/</link>
-    <description>Recent content in Annotation on Rimon&#39;s Weblog</description>
+    <title>Annotation on /dev/rimon/weblog</title>
+    <link>/tags/annotation/</link>
+    <description>Recent content in Annotation on /dev/rimon/weblog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language>
+    <copyright>© Creative Commons Attribution-ShareAlike 4.0 International License</copyright>
     <lastBuildDate>Mon, 30 Oct 2017 09:19:54 +0000</lastBuildDate>
     
-	<atom:link href="https://rimonmostafiz.com/tags/annotation/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/annotation/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>a bit of spring: part one</title>
-      <link>https://rimonmostafiz.com/blog/a-bit-of-spring-part-one/</link>
+      <link>/blog/a-bit-of-spring-part-one/</link>
       <pubDate>Mon, 30 Oct 2017 09:19:54 +0000</pubDate>
       
-      <guid>https://rimonmostafiz.com/blog/a-bit-of-spring-part-one/</guid>
+      <guid>/blog/a-bit-of-spring-part-one/</guid>
       <description>Spring MVC Java Configuration Hi All, This _should_ be the first in a series of &amp;ldquo;Rimon learns Spring&amp;rdquo; type blog posts I plan on writing as I learn bits of Spring. I am just documenting my learnings, not advising others based on what I&amp;rsquo;ve learned.
 Spring traditionally supports two types of configurations:
  XML based configuration
