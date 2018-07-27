@@ -4,25 +4,19 @@
 <head>
   <meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1'>
-<meta name='description' content='Node Version Manager (NVM) is a simple bash script to manage multiple active node.js versions.
-Install NVM To install or update nvm, you can use the install script using cURL or Wget
-$ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash $ wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash  The script clones the nvm repository to ~/.nvm and adds the source line to your profile (~/.bash_profile, ~/.zshrc,~/.profile, or ~/.bashrc).
-export NVM_DIR=&quot;$HOME/.nvm&quot; [ -s &quot;$NVM_DIR/nvm.'>
+<meta name='description' content='Moving from Wordpress to Hugo'>
 <meta name='theme-color' content='#ffcd00'>
 
-<meta property='og:title' content='Install and Manage Node Js Using NVM • Rimon Mostafiz'>
-<meta property='og:description' content='Node Version Manager (NVM) is a simple bash script to manage multiple active node.js versions.
-Install NVM To install or update nvm, you can use the install script using cURL or Wget
-$ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash $ wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash  The script clones the nvm repository to ~/.nvm and adds the source line to your profile (~/.bash_profile, ~/.zshrc,~/.profile, or ~/.bashrc).
-export NVM_DIR=&quot;$HOME/.nvm&quot; [ -s &quot;$NVM_DIR/nvm.'>
-<meta property='og:url' content='/posts/install-and-manage-node-js-using-nvm/'>
+<meta property='og:title' content='Goodbye Wordpress, Welcome to HUGO • Rimon Mostafiz'>
+<meta property='og:description' content='Moving from Wordpress to Hugo'>
+<meta property='og:url' content='/posts/goodbye-wordpress-welcome-to-hugo/'>
 <meta property='og:site_name' content='~/dev/rimon'>
-<meta property='og:type' content='article'><meta property='og:image' content='https://www.gravatar.com/avatar/8d8acaeb9bb980a95ada8119e61f6fed?s=256'><meta property='article:author' content='https://facebook.com/RimonMostafiz'><meta property='article:section' content='Posts'><meta property='article:tag' content='node'><meta property='article:tag' content='npm'><meta property='article:tag' content='nvm'><meta property='article:published_time' content='2018-07-07T04:17:09Z'/><meta property='article:modified_time' content='2018-07-07T04:17:09Z'/><meta name='twitter:card' content='summary'><meta name='twitter:creator' content='@rimonmostafiz'>
+<meta property='og:type' content='article'><meta property='og:image' content='https://www.gravatar.com/avatar/8d8acaeb9bb980a95ada8119e61f6fed?s=256'><meta property='article:author' content='https://facebook.com/RimonMostafiz'><meta property='article:section' content='Posts'><meta property='article:tag' content='static-site'><meta property='article:tag' content='hugo'><meta property='article:tag' content='general'><meta property='article:published_time' content='2018-07-27T20:01:41&#43;06:00'/><meta property='article:modified_time' content='2018-07-27T20:01:41&#43;06:00'/><meta name='twitter:card' content='summary'><meta name='twitter:creator' content='@rimonmostafiz'>
 
 <meta name="generator" content="Hugo 0.45" />
 
-  <title>Install and Manage Node Js Using NVM • Rimon Mostafiz</title>
-  <link rel='canonical' href='/posts/install-and-manage-node-js-using-nvm/'>
+  <title>Goodbye Wordpress, Welcome to HUGO • Rimon Mostafiz</title>
+  <link rel='canonical' href='/posts/goodbye-wordpress-welcome-to-hugo/'>
   
   
   <link rel='icon' href='/images/favicon.png'>
@@ -46,7 +40,7 @@ if (!doNotTrack) {
 </head>
 
 
-<body class='page type-posts has-sidebar'>
+<body class='page type-posts has-sidebar has-emoji'>
 
   <div class='site'>
 
@@ -192,8 +186,10 @@ if (!doNotTrack) {
   <header class='header entry-header'>
   <div class='container sep-after'>
     <div class='header-info'>
-      <h1 class='title'>Install and Manage Node Js Using NVM</h1>
+      <h1 class='title'>Goodbye Wordpress, Welcome to HUGO</h1>
       
+<p class='desc'>Moving from Wordpress to Hugo</p>
+
 
     </div>
     
@@ -207,7 +203,7 @@ if (!doNotTrack) {
   
 </svg>
 <span class='screen-reader-text'>Posted on </span>
-  <time class='entry-date' datetime='2018-07-07T04:17:09Z'>2018, Jul 07</time>
+  <time class='entry-date' datetime='2018-07-27T20:01:41&#43;06:00'>2018, Jul 27</time>
 </span>
 
   <span class='byline'><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
@@ -224,7 +220,7 @@ if (!doNotTrack) {
   <polyline points="12 6 12 12 15 15"/>
   
 </svg>
-4 mins read
+5 mins read
 </span>
 
 
@@ -244,13 +240,20 @@ if (!doNotTrack) {
 <ul>
 <li>
 <ul>
-<li><a href="#install-nvm">Install NVM</a>
+<li>
 <ul>
-<li><a href="#verify-installation">Verify installation</a></li>
+<li><a href="#why-i-ditch-wordpress">Why I Ditch Wordpress ❓</a></li>
+<li><a href="#what-and-why-static-site">What and Why Static Site ❓</a>
+<ul>
+<li><a href="#what-exactly-a-static-site">What exactly a Static Site 😕</a></li>
+<li><a href="#simplicity">Simplicity ✌️</a></li>
+<li><a href="#security">Security 🔐</a></li>
+<li><a href="#maintenance">Maintenance 👻</a></li>
+<li><a href="#speed">Speed 🐰</a></li>
 </ul></li>
-<li><a href="#usage">Usage</a></li>
-<li><a href="#removing-node-js">Removing Node.js</a></li>
-<li><a href="#manual-uninstall">Manual Uninstall</a></li>
+<li><a href="#welcome-to-hugo">Welcome to HUGO ❤️</a></li>
+<li><a href="#results-and-closing-thoughts">Results and Closing Thoughts 💯</a></li>
+</ul></li>
 </ul></li>
 </ul>
 </nav>
@@ -260,209 +263,109 @@ if (!doNotTrack) {
   <div class='container entry-content'>
   
 
-<p>Node Version Manager (NVM) is a simple bash script to manage multiple active node.js versions.</p>
+<p>Do you notice anything new? <br>
+Of course not. No one follows my blog and theme does not matter. 😒</p>
 
-<h2 id="install-nvm">Install NVM</h2>
+<p>A weeks ago, I moved this site over from <a href="https://wordpress.com/" target="_blank">WordPress</a> to <a href="https://gohugo.io/" target="_blank">HUGO</a>(a static site generator).
+Also its now hosted to <a href="https://www.netlify.com/" target="_blank">Netlify</a>(🆓)</p>
 
-<p>To install or update nvm, you can use the install script using cURL or Wget</p>
+<p>This is my attempt to making everything more simple and content-focused. <br>
+In this post, I will talk about some of my reasons for switching away from WordPress to a static site generator.<br></p>
 
-<pre><code>$ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
-$ wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
+<p>I will discuss technical details in some future post. 😃</p>
+
+<h3 id="why-i-ditch-wordpress">Why I Ditch Wordpress ❓</h3>
+
+<p>I’ve been posting on this site for almost a year now. The entire site has been running on Wordpress. At first, I choose WordPress because it was easy(I thought) and popular.</p>
+
+<p><strong>But that power and flexibility also comes at a cost.</strong> <br>
+For me, there’s a lot of bloats. Stuff I actually don’t need.
+Plugins are often not well written. And Wordpress itself written in PHP 😣<br>
+And then there’s speed. Or the lack thereof.</p>
+
+<p>It&rsquo;s 2018 and who wants a slow website? <br>
+The average page load time was 5-7 seconds 😭 and as we all know, site speed is essential for user experience. A slow website will even hurt your conversion rate.</p>
+
+<p>I actually use this site to share my learning experiences with others. I want to document my learning. For me, I want to focus on writing.<br>
+The writing was taking forever. The WordPress dashboard had become unbearably slow.</p>
+
+<p><strong>I got tired of fighting the CMS defaults.</strong></p>
+
+<h3 id="what-and-why-static-site">What and Why Static Site ❓</h3>
+
+<h4 id="what-exactly-a-static-site">What exactly a Static Site 😕</h4>
+
+<p>It is exactly what it sounds like. It takes a collection of content files(markdown in the case of Hugo) and generates the static HTML, CSS, etc. files that formats and displays that content.</p>
+
+<p>This final content can then be hosted anywhere, without the need for server-side runtime support, such as Python/PHP/Go/Node/etc, because it does not require server-side processing 😉 to handle rendering the pages on the fly.</p>
+
+<h4 id="simplicity">Simplicity ✌️</h4>
+
+<p>A site generated using a static site generator is usually a combination of content written in Markdown and a theme. Writing in Markdown lets me <strong>focus more on the content rather than formatting</strong>.</p>
+
+<p>Furthermore, I can write Markdown in my favorite editor. I am currently using Atom.
+I am now able to edit locally. The default WordPress editor ties you down to editing online but Markdown can be written almost anywhere!</p>
+
+<h4 id="security">Security 🔐</h4>
+
+<p>WordPress powers around 30% of all CMS-based websites on the internet.</p>
+
+<p><strong>Being this popular does not come without some drawbacks.</strong> The volume of users is especially appealing to hackers trying to steal information. As a result, WordPress websites are often the victim of security breaches. WordPress sites depend on databases to hold the site&rsquo;s content and databases are inherently vulnerable.</p>
+
+<p>A static site does not have some of the security concerns that a WordPress site brings. Pure static sites do not rely on databases. So no security threat.</p>
+
+<h4 id="maintenance">Maintenance 👻</h4>
+
+<p>In addition to keeping plugins up to date with a WordPress site, you will also want to store backups of your site in case anything happens.<br>
+I am tired of updating Wordpress and its plugins every other day.</p>
+
+<p>Static site needs Low maintenance efforts. No regular updates and backups required.
+All I need to push my local changes to my github repository and Its live.</p>
+
+<h4 id="speed">Speed 🐰</h4>
+
+<p>WordPress sites serve content to visitors by querying the database for the information for the page that the visitor is requesting. Once the information is retrieved, the server will also need to generate the page.</p>
+
+<p>On the other hand, static sites already have all the content ready to serve as it was pre-generated before the visitor even typed in your domain in their browser.</p>
+
+<p>Servers are great at serving static content so the visitor will be able to read your fantastic post even faster.</p>
+
+<h3 id="welcome-to-hugo">Welcome to HUGO ❤️</h3>
+
+<p><img src="https://raw.githubusercontent.com/gohugoio/hugoDocs/master/static/img/hugo-logo.png" alt="hugo-logo" /></p>
+
+<p>From <a href="https://gohugo.io/" target="_blank">HUGO&rsquo;s</a> website <br>
+&gt; Hugo is one of the most popular open-source static site generators. With its amazing speed and flexibility, Hugo makes building websites fun again.</p>
+
+<p>It’s written in Go (aka Golang) and developed by <a href="https://github.com/bep" target="_blank">bep</a>, <a href="https://github.com/spf13" target="_blank">spf13</a> and <a href="https://github.com/gohugoio/hugo/graphs/contributors" target="_blank">friends</a>.</p>
+
+<p>Hugo is a CLI (command line interface) based static website generator. 😍 <br>
+Basically, you write a few HTML templates, put your CSS (and other assets) in a folder, write your content using <em>markdown</em> and then run the <code>hugo</code> command in the terminal. Hugo Will then builds your entire website in static HTML - ready to upload.</p>
+
+<p>So whenever I need to publish a new post, I simply run</p>
+
+<pre><code>$ hugo new posts/post-title.md
 </code></pre>
 
-<p>The script clones the nvm repository to <code>~/.nvm</code> and adds the source line to your profile (<code>~/.bash_profile</code>, <code>~/.zshrc</code>,<code>~/.profile</code>, or <code>~/.bashrc</code>).</p>
+<p>command in terminal and start writing on my favorite editor.</p>
 
-<pre><code>export NVM_DIR=&quot;$HOME/.nvm&quot;
-[ -s &quot;$NVM_DIR/nvm.sh&quot; ] &amp;&amp; \. &quot;$NVM_DIR/nvm.sh&quot; # This loads nvm
-</code></pre>
+<p>I do not have experience with other static site generators but users have stated that Hugo&rsquo;s generation process is blazingly fast.<br>
+Apparently, sites with hundreds of pages can be generated in less than a second. 😱</p>
 
-<h3 id="verify-installation">Verify installation</h3>
+<p>Another benefit of Hugo is that you don’t need to futz with an in-browser editor while writing pages. <br>
+Hugo comes with a built-in production-grade server, which provides developers the option of watching for any changes in content. When content changes, Hugo will render that content again, and also trigger an update of your local webpage by way of a connected WebSocket. <br>
+I can sit comfortably within my code editor of choice, and write a post in markdown. Each time I save the file, my webpage immediately updates to reflect the changes.</p>
 
-<p>To verify that nvm has been installed, do:</p>
+<h3 id="results-and-closing-thoughts">Results and Closing Thoughts 💯</h3>
 
-<pre><code>$ command -v nvm
-</code></pre>
+<p>I feel that Hugo fits the needs of my personal blog well and also makes writing content more enjoyable.<br>
+So far I love it !!<br>
+As the time of writing this post my homepage loads under <code>~0.87 ms</code> 😍</p>
 
-<p>which should output <code>nvm</code> if the installation was successful.</p>
+<p>There is something quite satisfying about having the source of my site is so tangible while being easy to update, and easy to deploy. <br>
+I don’t have to worry about a database, or hosting, or Wordpress site and plugin updates. I don’t have to worry about security since there are no dynamic pages or Wordpress vulnerabilities to guard against. I don’t have to mess with backups and exports from a hosting service since I check my entire site into <a href="www.github.com/rimonmostafiz/rimonmostafiz.com" target="_blank">github</a>.</p>
 
-<p>Please note that will<code>which nvm</code> not work, since <code>nvm</code> is a sourced shell function, not an executable binary.
-After running the install script, if you get <code>nvm: command not found</code> or see no feedback from your terminal, simply close your current terminal, open a new terminal, and try verifying again.</p>
-
-<h2 id="usage">Usage</h2>
-
-<p>With <code>nvm</code> installed, you can install isolated Node.js versions. For information about the versions of Node.js that are available, type:</p>
-
-<pre><code>$ nvm ls-remote
-</code></pre>
-
-<p>Which will give you something like</p>
-
-<pre><code> ...
- v8.0.0
- v8.1.0
- v8.1.1
- v8.1.2
- v8.1.3
- v8.1.4
- v8.2.0
- v8.2.1
- v8.3.0
- v8.4.0
- v8.5.0
- v8.6.0
- v8.7.0
- v8.8.0
- v8.8.1
- v8.9.0   (LTS: Carbon)
- v8.9.1   (LTS: Carbon)
- v8.9.2   (LTS: Carbon)
- v8.9.3   (LTS: Carbon)
- v8.9.4   (LTS: Carbon)
-v8.10.0   (LTS: Carbon)
-v8.11.0   (LTS: Carbon)
-v8.11.1   (LTS: Carbon)
-v8.11.2   (LTS: Carbon)
-v8.11.3   (Latest LTS: Carbon)
- v9.0.0
- v9.1.0
- v9.2.0
- v9.2.1
- v9.3.0
- v9.4.0
- v9.5.0
- v9.6.0
- v9.6.1
- v9.7.0
- v9.7.1
- v9.8.0
- v9.9.0
-v9.10.0
-v9.10.1
-v9.11.0
-v9.11.1
-v9.11.2
-v10.0.0
-v10.1.0
-v10.2.0
-v10.2.1
-v10.3.0
-v10.4.0
-v10.4.1
-v10.5.0
-v10.6.0
-</code></pre>
-
-<p>As you can see, at the time of writing this article the current LTS version of <code>node</code> is <code>v8.11.3</code>. You can install that by typing:</p>
-
-<pre><code>$ nvm install 8.11.3
-</code></pre>
-
-<p>Usually, <code>nvm</code> will switch to use the most recently installed version. You can tell <code>nvm</code> to use the version you just downloaded by typing:</p>
-
-<pre><code>$ nvm use 8.11.3
-</code></pre>
-
-<p>To download, compile, and install the latest release of node, You can simply do this:</p>
-
-<pre><code>$ nvm install node
-</code></pre>
-
-<p>And then in any new shell just use the installed version:</p>
-
-<pre><code>$ nvm use node
-</code></pre>
-
-<p>Or you can just run it:</p>
-
-<pre><code>$ nvm run node --version
-</code></pre>
-
-<p>Or, you can run any arbitrary command in a sub shell with the desired version of node:</p>
-
-<pre><code>$ nvm 4.2 node --version
-</code></pre>
-
-<p>When you install Node.js using <code>nvm</code>, the executable is called <code>node</code>. You can see the version currently being used by the shell by typing:</p>
-
-<pre><code>$ node -v
-</code></pre>
-
-<p>If you have multiple Node.js versions, you can see what is installed by typing:</p>
-
-<pre><code>$ node ls
-</code></pre>
-
-<p>If you wish to default one of the versions, type:</p>
-
-<pre><code>$ nvm alias default 8.11.3
-</code></pre>
-
-<p>This version will be automatically selected when a new session spawns. You can also reference it by the alias like this:</p>
-
-<pre><code>$ nvm use default
-</code></pre>
-
-<p>Each version of Node.js will keep track of its own packages and has <code>npm</code> available to manage these.</p>
-
-<p>You can have <code>npm</code> install packages to the Node.js project&rsquo;s <code>./node_modules</code> directory. Use the following syntax to install the <code>express</code> module:</p>
-
-<pre><code>$ npm install express
-</code></pre>
-
-<p>If you&rsquo;d like to install the module globally, making it available to other projects using the same version of Node.js, you can add the <code>-g</code> flag:</p>
-
-<pre><code>$ npm install -g express
-</code></pre>
-
-<p>This will install the package in:</p>
-
-<pre><code>~/.nvm/versions/node/node_version/lib/node_modules/express
-</code></pre>
-
-<p>Installing the module globally will let you run the commands from the command line, but you&rsquo;ll have to link the package into your local sphere to require it from within a program:</p>
-
-<pre><code>$ npm link express
-</code></pre>
-
-<p>You can learn more about the options available to you with nvm by typing:</p>
-
-<pre><code>$ nvm help
-</code></pre>
-
-<h2 id="removing-node-js">Removing Node.js</h2>
-
-<p>To uninstall a version of Node.js that you have enabled using <code>nvm</code>, first determine whether or not the version you would like to remove is the currently active version:</p>
-
-<pre><code>$ nvm current
-</code></pre>
-
-<p>If the version you are targeting is <strong>not</strong> the currently active version, you can run:</p>
-
-<pre><code>$ nvm uninstall node_version
-</code></pre>
-
-<p>This command will uninstall the selected version of Node.js.</p>
-
-<p>If the version you would like to remove <strong>is</strong> the currently active version, you must first deactivate <code>nvm</code> to enable your changes:</p>
-
-<pre><code>$ nvm deactivate
-</code></pre>
-
-<p>You can now uninstall the current version using the uninstall command above, which will remove all files associated with the targeted version of Node.js except the cached files that can be used for re-installment.</p>
-
-<h2 id="manual-uninstall">Manual Uninstall</h2>
-
-<p>To remove nvm manually, execute the following:</p>
-
-<pre><code>$ rm -rf &quot;$NVM_DIR&quot;
-</code></pre>
-
-<p>Edit <code>~/.bashrc</code> (or other shell resource configuration) and remove the lines below:</p>
-
-<pre><code>export NVM_DIR=&quot;$HOME/.nvm&quot;
-[ -s &quot;$NVM_DIR/nvm.sh&quot; ] &amp;&amp; \. &quot;$NVM_DIR/nvm.sh&quot; # This loads nvm
-[[ -r $NVM_DIR/bash_completion ]] &amp;&amp; \. $NVM_DIR/bash_completion
-</code></pre>
+<p>Please, let me know if you find anything broken, I would really appreciate it!</p>
 
 </div>
 
@@ -476,7 +379,7 @@ v10.6.0
   
 </svg>
 </span>
-  <span class='screen-reader-text'>Categories: </span><a class='category' href='/categories/nodejs'>Nodejs</a></div>
+  <span class='screen-reader-text'>Categories: </span><a class='category' href='/categories/thoughts'>Thoughts</a></div>
 <div class='tags'>
   <span class='taxonomy-icon'><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
   
@@ -485,7 +388,7 @@ v10.6.0
   
 </svg>
 </span>
-  <span class='screen-reader-text'>Tags: </span><a class='tag' href='/tags/node'>Node</a>, <a class='tag' href='/tags/npm'>Npm</a>, <a class='tag' href='/tags/nvm'>Nvm</a></div>
+  <span class='screen-reader-text'>Tags: </span><a class='tag' href='/tags/static-site'>Static-site</a>, <a class='tag' href='/tags/hugo'>Hugo</a>, <a class='tag' href='/tags/general'>General</a></div>
 
   </div>
 </footer>
@@ -495,7 +398,7 @@ v10.6.0
 
 <nav class='entry-nav'>
   <div class='container'><div class='prev-entry sep-before'>
-      <a href='/posts/spring-bean-wiring-using-javaconfig/'>
+      <a href='/posts/install-and-manage-node-js-using-nvm/'>
         <span aria-hidden='true'><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
   
   <line x1="20" y1="12" x2="4" y2="12"/>
@@ -503,17 +406,7 @@ v10.6.0
   
 </svg>
  Previous</span>
-        <span class='screen-reader-text'>Previous post: </span>Spring Bean Wiring Using JavaConfig</a>
-    </div><div class='next-entry sep-before'>
-      <a href='/posts/goodbye-wordpress-welcome-to-hugo/'>
-        <span class='screen-reader-text'>Next post: </span>Goodbye Wordpress, Welcome to HUGO<span aria-hidden='true'>Next <svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
-  
-  <line x1="4" y1="12" x2="20" y2="12"/>
-  <polyline points="14 6 20 12 14 18"/>
-  
-</svg>
-</span>
-      </a>
+        <span class='screen-reader-text'>Previous post: </span>Install and Manage Node Js Using NVM</a>
     </div></div>
 </nav>
 
