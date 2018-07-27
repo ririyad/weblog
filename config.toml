@@ -1,5 +1,5 @@
 baseURL = "/"
-title = "/dev/rimon/weblog"
+title = "~/dev/rimon"
 # for smart copyright line, leave this blank and check [params.copyright]
 copyright = "© Creative Commons Attribution-ShareAlike 4.0 International License"
 
@@ -8,7 +8,7 @@ theme = "minimo"
 disqusShortname = "rimonmostafiz"
 googleAnalytics = "UA-106775249-1"
 
-Paginate = 100
+Paginate = 7
 preserveTaxonomyNames = true
 
 enableRobotsTXT = true # generate robots.txt

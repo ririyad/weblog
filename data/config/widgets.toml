@@ -6,7 +6,7 @@ logo = "/images/logo.jpg"                      # default: "/images/logo.png"
 # Recent Posts Widget config
 [recent_posts]
 title = "Recent Articles"                      # default: "Recent Posts"
-length = 7                                     # default: 5
+length = 5                                     # default: 5
 excludeTypes = ["page"]                        # default: ["page"]
 
 # Sidebar Menu Widget config

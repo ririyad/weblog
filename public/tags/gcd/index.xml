@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Gcd on /dev/rimon/weblog</title>
+    <title>Gcd on ~/dev/rimon</title>
     <link>/tags/gcd/</link>
-    <description>Recent content in Gcd on /dev/rimon/weblog</description>
+    <description>Recent content in Gcd on ~/dev/rimon</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>© Creative Commons Attribution-ShareAlike 4.0 International License</copyright>
     <lastBuildDate>Tue, 15 Aug 2017 18:00:00 +0000</lastBuildDate>

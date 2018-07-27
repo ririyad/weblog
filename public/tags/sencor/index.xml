@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Sencor on /dev/rimon/weblog</title>
+    <title>Sencor on ~/dev/rimon</title>
     <link>/tags/sencor/</link>
-    <description>Recent content in Sencor on /dev/rimon/weblog</description>
+    <description>Recent content in Sencor on ~/dev/rimon</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>© Creative Commons Attribution-ShareAlike 4.0 International License</copyright>
     <lastBuildDate>Sat, 09 Sep 2017 11:34:00 +0000</lastBuildDate>

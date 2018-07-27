@@ -6,22 +6,20 @@
 <meta name='viewport' content='width=device-width, initial-scale=1'>
 <meta name='description' content='HTTPServletRequest The HServletRequestttp interface is an extension of ServletRequest that provides additional HTTP protocol-specific information about a received request. It specifies dozens of methods that you can use to obtain details about an HTTP request. It also permits you to set request attributes (different from request parameters).
 Request Param Request parameters come in two different forms:
- Query parameters (also called URI parameters)
- An application/x-www-form-urlencoded or multipart/form-data encoded request body(typically called post variables or form variables).'>
+ Query parameters (also called URI parameters) An application/x-www-form-urlencoded or multipart/form-data encoded request body(typically called post variables or form variables).'>
 <meta name='theme-color' content='#ffcd00'>
 
-<meta property='og:title' content='Know Your Request Object • /dev/rimon/weblog'>
+<meta property='og:title' content='Know Your Request Object • Rimon Mostafiz'>
 <meta property='og:description' content='HTTPServletRequest The HServletRequestttp interface is an extension of ServletRequest that provides additional HTTP protocol-specific information about a received request. It specifies dozens of methods that you can use to obtain details about an HTTP request. It also permits you to set request attributes (different from request parameters).
 Request Param Request parameters come in two different forms:
- Query parameters (also called URI parameters)
- An application/x-www-form-urlencoded or multipart/form-data encoded request body(typically called post variables or form variables).'>
+ Query parameters (also called URI parameters) An application/x-www-form-urlencoded or multipart/form-data encoded request body(typically called post variables or form variables).'>
 <meta property='og:url' content='/posts/know-your-request-object/'>
-<meta property='og:site_name' content='/dev/rimon/weblog'>
-<meta property='og:type' content='article'><meta property='article:section' content='Posts'><meta property='article:tag' content='java'><meta property='article:tag' content='javaee'><meta property='article:tag' content='params'><meta property='article:tag' content='post-variables'><meta property='article:tag' content='query-parameters'><meta property='article:tag' content='request'><meta property='article:published_time' content='2017-12-13T05:30:10Z'/><meta property='article:modified_time' content='2017-12-13T05:30:10Z'/><meta name='twitter:card' content='summary'>
+<meta property='og:site_name' content='~/dev/rimon'>
+<meta property='og:type' content='article'><meta property='og:image' content='https://www.gravatar.com/avatar/8d8acaeb9bb980a95ada8119e61f6fed?s=256'><meta property='article:author' content='https://facebook.com/RimonMostafiz'><meta property='article:section' content='Posts'><meta property='article:tag' content='post-variables'><meta property='article:tag' content='query-parameters'><meta property='article:tag' content='request'><meta property='article:published_time' content='2017-12-13T05:30:10Z'/><meta property='article:modified_time' content='2017-12-13T05:30:10Z'/><meta name='twitter:card' content='summary'><meta name='twitter:creator' content='@rimonmostafiz'>
 
 <meta name="generator" content="Hugo 0.45" />
 
-  <title>Know Your Request Object • /dev/rimon/weblog</title>
+  <title>Know Your Request Object • Rimon Mostafiz</title>
   <link rel='canonical' href='/posts/know-your-request-object/'>
   
   
@@ -46,7 +44,7 @@ if (!doNotTrack) {
 </head>
 
 
-<body class='page type-posts layout-post has-sidebar'>
+<body class='page type-posts has-sidebar'>
 
   <div class='site'>
 
@@ -180,7 +178,7 @@ if (!doNotTrack) {
 
       <header id='header' class='header site-header'>
         <div class='container sep-after'>
-          <div class='header-info'><p class='site-title title'>/dev/rimon/weblog</p><p class='desc site-desc'>It&#39;s not what you read, it&#39;s what you ignore</p>
+          <div class='header-info'><p class='site-title title'>~/dev/rimon</p><p class='desc site-desc'>It&#39;s not what you read, it&#39;s what you ignore</p>
           </div>
         </div>
       </header>
@@ -210,7 +208,13 @@ if (!doNotTrack) {
   <time class='entry-date' datetime='2017-12-13T05:30:10Z'>2017, Dec 13</time>
 </span>
 
+  <span class='byline'><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
   
+  <path d="M21,21V20c0-2.76-4-5-9-5s-9,2.24-9,5v1"/>
+  <path d="M16,6.37A4,4,0,1,1,12.63,3,4,4,0,0,1,16,6.37Z"/>
+  
+</svg>
+<span class='screen-reader-text'> by </span><a href='/authors/rimonmostafiz'>Rimon Mostafiz</a></span>
   
 <span class='reading-time'><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
   
@@ -230,6 +234,36 @@ if (!doNotTrack) {
 
   
   
+<details class='container entry-toc'>
+  <summary class='title'>
+    <span>Table of Contents</span>
+  </summary>
+  <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#httpservletrequest">HTTPServletRequest</a>
+<ul>
+<li><a href="#request-param">Request Param</a>
+<ul>
+<li><a href="#query-parameters">➤ Query Parameters</a></li>
+<li><a href="#post-variables">➤ POST Variables</a></li>
+</ul></li>
+<li><a href="#get-params">Get Params</a>
+<ul>
+<li>
+<ul>
+<li><a href="#note-to-remember">➤➤ Note To Remember</a></li>
+</ul></li>
+</ul></li>
+<li><a href="#know-request-content">Know Request Content</a></li>
+<li><a href="#know-request-characteristics">Know Request Characteristics</a></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
+</details>
+
 
   <div class='container entry-content'>
   
@@ -244,9 +278,8 @@ It specifies dozens of methods that you can use to obtain details about an HTTP 
 <p>Request parameters come in two different forms:</p>
 
 <ol>
-<li><p>Query parameters (also called URI parameters)</p></li>
-
-<li><p>An application/x-www-form-urlencoded or multipart/form-data encoded request body(typically called post variables or form variables).</p></li>
+<li>Query parameters (also called URI parameters)</li>
+<li>An application/x-www-form-urlencoded or multipart/form-data encoded request body(typically called post variables or form variables).</li>
 </ol>
 
 <h4 id="query-parameters">➤ Query Parameters</h4>
@@ -257,7 +290,7 @@ It specifies dozens of methods that you can use to obtain details about an HTTP 
 <pre><code>GET /index.jsp?productId=9854521&amp;category=Book HTTP/1.1
 </code></pre>
 
-<p>In the above example there are two query parameters one is productId and another one is the category.</p>
+<p>In the above example there are two query parameters one is <code>productId</code> and another one is the category.</p>
 
 <h4 id="post-variables">➤ POST Variables</h4>
 
@@ -289,7 +322,7 @@ If we call the parameter-related methods on a request object returns parameters 
 <li><p>The <code>getParameterNames</code> method returns an enumeration of the names of all the available parameters</p></li>
 </ul>
 
-<h5 id="note-to-remember">➤➤Note To Remember</h5>
+<h5 id="note-to-remember">➤➤ Note To Remember</h5>
 
 <p>When we call <code>getParameter</code>, <code>getParameterValues</code>, <code>getParameterMap</code> or <code>getParameterNames</code> for the first time on a request object, the web container determines whether the request contains post variables by obtaining the request&rsquo;s <code>InputStream</code>.
 Remember that the Request&rsquo;s <code>InputStream</code> can be read only once. If you call <code>getInputStream</code> or <code>getReader</code> request containing post variables and then later attempt to retrieve parameters in that request, the attempt to retrieve the parameters results in an <code>IllegalStateException</code>.
@@ -344,7 +377,7 @@ If the request is <em>/hello-world/greeting? foo=world</em>, the application is 
   
 </svg>
 </span>
-  <span class='screen-reader-text'>Categories: </span><a class='category' href='/categories/java'>Java</a>, <a class='category' href='/categories/javaee'>Javaee</a>, <a class='category' href='/categories/learning'>Learning</a>, <a class='category' href='/categories/technology'>Technology</a>, <a class='category' href='/categories/web-application'>Web-application</a></div>
+  <span class='screen-reader-text'>Categories: </span><a class='category' href='/categories/javaee'>Javaee</a></div>
 <div class='tags'>
   <span class='taxonomy-icon'><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
   
@@ -353,7 +386,7 @@ If the request is <em>/hello-world/greeting? foo=world</em>, the application is 
   
 </svg>
 </span>
-  <span class='screen-reader-text'>Tags: </span><a class='tag' href='/tags/java'>Java</a>, <a class='tag' href='/tags/javaee'>Javaee</a>, <a class='tag' href='/tags/params'>Params</a>, <a class='tag' href='/tags/post-variables'>Post-variables</a>, <a class='tag' href='/tags/query-parameters'>Query-parameters</a>, <a class='tag' href='/tags/request'>Request</a></div>
+  <span class='screen-reader-text'>Tags: </span><a class='tag' href='/tags/post-variables'>Post-variables</a>, <a class='tag' href='/tags/query-parameters'>Query-parameters</a>, <a class='tag' href='/tags/request'>Request</a></div>
 
   </div>
 </footer>

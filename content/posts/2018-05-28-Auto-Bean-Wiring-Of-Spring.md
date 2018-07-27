@@ -1,10 +1,17 @@
-+++
-date = "2018-05-28"
-tags = ["spring", "component", "Autowired"]
-title = "Auto Bean Wiring of Spring"
-description = ""
-authors = ["rimonmostafiz"]
-+++
+---
+title: Auto Bean Wiring of Spring
+date: 2018-05-28 07:44:03+00:00
+authors: ["rimonmostafiz"]
+comments: true
+slug: auto-bean-wiring-of-spring
+categories:
+- spring
+tags:
+- Autowired
+- Component
+- ComponentScan
+toc: true
+---
 
 As we previously discussed that the Spring container is responsible for creating the beans in your application and coordinating the relationship between those objects vi DI. The act of creating these associations between application objects in the essence of dependency injection(DI) and is commonly referred to as wiring.
 

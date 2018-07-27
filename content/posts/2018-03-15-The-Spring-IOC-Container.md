@@ -1,10 +1,17 @@
-+++
-date = "2018-03-15"
-tags = ["spring", "ioc", "framework"]
-title = "The Spring IoC Container"
-description = ""
-authors = ["rimonmostafiz"]
-+++
+---
+title: The Spring IoC Container
+date: 2018-03-15 11:00:47+00:00
+authors: ["rimonmostafiz"]
+comments: true
+slug: the-spring-ioc-container
+categories:
+- spring
+tags:
+- applicaiton-context
+- container
+- ioc
+toc: true
+---
 
 ## Overview
 There is some confusion these days over the meaning of _**inversion of control**_ due to the rise of _**IoC containers**_.
