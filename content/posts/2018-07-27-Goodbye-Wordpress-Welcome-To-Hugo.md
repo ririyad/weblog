@@ -3,6 +3,7 @@ title: Goodbye Wordpress, Welcome to HUGO
 description: Moving from Wordpress to Hugo
 authors: ["rimonmostafiz"]
 date: 2018-07-27T20:01:41+06:00
+slug: goodbye-wordpress-welcome-to-hugo
 categories:
   - thoughts
 tags:
