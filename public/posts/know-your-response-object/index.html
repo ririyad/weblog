@@ -6,30 +6,20 @@
 <meta name='viewport' content='width=device-width, initial-scale=1'>
 <meta name='description' content='HttpServletResponse The HttpServletResponse interface extends ServletResponse and provides access to the HTTP protocol-specific properties of a response.
 You can use the response object to do things such as
- Set response headers
- Write to the response body
- Redirect the request
- Set the HTTP status code
- Send cookies back to the client.
-  Writing to Response Body The most common thing you’ll do with a response object is written content to the response body.'>
+ Set response headers Write to the response body Redirect the request Set the HTTP status code Send cookies back to the client.  Writing to Response Body The most common thing you’ll do with a response object is written content to the response body.'>
 <meta name='theme-color' content='#ffcd00'>
 
-<meta property='og:title' content='Know Your Response Object • /dev/rimon/weblog'>
+<meta property='og:title' content='Know Your Response Object • Rimon Mostafiz'>
 <meta property='og:description' content='HttpServletResponse The HttpServletResponse interface extends ServletResponse and provides access to the HTTP protocol-specific properties of a response.
 You can use the response object to do things such as
- Set response headers
- Write to the response body
- Redirect the request
- Set the HTTP status code
- Send cookies back to the client.
-  Writing to Response Body The most common thing you’ll do with a response object is written content to the response body.'>
+ Set response headers Write to the response body Redirect the request Set the HTTP status code Send cookies back to the client.  Writing to Response Body The most common thing you’ll do with a response object is written content to the response body.'>
 <meta property='og:url' content='/posts/know-your-response-object/'>
-<meta property='og:site_name' content='/dev/rimon/weblog'>
-<meta property='og:type' content='article'><meta property='article:section' content='Posts'><meta property='article:tag' content='encode'><meta property='article:tag' content='header'><meta property='article:tag' content='java'><meta property='article:tag' content='javaee'><meta property='article:tag' content='response'><meta property='article:tag' content='servlet'><meta property='article:published_time' content='2018-01-09T06:30:00Z'/><meta property='article:modified_time' content='2018-01-09T06:30:00Z'/><meta name='twitter:card' content='summary'>
+<meta property='og:site_name' content='~/dev/rimon'>
+<meta property='og:type' content='article'><meta property='og:image' content='https://www.gravatar.com/avatar/8d8acaeb9bb980a95ada8119e61f6fed?s=256'><meta property='article:author' content='https://facebook.com/RimonMostafiz'><meta property='article:section' content='Posts'><meta property='article:tag' content='header'><meta property='article:tag' content='response'><meta property='article:tag' content='servlet'><meta property='article:published_time' content='2018-01-09T06:30:00Z'/><meta property='article:modified_time' content='2018-01-09T06:30:00Z'/><meta name='twitter:card' content='summary'><meta name='twitter:creator' content='@rimonmostafiz'>
 
 <meta name="generator" content="Hugo 0.45" />
 
-  <title>Know Your Response Object • /dev/rimon/weblog</title>
+  <title>Know Your Response Object • Rimon Mostafiz</title>
   <link rel='canonical' href='/posts/know-your-response-object/'>
   
   
@@ -54,7 +44,7 @@ if (!doNotTrack) {
 </head>
 
 
-<body class='page type-posts layout-post has-sidebar'>
+<body class='page type-posts has-sidebar'>
 
   <div class='site'>
 
@@ -188,7 +178,7 @@ if (!doNotTrack) {
 
       <header id='header' class='header site-header'>
         <div class='container sep-after'>
-          <div class='header-info'><p class='site-title title'>/dev/rimon/weblog</p><p class='desc site-desc'>It&#39;s not what you read, it&#39;s what you ignore</p>
+          <div class='header-info'><p class='site-title title'>~/dev/rimon</p><p class='desc site-desc'>It&#39;s not what you read, it&#39;s what you ignore</p>
           </div>
         </div>
       </header>
@@ -218,7 +208,13 @@ if (!doNotTrack) {
   <time class='entry-date' datetime='2018-01-09T06:30:00Z'>2018, Jan 09</time>
 </span>
 
+  <span class='byline'><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
   
+  <path d="M21,21V20c0-2.76-4-5-9-5s-9,2.24-9,5v1"/>
+  <path d="M16,6.37A4,4,0,1,1,12.63,3,4,4,0,0,1,16,6.37Z"/>
+  
+</svg>
+<span class='screen-reader-text'> by </span><a href='/authors/rimonmostafiz'>Rimon Mostafiz</a></span>
   
 <span class='reading-time'><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
   
@@ -238,26 +234,42 @@ if (!doNotTrack) {
 
   
   
+<details class='container entry-toc'>
+  <summary class='title'>
+    <span>Table of Contents</span>
+  </summary>
+  <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#httpservletresponse">HttpServletResponse</a>
+<ul>
+<li><a href="#writing-to-response-body">Writing to Response Body</a>
+<ul>
+<li><a href="#note-to-remember">Note To Remember</a></li>
+</ul></li>
+<li><a href="#setting-headers-and-other-response-properties">Setting Headers and Other Response Properties</a></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
+</details>
+
 
   <div class='container entry-content'>
   
 
 <h2 id="httpservletresponse">HttpServletResponse</h2>
 
-<p>The <code>HttpServletResponse</code> interface extends <code>ServletResponse</code> and provides access to the HTTP protocol-specific properties of a response.</p>
-
-<p>You can use the response object to do things such as</p>
+<p>The <code>HttpServletResponse</code> interface extends <code>ServletResponse</code> and provides access to the HTTP protocol-specific properties of a response.<br>
+You can use the response object to do things such as</p>
 
 <ul>
-<li><p>Set response headers</p></li>
-
-<li><p>Write to the response body</p></li>
-
-<li><p>Redirect the request</p></li>
-
-<li><p>Set the HTTP status code</p></li>
-
-<li><p>Send cookies back to the client.</p></li>
+<li>Set response headers</li>
+<li>Write to the response body</li>
+<li>Redirect the request</li>
+<li>Set the HTTP status code</li>
+<li>Send cookies back to the client.</li>
 </ul>
 
 <h3 id="writing-to-response-body">Writing to Response Body</h3>
@@ -265,24 +277,19 @@ if (!doNotTrack) {
 <p>The most common thing you’ll do with a response object is written content to the response body.</p>
 
 <ul>
-<li><p>This might be HTML to display in a browser</p></li>
-
-<li><p>An image that the browser is retrieving</p></li>
-
-<li><p>The contents of a file that the client is downloading.</p></li>
-
-<li><p>It could be plain text or binary data</p></li>
-
-<li><p>It might be just a few bytes long or it could be gigabytes long.</p></li>
+<li>This might be HTML to display in a browser</li>
+<li>An image that the browser is retrieving</li>
+<li>The contents of a file that the client is downloading.</li>
+<li>It could be plain text or binary data</li>
+<li>It might be just a few bytes long or it could be gigabytes long.</li>
 </ul>
 
-<p>The <code>getOutputStream</code> : Returns a <code>javax.servlet.ServletOutputStream</code>, for sending binary data back, you must use the <code>ServletOutputStream</code> to send the response bytes.</p>
+<p>The <code>getOutputStream</code>: Returns a <code>javax.servlet.ServletOutputStream</code>, for sending binary data back, you must use the <code>ServletOutputStream</code> to send the response bytes.</p>
 
 <p>The <code>getWriter</code>: Returns a <code>java.io.PrintWriter</code>, you would probably want to use the <code>PrintWriter</code> for returning HTML or some other character-encoded text to the client because this makes it easy to write encoded String s and char s to the response.</p>
 
-<p>Also, you should never use both <code>getOutputStream</code> and <code>getWriter</code> in the same response. After a call to one, a call to the other will fail with an IllegalStateException .</p>
-
-<p>Set the content type or encoding</p>
+<p>Also, you should never use both <code>getOutputStream</code> and <code>getWriter</code> in the same response. After a call to one, a call to the other will fail with an <code>IllegalStateException</code>.<br>
+Set the content type or encoding</p>
 
 <p>While you’re writing to the response body, it might be necessary to set the content type or encoding.</p>
 
@@ -326,7 +333,7 @@ if (!doNotTrack) {
   
 </svg>
 </span>
-  <span class='screen-reader-text'>Categories: </span><a class='category' href='/categories/java'>Java</a>, <a class='category' href='/categories/javaee'>Javaee</a>, <a class='category' href='/categories/learning'>Learning</a>, <a class='category' href='/categories/technology'>Technology</a>, <a class='category' href='/categories/web-application'>Web-application</a></div>
+  <span class='screen-reader-text'>Categories: </span><a class='category' href='/categories/javaee'>Javaee</a></div>
 <div class='tags'>
   <span class='taxonomy-icon'><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
   
@@ -335,7 +342,7 @@ if (!doNotTrack) {
   
 </svg>
 </span>
-  <span class='screen-reader-text'>Tags: </span><a class='tag' href='/tags/encode'>Encode</a>, <a class='tag' href='/tags/header'>Header</a>, <a class='tag' href='/tags/java'>Java</a>, <a class='tag' href='/tags/javaee'>Javaee</a>, <a class='tag' href='/tags/response'>Response</a>, <a class='tag' href='/tags/servlet'>Servlet</a></div>
+  <span class='screen-reader-text'>Tags: </span><a class='tag' href='/tags/header'>Header</a>, <a class='tag' href='/tags/response'>Response</a>, <a class='tag' href='/tags/servlet'>Servlet</a></div>
 
   </div>
 </footer>

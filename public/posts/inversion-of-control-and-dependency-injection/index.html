@@ -8,16 +8,16 @@
 In traditional programming, our custom code that expresses the purpose of the program calls reusable libraries to take care of generic tasks, but with inversion of control, it is the framework that calls into the custom, or task-specific, code.'>
 <meta name='theme-color' content='#ffcd00'>
 
-<meta property='og:title' content='Inversion of Control and Dependency Injection • /dev/rimon/weblog'>
+<meta property='og:title' content='Inversion of Control and Dependency Injection • Rimon Mostafiz'>
 <meta property='og:description' content='Inversion of control (IoC) In software engineering, inversion of control (IoC) is a design principle. It is used to invert different kinds of controls. More Specifically invert the control of your custom written program or objects of a program is transferred to a container or framework.
 In traditional programming, our custom code that expresses the purpose of the program calls reusable libraries to take care of generic tasks, but with inversion of control, it is the framework that calls into the custom, or task-specific, code.'>
 <meta property='og:url' content='/posts/inversion-of-control-and-dependency-injection/'>
-<meta property='og:site_name' content='/dev/rimon/weblog'>
-<meta property='og:type' content='article'><meta property='article:section' content='Posts'><meta property='article:tag' content='container'><meta property='article:tag' content='dependency injection'><meta property='article:tag' content='di'><meta property='article:tag' content='framework'><meta property='article:tag' content='inversion of control'><meta property='article:tag' content='ioc'><meta property='article:tag' content='principle'><meta property='article:tag' content='spring'><meta property='article:published_time' content='2018-03-14T10:36:12Z'/><meta property='article:modified_time' content='2018-03-14T10:36:12Z'/><meta name='twitter:card' content='summary'>
+<meta property='og:site_name' content='~/dev/rimon'>
+<meta property='og:type' content='article'><meta property='og:image' content='https://www.gravatar.com/avatar/8d8acaeb9bb980a95ada8119e61f6fed?s=256'><meta property='article:author' content='https://facebook.com/RimonMostafiz'><meta property='article:section' content='Posts'><meta property='article:tag' content='container'><meta property='article:tag' content='dependency-injection'><meta property='article:tag' content='ioc'><meta property='article:published_time' content='2018-03-14T10:36:12Z'/><meta property='article:modified_time' content='2018-03-14T10:36:12Z'/><meta name='twitter:card' content='summary'><meta name='twitter:creator' content='@rimonmostafiz'>
 
 <meta name="generator" content="Hugo 0.45" />
 
-  <title>Inversion of Control and Dependency Injection • /dev/rimon/weblog</title>
+  <title>Inversion of Control and Dependency Injection • Rimon Mostafiz</title>
   <link rel='canonical' href='/posts/inversion-of-control-and-dependency-injection/'>
   
   
@@ -42,7 +42,7 @@ if (!doNotTrack) {
 </head>
 
 
-<body class='page type-posts layout-post has-sidebar'>
+<body class='page type-posts has-sidebar'>
 
   <div class='site'>
 
@@ -176,7 +176,7 @@ if (!doNotTrack) {
 
       <header id='header' class='header site-header'>
         <div class='container sep-after'>
-          <div class='header-info'><p class='site-title title'>/dev/rimon/weblog</p><p class='desc site-desc'>It&#39;s not what you read, it&#39;s what you ignore</p>
+          <div class='header-info'><p class='site-title title'>~/dev/rimon</p><p class='desc site-desc'>It&#39;s not what you read, it&#39;s what you ignore</p>
           </div>
         </div>
       </header>
@@ -206,7 +206,13 @@ if (!doNotTrack) {
   <time class='entry-date' datetime='2018-03-14T10:36:12Z'>2018, Mar 14</time>
 </span>
 
+  <span class='byline'><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
   
+  <path d="M21,21V20c0-2.76-4-5-9-5s-9,2.24-9,5v1"/>
+  <path d="M16,6.37A4,4,0,1,1,12.63,3,4,4,0,0,1,16,6.37Z"/>
+  
+</svg>
+<span class='screen-reader-text'> by </span><a href='/authors/rimonmostafiz'>Rimon Mostafiz</a></span>
   
 <span class='reading-time'><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
   
@@ -226,6 +232,30 @@ if (!doNotTrack) {
 
   
   
+<details class='container entry-toc'>
+  <summary class='title'>
+    <span>Table of Contents</span>
+  </summary>
+  <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li>
+<ul>
+<li><a href="#inversion-of-control-ioc">Inversion of control (IoC)</a>
+<ul>
+<li><a href="#example-of-ioc">Example of IoC</a></li>
+</ul></li>
+<li><a href="#dependency-injection-di">Dependency Injection(DI)</a>
+<ul>
+<li><a href="#example-of-di">Example Of DI</a></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
+</details>
+
 
   <div class='container entry-content'>
   
@@ -236,7 +266,7 @@ if (!doNotTrack) {
 
 <p>In traditional programming, our custom code that expresses the purpose of the program calls reusable libraries to take care of generic tasks, but with inversion of control, it is the framework that calls into the custom, or task-specific, code.</p>
 
-<p>IoC is sometimes referred to as the **Hollywood Principle **(&ldquo;Don&rsquo;t call us, we&rsquo;ll call you&rdquo;). Simply the flow of control of an application is not controlled by the application itself, but rather by the underlying framework.</p>
+<p>IoC is sometimes referred to as the <strong>Hollywood Principle</strong> (<em>&ldquo;Don&rsquo;t call us, we&rsquo;ll call you&rdquo;</em>). Simply the flow of control of an application is not controlled by the application itself, but rather by the underlying framework.</p>
 
 <h4 id="example-of-ioc">Example of IoC</h4>
 
@@ -256,10 +286,9 @@ if (!doNotTrack) {
 
 <h4 id="example-of-di">Example Of DI</h4>
 
-<p>Say you have A <strong><em>Repository</em></strong> class which responsible for handing over data to you from a <em><strong>Datasource</strong></em>. We need to instantiate an implementation of the <strong><em>Datasource</em></strong> Interface within the <em><strong>Repository.</strong></em></p>
+<p>Say you have A <strong><em>Repository</em></strong> class which responsible for handing over data to you from a <strong><em>Datasource</em></strong>. We need to instantiate an implementation of the <strong><em>Datasource</em></strong> Interface within the <strong><em>Repository</em></strong>.</p>
 
 <pre><code>public class Repository {
-
     private Datasource dataSource;
 
     public Repository () {
@@ -268,7 +297,7 @@ if (!doNotTrack) {
 }
 </code></pre>
 
-<p>The <strong><em>Repository</em></strong> could establish a connection to the <em><strong>Datasource</strong></em> by itself. But what if it allowed you to pass in a connection to the _<strong>Datasource</strong> _through the <em><strong>Repository&rsquo;s</strong></em> constructor?</p>
+<p>The <strong><em>Repository</em></strong> could establish a connection to the <em><strong>Datasource</strong></em> by itself. But what if it allowed you to pass in a connection to the <em><strong>Datasource</strong></em> through the <em><strong>Repository&rsquo;s</strong></em> constructor?</p>
 
 <pre><code>public class Repository {
 
@@ -291,7 +320,7 @@ if (!doNotTrack) {
 This allows us to call the dependency then pass it to the <strong>Repository</strong> class like below</p>
 
 <pre><code>Datasource dc = new MySqlDataSource(); // dependency
-Repository rep = new Repository(dc); // caller is injecting dependency
+Repository rep = new Repository(dc);   // caller is injecting dependency
 </code></pre>
 
 <p>Now the client creating the _<strong>Repository</strong><em> class has the control over which </em><strong>DataSource</strong>_ implementation to use because we&rsquo;re injecting the dependency to the <em><strong>Repository</strong></em>.</p>
@@ -313,7 +342,7 @@ I don&rsquo;t think anyone can explain it better than Martin Fowler does, furthe
   
 </svg>
 </span>
-  <span class='screen-reader-text'>Categories: </span><a class='category' href='/categories/learning'>Learning</a>, <a class='category' href='/categories/spring'>Spring</a>, <a class='category' href='/categories/spring-diary'>Spring-diary</a></div>
+  <span class='screen-reader-text'>Categories: </span><a class='category' href='/categories/spring'>Spring</a></div>
 <div class='tags'>
   <span class='taxonomy-icon'><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
   
@@ -322,7 +351,7 @@ I don&rsquo;t think anyone can explain it better than Martin Fowler does, furthe
   
 </svg>
 </span>
-  <span class='screen-reader-text'>Tags: </span><a class='tag' href='/tags/container'>Container</a>, <a class='tag' href='/tags/dependency-injection'>dependency injection</a>, <a class='tag' href='/tags/di'>Di</a>, <a class='tag' href='/tags/framework'>Framework</a>, <a class='tag' href='/tags/inversion-of-control'>inversion of control</a>, <a class='tag' href='/tags/ioc'>Ioc</a>, <a class='tag' href='/tags/principle'>Principle</a>, <a class='tag' href='/tags/spring'>Spring</a></div>
+  <span class='screen-reader-text'>Tags: </span><a class='tag' href='/tags/container'>Container</a>, <a class='tag' href='/tags/dependency-injection'>Dependency-injection</a>, <a class='tag' href='/tags/ioc'>Ioc</a></div>
 
   </div>
 </footer>
@@ -342,7 +371,7 @@ I don&rsquo;t think anyone can explain it better than Martin Fowler does, furthe
  Previous</span>
         <span class='screen-reader-text'>Previous post: </span>Know Your Response Object</a>
     </div><div class='next-entry sep-before'>
-      <a href='/posts/2018-03-15-the-spring-ioc-container/'>
+      <a href='/posts/the-spring-ioc-container/'>
         <span class='screen-reader-text'>Next post: </span>The Spring IoC Container<span aria-hidden='true'>Next <svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
   
   <line x1="4" y1="12" x2="20" y2="12"/>

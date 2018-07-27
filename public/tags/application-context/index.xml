@@ -1,25 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Application-context on /dev/rimon/weblog</title>
+    <title>Application-context on ~/dev/rimon</title>
     <link>/tags/application-context/</link>
-    <description>Recent content in Application-context on /dev/rimon/weblog</description>
+    <description>Recent content in Application-context on ~/dev/rimon</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>© Creative Commons Attribution-ShareAlike 4.0 International License</copyright>
-    <lastBuildDate>Sat, 26 May 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 29 May 2018 10:19:29 +0000</lastBuildDate>
     
 	<atom:link href="/tags/application-context/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Spring Application Context and Configuration Metadata</title>
-      <link>/posts/2018-05-26-spring-application-context-and-configuration-metadata/</link>
-      <pubDate>Sat, 26 May 2018 00:00:00 +0000</pubDate>
+      <title>Spring Bean Wiring Using JavaConfig</title>
+      <link>/posts/spring-bean-wiring-using-javaconfig/</link>
+      <pubDate>Tue, 29 May 2018 10:19:29 +0000</pubDate>
       
-      <guid>/posts/2018-05-26-spring-application-context-and-configuration-metadata/</guid>
-      <description>In the last post of Spring Diary, we discussed the basics of spring IoC Container and we saw a high-level view of how Spring Container works.
-In this post, we will learn about how can we Instantiate a Spring IoC container(using ApplicaitonContext Interface) and configure that container using configuration metadata.
-Spring IoC container consumes a form of configuration metadata. This configuration metadata represents how you as an application developer tell the Spring container to instantiate, configure, and assemble the objects in your application.</description>
+      <guid>/posts/spring-bean-wiring-using-javaconfig/</guid>
+      <description>In the previous post, I wrote about how can we implicitly wire beans automatically in Spring container. In my previous post I created a new maven project and started writing code so that we can understand the topics more clearly. In this post, I am documenting my learning of how we can wire bean using Explicit Java Configuration. I will work on the same project I have created earlier.</description>
     </item>
     
   </channel>

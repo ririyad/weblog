@@ -1,10 +1,16 @@
-+++
-date = "2018-05-26"
-tags = ["spring", "application-context", "configuration"]
-title = "Spring Application Context and Configuration Metadata"
-description = ""
-authors = ["rimonmostafiz"]
-+++
+---
+title: Spring Application Context and Configuration Metadata
+date: 2018-05-26 06:42:47+00:00"
+authors: ["rimonmostafiz"]
+comments: true
+slug: "spring-application-context-and-configuration-metadata"
+categories:
+- spring
+tags:
+- beans
+- configuration
+- metadata
+---
 
 In the [last post](http://www.rimonmostafiz.com/blog/auto-bean-wiring-of-spring/) of Spring Diary, we discussed the basics of spring IoC Container and we saw a high-level view of how Spring Container works.
 

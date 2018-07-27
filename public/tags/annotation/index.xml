@@ -1,15 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Annotation on /dev/rimon/weblog</title>
+    <title>Annotation on ~/dev/rimon</title>
     <link>/tags/annotation/</link>
-    <description>Recent content in Annotation on /dev/rimon/weblog</description>
+    <description>Recent content in Annotation on ~/dev/rimon</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>© Creative Commons Attribution-ShareAlike 4.0 International License</copyright>
-    <lastBuildDate>Mon, 30 Oct 2017 09:19:54 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 29 May 2018 10:19:29 +0000</lastBuildDate>
     
 	<atom:link href="/tags/annotation/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Spring Bean Wiring Using JavaConfig</title>
+      <link>/posts/spring-bean-wiring-using-javaconfig/</link>
+      <pubDate>Tue, 29 May 2018 10:19:29 +0000</pubDate>
+      
+      <guid>/posts/spring-bean-wiring-using-javaconfig/</guid>
+      <description>In the previous post, I wrote about how can we implicitly wire beans automatically in Spring container. In my previous post I created a new maven project and started writing code so that we can understand the topics more clearly. In this post, I am documenting my learning of how we can wire bean using Explicit Java Configuration. I will work on the same project I have created earlier.</description>
+    </item>
     
     <item>
       <title>a bit of spring: part one</title>

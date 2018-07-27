@@ -1,10 +1,11 @@
-+++
-title = "WhoAmI"
-date = "2017-08-15 15:31:05+00:00"
-comments = false
-emoji = true
-authors = ["rimonmostafiz"]
-+++
+---
+title: "WhoAmI"
+date: "2017-08-15 15:31:05+00:00"
+comments: false
+emoji: true
+authors: ["rimonmostafiz"]
+toc: true
+---
 
 > It is not our abilities that show what we truly are, It is our choices.
 

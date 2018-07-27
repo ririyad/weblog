@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+  <meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+<meta name='description' content='In the previous post, I wrote about how can we implicitly wire beans automatically in Spring container. In my previous post I created a new maven project and started writing code so that we can understand the topics more clearly. In this post, I am documenting my learning of how we can wire bean using Explicit Java Configuration. I will work on the same project I have created earlier.'>
+<meta name='theme-color' content='#ffcd00'>
+
+<meta property='og:title' content='Spring Bean Wiring Using JavaConfig • Rimon Mostafiz'>
+<meta property='og:description' content='In the previous post, I wrote about how can we implicitly wire beans automatically in Spring container. In my previous post I created a new maven project and started writing code so that we can understand the topics more clearly. In this post, I am documenting my learning of how we can wire bean using Explicit Java Configuration. I will work on the same project I have created earlier.'>
+<meta property='og:url' content='/posts/spring-bean-wiring-using-javaconfig/'>
+<meta property='og:site_name' content='~/dev/rimon'>
+<meta property='og:type' content='article'><meta property='og:image' content='https://www.gravatar.com/avatar/8d8acaeb9bb980a95ada8119e61f6fed?s=256'><meta property='article:author' content='https://facebook.com/RimonMostafiz'><meta property='article:section' content='Posts'><meta property='article:tag' content='annotation'><meta property='article:tag' content='application-context'><meta property='article:tag' content='constructor-injection'><meta property='article:published_time' content='2018-05-29T10:19:29Z'/><meta property='article:modified_time' content='2018-05-29T10:19:29Z'/><meta name='twitter:card' content='summary'><meta name='twitter:creator' content='@rimonmostafiz'>
+
+<meta name="generator" content="Hugo 0.45" />
+
+  <title>Spring Bean Wiring Using JavaConfig • Rimon Mostafiz</title>
+  <link rel='canonical' href='/posts/spring-bean-wiring-using-javaconfig/'>
+  
+  
+  <link rel='icon' href='/images/favicon.png'>
+<link rel='stylesheet' href='/assets/css/main.809149b6.css'><link rel='stylesheet' href='/css/custom.css'><style>
+:root{--color-accent:#ffcd00;}
+</style>
+
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-106775249-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+  
+
+</head>
+
+
+<body class='page type-posts has-sidebar'>
+
+  <div class='site'>
+
+    <div id='sidebar' class='sidebar'>
+  <a class='screen-reader-text' href='#main-menu'>Skip to Main Menu</a>
+
+  <div class='container'><section class='widget widget-about sep-after'>
+  <header>
+    
+    <div class='logo'>
+      <a href='/'>
+        <img src='/images/logo.jpg'>
+      </a>
+    </div>
+    
+    <h2 class='title site-title '>
+    Rimon Mostafiz
+    </h2>
+    <div class='desc'>
+    Read WhoAmI to know whoami
+    </div>
+  </header>
+
+</section>
+<section class='widget widget-sidebar_menu sep-after'><nav id='sidebar-menu' class='menu sidebar-menu' aria-label='Sidebar Menu'>
+    <div class='container'>
+      <ul><li class='item'>
+  <a href='/'>Home</a></li><li class='item'>
+  <a href='/posts'>Blog</a></li><li class='item'>
+  <a href='/pages/whoami'>WhoAmI</a></li><li class='item'>
+  <a href=''></a></li></ul>
+    </div>
+  </nav>
+
+</section><section class='widget widget-social_menu sep-after'><header>
+    <h4 class='title widget-title'>Find me @</h4>
+  </header><nav aria-label='Social Menu'>
+    <ul><li>
+        <a href='https://github.com/rimonmostafiz' target='_blank' rel='noopener'>
+          <span class='screen-reader-text'>Open Github account in new tab</span><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+  
+  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+  
+</svg>
+</a>
+      </li><li>
+        <a href='https://facebook.com/RimonMostafiz' target='_blank' rel='noopener'>
+          <span class='screen-reader-text'>Open Facebook account in new tab</span><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+  
+  <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+  
+</svg>
+</a>
+      </li><li>
+        <a href='https://twitter.com/rimonmostafiz' target='_blank' rel='noopener'>
+          <span class='screen-reader-text'>Open Twitter account in new tab</span><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+  
+  <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/>
+  
+</svg>
+</a>
+      </li><li>
+        <a href='mailto:ferary.rimon@gmail.com' target='_blank' rel='noopener'>
+          <span class='screen-reader-text'>Contact via Email</span><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+  
+  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+  <polyline points="22,6 12,13 2,6"/>
+  
+</svg>
+</a>
+      </li><li>
+        <a href='https://gitlab.com/rimonmostafiz' target='_blank' rel='noopener'>
+          <span class='screen-reader-text'>Open Gitlab account in new tab</span><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+  
+  <path d="M22.65 14.39L12 22.13 1.35 14.39a.84.84 0 0 1-.3-.94l1.22-3.78 2.44-7.51A.42.42 0 0 1 4.82 2a.43.43 0 0 1 .58 0 .42.42 0 0 1 .11.18l2.44 7.49h8.1l2.44-7.51A.42.42 0 0 1 18.6 2a.43.43 0 0 1 .58 0 .42.42 0 0 1 .11.18l2.44 7.51L23 13.45a.84.84 0 0 1-.35.94z"/>
+  
+</svg>
+</a>
+      </li><li>
+        <a href='https://linkedin.com/in/rimonmostafiz' target='_blank' rel='noopener'>
+          <span class='screen-reader-text'>Open Linkedin account in new tab</span><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+  
+  <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+  <rect x="2" y="9" width="4" height="12"/>
+  <circle cx="4" cy="4" r="2"/>
+  
+</svg>
+</a>
+      </li></ul>
+  </nav>
+</section></div>
+
+  <div class='sidebar-overlay'></div>
+</div>
+
+    <div class='main'>
+
+      <nav id='main-menu' class='menu main-menu' aria-label='Main Menu'>
+  <div class='container'>
+    <a class='screen-reader-text' href='#content'>Skip to Content</a>
+
+<button id='sidebar-toggler' class='sidebar-toggler' aria-controls='sidebar'>
+  <span class='screen-reader-text'>Toggle Sidebar</span>
+  <span class='open'><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+  
+  <line x1="3" y1="12" x2="21" y2="12" />
+  <line x1="3" y1="6" x2="21" y2="6" />
+  <line x1="3" y1="18" x2="21" y2="18" />
+  
+</svg>
+</span>
+  <span class='close'><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+  
+  <line x1="18" y1="6" x2="6" y2="18" />
+  <line x1="6" y1="6" x2="18" y2="18" />
+  
+</svg>
+</span>
+</button>
+    <ul><li class='item'>
+        <a href='/'>Home</a>
+      </li><li class='item'>
+        <a href='/posts'>Blog</a>
+      </li><li class='item'>
+        <a href='/pages/whoami'>WhoAmI</a>
+      </li><li class='item'>
+        <a href=''></a>
+      </li></ul>
+  </div>
+</nav>
+
+      <header id='header' class='header site-header'>
+        <div class='container sep-after'>
+          <div class='header-info'><p class='site-title title'>~/dev/rimon</p><p class='desc site-desc'>It&#39;s not what you read, it&#39;s what you ignore</p>
+          </div>
+        </div>
+      </header>
+
+      <main id='content'>
+
+
+<article lang='en' class='entry'>
+  <header class='header entry-header'>
+  <div class='container sep-after'>
+    <div class='header-info'>
+      <h1 class='title'>Spring Bean Wiring Using JavaConfig</h1>
+      
+
+    </div>
+    
+<div class='entry-meta'>
+  <span class='posted-on'><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+  
+  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+  <line x1="16" y1="2" x2="16" y2="6"/>
+  <line x1="8" y1="2" x2="8" y2="6"/>
+  <line x1="3" y1="10" x2="21" y2="10"/>
+  
+</svg>
+<span class='screen-reader-text'>Posted on </span>
+  <time class='entry-date' datetime='2018-05-29T10:19:29Z'>2018, May 29</time>
+</span>
+
+  <span class='byline'><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+  
+  <path d="M21,21V20c0-2.76-4-5-9-5s-9,2.24-9,5v1"/>
+  <path d="M16,6.37A4,4,0,1,1,12.63,3,4,4,0,0,1,16,6.37Z"/>
+  
+</svg>
+<span class='screen-reader-text'> by </span><a href='/authors/rimonmostafiz'>Rimon Mostafiz</a></span>
+  
+<span class='reading-time'><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+  
+  <circle cx="12" cy="12" r="10"/>
+  <polyline points="12 6 12 12 15 15"/>
+  
+</svg>
+5 mins read
+</span>
+
+
+</div>
+
+
+  </div>
+</header>
+
+  
+  
+<details class='container entry-toc'>
+  <summary class='title'>
+    <span>Table of Contents</span>
+  </summary>
+  <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#explicit-wiring-using-java">Explicit wiring using Java</a>
+<ul>
+<li><a href="#create-a-configuration-class">Create a configuration class</a></li>
+<li><a href="#declare-a-bean">Declare A Bean</a></li>
+<li><a href="#inject-bean-in-javaconfig">Inject Bean in JavaConfig</a></li>
+<li><a href="#run-application">Run Application</a></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
+</details>
+
+
+  <div class='container entry-content'>
+  
+
+<p>In the <a href="https://www.rimonmostafiz.com/blog/auto-bean-wiring-of-spring/" target="_blank">previous post</a>, I wrote about how can we implicitly wire beans automatically in Spring container. In my previous post I created a new maven project and started writing code so that we can understand the topics more clearly. In this post, I am documenting my learning of how we can wire bean using Explicit Java Configuration. I will work on the same project I have created earlier.</p>
+
+<h2 id="explicit-wiring-using-java">Explicit wiring using Java</h2>
+
+<p>When an automatic configuration isn’t an option then we must configure Spring explicitly. Let’s say that we want to wire components from some third-party library into our application. Because we don’t have the source code for that library, there’s no opportunity to annotate its classes with <code>@Component</code> and <code>@Autowired</code> annotations. Therefore, automatic configuration isn’t an option.</p>
+
+<p>We have two choices for explicit configuration:
+* Java
+* XML</p>
+
+<p>JavaConfig is the preferred option for explicit configuration because it’s more powerful, type-safe, and refactor-friendly.</p>
+
+<h3 id="create-a-configuration-class">Create a configuration class</h3>
+
+<p>To wire bean in JavaConfig, we need to create a Configuration Class and mark that with <code>@Configuration</code> annotation.</p>
+
+<p>This annotation identifies this class as a configuration class, and it’s expected to contain details of beans that are to be created in the Spring application context.</p>
+
+<pre><code>package com.rimonmostafiz;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+public class StoreConfig { }
+</code></pre>
+
+<h3 id="declare-a-bean">Declare A Bean</h3>
+
+<p>To declare a bean in JavaConfig, we should create a method in our configuration class and creates an instance of the desired class and annotate the method with <code>@Bean</code></p>
+
+<pre><code>package com.rimonmostafiz;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+public class StoreConfig {
+    @Bean
+    Item foodItem() {
+        return new FoodItem();
+    }
+}
+</code></pre>
+
+<p>Here the <code>@Bean</code> annotation tells spring that this method will return an object and that should be registered as a bean in the Spring application context.</p>
+
+<p>By default, the bean will be given an Id same as the method name annotated with <code>@Bean</code>. If we want to give the bean a different name then we can supply a name attribute in <code>@Bean</code> annotation like the example below</p>
+
+<pre><code>package com.rimonmostafiz;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+public class StoreConfig {
+    @Bean(name = &quot;myFoodItemBean&quot;)
+    Item foodItem() {
+        return new FoodItem();
+    }
+}
+</code></pre>
+
+<h3 id="inject-bean-in-javaconfig">Inject Bean in JavaConfig</h3>
+
+<p>So we Created a simple Item bean. It was simple and easy as It wasn&rsquo;t dependent on any other bean.<br />
+But now we are going to declare a Store bean which is dependent on Item bean. How to do it in JavaConfig?</p>
+
+<pre><code>package com.rimonmostafiz;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+public class StoreConfig {
+    @Bean(name = &quot;myFoodItemBean&quot;)
+    Item foodItem() {
+        return new FoodItem();
+    }
+
+    @Bean
+    Store store() {
+        return new Store(foodItem());
+    }
+}
+</code></pre>
+
+<p>Here our <code>store()</code>method is similarly annotated with <code>@Bean</code> to indicate that it will produce an instance of a bean to be registered in the Spring application context.
+As no name attribute is present in <code>@Bean</code> so by default the bean name will be store, the same as the method&rsquo;s name.</p>
+
+<p>The body of the method is different from the <code>foodItem()</code> method. The store instance is created by calling its constructor that takes a Item. It appears that the Item is provided by calling <code>foodItem</code> , but that’s not exactly true. Because the <code>foodItem()</code> method is annotated with <code>@Bean</code> , Spring will intercept any calls to it and ensure that the bean produced by that method is returned rather than allowing it to be invoked again.
+For example, we want to introduce another Store bean that is just like the first one.</p>
+
+<pre><code>@Bean
+Store store() {
+    return new Store(foodItem());
+}
+
+@Bean
+Store anotherStore() {
+    return new Store(foodItem());
+}
+</code></pre>
+
+<p>Now here things get little tricky. If the call to <code>foodItem()</code> was treated like any other call to a Java method, then each store would be given its own instance of <code>FoodItem</code>.
+If you have two Store, there’s no physical way for a single item to simultaneously be present in two stores. Right?
+In software, however, there’s no reason you couldn’t inject the same instance into as many other beans as you want. By default, all beans in Spring are singletons, and there’s no reason you need to create a duplicate instance for the second Store bean. So Spring intercepts the call to <code>foodItem()</code> and makes sure that what is returned is the Spring bean that was created when Spring itself called <code>foodItem()</code> to create the Store bean. Therefore, both our Store beans will be given the same instance of <code>FoodItem</code>.</p>
+
+<p>Referring to a bean by calling its method can be confusing. There’s another way that might be easier to digest:</p>
+
+<pre><code>@Bean
+Store store(Item foodItem) {
+    return new Store(foodItem);
+}
+</code></pre>
+
+<p>Here, the <code>store()</code> method asks for an Item as a parameter. When spring calls <code>sotre()</code> to create a Store bean, it autowire an Item into the configuration method. This approach is to refer to other beans is usually the best choice because it doesn&rsquo;t depend on the Item bean being declared in the same configuration class. In fact, you can even declare Item bean in XML configuration or automatically scanned and wired beans. No matter how its created spring will hand it to this configuration method to create the Store bean.</p>
+
+<h3 id="run-application">Run Application</h3>
+
+<p>Let&rsquo;s test all this java configuration by creating an <code>App</code> class.</p>
+
+<p>[video width=&ldquo;1326&rdquo; height=&ldquo;906&rdquo; mp4=&ldquo;<a href="http://www.rimonmostafiz.com/wp-content/uploads/2018/05/wiring_bean_using_java_config.mp4&quot;][/video" target="_blank">http://www.rimonmostafiz.com/wp-content/uploads/2018/05/wiring_bean_using_java_config.mp4&quot;][/video</a>]</p>
+
+<p>App.class Code</p>
+
+<pre><code>package com.rimonmostafiz;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+public class App {
+    public static void main(String[] args) {
+        ApplicationContext context = new AnnotationConfigApplicationContext(StoreConfig.class);
+        Store store = (Store) context.getBean(&quot;store&quot;);
+        store.showNotice();
+    }
+}
+</code></pre>
+
+</div>
+
+  
+<footer class='entry-footer'>
+  <div class='container sep-before'>
+  <div class='categories'>
+  <span class='taxonomy-icon'><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+  
+  <path d="M22,19a2,2,0,0,1-2,2H4a2,2,0,0,1-2-2V5A2,2,0,0,1,4,3H9l2,3h9a2,2,0,0,1,2,2Z"/>
+  
+</svg>
+</span>
+  <span class='screen-reader-text'>Categories: </span><a class='category' href='/categories/spring'>Spring</a></div>
+<div class='tags'>
+  <span class='taxonomy-icon'><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+  
+  <path d="M20.59,13.41l-7.17,7.17a2,2,0,0,1-2.83,0L2,12V2H12l8.59,8.59A2,2,0,0,1,20.59,13.41Z"/>
+  <line x1="7" y1="7" x2="7" y2="7"/>
+  
+</svg>
+</span>
+  <span class='screen-reader-text'>Tags: </span><a class='tag' href='/tags/annotation'>Annotation</a>, <a class='tag' href='/tags/application-context'>Application-context</a>, <a class='tag' href='/tags/constructor-injection'>Constructor-injection</a></div>
+
+  </div>
+</footer>
+
+
+</article>
+
+<nav class='entry-nav'>
+  <div class='container'><div class='prev-entry sep-before'>
+      <a href='/posts/auto-bean-wiring-of-spring/'>
+        <span aria-hidden='true'><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+  
+  <line x1="20" y1="12" x2="4" y2="12"/>
+  <polyline points="10 18 4 12 10 6"/>
+  
+</svg>
+ Previous</span>
+        <span class='screen-reader-text'>Previous post: </span>Auto Bean Wiring of Spring</a>
+    </div><div class='next-entry sep-before'>
+      <a href='/posts/install-and-manage-node-js-using-nvm/'>
+        <span class='screen-reader-text'>Next post: </span>Install and Manage Node Js Using NVM<span aria-hidden='true'>Next <svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+  
+  <line x1="4" y1="12" x2="20" y2="12"/>
+  <polyline points="14 6 20 12 14 18"/>
+  
+</svg>
+</span>
+      </a>
+    </div></div>
+</nav>
+
+
+<section id='comments' class='comments'>
+  <div class='container sep-before'>
+    <div class='comments-area'><div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "rimonmostafiz" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+  </div>
+</section>
+
+      </main>
+
+      <footer id='footer' class='footer'>
+        <div class='container sep-before'><div class='copyright'>
+  <p>© Creative Commons Attribution-ShareAlike 4.0 International License</p>
+</div>
+
+        </div>
+      </footer>
+
+    </div>
+  </div><script>window.__public_path__='\/assets\/js\/'</script>
+
+<script src='/assets/js/main.68cb493a.js'></script><script src='/js/custom.js'></script>
+
+
+
+</body>
+
+</html>
+

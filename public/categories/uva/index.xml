@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Uva on /dev/rimon/weblog</title>
+    <title>Uva on ~/dev/rimon</title>
     <link>/categories/uva/</link>
-    <description>Recent content in Uva on /dev/rimon/weblog</description>
+    <description>Recent content in Uva on ~/dev/rimon</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>© Creative Commons Attribution-ShareAlike 4.0 International License</copyright>
     <lastBuildDate>Sun, 03 Sep 2017 00:21:00 +0000</lastBuildDate>

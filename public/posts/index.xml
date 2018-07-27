@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on /dev/rimon/weblog</title>
+    <title>Posts on ~/dev/rimon</title>
     <link>/posts/</link>
-    <description>Recent content in Posts on /dev/rimon/weblog</description>
+    <description>Recent content in Posts on ~/dev/rimon</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>© Creative Commons Attribution-ShareAlike 4.0 International License</copyright>
-    <lastBuildDate>Sat, 07 Jul 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 07 Jul 2018 04:17:09 +0000</lastBuildDate>
     
 	<atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Install and Manage Node Js Using NVM</title>
-      <link>/posts/2018-07-07-install-and-manage-node-js-using-nvm/</link>
-      <pubDate>Sat, 07 Jul 2018 00:00:00 +0000</pubDate>
+      <link>/posts/install-and-manage-node-js-using-nvm/</link>
+      <pubDate>Sat, 07 Jul 2018 04:17:09 +0000</pubDate>
       
-      <guid>/posts/2018-07-07-install-and-manage-node-js-using-nvm/</guid>
+      <guid>/posts/install-and-manage-node-js-using-nvm/</guid>
       <description>Node Version Manager (NVM) is a simple bash script to manage multiple active node.js versions.
 Install NVM To install or update nvm, you can use the install script using cURL or Wget
 $ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash $ wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash  The script clones the nvm repository to ~/.nvm and adds the source line to your profile (~/.bash_profile, ~/.zshrc,~/.profile, or ~/.bashrc).
@@ -25,41 +25,30 @@ export NVM_DIR=&amp;quot;$HOME/.nvm&amp;quot; [ -s &amp;quot;$NVM_DIR/nvm.</desc
     
     <item>
       <title>Spring Bean Wiring Using JavaConfig</title>
-      <link>/posts/2018-05-29-spring-bean-wiring-using-javaconfig/</link>
-      <pubDate>Tue, 29 May 2018 00:00:00 +0000</pubDate>
+      <link>/posts/spring-bean-wiring-using-javaconfig/</link>
+      <pubDate>Tue, 29 May 2018 10:19:29 +0000</pubDate>
       
-      <guid>/posts/2018-05-29-spring-bean-wiring-using-javaconfig/</guid>
+      <guid>/posts/spring-bean-wiring-using-javaconfig/</guid>
       <description>In the previous post, I wrote about how can we implicitly wire beans automatically in Spring container. In my previous post I created a new maven project and started writing code so that we can understand the topics more clearly. In this post, I am documenting my learning of how we can wire bean using Explicit Java Configuration. I will work on the same project I have created earlier.</description>
     </item>
     
     <item>
       <title>Auto Bean Wiring of Spring</title>
-      <link>/posts/2018-05-28-auto-bean-wiring-of-spring/</link>
-      <pubDate>Mon, 28 May 2018 00:00:00 +0000</pubDate>
+      <link>/posts/auto-bean-wiring-of-spring/</link>
+      <pubDate>Mon, 28 May 2018 07:44:03 +0000</pubDate>
       
-      <guid>/posts/2018-05-28-auto-bean-wiring-of-spring/</guid>
+      <guid>/posts/auto-bean-wiring-of-spring/</guid>
       <description>As we previously discussed that the Spring container is responsible for creating the beans in your application and coordinating the relationship between those objects vi DI. The act of creating these associations between application objects in the essence of dependency injection(DI) and is commonly referred to as wiring.
 Different Types of Bean Wiring Spring Offers three primary wiring mechanism
  An explicit configuration in XML An explicit configuration in Java An Implicit bean discovery and automatic wiring  In this post, I am going to write notes about Spring&amp;rsquo;s automatic wiring, I will write about the other two in later posts.</description>
     </item>
     
     <item>
-      <title>Spring Application Context and Configuration Metadata</title>
-      <link>/posts/2018-05-26-spring-application-context-and-configuration-metadata/</link>
-      <pubDate>Sat, 26 May 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/2018-05-26-spring-application-context-and-configuration-metadata/</guid>
-      <description>In the last post of Spring Diary, we discussed the basics of spring IoC Container and we saw a high-level view of how Spring Container works.
-In this post, we will learn about how can we Instantiate a Spring IoC container(using ApplicaitonContext Interface) and configure that container using configuration metadata.
-Spring IoC container consumes a form of configuration metadata. This configuration metadata represents how you as an application developer tell the Spring container to instantiate, configure, and assemble the objects in your application.</description>
-    </item>
-    
-    <item>
       <title>The Spring IoC Container</title>
-      <link>/posts/2018-03-15-the-spring-ioc-container/</link>
-      <pubDate>Thu, 15 Mar 2018 00:00:00 +0000</pubDate>
+      <link>/posts/the-spring-ioc-container/</link>
+      <pubDate>Thu, 15 Mar 2018 11:00:47 +0000</pubDate>
       
-      <guid>/posts/2018-03-15-the-spring-ioc-container/</guid>
+      <guid>/posts/the-spring-ioc-container/</guid>
       <description>Overview There is some confusion these days over the meaning of inversion of control due to the rise of IoC containers.
 An IoC container is a common characteristic of frameworks that implement Inversion of Control (IoC).
 Some people confuse the general principle here with the specific styles of inversion of control (such as dependency injection) that these containers use. It is a process whereby objects define their dependencies, that is, the other objects they work with, only through constructor arguments, arguments to a factory method, or properties that are set on the object instance after it is constructed or returned from a factory method.</description>
@@ -83,12 +72,7 @@ In traditional programming, our custom code that expresses the purpose of the pr
       <guid>/posts/know-your-response-object/</guid>
       <description>HttpServletResponse The HttpServletResponse interface extends ServletResponse and provides access to the HTTP protocol-specific properties of a response.
 You can use the response object to do things such as
- Set response headers
- Write to the response body
- Redirect the request
- Set the HTTP status code
- Send cookies back to the client.
-  Writing to Response Body The most common thing you’ll do with a response object is written content to the response body.</description>
+ Set response headers Write to the response body Redirect the request Set the HTTP status code Send cookies back to the client.  Writing to Response Body The most common thing you’ll do with a response object is written content to the response body.</description>
     </item>
     
     <item>
@@ -99,8 +83,7 @@ You can use the response object to do things such as
       <guid>/posts/know-your-request-object/</guid>
       <description>HTTPServletRequest The HServletRequestttp interface is an extension of ServletRequest that provides additional HTTP protocol-specific information about a received request. It specifies dozens of methods that you can use to obtain details about an HTTP request. It also permits you to set request attributes (different from request parameters).
 Request Param Request parameters come in two different forms:
- Query parameters (also called URI parameters)
- An application/x-www-form-urlencoded or multipart/form-data encoded request body(typically called post variables or form variables).</description>
+ Query parameters (also called URI parameters) An application/x-www-form-urlencoded or multipart/form-data encoded request body(typically called post variables or form variables).</description>
     </item>
     
     <item>
@@ -327,6 +310,17 @@ Those of you used Google Drive client on Windows or Mac, Grive2 will do the same
 if g = gcd(a, b), then g divides both a and b when at least one of them is non zero.
 when gcd(a, b) == 1 then we said a and b is co-prime or relatively prime numbers.
 int gcd (int a, int b) { int g; for (int i = 1; i &amp;lt;= min(a, b); i++) { if (a%i == 0 &amp;amp;&amp;amp; b%i == 0) { g = i; } } return g; }  Now there is a much more efficient algorithm for finding GCD which is called Subtraction-based Euclidean algorithm.</description>
+    </item>
+    
+    <item>
+      <title>Spring Application Context and Configuration Metadata</title>
+      <link>/posts/spring-application-context-and-configuration-metadata/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/spring-application-context-and-configuration-metadata/</guid>
+      <description>In the last post of Spring Diary, we discussed the basics of spring IoC Container and we saw a high-level view of how Spring Container works.
+In this post, we will learn about how can we Instantiate a Spring IoC container(using ApplicaitonContext Interface) and configure that container using configuration metadata.
+Spring IoC container consumes a form of configuration metadata. This configuration metadata represents how you as an application developer tell the Spring container to instantiate, configure, and assemble the objects in your application.</description>
     </item>
     
   </channel>

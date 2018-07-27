@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Google-drive on /dev/rimon/weblog</title>
+    <title>Google-drive on ~/dev/rimon</title>
     <link>/tags/google-drive/</link>
-    <description>Recent content in Google-drive on /dev/rimon/weblog</description>
+    <description>Recent content in Google-drive on ~/dev/rimon</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>© Creative Commons Attribution-ShareAlike 4.0 International License</copyright>
     <lastBuildDate>Wed, 16 Aug 2017 22:00:00 +0000</lastBuildDate>
