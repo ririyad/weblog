@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+  <meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+<meta name='description' content='Moving from Wordpress to Hugo'>
+<meta name='theme-color' content='#ffcd00'>
+
+<meta property='og:title' content='Goodbye Wordpress, Welcome to HUGO • Rimon Mostafiz'>
+<meta property='og:description' content='Moving from Wordpress to Hugo'>
+<meta property='og:url' content='/posts/2018-07-27-goodbye-wordpress-welcome-to-hugo/'>
+<meta property='og:site_name' content='~/dev/rimon'>
+<meta property='og:type' content='article'><meta property='og:image' content='https://www.gravatar.com/avatar/8d8acaeb9bb980a95ada8119e61f6fed?s=256'><meta property='article:author' content='https://facebook.com/RimonMostafiz'><meta property='article:section' content='Posts'><meta property='article:tag' content='static-site'><meta property='article:tag' content='hugo'><meta property='article:tag' content='general'><meta property='article:published_time' content='2018-07-27T20:01:41&#43;06:00'/><meta property='article:modified_time' content='2018-07-27T20:01:41&#43;06:00'/><meta name='twitter:card' content='summary'><meta name='twitter:creator' content='@rimonmostafiz'>
+
+<meta name="generator" content="Hugo 0.45" />
+
+  <title>Goodbye Wordpress, Welcome to HUGO • Rimon Mostafiz</title>
+  <link rel='canonical' href='/posts/2018-07-27-goodbye-wordpress-welcome-to-hugo/'>
+  
+  
+  <link rel='icon' href='/images/favicon.png'>
+<link rel='stylesheet' href='/assets/css/main.809149b6.css'><link rel='stylesheet' href='/css/custom.css'><style>
+:root{--color-accent:#ffcd00;}
+</style>
+
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-106775249-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+  
+
+</head>
+
+
+<body class='page type-posts has-sidebar has-emoji'>
+
+  <div class='site'>
+
+    <div id='sidebar' class='sidebar'>
+  <a class='screen-reader-text' href='#main-menu'>Skip to Main Menu</a>
+
+  <div class='container'><section class='widget widget-about sep-after'>
+  <header>
+    
+    <div class='logo'>
+      <a href='/'>
+        <img src='/images/logo.jpg'>
+      </a>
+    </div>
+    
+    <h2 class='title site-title '>
+    Rimon Mostafiz
+    </h2>
+    <div class='desc'>
+    Read WhoAmI to know whoami
+    </div>
+  </header>
+
+</section>
+<section class='widget widget-sidebar_menu sep-after'><nav id='sidebar-menu' class='menu sidebar-menu' aria-label='Sidebar Menu'>
+    <div class='container'>
+      <ul><li class='item'>
+  <a href='/'>Home</a></li><li class='item'>
+  <a href='/posts'>Blog</a></li><li class='item'>
+  <a href='/pages/whoami'>WhoAmI</a></li><li class='item'>
+  <a href=''></a></li></ul>
+    </div>
+  </nav>
+
+</section><section class='widget widget-social_menu sep-after'><header>
+    <h4 class='title widget-title'>Find me @</h4>
+  </header><nav aria-label='Social Menu'>
+    <ul><li>
+        <a href='https://github.com/rimonmostafiz' target='_blank' rel='noopener'>
+          <span class='screen-reader-text'>Open Github account in new tab</span><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+  
+  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+  
+</svg>
+</a>
+      </li><li>
+        <a href='https://facebook.com/RimonMostafiz' target='_blank' rel='noopener'>
+          <span class='screen-reader-text'>Open Facebook account in new tab</span><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+  
+  <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+  
+</svg>
+</a>
+      </li><li>
+        <a href='https://twitter.com/rimonmostafiz' target='_blank' rel='noopener'>
+          <span class='screen-reader-text'>Open Twitter account in new tab</span><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+  
+  <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/>
+  
+</svg>
+</a>
+      </li><li>
+        <a href='mailto:ferary.rimon@gmail.com' target='_blank' rel='noopener'>
+          <span class='screen-reader-text'>Contact via Email</span><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+  
+  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+  <polyline points="22,6 12,13 2,6"/>
+  
+</svg>
+</a>
+      </li><li>
+        <a href='https://gitlab.com/rimonmostafiz' target='_blank' rel='noopener'>
+          <span class='screen-reader-text'>Open Gitlab account in new tab</span><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+  
+  <path d="M22.65 14.39L12 22.13 1.35 14.39a.84.84 0 0 1-.3-.94l1.22-3.78 2.44-7.51A.42.42 0 0 1 4.82 2a.43.43 0 0 1 .58 0 .42.42 0 0 1 .11.18l2.44 7.49h8.1l2.44-7.51A.42.42 0 0 1 18.6 2a.43.43 0 0 1 .58 0 .42.42 0 0 1 .11.18l2.44 7.51L23 13.45a.84.84 0 0 1-.35.94z"/>
+  
+</svg>
+</a>
+      </li><li>
+        <a href='https://linkedin.com/in/rimonmostafiz' target='_blank' rel='noopener'>
+          <span class='screen-reader-text'>Open Linkedin account in new tab</span><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+  
+  <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+  <rect x="2" y="9" width="4" height="12"/>
+  <circle cx="4" cy="4" r="2"/>
+  
+</svg>
+</a>
+      </li></ul>
+  </nav>
+</section></div>
+
+  <div class='sidebar-overlay'></div>
+</div>
+
+    <div class='main'>
+
+      <nav id='main-menu' class='menu main-menu' aria-label='Main Menu'>
+  <div class='container'>
+    <a class='screen-reader-text' href='#content'>Skip to Content</a>
+
+<button id='sidebar-toggler' class='sidebar-toggler' aria-controls='sidebar'>
+  <span class='screen-reader-text'>Toggle Sidebar</span>
+  <span class='open'><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+  
+  <line x1="3" y1="12" x2="21" y2="12" />
+  <line x1="3" y1="6" x2="21" y2="6" />
+  <line x1="3" y1="18" x2="21" y2="18" />
+  
+</svg>
+</span>
+  <span class='close'><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+  
+  <line x1="18" y1="6" x2="6" y2="18" />
+  <line x1="6" y1="6" x2="18" y2="18" />
+  
+</svg>
+</span>
+</button>
+    <ul><li class='item'>
+        <a href='/'>Home</a>
+      </li><li class='item'>
+        <a href='/posts'>Blog</a>
+      </li><li class='item'>
+        <a href='/pages/whoami'>WhoAmI</a>
+      </li><li class='item'>
+        <a href=''></a>
+      </li></ul>
+  </div>
+</nav>
+
+      <header id='header' class='header site-header'>
+        <div class='container sep-after'>
+          <div class='header-info'><p class='site-title title'>~/dev/rimon</p><p class='desc site-desc'>It&#39;s not what you read, it&#39;s what you ignore</p>
+          </div>
+        </div>
+      </header>
+
+      <main id='content'>
+
+
+<article lang='en' class='entry'>
+  <header class='header entry-header'>
+  <div class='container sep-after'>
+    <div class='header-info'>
+      <h1 class='title'>Goodbye Wordpress, Welcome to HUGO</h1>
+      
+<p class='desc'>Moving from Wordpress to Hugo</p>
+
+
+    </div>
+    
+<div class='entry-meta'>
+  <span class='posted-on'><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+  
+  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+  <line x1="16" y1="2" x2="16" y2="6"/>
+  <line x1="8" y1="2" x2="8" y2="6"/>
+  <line x1="3" y1="10" x2="21" y2="10"/>
+  
+</svg>
+<span class='screen-reader-text'>Posted on </span>
+  <time class='entry-date' datetime='2018-07-27T20:01:41&#43;06:00'>2018, Jul 27</time>
+</span>
+
+  <span class='byline'><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+  
+  <path d="M21,21V20c0-2.76-4-5-9-5s-9,2.24-9,5v1"/>
+  <path d="M16,6.37A4,4,0,1,1,12.63,3,4,4,0,0,1,16,6.37Z"/>
+  
+</svg>
+<span class='screen-reader-text'> by </span><a href='/authors/rimonmostafiz'>Rimon Mostafiz</a></span>
+  
+<span class='reading-time'><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+  
+  <circle cx="12" cy="12" r="10"/>
+  <polyline points="12 6 12 12 15 15"/>
+  
+</svg>
+5 mins read
+</span>
+
+
+</div>
+
+
+  </div>
+</header>
+
+  
+  
+<details class='container entry-toc'>
+  <summary class='title'>
+    <span>Table of Contents</span>
+  </summary>
+  <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li>
+<ul>
+<li><a href="#why-i-ditch-wordpress">Why I Ditch Wordpress ❓</a></li>
+<li><a href="#what-and-why-static-site">What and Why Static Site ❓</a>
+<ul>
+<li><a href="#what-exactly-a-static-site">What exactly a Static Site 😕</a></li>
+<li><a href="#simplicity">Simplicity ✌️</a></li>
+<li><a href="#security">Security 🔐</a></li>
+<li><a href="#maintenance">Maintenance 👻</a></li>
+<li><a href="#speed">Speed 🐰</a></li>
+</ul></li>
+<li><a href="#welcome-to-hugo">Welcome to HUGO ❤️</a></li>
+<li><a href="#results-and-closing-thoughts">Results and Closing Thoughts 💯</a></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
+</details>
+
+
+  <div class='container entry-content'>
+  
+
+<p>Do you notice anything new? <br>
+Of course not. No one follows my blog and theme does not matter. 😒</p>
+
+<p>A weeks ago, I moved this site over from <a href="https://wordpress.com/" target="_blank">WordPress</a> to <a href="https://gohugo.io/" target="_blank">HUGO</a>(a static site generator).
+Also its now hosted to <a href="https://www.netlify.com/" target="_blank">Netlify</a>(🆓)</p>
+
+<p>This is my attempt to making everything more simple and content-focused. <br>
+In this post, I will talk about some of my reasons for switching away from WordPress to a static site generator.<br></p>
+
+<p>I will discuss technical details in some future post. 😃</p>
+
+<h3 id="why-i-ditch-wordpress">Why I Ditch Wordpress ❓</h3>
+
+<p>I’ve been posting on this site for almost a year now. The entire site has been running on Wordpress. At first, I choose WordPress because it was easy(I thought) and popular.</p>
+
+<p><strong>But that power and flexibility also comes at a cost.</strong> <br>
+For me, there’s a lot of bloats. Stuff I actually don’t need.
+Plugins are often not well written. And Wordpress itself written in PHP 😣<br>
+And then there’s speed. Or the lack thereof.</p>
+
+<p>It&rsquo;s 2018 and who wants a slow website? <br>
+The average page load time was 5-7 seconds 😭 and as we all know, site speed is essential for user experience. A slow website will even hurt your conversion rate.</p>
+
+<p>I actually use this site to share my learning experiences with others. I want to document my learning. For me, I want to focus on writing.<br>
+The writing was taking forever. The WordPress dashboard had become unbearably slow.</p>
+
+<p><strong>I got tired of fighting the CMS defaults.</strong></p>
+
+<h3 id="what-and-why-static-site">What and Why Static Site ❓</h3>
+
+<h4 id="what-exactly-a-static-site">What exactly a Static Site 😕</h4>
+
+<p>It is exactly what it sounds like. It takes a collection of content files(markdown in the case of Hugo) and generates the static HTML, CSS, etc. files that formats and displays that content.</p>
+
+<p>This final content can then be hosted anywhere, without the need for server-side runtime support, such as Python/PHP/Go/Node/etc, because it does not require server-side processing 😉 to handle rendering the pages on the fly.</p>
+
+<h4 id="simplicity">Simplicity ✌️</h4>
+
+<p>A site generated using a static site generator is usually a combination of content written in Markdown and a theme. Writing in Markdown lets me <strong>focus more on the content rather than formatting</strong>.</p>
+
+<p>Furthermore, I can write Markdown in my favorite editor. I am currently using Atom.
+I am now able to edit locally. The default WordPress editor ties you down to editing online but Markdown can be written almost anywhere!</p>
+
+<h4 id="security">Security 🔐</h4>
+
+<p>WordPress powers around 30% of all CMS-based websites on the internet.</p>
+
+<p><strong>Being this popular does not come without some drawbacks.</strong> The volume of users is especially appealing to hackers trying to steal information. As a result, WordPress websites are often the victim of security breaches. WordPress sites depend on databases to hold the site&rsquo;s content and databases are inherently vulnerable.</p>
+
+<p>A static site does not have some of the security concerns that a WordPress site brings. Pure static sites do not rely on databases. So no security threat.</p>
+
+<h4 id="maintenance">Maintenance 👻</h4>
+
+<p>In addition to keeping plugins up to date with a WordPress site, you will also want to store backups of your site in case anything happens.<br>
+I am tired of updating Wordpress and its plugins every other day.</p>
+
+<p>Static site needs Low maintenance efforts. No regular updates and backups required.
+All I need to push my local changes to my github repository and Its live.</p>
+
+<h4 id="speed">Speed 🐰</h4>
+
+<p>WordPress sites serve content to visitors by querying the database for the information for the page that the visitor is requesting. Once the information is retrieved, the server will also need to generate the page.</p>
+
+<p>On the other hand, static sites already have all the content ready to serve as it was pre-generated before the visitor even typed in your domain in their browser.</p>
+
+<p>Servers are great at serving static content so the visitor will be able to read your fantastic post even faster.</p>
+
+<h3 id="welcome-to-hugo">Welcome to HUGO ❤️</h3>
+
+<p><img src="https://raw.githubusercontent.com/gohugoio/hugoDocs/master/static/img/hugo-logo.png" alt="hugo-logo" /></p>
+
+<p>From <a href="https://gohugo.io/" target="_blank">HUGO&rsquo;s</a> website <br>
+&gt; Hugo is one of the most popular open-source static site generators. With its amazing speed and flexibility, Hugo makes building websites fun again.</p>
+
+<p>It’s written in Go (aka Golang) and developed by <a href="https://github.com/bep" target="_blank">bep</a>, <a href="https://github.com/spf13" target="_blank">spf13</a> and <a href="https://github.com/gohugoio/hugo/graphs/contributors" target="_blank">friends</a>.</p>
+
+<p>Hugo is a CLI (command line interface) based static website generator. 😍 <br>
+Basically, you write a few HTML templates, put your CSS (and other assets) in a folder, write your content using <em>markdown</em> and then run the <code>hugo</code> command in the terminal. Hugo Will then builds your entire website in static HTML - ready to upload.</p>
+
+<p>So whenever I need to publish a new post, I simply run</p>
+
+<pre><code>$ hugo new posts/post-title.md
+</code></pre>
+
+<p>command in terminal and start writing on my favorite editor.</p>
+
+<p>I do not have experience with other static site generators but users have stated that Hugo&rsquo;s generation process is blazingly fast.<br>
+Apparently, sites with hundreds of pages can be generated in less than a second. 😱</p>
+
+<p>Another benefit of Hugo is that you don’t need to futz with an in-browser editor while writing pages. <br>
+Hugo comes with a built-in production-grade server, which provides developers the option of watching for any changes in content. When content changes, Hugo will render that content again, and also trigger an update of your local webpage by way of a connected WebSocket. <br>
+I can sit comfortably within my code editor of choice, and write a post in markdown. Each time I save the file, my webpage immediately updates to reflect the changes.</p>
+
+<h3 id="results-and-closing-thoughts">Results and Closing Thoughts 💯</h3>
+
+<p>I feel that Hugo fits the needs of my personal blog well and also makes writing content more enjoyable.<br>
+So far I love it !!<br>
+As the time of writing this post my homepage loads under <code>~0.87 ms</code> 😍</p>
+
+<p>There is something quite satisfying about having the source of my site is so tangible while being easy to update, and easy to deploy. <br>
+I don’t have to worry about a database, or hosting, or Wordpress site and plugin updates. I don’t have to worry about security since there are no dynamic pages or Wordpress vulnerabilities to guard against. I don’t have to mess with backups and exports from a hosting service since I check my entire site into <a href="www.github.com/rimonmostafiz/rimonmostafiz.com" target="_blank">github</a>.</p>
+
+<p>Please, let me know if you find anything broken, I would really appreciate it!</p>
+
+</div>
+
+  
+<footer class='entry-footer'>
+  <div class='container sep-before'>
+  <div class='categories'>
+  <span class='taxonomy-icon'><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+  
+  <path d="M22,19a2,2,0,0,1-2,2H4a2,2,0,0,1-2-2V5A2,2,0,0,1,4,3H9l2,3h9a2,2,0,0,1,2,2Z"/>
+  
+</svg>
+</span>
+  <span class='screen-reader-text'>Categories: </span><a class='category' href='/categories/thoughts'>Thoughts</a></div>
+<div class='tags'>
+  <span class='taxonomy-icon'><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+  
+  <path d="M20.59,13.41l-7.17,7.17a2,2,0,0,1-2.83,0L2,12V2H12l8.59,8.59A2,2,0,0,1,20.59,13.41Z"/>
+  <line x1="7" y1="7" x2="7" y2="7"/>
+  
+</svg>
+</span>
+  <span class='screen-reader-text'>Tags: </span><a class='tag' href='/tags/static-site'>Static-site</a>, <a class='tag' href='/tags/hugo'>Hugo</a>, <a class='tag' href='/tags/general'>General</a></div>
+
+  </div>
+</footer>
+
+
+</article>
+
+<nav class='entry-nav'>
+  <div class='container'><div class='prev-entry sep-before'>
+      <a href='/posts/install-and-manage-node-js-using-nvm/'>
+        <span aria-hidden='true'><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+  
+  <line x1="20" y1="12" x2="4" y2="12"/>
+  <polyline points="10 18 4 12 10 6"/>
+  
+</svg>
+ Previous</span>
+        <span class='screen-reader-text'>Previous post: </span>Install and Manage Node Js Using NVM</a>
+    </div></div>
+</nav>
+
+
+<section id='comments' class='comments'>
+  <div class='container sep-before'>
+    <div class='comments-area'><div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "rimonmostafiz" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+  </div>
+</section>
+
+      </main>
+
+      <footer id='footer' class='footer'>
+        <div class='container sep-before'><div class='copyright'>
+  <p>© Creative Commons Attribution-ShareAlike 4.0 International License</p>
+</div>
+
+        </div>
+      </footer>
+
+    </div>
+  </div><script>window.__public_path__='\/assets\/js\/'</script>
+
+<script src='/assets/js/main.68cb493a.js'></script><script src='/js/custom.js'></script>
+
+
+
+</body>
+
+</html>
+

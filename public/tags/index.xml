@@ -219,6 +219,15 @@
     </item>
     
     <item>
+      <title>General</title>
+      <link>/tags/general/</link>
+      <pubDate>Fri, 27 Jul 2018 20:01:41 +0600</pubDate>
+      
+      <guid>/tags/general/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Git</title>
       <link>/tags/git/</link>
       <pubDate>Thu, 17 Aug 2017 12:00:00 +0000</pubDate>
@@ -242,6 +251,15 @@
       <pubDate>Tue, 09 Jan 2018 06:30:00 +0000</pubDate>
       
       <guid>/tags/header/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hugo</title>
+      <link>/tags/hugo/</link>
+      <pubDate>Fri, 27 Jul 2018 20:01:41 +0600</pubDate>
+      
+      <guid>/tags/hugo/</guid>
       <description></description>
     </item>
     
@@ -584,6 +602,15 @@
       <pubDate>Mon, 28 Aug 2017 15:13:24 +0000</pubDate>
       
       <guid>/tags/sqldeveloper/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Static-site</title>
+      <link>/tags/static-site/</link>
+      <pubDate>Fri, 27 Jul 2018 20:01:41 +0600</pubDate>
+      
+      <guid>/tags/static-site/</guid>
       <description></description>
     </item>
     
