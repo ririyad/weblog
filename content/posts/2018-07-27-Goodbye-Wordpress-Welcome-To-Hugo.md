@@ -105,6 +105,6 @@ So far I love it !!<br>
 As the time of writing this post my homepage loads under `~0.87 ms` :heart_eyes:
 
 There is something quite satisfying about having the source of my site is so tangible while being easy to update, and easy to deploy. <br>
-I don’t have to worry about a database, or hosting, or Wordpress site and plugin updates. I don’t have to worry about security since there are no dynamic pages or Wordpress vulnerabilities to guard against. I don’t have to mess with backups and exports from a hosting service since I check my entire site into [github](www.github.com/rimonmostafiz/rimonmostafiz.com).
+I don’t have to worry about a database, or hosting, or Wordpress site and plugin updates. I don’t have to worry about security since there are no dynamic pages or Wordpress vulnerabilities to guard against. I don’t have to mess with backups and exports from a hosting service since I check my entire site into [github](https://github.com/rimonmostafiz/rimonmostafiz.com).
 
 Please, let me know if you find anything broken, I would really appreciate it!
