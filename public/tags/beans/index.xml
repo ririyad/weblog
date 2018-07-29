@@ -6,6 +6,7 @@
     <description>Recent content in Beans on ~/dev/rimon</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>© Creative Commons Attribution-ShareAlike 4.0 International License</copyright>
+    <lastBuildDate>Sat, 26 May 2018 06:42:47 +0000</lastBuildDate>
     
 	<atom:link href="/tags/beans/index.xml" rel="self" type="application/rss+xml" />
     
@@ -13,7 +14,7 @@
     <item>
       <title>Spring Application Context and Configuration Metadata</title>
       <link>/posts/spring-application-context-and-configuration-metadata/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 26 May 2018 06:42:47 +0000</pubDate>
       
       <guid>/posts/spring-application-context-and-configuration-metadata/</guid>
       <description>In the last post of Spring Diary, we discussed the basics of spring IoC Container and we saw a high-level view of how Spring Container works.

@@ -1,15 +1,19 @@
 ---
+date: 2018-05-26 06:42:47+00:00
 title: Spring Application Context and Configuration Metadata
-date: 2018-05-26 06:42:47+00:00"
+description:
 authors: ["rimonmostafiz"]
 comments: true
-slug: "spring-application-context-and-configuration-metadata"
+slug: spring-application-context-and-configuration-metadata
+link: http://rimonmostafiz.com/posts/spring-application-context-and-configuration-metadata
 categories:
 - spring
 tags:
 - beans
 - configuration
 - metadata
+toc: false
+emoji: true
 ---
 
 In the [last post](http://www.rimonmostafiz.com/blog/auto-bean-wiring-of-spring/) of Spring Diary, we discussed the basics of spring IoC Container and we saw a high-level view of how Spring Container works.

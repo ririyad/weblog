@@ -1,9 +1,11 @@
 ---
-title: Know Your Response Object
 date: 2018-01-09 06:30:00+00:00
+title: Know Your Response Object
+description: 
 authors: ["rimonmostafiz"]
 comments: true
 slug: know-your-response-object
+link: http://rimonmostafiz.com/posts/know-your-response-object
 categories:
 - javaee
 tags:
@@ -11,6 +13,7 @@ tags:
 - response
 - servlet
 toc: true
+emoji: true
 ---
 
 ## HttpServletResponse

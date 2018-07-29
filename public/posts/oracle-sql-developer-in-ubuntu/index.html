@@ -4,18 +4,20 @@
 <head>
   <meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1'>
-<meta name='description' content='You will need a free Oracle account to log in and download SQL Developer from Oracle Technology Network site. For ubuntu download the _Other Platforms version. At the time of writing this post, I download version is sqldeveloper-17.2.0.188.1159-no-jre.zip. _You will also need Java to run Oracle SQL developer.
+<meta name='description' content='You will need a free Oracle account to log in and download SQL Developer from Oracle Technology Network site. For ubuntu download the _Other Platforms version.
+At the time of writing this post, I download version is sqldeveloper-17.2.0.188.1159-no-jre.zip._ You will also need Java to run Oracle SQL developer.
 After download, I moved the download file to /home/rimonmostafiz/Applications (you can choose any other location you prefer).
 Move the download file to /home/rimonmostafiz/Applications.'>
 <meta name='theme-color' content='#ffcd00'>
 
 <meta property='og:title' content='Oracle SQL Developer in Ubuntu • ~/dev/rimon'>
-<meta property='og:description' content='You will need a free Oracle account to log in and download SQL Developer from Oracle Technology Network site. For ubuntu download the _Other Platforms version. At the time of writing this post, I download version is sqldeveloper-17.2.0.188.1159-no-jre.zip. _You will also need Java to run Oracle SQL developer.
+<meta property='og:description' content='You will need a free Oracle account to log in and download SQL Developer from Oracle Technology Network site. For ubuntu download the _Other Platforms version.
+At the time of writing this post, I download version is sqldeveloper-17.2.0.188.1159-no-jre.zip._ You will also need Java to run Oracle SQL developer.
 After download, I moved the download file to /home/rimonmostafiz/Applications (you can choose any other location you prefer).
 Move the download file to /home/rimonmostafiz/Applications.'>
 <meta property='og:url' content='/posts/oracle-sql-developer-in-ubuntu/'>
 <meta property='og:site_name' content='~/dev/rimon'>
-<meta property='og:type' content='article'><meta property='article:section' content='Posts'><meta property='article:tag' content='linux'><meta property='article:tag' content='notes'><meta property='article:tag' content='oracle'><meta property='article:tag' content='sqldeveloper'><meta property='article:tag' content='ubuntu'><meta property='article:published_time' content='2017-08-28T15:13:24Z'/><meta property='article:modified_time' content='2017-08-28T15:13:24Z'/><meta name='twitter:card' content='summary'>
+<meta property='og:type' content='article'><meta property='article:section' content='Posts'><meta property='article:tag' content='oracle'><meta property='article:tag' content='sqldeveloper'><meta property='article:tag' content='ubuntu'><meta property='article:published_time' content='2017-08-28T15:13:24Z'/><meta property='article:modified_time' content='2017-08-28T15:13:24Z'/><meta name='twitter:card' content='summary'>
 
 <meta name="generator" content="Hugo 0.45" />
 
@@ -44,7 +46,7 @@ if (!doNotTrack) {
 </head>
 
 
-<body class='page type-posts layout-post has-sidebar'>
+<body class='page type-posts has-sidebar has-emoji'>
 
   <div class='site'>
 
@@ -230,25 +232,25 @@ if (!doNotTrack) {
   
 
   <div class='container entry-content'>
-  <p>You will need a free Oracle account to log in and download SQL Developer from <a href="http://www.oracle.com/technetwork/developer-tools/sql-developer/downloads/index.html" target="_blank">Oracle Technology Network</a> site. For ubuntu download the _Other Platforms<em> version.
-At the time of writing this post, I download version is </em><strong>sqldeveloper-17.2.0.188.1159-no-jre.zip. </strong>_You will also need Java to run Oracle SQL developer.</p>
+  <p>You will need a free Oracle account to log in and download SQL Developer from <a href="http://www.oracle.com/technetwork/developer-tools/sql-developer/downloads/index.html" target="_blank">Oracle Technology Network</a> site. For ubuntu download the _Other Platforms<em> version.<br>
+At the time of writing this post, I download version is </em><strong>sqldeveloper-17.2.0.188.1159-no-jre.zip.</strong>_ You will also need Java to run Oracle SQL developer.</p>
 
-<p>After download, I moved the download file to <em>/home/rimonmostafiz/Applications</em> (you can choose any other location you prefer).</p>
+<p>After download, I moved the download file to <code>/home/rimonmostafiz/Applications</code> (you can choose any other location you prefer).</p>
 
-<p>Move the download file to /home/rimonmostafiz/Applications. you can choose any other location you prefer.</p>
+<p>Move the download file to <code>/home/rimonmostafiz/Applications</code>. you can choose any other location you prefer.</p>
 
-<pre><code>sudo mv sqldeveloper-17.2.0.188.1159-no-jre.zip /home/rimonmostafiz/Applications
-cd /home/rimonmostafiz/Applications
-sudo unzip sqldeveloper-17.2.0.188.1159-no-jre.zip
+<pre><code>$ sudo mv sqldeveloper-17.2.0.188.1159-no-jre.zip /home/rimonmostafiz/Applications
+$ cd /home/rimonmostafiz/Applications
+$ sudo unzip sqldeveloper-17.2.0.188.1159-no-jre.zip
 </code></pre>
 
 <p>Next link over an in-path launcher for Oracle SQL Developer</p>
 
-<pre><code>sudo ln -s /home/rimonmostafiz/Applications/sqldeveloper/sqldeveloper.sh /bin/sqldeveloper
-sudo rm /usr/local/bin/sqldeveloper*.zip
+<pre><code>$ sudo ln -s /home/rimonmostafiz/Applications/sqldeveloper/sqldeveloper.sh /bin/sqldeveloper
+$ sudo rm /usr/local/bin/sqldeveloper*.zip
 </code></pre>
 
-<p>Edit /home/rimonmostafiz/Applications/sqldeveloper/sqldeveloper.sh and replace it&rsquo;s content to:</p>
+<p>Edit <code>/home/rimonmostafiz/Applications/sqldeveloper/sqldeveloper.sh</code> and replace it&rsquo;s content to:</p>
 
 <pre><code>#!/bin/bash
 unset -v GNOME_DESKTOP_SESSION_ID
@@ -256,7 +258,7 @@ cd /home/rimonmostafiz/Applications/sqldeveloper/sqldeveloper/bin
 ./sqldeveloper &quot;$@&quot;
 </code></pre>
 
-<p>If <em>./sqldeveloper permission denied</em> error occurs
+<p>If <code>./sqldeveloper</code> permission denied error occurs
 Try this</p>
 
 <pre><code>#!/bin/bash
@@ -266,18 +268,19 @@ cd /home/rimonmostafiz/Applications/sqldeveloper/sqldeveloper/bin &amp;&amp; bas
 
 <p>Now run sql developer by typing command</p>
 
-<pre><code>sqldeveloper
+<pre><code>$ sqldeveloper
 </code></pre>
 
-<blockquote>Note: When you run Sql Developer at the first time, you need to specify the path of JDK's folder.
-In my computer, JDK stored at **/home/rimonmostafiz/.sdkman/candidates/java/8u152
-**_
-_I prefer use SDKMAN to manage my different versions of java. You can read details about SDKMAN details from My [Manage JDK using SDKMAN](http://wp.me/p94Vft-cK) post.</blockquote>
+<blockquote>
+<p>Note: When you run Sql Developer at the first time, you need to specify the path of JDK&rsquo;s folder.
+In my computer, JDK stored at <code>/home/rimonmostafiz/.sdkman/candidates/java/8u152</code><br>
+I prefer use SDKMAN to manage my different versions of java. You can read details about SDKMAN from My <a href="http://rimonmostafiz.com/posts/manage-jdk-using-sdkman/" target="_blank">Manage JDK using SDKMAN</a> post.**</p>
+</blockquote>
 
 <p>Now we can create a desktop application for easy to use:</p>
 
-<pre><code>cd /usr/share/applications/
-sudo vim sqldeveloper.desktop
+<pre><code>$ cd /usr/share/applications/
+$ sudo vim sqldeveloper.desktop
 </code></pre>
 
 <p>then add the following lines to the file</p>
@@ -294,17 +297,15 @@ Name=Oracle SQL Developer
 
 <p>Finally run</p>
 
-<pre><code>sudo update-desktop-database
+<pre><code>$ sudo update-desktop-database
 </code></pre>
 
 <p>Now you will find Oracle SQL Developer in your app launcher.</p>
 
 <ul>
-<li><p>Ubuntu Verson: 16.04 LTS</p></li>
-
-<li><p>JDK Verison: 1.8</p></li>
-
-<li><p>SQL Developer Version:  sqldeveloper-17.2.0.188.1159-no-jre.zip</p></li>
+<li>Ubuntu Verson: <code>16.04 LTS</code></li>
+<li>JDK Verison: <code>1.8</code></li>
+<li>SQL Developer Version:  <code>sqldeveloper-17.2.0.188.1159-no-jre.zip</code></li>
 </ul>
 
 <p>Courtesy: <a href="https://askubuntu.com" target="_blank">ask ubuntu</a></p>
@@ -330,7 +331,7 @@ Name=Oracle SQL Developer
   
 </svg>
 </span>
-  <span class='screen-reader-text'>Tags: </span><a class='tag' href='/tags/linux'>Linux</a>, <a class='tag' href='/tags/notes'>Notes</a>, <a class='tag' href='/tags/oracle'>Oracle</a>, <a class='tag' href='/tags/sqldeveloper'>Sqldeveloper</a>, <a class='tag' href='/tags/ubuntu'>Ubuntu</a></div>
+  <span class='screen-reader-text'>Tags: </span><a class='tag' href='/tags/oracle'>Oracle</a>, <a class='tag' href='/tags/sqldeveloper'>Sqldeveloper</a>, <a class='tag' href='/tags/ubuntu'>Ubuntu</a></div>
 
   </div>
 </footer>

@@ -32,6 +32,17 @@ Different Types of Bean Wiring Spring Offers three primary wiring mechanism
     </item>
     
     <item>
+      <title>Spring Application Context and Configuration Metadata</title>
+      <link>/posts/spring-application-context-and-configuration-metadata/</link>
+      <pubDate>Sat, 26 May 2018 06:42:47 +0000</pubDate>
+      
+      <guid>/posts/spring-application-context-and-configuration-metadata/</guid>
+      <description>In the last post of Spring Diary, we discussed the basics of spring IoC Container and we saw a high-level view of how Spring Container works.
+In this post, we will learn about how can we Instantiate a Spring IoC container(using ApplicaitonContext Interface) and configure that container using configuration metadata.
+Spring IoC container consumes a form of configuration metadata. This configuration metadata represents how you as an application developer tell the Spring container to instantiate, configure, and assemble the objects in your application.</description>
+    </item>
+    
+    <item>
       <title>The Spring IoC Container</title>
       <link>/posts/the-spring-ioc-container/</link>
       <pubDate>Thu, 15 Mar 2018 11:00:47 +0000</pubDate>
@@ -63,17 +74,6 @@ Spring traditionally supports two types of configurations:
  XML based configuration
  Annotation-based configuration
   This post is about a bare minimum annotation-based configuration of spring MVC.</description>
-    </item>
-    
-    <item>
-      <title>Spring Application Context and Configuration Metadata</title>
-      <link>/posts/spring-application-context-and-configuration-metadata/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/spring-application-context-and-configuration-metadata/</guid>
-      <description>In the last post of Spring Diary, we discussed the basics of spring IoC Container and we saw a high-level view of how Spring Container works.
-In this post, we will learn about how can we Instantiate a Spring IoC container(using ApplicaitonContext Interface) and configure that container using configuration metadata.
-Spring IoC container consumes a form of configuration metadata. This configuration metadata represents how you as an application developer tell the Spring container to instantiate, configure, and assemble the objects in your application.</description>
     </item>
     
   </channel>

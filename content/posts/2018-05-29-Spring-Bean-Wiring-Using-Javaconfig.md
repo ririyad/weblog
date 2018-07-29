@@ -1,9 +1,11 @@
 ---
-title: Spring Bean Wiring Using JavaConfig
 date: 2018-05-29 10:19:29+00:00
+title: Spring Bean Wiring Using JavaConfig
+description:
 authors: ["rimonmostafiz"]
 comments: true
 slug: spring-bean-wiring-using-javaconfig
+link: http://rimonmostafiz.com/posts/spring-bean-wiring-using-javaconfig
 categories:
 - spring
 tags:
@@ -11,9 +13,10 @@ tags:
 - application-context
 - constructor-injection
 toc: true
+emoji: true
 ---
 
-In the [previous post](https://www.rimonmostafiz.com/blog/auto-bean-wiring-of-spring/), I wrote about how can we implicitly wire beans automatically in Spring container. In my previous post I created a new maven project and started writing code so that we can understand the topics more clearly. In this post, I am documenting my learning of how we can wire bean using Explicit Java Configuration. I will work on the same project I have created earlier.
+In the [previous post](https://www.rimonmostafiz.com/posts/auto-bean-wiring-of-spring/), I wrote about how can we implicitly wire beans automatically in Spring container. In my previous post I created a new maven project and started writing code so that we can understand the topics more clearly. In this post, I am documenting my learning of how we can wire bean using Explicit Java Configuration. I will work on the same project I have created earlier.
 
 ## Explicit wiring using Java
 

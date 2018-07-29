@@ -10,18 +10,18 @@ when gcd(a, b) == 1 then we said a and b is co-prime or relatively prime numbers
 int gcd (int a, int b) { int g; for (int i = 1; i &lt;= min(a, b); i&#43;&#43;) { if (a%i == 0 &amp;&amp; b%i == 0) { g = i; } } return g; }  Now there is a much more efficient algorithm for finding GCD which is called Subtraction-based Euclidean algorithm.'>
 <meta name='theme-color' content='#ffcd00'>
 
-<meta property='og:title' content='Greatest Common Divisor (GCD) • ~/dev/rimon'>
+<meta property='og:title' content='Greatest Common Divisor (GCD) • Rimon Mostafiz'>
 <meta property='og:description' content='Greatest Common Divisor (GCD) of two number a and b is the largest number that divides both a and b evenly.
 if g = gcd(a, b), then g divides both a and b when at least one of them is non zero.
 when gcd(a, b) == 1 then we said a and b is co-prime or relatively prime numbers.
 int gcd (int a, int b) { int g; for (int i = 1; i &lt;= min(a, b); i&#43;&#43;) { if (a%i == 0 &amp;&amp; b%i == 0) { g = i; } } return g; }  Now there is a much more efficient algorithm for finding GCD which is called Subtraction-based Euclidean algorithm.'>
 <meta property='og:url' content='/posts/greatest-common-divisor-gcd/'>
 <meta property='og:site_name' content='~/dev/rimon'>
-<meta property='og:type' content='article'><meta property='article:section' content='Posts'><meta property='article:tag' content='gcd'><meta property='article:tag' content='math'><meta property='article:tag' content='number-theory'><meta property='article:published_time' content='2017-08-15T16:00:00Z'/><meta property='article:modified_time' content='2017-08-15T16:00:00Z'/><meta name='twitter:card' content='summary'>
+<meta property='og:type' content='article'><meta property='og:image' content='https://www.gravatar.com/avatar/8d8acaeb9bb980a95ada8119e61f6fed?s=256'><meta property='article:author' content='https://facebook.com/RimonMostafiz'><meta property='article:section' content='Posts'><meta property='article:tag' content='gcd'><meta property='article:tag' content='math'><meta property='article:tag' content='number-theory'><meta property='article:published_time' content='2017-08-15T16:00:00Z'/><meta property='article:modified_time' content='2017-08-15T16:00:00Z'/><meta name='twitter:card' content='summary'><meta name='twitter:creator' content='@rimonmostafiz'>
 
 <meta name="generator" content="Hugo 0.45" />
 
-  <title>Greatest Common Divisor (GCD) • ~/dev/rimon</title>
+  <title>Greatest Common Divisor (GCD) • Rimon Mostafiz</title>
   <link rel='canonical' href='/posts/greatest-common-divisor-gcd/'>
   
   
@@ -46,7 +46,7 @@ if (!doNotTrack) {
 </head>
 
 
-<body class='page type-posts layout-post has-sidebar'>
+<body class='page type-posts has-sidebar has-emoji'>
 
   <div class='site'>
 
@@ -210,7 +210,13 @@ if (!doNotTrack) {
   <time class='entry-date' datetime='2017-08-15T16:00:00Z'>2017, Aug 15</time>
 </span>
 
+  <span class='byline'><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
   
+  <path d="M21,21V20c0-2.76-4-5-9-5s-9,2.24-9,5v1"/>
+  <path d="M16,6.37A4,4,0,1,1,12.63,3,4,4,0,0,1,16,6.37Z"/>
+  
+</svg>
+<span class='screen-reader-text'> by </span><a href='/authors/rimonmostafiz'>Rimon Mostafiz</a></span>
   
 <span class='reading-time'><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
   
@@ -236,9 +242,9 @@ if (!doNotTrack) {
 
 <p>Greatest Common Divisor (GCD) of two number a and b is the largest number that divides both a and b evenly.</p>
 
-<p>if g = gcd(a, b), then g divides both a and b when at least one of them is non zero.</p>
+<p>if <code>g = gcd(a, b)</code>, then g divides both a and b when at least one of them is non zero.</p>
 
-<p>when gcd(a, b) == 1 then we said a and b is co-prime or relatively prime numbers.</p>
+<p>when <code>gcd(a, b) == 1</code> then we said a and b is co-prime or relatively prime numbers.</p>
 
 <pre><code>int gcd (int a, int b) {
     int g;
@@ -266,68 +272,53 @@ if (!doNotTrack) {
 
 <h3 id="example"><em><strong>Example:</strong></em></h3>
 
-<p>Now we will try to find the greatest common divisor of a=1071 and b=462. ( we are assuming that the <strong>a&gt;b</strong> )
-<table cellpadding="0" style="float: right; margin-left: 1em; text-align: right;" cellspacing="0" >
-<tbody >
-<tr >
-<a href="http://commons.wikimedia.org/wiki/File%3AEuclidean_algorithm_1071_462.gif" target="_blank"><img src="http://www.rimonmostafiz.com/wp-content/uploads/2015/05/256px-Euclidean_algorithm_1071_462-130x300.gif" alt="Euclidean algorithm 1071 462" /></a></p>
+<p>Now we will try to find the greatest common divisor of <code>a = 1071</code> and <code>b = 462</code>. ( we are assuming that the <strong>a&gt;b</strong> )</p>
 
-<p>Euclidean Algorithm for GCD;
-Animation : wikimedia</p>
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Euclidean_algorithm_1071_462.gif/256px-Euclidean_algorithm_1071_462.gif" alt="Euclidean algorithm" /></p>
 
-<p><strong>STEP 0:</strong>
-First the multiples of <strong>b(462)</strong> are subtracted from <strong>a(1071)</strong> until the remainder is less than <strong>b(462)</strong>. Two such multiples can be subtracted <strong>(q0 = 2)</strong>, leaving a remainder of 147:
-1071 = 2 × 462 + 147.</p>
+<p><strong><em>Euclidean Algorithm for GCD</em></strong><br>
+<strong>Animation : wikimedia</strong></p>
 
-<p><strong>STEP 1:</strong>
-Then multiples of 147 are subtracted from 462 until the remainder is less than 147. Three multiples can be subtracted <strong>(q1 = 3)</strong>, leaving a remainder of 21:
-462 = 3 × 147 + 21.</p>
+<p><strong>STEP 0:</strong><br>
+First the multiples of <strong>b(462)</strong> are subtracted from <strong>a(1071)</strong> until the remainder is less than <strong>b(462)</strong>. Two such multiples can be subtracted <strong>(q<sub>0</sub> = 2)</strong>, leaving a remainder of 147:
+<code>1071 = 2 × 462 + 147</code>.</p>
 
-<p><strong>STEP 2:</strong>
-Then multiples of 21 are subtracted from 147 until the remainder is less than 21. Seven multiples can be subtracted <strong>(q2 = 7)</strong>, leaving no remainder:
-147 = 7 × 21 + 0.</p>
+<p><strong>STEP 1:</strong><br>
+Then multiples of 147 are subtracted from 462 until the remainder is less than 147. Three multiples can be subtracted <strong>(q<sub>1</sub> = 3)</strong>, leaving a remainder of 21:
+<code>462 = 3 × 147 + 21</code>.</p>
+
+<p><strong>STEP 2:</strong><br>
+Then multiples of 21 are subtracted from 147 until the remainder is less than 21. Seven multiples can be subtracted <strong>(q<sub>2</sub> = 7)</strong>, leaving no remainder:
+<code>147 = 7 × 21 + 0</code>.</p>
 
 <p>Since the last remainder is zero, the algorithm ends with 21 as the greatest common divisor of 1071 and 462.</p>
 
-<table style="background-color: #f9f9f9; border-collapse: collapse; border: 1px solid #aaaaaa; color: black; font-family: sans-serif; font-size: 14px; line-height: 22.3999996185303px; margin: 1em auto; text-align: center;" >
-<tbody >
-<tr >
-Step _k_
-Equation
-Quotient and remainder
+<table>
+<thead>
+<tr>
+<th>Step k</th>
+<th align="center">Equation</th>
+<th align="center">Quotient and remainder</th>
 </tr>
-<tr >
+</thead>
 
-<td style="border: 1px solid #aaaaaa; padding: 0.2em 0.4em;" >0
-</td>
-
-<td style="border: 1px solid #aaaaaa; padding: 0.2em 0.4em;" >1071 = _q_0 462 + _r_0
-</td>
-
-<td style="border: 1px solid #aaaaaa; padding: 0.2em 0.4em;" >_q_0 = 2 and _r_0 = 147
-</td>
+<tbody>
+<tr>
+<td>0</td>
+<td align="center">1071 = q<sub>0</sub> 462 + r<sub>0</sub></td>
+<td align="center">q<sub>0</sub> = 2 and r<sub>0</sub> = 147</td>
 </tr>
-<tr >
 
-<td style="border: 1px solid #aaaaaa; padding: 0.2em 0.4em;" >1
-</td>
-
-<td style="border: 1px solid #aaaaaa; padding: 0.2em 0.4em;" >462 = _q_1 147 + _r_1
-</td>
-
-<td style="border: 1px solid #aaaaaa; padding: 0.2em 0.4em;" >_q_1 = 3 and _r_1 = 21
-</td>
+<tr>
+<td>1</td>
+<td align="center">426 = q<sub>1</sub> 147 + r<sub>1</sub></td>
+<td align="center">q<sub>1</sub> = 3 and r<sub>1</sub> = 21</td>
 </tr>
-<tr >
 
-<td style="border: 1px solid #aaaaaa; padding: 0.2em 0.4em;" >2
-</td>
-
-<td style="border: 1px solid #aaaaaa; padding: 0.2em 0.4em;" >147 = _q_2 21 + _r_2
-</td>
-
-<td style="border: 1px solid #aaaaaa; padding: 0.2em 0.4em;" >_q_2 = 7 and _r_2 = 0; algorithm ends
-</td>
+<tr>
+<td>2</td>
+<td align="center">147 = q<sub>2</sub> 21 + r<sub>2</sub></td>
+<td align="center">q<sub>2</sub> = 7 and r<sub>2</sub> = 0</td>
 </tr>
 </tbody>
 </table>
@@ -410,18 +401,8 @@ int main() {
 </article>
 
 <nav class='entry-nav'>
-  <div class='container'><div class='prev-entry sep-before'>
-      <a href='/posts/spring-application-context-and-configuration-metadata/'>
-        <span aria-hidden='true'><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
-  
-  <line x1="20" y1="12" x2="4" y2="12"/>
-  <polyline points="10 18 4 12 10 6"/>
-  
-</svg>
- Previous</span>
-        <span class='screen-reader-text'>Previous post: </span>Spring Application Context and Configuration Metadata</a>
-    </div><div class='next-entry sep-before'>
-      <a href='/posts/least-common-multiple/'>
+  <div class='container'><div class='next-entry sep-before'>
+      <a href='/posts/least-common-multiple-lcm/'>
         <span class='screen-reader-text'>Next post: </span>Least Common Multiple (LCM)<span aria-hidden='true'>Next <svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
   
   <line x1="4" y1="12" x2="20" y2="12"/>

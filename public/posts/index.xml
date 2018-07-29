@@ -55,6 +55,17 @@ Different Types of Bean Wiring Spring Offers three primary wiring mechanism
     </item>
     
     <item>
+      <title>Spring Application Context and Configuration Metadata</title>
+      <link>/posts/spring-application-context-and-configuration-metadata/</link>
+      <pubDate>Sat, 26 May 2018 06:42:47 +0000</pubDate>
+      
+      <guid>/posts/spring-application-context-and-configuration-metadata/</guid>
+      <description>In the last post of Spring Diary, we discussed the basics of spring IoC Container and we saw a high-level view of how Spring Container works.
+In this post, we will learn about how can we Instantiate a Spring IoC container(using ApplicaitonContext Interface) and configure that container using configuration metadata.
+Spring IoC container consumes a form of configuration metadata. This configuration metadata represents how you as an application developer tell the Spring container to instantiate, configure, and assemble the objects in your application.</description>
+    </item>
+    
+    <item>
       <title>The Spring IoC Container</title>
       <link>/posts/the-spring-ioc-container/</link>
       <pubDate>Thu, 15 Mar 2018 11:00:47 +0000</pubDate>
@@ -233,16 +244,10 @@ The operation of the project is simple. When we approach an object sensor LEDs l
       <pubDate>Sun, 03 Sep 2017 00:21:00 +0000</pubDate>
       
       <guid>/posts/uva-10311-goldbach-and-euler/</guid>
-      <description>Problem Statement:
-UVa 10311 - Goldbach and Euler
+      <description>Problem Statement: UVa 10311 - Goldbach and Euler
 We can express the problem statement like: Given an integer N (0 &amp;lt; N ≤ 108).
-we have to find(if exists) two number P1 and P2 where,
- P1 and P2 both prime
- P1 + P2 = n
- P1 &amp;lt; P2
- P2 - P1 is minimized
-  Solution Idea:
-First of all we need to find prime numbers between [0:108].</description>
+we have to find(if exists) two number P1 and P2 where, * P1 and P2 both prime * P1 + P2 = n * P1 &amp;lt; P2 * P2 - P1 is minimized
+Solution Idea: First of all we need to find prime numbers between [0:108].</description>
     </item>
     
     <item>
@@ -251,11 +256,9 @@ First of all we need to find prime numbers between [0:108].</description>
       <pubDate>Tue, 29 Aug 2017 21:39:00 +0000</pubDate>
       
       <guid>/posts/uva-406-prime-cuts/</guid>
-      <description>Problem Statement:
-UVa 406 – Prime Cuts
+      <description>Problem Statement: UVa 406 – Prime Cuts
 Before beginning I want to say the problem description seems quite awkward to me, for me it took a time to understand what is actually asked by the problem. but when I found out its very easy to code.
-** Solution Idea:**
-First of all use Sieve of Eratosthenes to generate primes between 1000. You will be given two numbers N and C, then you need to make a list of primes between 1 to N(inclusive).</description>
+Solution Idea: First of all use Sieve of Eratosthenes to generate primes between 1000. You will be given two numbers N and C, then you need to make a list of primes between 1 to N(inclusive).</description>
     </item>
     
     <item>
@@ -264,7 +267,8 @@ First of all use Sieve of Eratosthenes to generate primes between 1000. You w
       <pubDate>Mon, 28 Aug 2017 15:13:24 +0000</pubDate>
       
       <guid>/posts/oracle-sql-developer-in-ubuntu/</guid>
-      <description>You will need a free Oracle account to log in and download SQL Developer from Oracle Technology Network site. For ubuntu download the _Other Platforms version. At the time of writing this post, I download version is sqldeveloper-17.2.0.188.1159-no-jre.zip. _You will also need Java to run Oracle SQL developer.
+      <description>You will need a free Oracle account to log in and download SQL Developer from Oracle Technology Network site. For ubuntu download the _Other Platforms version.
+At the time of writing this post, I download version is sqldeveloper-17.2.0.188.1159-no-jre.zip._ You will also need Java to run Oracle SQL developer.
 After download, I moved the download file to /home/rimonmostafiz/Applications (you can choose any other location you prefer).
 Move the download file to /home/rimonmostafiz/Applications.</description>
     </item>
@@ -275,10 +279,8 @@ Move the download file to /home/rimonmostafiz/Applications.</description>
       <pubDate>Thu, 17 Aug 2017 12:00:00 +0000</pubDate>
       
       <guid>/posts/git-notes/</guid>
-      <description>Git is a distributed version control system. Every dev has a working copy of the code and full change history on their local machine, by Linus Torvalds.
-Here is a git cheat sheet for everyday life. Will update this in future&amp;hellip;
-[bash gutter=&amp;ldquo;false&amp;rdquo;] git init
-transform the current directory into a Git repository. This adds a .git folder to the current directory and makes it possible to start recording revisions git config &amp;ndash;global user.</description>
+      <description>Git cheat sheet for everyday life. Will update this in future&amp;hellip;
+$ git init # transform the current directory into a Git repository. This adds a .git folder to the current directory and makes it possible to start recording revisions $ git config --global user.email &amp;quot;you@example.com&amp;quot; $ git config --global user.name &amp;quot;Your Name&amp;quot; $ git config --global color.status auto $ git config --global color.diff auto $ git config --global color.branch auto $ git clone &amp;lt;git host&amp;gt;:/repo/&amp;lt;project name&amp;gt;.</description>
     </item>
     
     <item>
@@ -287,7 +289,7 @@ transform the current directory into a Git repository. This adds a .git folder
       <pubDate>Wed, 16 Aug 2017 22:00:00 +0000</pubDate>
       
       <guid>/posts/google-drive-in-ubuntu/</guid>
-      <description>Since there is no official Google Drive client for Ubuntu or Linux Mint but if you need to use it then there is an unofficial client called Grive2. Grive is a Google Drive client for GNU/Linux systems. It allows the synchronization of all your files on the cloud with a directory of your choice and the upload of new files to Google Drive.
+      <description>At the time of writing, there is no official Google Drive client for Ubuntu or Linux Mint but if you need to use it then there is an unofficial client called Grive2. Grive is a Google Drive client for GNU/Linux systems. It allows the synchronization of all your files on the cloud with a directory of your choice and the upload of new files to Google Drive.
 Those of you used Google Drive client on Windows or Mac, Grive2 will do the same for you in Ubuntu or Linux Mint.</description>
     </item>
     
@@ -297,18 +299,18 @@ Those of you used Google Drive client on Windows or Mac, Grive2 will do the same
       <pubDate>Wed, 16 Aug 2017 00:30:00 +0000</pubDate>
       
       <guid>/posts/sieve-of-eratosthenes-memory-efficient-implementation/</guid>
-      <description>Say we want to find all prime numbers up to an integer N where N is 108. If we write a regular implementation of Sieve Of Eratosthenes using a bool array for each integer in the range [1:N] then we could end up using N bytes of memory, which would roughly be 95 MB which is a huge memory.
- Lets see how can we reduce the memory, the main idea here is we can store a Boolean value in a single bit, so we can store 8 Boolean values in a single byte.</description>
+      <description>Say we want to find all prime numbers up to an integer N where N is 108. If we write a regular implementation of Sieve Of Eratosthenes using a bool array for each integer in the range [1:N] then we could end up using N bytes of memory, which would roughly be 95 MB which is a not a very small memory.
+Lets see how can we reduce the memory, the main idea here is we can store a Boolean value in a single bit, so we can store 8 Boolean values in a single byte.</description>
     </item>
     
     <item>
       <title>Least Common Multiple (LCM)</title>
-      <link>/posts/least-common-multiple/</link>
+      <link>/posts/least-common-multiple-lcm/</link>
       <pubDate>Tue, 15 Aug 2017 18:00:00 +0000</pubDate>
       
-      <guid>/posts/least-common-multiple/</guid>
+      <guid>/posts/least-common-multiple-lcm/</guid>
       <description>Least Common Multiple (LCM) of two number a and b is the smallest positive integer that is divisible by both a and b. Since division of integers by zero is undefined, this definition has meaning only if a and b are both different from zero.
-[cpp] int lcm(int a, int b) { for ( int i = 1; ; i ) { if ( i % a == 0 &amp;amp;&amp;amp; i % b == 0 ) { return i; } } } [/cpp]</description>
+int lcm(int a, int b) { for ( int i = 1; ; i ) { if ( i % a == 0 &amp;amp;&amp;amp; i % b == 0 ) { return i; } } }  There is an another technique for LCM finding called Reduction by the greatest common divisor</description>
     </item>
     
     <item>
@@ -321,17 +323,6 @@ Those of you used Google Drive client on Windows or Mac, Grive2 will do the same
 if g = gcd(a, b), then g divides both a and b when at least one of them is non zero.
 when gcd(a, b) == 1 then we said a and b is co-prime or relatively prime numbers.
 int gcd (int a, int b) { int g; for (int i = 1; i &amp;lt;= min(a, b); i++) { if (a%i == 0 &amp;amp;&amp;amp; b%i == 0) { g = i; } } return g; }  Now there is a much more efficient algorithm for finding GCD which is called Subtraction-based Euclidean algorithm.</description>
-    </item>
-    
-    <item>
-      <title>Spring Application Context and Configuration Metadata</title>
-      <link>/posts/spring-application-context-and-configuration-metadata/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/spring-application-context-and-configuration-metadata/</guid>
-      <description>In the last post of Spring Diary, we discussed the basics of spring IoC Container and we saw a high-level view of how Spring Container works.
-In this post, we will learn about how can we Instantiate a Spring IoC container(using ApplicaitonContext Interface) and configure that container using configuration metadata.
-Spring IoC container consumes a form of configuration metadata. This configuration metadata represents how you as an application developer tell the Spring container to instantiate, configure, and assemble the objects in your application.</description>
     </item>
     
   </channel>

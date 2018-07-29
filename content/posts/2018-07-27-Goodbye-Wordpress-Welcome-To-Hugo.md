@@ -1,9 +1,10 @@
 ---
+date: 2018-07-27T20:01:41+06:00
 title: Goodbye Wordpress, Welcome to HUGO
 description: Moving from Wordpress to Hugo
 authors: ["rimonmostafiz"]
-date: 2018-07-27T20:01:41+06:00
 slug: goodbye-wordpress-welcome-to-hugo
+link: http:rimonmostafiz.com/posts/goodbye-wordpress-welcome-to-hugo
 categories:
   - thoughts
 tags:
@@ -79,6 +80,7 @@ Servers are great at serving static content so the visitor will be able to read 
 ![hugo-logo](https://raw.githubusercontent.com/gohugoio/hugoDocs/master/static/img/hugo-logo.png)
 
 From [HUGO's](https://gohugo.io/) website <br>
+
 > Hugo is one of the most popular open-source static site generators. With its amazing speed and flexibility, Hugo makes building websites fun again.
 
 It’s written in Go (aka Golang) and developed by [bep](https://github.com/bep), [spf13](https://github.com/spf13) and [friends](https://github.com/gohugoio/hugo/graphs/contributors).

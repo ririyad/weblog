@@ -6,20 +6,10 @@
     <description>Recent content in Gcd on ~/dev/rimon</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>© Creative Commons Attribution-ShareAlike 4.0 International License</copyright>
-    <lastBuildDate>Tue, 15 Aug 2017 18:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 15 Aug 2017 16:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/gcd/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Least Common Multiple (LCM)</title>
-      <link>/posts/least-common-multiple/</link>
-      <pubDate>Tue, 15 Aug 2017 18:00:00 +0000</pubDate>
-      
-      <guid>/posts/least-common-multiple/</guid>
-      <description>Least Common Multiple (LCM) of two number a and b is the smallest positive integer that is divisible by both a and b. Since division of integers by zero is undefined, this definition has meaning only if a and b are both different from zero.
-[cpp] int lcm(int a, int b) { for ( int i = 1; ; i ) { if ( i % a == 0 &amp;amp;&amp;amp; i % b == 0 ) { return i; } } } [/cpp]</description>
-    </item>
     
     <item>
       <title>Greatest Common Divisor (GCD)</title>

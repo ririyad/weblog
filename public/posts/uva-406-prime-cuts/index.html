@@ -4,19 +4,11 @@
 <head>
   <meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1'>
-<meta name='description' content='Problem Statement:
-UVa 406 – Prime Cuts
-Before beginning I want to say the problem description seems quite awkward to me, for me it took a time to understand what is actually asked by the problem. but when I found out its very easy to code.
-** Solution Idea:**
-First of all use Sieve of Eratosthenes to generate primes between 1000. You will be given two numbers N and C, then you need to make a list of primes between 1 to N(inclusive).'>
+<meta name='description' content='Solution idea of UVa 406 - Prime Cuts'>
 <meta name='theme-color' content='#ffcd00'>
 
 <meta property='og:title' content='UVa 406 - Prime Cuts • ~/dev/rimon'>
-<meta property='og:description' content='Problem Statement:
-UVa 406 – Prime Cuts
-Before beginning I want to say the problem description seems quite awkward to me, for me it took a time to understand what is actually asked by the problem. but when I found out its very easy to code.
-** Solution Idea:**
-First of all use Sieve of Eratosthenes to generate primes between 1000. You will be given two numbers N and C, then you need to make a list of primes between 1 to N(inclusive).'>
+<meta property='og:description' content='Solution idea of UVa 406 - Prime Cuts'>
 <meta property='og:url' content='/posts/uva-406-prime-cuts/'>
 <meta property='og:site_name' content='~/dev/rimon'>
 <meta property='og:type' content='article'><meta property='article:section' content='Posts'><meta property='article:tag' content='idea'><meta property='article:tag' content='prime-number'><meta property='article:tag' content='problem-solving'><meta property='article:published_time' content='2017-08-29T21:39:00Z'/><meta property='article:modified_time' content='2017-08-29T21:39:00Z'/><meta name='twitter:card' content='summary'>
@@ -48,7 +40,7 @@ if (!doNotTrack) {
 </head>
 
 
-<body class='page type-posts layout-post has-sidebar'>
+<body class='page type-posts has-sidebar has-emoji'>
 
   <div class='site'>
 
@@ -196,6 +188,8 @@ if (!doNotTrack) {
     <div class='header-info'>
       <h1 class='title'>UVa 406 - Prime Cuts</h1>
       
+<p class='desc'>Solution idea of UVa 406 - Prime Cuts</p>
+
 
     </div>
     
@@ -220,7 +214,7 @@ if (!doNotTrack) {
   <polyline points="12 6 12 12 15 15"/>
   
 </svg>
-One min read
+2 mins read
 </span>
 
 
@@ -232,19 +226,47 @@ One min read
 
   
   
+<details class='container entry-toc'>
+  <summary class='title'>
+    <span>Table of Contents</span>
+  </summary>
+  <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li>
+<ul>
+<li><a href="#problem-statement">Problem Statement:</a></li>
+<li><a href="#solution-idea">Solution Idea:</a></li>
+<li><a href="#code">Code</a></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
+</details>
+
 
   <div class='container entry-content'>
-  <p><strong>Problem Statement:</strong></p>
+  
+
+<h3 id="problem-statement">Problem Statement:</h3>
 
 <p><a href="http://uva.onlinejudge.org/external/4/406.html" target="_blank">UVa 406 – Prime Cuts</a></p>
 
 <p>Before beginning I want to say the problem description seems quite awkward to me, for me it took a time to understand what is actually asked by the problem. but when I found out its very easy to code.</p>
 
-<p>**
-Solution Idea:**</p>
+<h3 id="solution-idea">Solution Idea:</h3>
 
-<p>First of all use <a href="http://wp.me/p94Vft-m" target="_blank">Sieve of Eratosthenes</a> to generate primes between 1000. You will be given two numbers N and C, then you need to make a list of primes between 1 to N(inclusive). For this problem you need to consider 1 as a Prime. Now find out the size of the list. Let represent the size of the list with S. Now if size of the list is even then you need to print C*2 items. If the size of the list is odd then you need to print C*2 - 1 items. Consider K is the number of item you need to print.
-Here comes the question form where should start printing form the list. The condition is if K&gt;S then you need to print all primes form 1 to N, otherwise you should start form (S-K)/2 th position of the list and print next K items.</p>
+<p>First of all use <a href="http://rimonmostafiz.com/posts/sieve-of-eratosthenes-memory-efficient-implementation" target="_blank">Sieve of Eratosthenes</a> to generate primes between 1000. You will be given two numbers N and C, then you need to make a list of primes between 1 to N(inclusive). <br></p>
+
+<p>For this problem you need to consider <code>1</code> as a Prime. Now find out the size of the list. Let represent the size of the list with <code>S</code>. Now if size of the list is even then you need to print <code>C*2</code> items. If the size of the list is odd then you need to print <code>C*2 - 1</code> items. Consider <code>K</code> is the number of item you need to print.
+Here comes the question form where should start printing form the list. The condition is if <code>K &gt; S</code> then you need to print all primes form <code>1 to N</code>, otherwise you should start form <code>(S - K) / 2</code> th position of the list and print next <code>K</code> items.</p>
+
+<h3 id="code">Code</h3>
+
+<p>Try to code it yourself, if you can&rsquo;t code it or need any help let me know in the comments.</p>
+
+<p>Happy Coding 😃</p>
 
 </div>
 
