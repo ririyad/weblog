@@ -17,18 +17,18 @@
       <pubDate>Wed, 16 Aug 2017 00:30:00 +0000</pubDate>
       
       <guid>/posts/sieve-of-eratosthenes-memory-efficient-implementation/</guid>
-      <description>Say we want to find all prime numbers up to an integer N where N is 108. If we write a regular implementation of Sieve Of Eratosthenes using a bool array for each integer in the range [1:N] then we could end up using N bytes of memory, which would roughly be 95 MB which is a huge memory.
- Lets see how can we reduce the memory, the main idea here is we can store a Boolean value in a single bit, so we can store 8 Boolean values in a single byte.</description>
+      <description>Say we want to find all prime numbers up to an integer N where N is 108. If we write a regular implementation of Sieve Of Eratosthenes using a bool array for each integer in the range [1:N] then we could end up using N bytes of memory, which would roughly be 95 MB which is a not a very small memory.
+Lets see how can we reduce the memory, the main idea here is we can store a Boolean value in a single bit, so we can store 8 Boolean values in a single byte.</description>
     </item>
     
     <item>
       <title>Least Common Multiple (LCM)</title>
-      <link>/posts/least-common-multiple/</link>
+      <link>/posts/least-common-multiple-lcm/</link>
       <pubDate>Tue, 15 Aug 2017 18:00:00 +0000</pubDate>
       
-      <guid>/posts/least-common-multiple/</guid>
+      <guid>/posts/least-common-multiple-lcm/</guid>
       <description>Least Common Multiple (LCM) of two number a and b is the smallest positive integer that is divisible by both a and b. Since division of integers by zero is undefined, this definition has meaning only if a and b are both different from zero.
-[cpp] int lcm(int a, int b) { for ( int i = 1; ; i ) { if ( i % a == 0 &amp;amp;&amp;amp; i % b == 0 ) { return i; } } } [/cpp]</description>
+int lcm(int a, int b) { for ( int i = 1; ; i ) { if ( i % a == 0 &amp;amp;&amp;amp; i % b == 0 ) { return i; } } }  There is an another technique for LCM finding called Reduction by the greatest common divisor</description>
     </item>
     
     <item>

@@ -23,6 +23,11 @@
   </url>
   
   <url>
+    <loc>/posts/spring-application-context-and-configuration-metadata/</loc>
+    <lastmod>2018-05-26T06:42:47+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/posts/the-spring-ioc-container/</loc>
     <lastmod>2018-03-15T11:00:47+00:00</lastmod>
   </url>
@@ -128,7 +133,7 @@
   </url>
   
   <url>
-    <loc>/posts/least-common-multiple/</loc>
+    <loc>/posts/least-common-multiple-lcm/</loc>
     <lastmod>2017-08-15T18:00:00+00:00</lastmod>
   </url>
   
@@ -197,6 +202,7 @@
   
   <url>
     <loc>/tags/beans/</loc>
+    <lastmod>2018-05-26T06:42:47+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -226,7 +232,7 @@
   
   <url>
     <loc>/tags/configuration/</loc>
-    <lastmod>2017-10-30T09:19:54+00:00</lastmod>
+    <lastmod>2018-05-26T06:42:47+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -310,7 +316,7 @@
   
   <url>
     <loc>/tags/gcd/</loc>
-    <lastmod>2017-08-15T18:00:00+00:00</lastmod>
+    <lastmod>2017-08-15T16:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -454,6 +460,7 @@
   
   <url>
     <loc>/tags/metadata/</loc>
+    <lastmod>2018-05-26T06:42:47+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -628,10 +635,6 @@
     <loc>/tags/spring/</loc>
     <lastmod>2017-10-30T09:19:54+00:00</lastmod>
     <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/posts/spring-application-context-and-configuration-metadata/</loc>
   </url>
   
   <url>

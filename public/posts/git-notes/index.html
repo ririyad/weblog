@@ -4,24 +4,18 @@
 <head>
   <meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1'>
-<meta name='description' content='Git is a distributed version control system. Every dev has a working copy of the code and full change history on their local machine, by Linus Torvalds.
-Here is a git cheat sheet for everyday life. Will update this in future&hellip;
-[bash gutter=&ldquo;false&rdquo;] git init
-transform the current directory into a Git repository. This adds a .git folder to the current directory and makes it possible to start recording revisions git config &ndash;global user.'>
+<meta name='description' content='Some useful git commands for developers'>
 <meta name='theme-color' content='#ffcd00'>
 
-<meta property='og:title' content='Git Notes • ~/dev/rimon'>
-<meta property='og:description' content='Git is a distributed version control system. Every dev has a working copy of the code and full change history on their local machine, by Linus Torvalds.
-Here is a git cheat sheet for everyday life. Will update this in future&hellip;
-[bash gutter=&ldquo;false&rdquo;] git init
-transform the current directory into a Git repository. This adds a .git folder to the current directory and makes it possible to start recording revisions git config &ndash;global user.'>
+<meta property='og:title' content='Git Notes • Rimon Mostafiz'>
+<meta property='og:description' content='Some useful git commands for developers'>
 <meta property='og:url' content='/posts/git-notes/'>
 <meta property='og:site_name' content='~/dev/rimon'>
-<meta property='og:type' content='article'><meta property='article:section' content='Posts'><meta property='article:tag' content='command'><meta property='article:tag' content='git'><meta property='article:tag' content='notes'><meta property='article:published_time' content='2017-08-17T12:00:00Z'/><meta property='article:modified_time' content='2017-08-17T12:00:00Z'/><meta name='twitter:card' content='summary'>
+<meta property='og:type' content='article'><meta property='og:image' content='https://www.gravatar.com/avatar/8d8acaeb9bb980a95ada8119e61f6fed?s=256'><meta property='article:author' content='https://facebook.com/RimonMostafiz'><meta property='article:section' content='Posts'><meta property='article:tag' content='command'><meta property='article:tag' content='git'><meta property='article:tag' content='notes'><meta property='article:published_time' content='2017-08-17T12:00:00Z'/><meta property='article:modified_time' content='2017-08-17T12:00:00Z'/><meta name='twitter:card' content='summary'><meta name='twitter:creator' content='@rimonmostafiz'>
 
 <meta name="generator" content="Hugo 0.45" />
 
-  <title>Git Notes • ~/dev/rimon</title>
+  <title>Git Notes • Rimon Mostafiz</title>
   <link rel='canonical' href='/posts/git-notes/'>
   
   
@@ -46,7 +40,7 @@ if (!doNotTrack) {
 </head>
 
 
-<body class='page type-posts layout-post has-sidebar'>
+<body class='page type-posts has-sidebar has-emoji'>
 
   <div class='site'>
 
@@ -194,6 +188,8 @@ if (!doNotTrack) {
     <div class='header-info'>
       <h1 class='title'>Git Notes</h1>
       
+<p class='desc'>Some useful git commands for developers</p>
+
 
     </div>
     
@@ -210,7 +206,13 @@ if (!doNotTrack) {
   <time class='entry-date' datetime='2017-08-17T12:00:00Z'>2017, Aug 17</time>
 </span>
 
+  <span class='byline'><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
   
+  <path d="M21,21V20c0-2.76-4-5-9-5s-9,2.24-9,5v1"/>
+  <path d="M16,6.37A4,4,0,1,1,12.63,3,4,4,0,0,1,16,6.37Z"/>
+  
+</svg>
+<span class='screen-reader-text'> by </span><a href='/authors/rimonmostafiz'>Rimon Mostafiz</a></span>
   
 <span class='reading-time'><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
   
@@ -232,129 +234,98 @@ if (!doNotTrack) {
   
 
   <div class='container entry-content'>
-  
+  <p>Git cheat sheet for everyday life. Will update this in future&hellip;</p>
 
-<p>Git is a distributed version control system. Every dev has a working copy of the code and full change history on their local machine, by <a href="https://en.wikipedia.org/wiki/Linus_Torvalds/">Linus Torvalds</a>.</p>
+<pre><code>$ git init
+# transform the current directory into a Git repository. This adds a .git folder to the current directory and makes it possible to start recording revisions
 
-<p>Here is a git cheat sheet for everyday life. Will update this in future&hellip;</p>
+$ git config --global user.email &quot;you@example.com&quot;
+$ git config --global user.name &quot;Your Name&quot;
+$ git config --global color.status auto
+$ git config --global color.diff auto
+$ git config --global color.branch auto
 
-<p>[bash gutter=&ldquo;false&rdquo;]
-git init</p>
+$ git clone &lt;git host&gt;:/repo/&lt;project name&gt;.git
+# clone repository to local system
 
-<h1 id="transform-the-current-directory-into-a-git-repository-this-adds-a-git-folder-to-the-current-directory-and-makes-it-possible-to-start-recording-revisions">transform the current directory into a Git repository. This adds a .git folder to the current directory and makes it possible to start recording revisions</h1>
+$ git add &lt;file name&gt;
+# add file to local repository
+# the git add command moves changes from the working directory to staging area, staging area is virtual temporary area where we prepare a snapshot of a set of changes before committing them to the official history
 
-<p>git config &ndash;global user.email &ldquo;you@example.com&rdquo;
-git config &ndash;global user.name &ldquo;Your Name&rdquo;
-git config &ndash;global color.status auto
-git config &ndash;global color.diff auto
-git config &ndash;global color.branch auto</p>
+$ git add -A
+# stages All
 
-<p>git clone <git host>:/repo/<project name>.git</p>
+$ git add .
+# stages new and modified, without deleted
 
-<h1 id="clone-repository-to-local-system">clone repository to local system</h1>
+$ git add -u
+# stages modified and deleted, without new
 
-<p>git add <file name></p>
+$ git status
+# check the Status of the file
+# the git status command displays the state of the working directory and the staged snapshot
 
-<h1 id="add-file-to-local-repository">add file to local repository</h1>
+$ git checkout -- &lt;file&gt;
+# reverts back the modified file to the one in the repository
 
-<h1 id="the-git-add-command-moves-changes-from-the-working-directory-to-staging-area-staging-area-is-virtual-temporary-area-where-we-prepare-a-snapshot-of-a-set-of-changes-before-committing-them-to-the-official-history">the git add command moves changes from the working directory to staging area, staging area is virtual temporary area where we prepare a snapshot of a set of changes before committing them to the official history</h1>
+$ git commit -m &quot;commit message&quot;
+# the git commit takes the staged snapshot(think as all files) and commits it to the project history.
 
-<p>git add -A</p>
+$ git commit --amend
+# update the last commit message
 
-<h1 id="stages-all">stages All</h1>
+$ git push origin &lt;branch name&gt;
+# this command specifies that you are pushing to the a branch
+# a branch represents an independent line of development for your repository. Think of it as a brand-new working directory, staging area, and project history. Before you create any new branches, you automatically start out with the main branch (called master).
 
-<p>git add .</p>
+$ git diff &lt;commit id 1&gt; &lt;commit id 2&gt;
+# show changes between two different commit
 
-<h1 id="stages-new-and-modified-without-deleted">stages new and modified, without deleted</h1>
+$ git diff
+# with no arguments shows the difference between working directory and staging area *
 
-<p>git add -u</p>
+$ git diff --staged
+# show the difference between the staging area and latest commit in repository files which are not same
 
-<h1 id="stages-modified-and-deleted-without-new">stages modified and deleted, without new</h1>
+$ git log
+# show log
 
-<p>git status</p>
+$ git log --stat
+# give some statistics about which file have changed in each commit
 
-<h1 id="check-the-status-of-the-file">check the Status of the file</h1>
+$ git log --graph --oneline master coins.
+#see the visual representation of the commit history is
 
-<h1 id="the-git-status-command-displays-the-state-of-the-working-directory-and-the-staged-snapshot">the git status command displays the state of the working directory and the staged snapshot</h1>
+$ git config --global color.ui auto
 
-<p>git checkout &ndash; <file></p>
+$ git checkout &lt;commit id&gt;
+# go to specific version of code using commit id
 
-<h1 id="reverts-back-the-modified-file-to-the-one-in-the-repository">reverts back the modified file to the one in the repository</h1>
+$ git checkout &lt;branch name&gt;
+# select the branch
 
-<p>git commit -m &ldquo;commit message&rdquo;</p>
+$ git checkout -b &lt;new branch name&gt;
+# combine of 2 command [git branch &lt;new branch name&gt;] &amp; [git checkout &lt;new branch name&gt;]
 
-<h1 id="the-git-commit-takes-the-staged-snapshot-think-as-all-files-and-commits-it-to-the-project-history">the git commit takes the staged snapshot(think as all files) and commits it to the project history.</h1>
+$ git pull --all
+# the git pull command merges the file from your remote repository into your local repository with a single command
 
-<p>git commit &ndash;amend</p>
+$ git tag
+# normal tag
 
-<h1 id="update-the-last-commit-message">update the last commit message</h1>
+$ git tag -a
+# anotated tag
 
-<p>git push origin <branch name></p>
+$ git reset --hard
+# discard any changes in the working directory or staging area (very careful for this command, its cant be reversible)
 
-<h1 id="this-command-specifies-that-you-are-pushing-to-the-a-branch">this command specifies that you are pushing to the a branch</h1>
+$ git branch
+#show all branches
 
-<h1 id="a-branch-represents-an-independent-line-of-development-for-your-repository-think-of-it-as-a-brand-new-working-directory-staging-area-and-project-history-before-you-create-any-new-branches-you-automatically-start-out-with-the-main-branch-called-master">a branch represents an independent line of development for your repository. Think of it as a brand-new working directory, staging area, and project history. Before you create any new branches, you automatically start out with the main branch (called master).</h1>
-
-<p>git diff <commit id 1> <commit id 2></p>
-
-<h1 id="show-changes-between-two-different-commit">show changes between two different commit</h1>
-
-<p>git diff</p>
-
-<h1 id="with-no-arguments-shows-the-difference-between-working-directory-and-staging-area">with no arguments shows the difference between working directory and staging area *</h1>
-
-<p>git diff &ndash;staged</p>
-
-<h1 id="show-the-difference-between-the-staging-area-and-latest-commit-in-repository-files-which-are-not-same">show the difference between the staging area and latest commit in repository files which are not same</h1>
-
-<p>git log</p>
-
-<h1 id="show-log">show log</h1>
-
-<p>git log &ndash;stat</p>
-
-<h1 id="give-some-statistics-about-which-file-have-changed-in-each-commit">give some statistics about which file have changed in each commit</h1>
-
-<p>git log &ndash;graph &ndash;oneline master coins.
-#see the visual representation of the commit history is</p>
-
-<p>git config &ndash;global color.ui auto</p>
-
-<p>git checkout <commit id></p>
-
-<h1 id="go-to-specific-version-of-code-using-commit-id">go to specific version of code using commit id</h1>
-
-<p>git checkout <branch name></p>
-
-<h1 id="select-the-branch">select the branch</h1>
-
-<p>git checkout -b <new branch name></p>
-
-<h1 id="combine-of-2-command-git-branch-new-branch-name-git-checkout-new-branch-name">combine of 2 command [git branch <new branch name>] &amp; [git checkout <new branch name>]</h1>
-
-<p>git pull &ndash;all</p>
-
-<h1 id="the-git-pull-command-merges-the-file-from-your-remote-repository-into-your-local-repository-with-a-single-command">the git pull command merges the file from your remote repository into your local repository with a single command</h1>
-
-<p>git tag</p>
-
-<h1 id="normal-tag">normal tag</h1>
-
-<p>git tag -a</p>
-
-<h1 id="anotated-tag">anotated tag</h1>
-
-<p>git reset &ndash;hard</p>
-
-<h1 id="discard-any-changes-in-the-working-directory-or-staging-area-very-careful-for-this-command-its-cant-be-reversible">discard any changes in the working directory or staging area (very careful for this command, its cant be reversible)</h1>
-
-<p>git branch
-#show all branches</p>
-
-<p>git stash
-git stash list
-git stash pop
-[/bash]</p>
+$ git stash
+$ git stash list
+$ git stash pop
+</code></pre>
 
 </div>
 

@@ -4,20 +4,20 @@
 <head>
   <meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1'>
-<meta name='description' content='Since there is no official Google Drive client for Ubuntu or Linux Mint but if you need to use it then there is an unofficial client called Grive2. Grive is a Google Drive client for GNU/Linux systems. It allows the synchronization of all your files on the cloud with a directory of your choice and the upload of new files to Google Drive.
+<meta name='description' content='At the time of writing, there is no official Google Drive client for Ubuntu or Linux Mint but if you need to use it then there is an unofficial client called Grive2. Grive is a Google Drive client for GNU/Linux systems. It allows the synchronization of all your files on the cloud with a directory of your choice and the upload of new files to Google Drive.
 Those of you used Google Drive client on Windows or Mac, Grive2 will do the same for you in Ubuntu or Linux Mint.'>
 <meta name='theme-color' content='#ffcd00'>
 
-<meta property='og:title' content='Google Drive in Ubuntu • ~/dev/rimon'>
-<meta property='og:description' content='Since there is no official Google Drive client for Ubuntu or Linux Mint but if you need to use it then there is an unofficial client called Grive2. Grive is a Google Drive client for GNU/Linux systems. It allows the synchronization of all your files on the cloud with a directory of your choice and the upload of new files to Google Drive.
+<meta property='og:title' content='Google Drive in Ubuntu • Rimon Mostafiz'>
+<meta property='og:description' content='At the time of writing, there is no official Google Drive client for Ubuntu or Linux Mint but if you need to use it then there is an unofficial client called Grive2. Grive is a Google Drive client for GNU/Linux systems. It allows the synchronization of all your files on the cloud with a directory of your choice and the upload of new files to Google Drive.
 Those of you used Google Drive client on Windows or Mac, Grive2 will do the same for you in Ubuntu or Linux Mint.'>
 <meta property='og:url' content='/posts/google-drive-in-ubuntu/'>
 <meta property='og:site_name' content='~/dev/rimon'>
-<meta property='og:type' content='article'><meta property='article:section' content='Posts'><meta property='article:tag' content='google-drive'><meta property='article:tag' content='linux'><meta property='article:tag' content='notes'><meta property='article:tag' content='ubuntu'><meta property='article:published_time' content='2017-08-16T22:00:00Z'/><meta property='article:modified_time' content='2017-08-16T22:00:00Z'/><meta name='twitter:card' content='summary'>
+<meta property='og:type' content='article'><meta property='og:image' content='https://www.gravatar.com/avatar/8d8acaeb9bb980a95ada8119e61f6fed?s=256'><meta property='article:author' content='https://facebook.com/RimonMostafiz'><meta property='article:section' content='Posts'><meta property='article:tag' content='google-drive'><meta property='article:tag' content='linux'><meta property='article:tag' content='ubuntu'><meta property='article:published_time' content='2017-08-16T22:00:00Z'/><meta property='article:modified_time' content='2017-08-16T22:00:00Z'/><meta name='twitter:card' content='summary'><meta name='twitter:creator' content='@rimonmostafiz'>
 
 <meta name="generator" content="Hugo 0.45" />
 
-  <title>Google Drive in Ubuntu • ~/dev/rimon</title>
+  <title>Google Drive in Ubuntu • Rimon Mostafiz</title>
   <link rel='canonical' href='/posts/google-drive-in-ubuntu/'>
   
   
@@ -42,7 +42,7 @@ if (!doNotTrack) {
 </head>
 
 
-<body class='page type-posts layout-post has-sidebar'>
+<body class='page type-posts has-sidebar has-emoji'>
 
   <div class='site'>
 
@@ -206,7 +206,13 @@ if (!doNotTrack) {
   <time class='entry-date' datetime='2017-08-16T22:00:00Z'>2017, Aug 16</time>
 </span>
 
+  <span class='byline'><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
   
+  <path d="M21,21V20c0-2.76-4-5-9-5s-9,2.24-9,5v1"/>
+  <path d="M16,6.37A4,4,0,1,1,12.63,3,4,4,0,0,1,16,6.37Z"/>
+  
+</svg>
+<span class='screen-reader-text'> by </span><a href='/authors/rimonmostafiz'>Rimon Mostafiz</a></span>
   
 <span class='reading-time'><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
   
@@ -228,45 +234,53 @@ if (!doNotTrack) {
   
 
   <div class='container entry-content'>
-  <p>Since there is no official Google Drive client for Ubuntu or Linux Mint but if you need to use it then there is an unofficial client called Grive2. Grive is a Google Drive client for GNU/Linux systems. It allows the synchronization of all your files on the cloud with a directory of your choice and the upload of new files to Google Drive.</p>
+  <p>At the time of writing, there is no official Google Drive client for Ubuntu or Linux Mint but if you need to use it then there is an unofficial client called <strong><em>Grive2</em></strong>. <br>
+Grive is a Google Drive client for GNU/Linux systems. It allows the synchronization of all your files on the cloud with a directory of your choice and the upload of new files to Google Drive.</p>
 
 <p>Those of you used Google Drive client on Windows or Mac, Grive2 will do the same for you in Ubuntu or Linux Mint.</p>
 
-<p>To install Grive2 in Ubuntu, Linux Mint and derivatives by using the main WebUpd8 PPA, use the following commands:</p>
+<p>To install Grive2 in Ubuntu, Linux Mint and derivatives by using the main <em>WebUpd8 PPA</em>, use the following commands:</p>
 
-<p>[bash]
-sudo add-apt-repository ppa:nilarimogard/webupd8
-sudo apt-get update
-sudo apt-get install grive
-[/bash]</p>
+<pre><code>$ sudo add-apt-repository ppa:nilarimogard/webupd8
+$ sudo apt-get update
+$ sudo apt-get install grive
+</code></pre>
 
-<p><strong>Step 1: </strong>Grive2 will download/upload new or changed files from the directory you run it. You can name it anything you want to. Let’s create a new folder – I&rsquo;ll create it on my <em>home folder and going to name it </em><strong><em>GoogleDrive</em></strong></p>
+<p><strong>Step 1:</strong> <br>
+Grive2 will download/upload new or changed files from the directory you run it. You can name it anything you want to. Let’s create a new folder – I&rsquo;ll create it on my <code>/home/rimonmostafiz</code> folder and going to name it <strong><em>GoogleDrive</em></strong></p>
 
-<p>[bash]mkdir -p ~/GoogleDrive[/bash]</p>
+<pre><code>$ mkdir -p ~/GoogleDrive
+</code></pre>
 
-<p><strong>Step 2: </strong> Next, navigate using the terminal into the newly created “GoogleDrive” folder:</p>
+<p><strong>Step 2:</strong> <br>
+Next, navigate using the terminal into the newly created “GoogleDrive” folder:</p>
 
-<p>[bash]cd ~/GoogleDrive[/bash]</p>
+<pre><code>$ cd ~/GoogleDrive
+</code></pre>
 
-<p><strong>Step 3: </strong>The first time you run Grive2, you must use the “-a” argument to grant it permission to access your Google Drive:</p>
+<p><strong>Step 3:</strong> <br>
+The first time you run Grive2, you must use the <code>-a</code> argument to grant it permission to access your Google Drive:</p>
 
-<p>[bash]grive -a[/bash]</p>
+<pre><code>grive -a
+</code></pre>
 
 <p>After running the command above, an URL should be displayed in the terminal.
-Copy that URL and paste it in a web browser. In the newly loaded page, you’ll be asked to give Grive permission to access your Google Drive and after clicking <strong>Allow access</strong>, an authentication code will be displayed. Copy that code and paste it in the terminal where you ran Grive2.
-That’s it. Grive 2 Will start syncing your files and folder from Google Drive, wait for sync to complete for the first time. Don&rsquo;t close the terminal.
-**
-** <strong>Now each time you want to sync Google Drive with your local _GoogleDrive_ folder, navigate to the _GoogleDrive_ folder and run grive (this time without “-a” since you’ve already authenticated Grive with Google Drive).</strong></p>
+Copy that URL and paste it in a web browser. In the newly loaded page, you’ll be asked to give Grive permission to access your Google Drive and after clicking <strong>Allow access</strong>, an authentication code will be displayed. Copy that code and paste it in the terminal where you ran Grive2.</p>
 
-<p>If you want to sync only one sub-folder (a folder from your <em>~/GoogleDrive</em> directory) with Google Drive, use:</p>
+<p>That’s it. Grive 2 Will start syncing your files and folder from Google Drive, wait for sync to complete for the first time. Don&rsquo;t close the terminal.</p>
 
-<p>[bash]grive -s folder[/bash]</p>
+<p>Now each time you want to sync Google Drive with your local <code>GoogleDrive</code> folder, navigate to the <code>GoogleDrive</code> folder and run grive (this time without <code>-a</code> since you’ve already authenticated Grive with Google Drive).</p>
 
-<p>(replace <em>folder</em> with the name of the sub-folder you want to sync)</p>
+<p>If you want to sync only one sub-folder (a folder from your <code>~/GoogleDrive</code> directory) with Google Drive, use:</p>
+
+<pre><code>$ grive -s folder
+# replace folder with the name of the sub-folder you want to sync
+</code></pre>
 
 <p>To see all the available options, type:</p>
 
-<p>[bash]grive &ndash;help[/bash]</p>
+<pre><code>grive --help
+</code></pre>
 
 <p><strong><em>Courtesy:</em></strong> <a href="http://askubuntu.com/" target="_blank"><em>askubuntu.com</em></a></p>
 
@@ -291,7 +305,7 @@ That’s it. Grive 2 Will start syncing your files and folder from Google Drive,
   
 </svg>
 </span>
-  <span class='screen-reader-text'>Tags: </span><a class='tag' href='/tags/google-drive'>Google-drive</a>, <a class='tag' href='/tags/linux'>Linux</a>, <a class='tag' href='/tags/notes'>Notes</a>, <a class='tag' href='/tags/ubuntu'>Ubuntu</a></div>
+  <span class='screen-reader-text'>Tags: </span><a class='tag' href='/tags/google-drive'>Google-drive</a>, <a class='tag' href='/tags/linux'>Linux</a>, <a class='tag' href='/tags/ubuntu'>Ubuntu</a></div>
 
   </div>
 </footer>

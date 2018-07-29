@@ -1,9 +1,11 @@
 ---
-title: The Spring IoC Container
 date: 2018-03-15 11:00:47+00:00
+title: The Spring IoC Container
+description:
 authors: ["rimonmostafiz"]
 comments: true
 slug: the-spring-ioc-container
+link: http://rimonmostafiz.com/posts/the-spring-ioc-container
 categories:
 - spring
 tags:
@@ -11,6 +13,7 @@ tags:
 - container
 - ioc
 toc: true
+emoji: true
 ---
 
 ## Overview

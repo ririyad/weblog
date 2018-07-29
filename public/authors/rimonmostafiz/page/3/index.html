@@ -4,21 +4,21 @@
 <head>
   <meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1'>
-<meta name='description' content='Least Common Multiple (LCM) of two number a and b is the smallest positive integer that is divisible by both a and b. Since division of integers by zero is undefined, this definition has meaning only if a and b are both different from zero.
-[cpp] int lcm(int a, int b) { for ( int i = 1; ; i ) { if ( i % a == 0 &amp;&amp; i % b == 0 ) { return i; } } } [/cpp]'>
+<meta name='description' content='It&#39;s not what you read, it&#39;s what you ignore'>
 <meta name='theme-color' content='#ffcd00'>
 
-<meta property='og:title' content='Least Common Multiple (LCM) • ~/dev/rimon'>
-<meta property='og:description' content='Least Common Multiple (LCM) of two number a and b is the smallest positive integer that is divisible by both a and b. Since division of integers by zero is undefined, this definition has meaning only if a and b are both different from zero.
-[cpp] int lcm(int a, int b) { for ( int i = 1; ; i ) { if ( i % a == 0 &amp;&amp; i % b == 0 ) { return i; } } } [/cpp]'>
-<meta property='og:url' content='/posts/least-common-multiple/'>
+<meta property='og:title' content='Author: Rimon Mostafiz • ~/dev/rimon'>
+<meta property='og:description' content='It&#39;s not what you read, it&#39;s what you ignore'>
+<meta property='og:url' content='/authors/rimonmostafiz/'>
 <meta property='og:site_name' content='~/dev/rimon'>
-<meta property='og:type' content='article'><meta property='article:section' content='Posts'><meta property='article:tag' content='gcd'><meta property='article:tag' content='lcm'><meta property='article:tag' content='math'><meta property='article:tag' content='number-theory'><meta property='article:published_time' content='2017-08-15T18:00:00Z'/><meta property='article:modified_time' content='2017-08-15T18:00:00Z'/><meta name='twitter:card' content='summary'>
+<meta property='og:type' content='website'><meta property='og:updated_time' content='2018-07-27T20:01:41&#43;06:00'/><meta name='twitter:card' content='summary'>
 
 <meta name="generator" content="Hugo 0.45" />
 
-  <title>Least Common Multiple (LCM) • ~/dev/rimon</title>
-  <link rel='canonical' href='/posts/least-common-multiple/'>
+  <title>Author: Rimon Mostafiz • ~/dev/rimon</title>
+  <link rel='canonical' href='/authors/rimonmostafiz/'>
+  
+    <link href="/authors/rimonmostafiz/index.xml" rel="alternate" type="application/rss+xml" title="~/dev/rimon" />
   
   
   <link rel='icon' href='/images/favicon.png'>
@@ -42,7 +42,7 @@ if (!doNotTrack) {
 </head>
 
 
-<body class='page type-posts layout-post has-sidebar'>
+<body class='taxonomy type-authors taxonomy-author has-sidebar'>
 
   <div class='site'>
 
@@ -184,171 +184,78 @@ if (!doNotTrack) {
       <main id='content'>
 
 
-<article lang='en' class='entry'>
-  <header class='header entry-header'>
+<header class='header'>
   <div class='container sep-after'>
     <div class='header-info'>
-      <h1 class='title'>Least Common Multiple (LCM)</h1>
+      <h1 class='title'><span class='taxonomy-name'>Author: </span>Rimon Mostafiz</h1>
+
       
 
     </div>
-    
-<div class='entry-meta'>
-  <span class='posted-on'><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
-  
-  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
-  <line x1="16" y1="2" x2="16" y2="6"/>
-  <line x1="8" y1="2" x2="8" y2="6"/>
-  <line x1="3" y1="10" x2="21" y2="10"/>
-  
-</svg>
-<span class='screen-reader-text'>Posted on </span>
-  <time class='entry-date' datetime='2017-08-15T18:00:00Z'>2017, Aug 15</time>
-</span>
-
-  
-  
-<span class='reading-time'><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
-  
-  <circle cx="12" cy="12" r="10"/>
-  <polyline points="12 6 12 12 15 15"/>
-  
-</svg>
-2 mins read
-</span>
-
-
-</div>
-
-
   </div>
 </header>
 
-  
-  
 
-  <div class='container entry-content'>
-  <p>Least Common Multiple (LCM) of two number a and b is the smallest positive integer that is divisible by both a and b. Since division of integers by zero is undefined, this definition has meaning only if a and b are both different from zero.</p>
 
-<p>[cpp]
-int lcm(int a, int b) {
-  for ( int i = 1; ; i   ) {
-    if ( i % a == 0 &amp;&amp; i % b == 0 ) {
-      return i;
-    }
-  }
-}
-[/cpp]</p>
 
-<p>There is an another technique for LCM finding called Reduction by the greatest common divisor</p>
-
-<p>[cpp gutter=&ldquo;false&rdquo;]
-int lcm(int a, int b) {
-  return a * b / gcd(a, b); // so we need to write gcd() function for this one
-}
-[cpp]</p>
-
-<p>there is a chance of integer overflow if we write a*b/gcd(a, b)
-so we write it like
-[cpp gutter=false]
-int lcm(int a, int b) {
-  return (a / gcd(a, b)) * b;
-}
-[/cpp]</p>
-
-<p>the above code works fine for Int, but it is safe to write a template for LCM, I personally prefer that</p>
-
-<p>[cpp]
-#include <cstdio></p>
-
-<p>template &lt; class T &gt; T gcd(T a, T b) { return (b != 0 ? gcd<T>(b, a%b) : a); } // need to include GCD also for LCM
-template &lt; class T &gt; T lcm(T a, T b) { return (a / gcd<T>(a, b) * b); }</p>
-
-<p>int main() {
-    // your code here
-    return 0;
-}
-[/cpp]</p>
-
-</div>
-
-  
-<footer class='entry-footer'>
-  <div class='container sep-before'>
-  <div class='categories'>
-  <span class='taxonomy-icon'><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
-  
-  <path d="M22,19a2,2,0,0,1-2,2H4a2,2,0,0,1-2-2V5A2,2,0,0,1,4,3H9l2,3h9a2,2,0,0,1,2,2Z"/>
-  
-</svg>
+<div class='container list-container'>
+  <ul class='list'>
+    
+      <li class='item'>
+  <div class='meta'>
+    <span>
+  <span class='screen-reader-text'>Posted on </span>
+  <time datetime='2017-08-15T15:31:05Z'>2017, Aug 15</time>
 </span>
-  <span class='screen-reader-text'>Categories: </span><a class='category' href='/categories/algorithms'>Algorithms</a>, <a class='category' href='/categories/math'>Math</a></div>
-<div class='tags'>
-  <span class='taxonomy-icon'><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
-  
-  <path d="M20.59,13.41l-7.17,7.17a2,2,0,0,1-2.83,0L2,12V2H12l8.59,8.59A2,2,0,0,1,20.59,13.41Z"/>
-  <line x1="7" y1="7" x2="7" y2="7"/>
-  
-</svg>
-</span>
-  <span class='screen-reader-text'>Tags: </span><a class='tag' href='/tags/gcd'>Gcd</a>, <a class='tag' href='/tags/lcm'>Lcm</a>, <a class='tag' href='/tags/math'>Math</a>, <a class='tag' href='/tags/number-theory'>Number-theory</a></div>
 
   </div>
-</footer>
+  <header class='item-header'>
+    <h3 class='item-title'>
+      <a href='/pages/whoami/'>WhoAmI</a>
+    </h3>
+  </header>
+</li>
 
+    
+  </ul>
 
-</article>
+  
+<nav id='pagination'>
+  <div class='page-links'>
 
-<nav class='entry-nav'>
-  <div class='container'><div class='prev-entry sep-before'>
-      <a href='/posts/greatest-common-divisor-gcd/'>
-        <span aria-hidden='true'><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+    
+    <a class='page-link prev' href='/authors/rimonmostafiz/page/2/'><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
   
   <line x1="20" y1="12" x2="4" y2="12"/>
   <polyline points="10 18 4 12 10 6"/>
   
 </svg>
- Previous</span>
-        <span class='screen-reader-text'>Previous post: </span>Greatest Common Divisor (GCD)</a>
-    </div><div class='next-entry sep-before'>
-      <a href='/posts/sieve-of-eratosthenes-memory-efficient-implementation/'>
-        <span class='screen-reader-text'>Next post: </span>Sieve Of Eratosthenes (Memory Efficient Implementation)<span aria-hidden='true'>Next <svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
-  
-  <line x1="4" y1="12" x2="20" y2="12"/>
-  <polyline points="14 6 20 12 14 18"/>
-  
-</svg>
-</span>
-      </a>
-    </div></div>
+<span class='screen-reader-text'>Previous page</span>
+    </a>
+    
+      
+      <a class='page-link' href='/authors/rimonmostafiz/'>
+        <span class='screen-reader-text'>Page: </span>1</a>
+      
+    
+      
+      <a class='page-link' href='/authors/rimonmostafiz/page/2/'>
+        <span class='screen-reader-text'>Page: </span>2</a>
+      
+    
+      
+      <span aria-current='page' class='page-link current'>
+        <span class='screen-reader-text'>Current page: </span>3</span>
+      
+    
+
+    
+
+  </div>
 </nav>
 
 
-<section id='comments' class='comments'>
-  <div class='container sep-before'>
-    <div class='comments-area'><div id="disqus_thread"></div>
-<script>
-    var disqus_config = function () {
-    
-    
-    
-    };
-    (function() {
-        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
-            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
-            return;
-        }
-        var d = document, s = d.createElement('script'); s.async = true;
-        s.src = '//' + "rimonmostafiz" + '.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
 </div>
-  </div>
-</section>
 
       </main>
 

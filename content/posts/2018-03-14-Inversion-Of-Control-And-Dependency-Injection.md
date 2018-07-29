@@ -1,9 +1,11 @@
 ---
-title: Inversion of Control and Dependency Injection
 date: 2018-03-14 10:36:12+00:00
+title: Inversion of Control and Dependency Injection
+description:
 authors: ["rimonmostafiz"]
 comments: true
 slug: inversion-of-control-and-dependency-injection
+link: http://rimonmostafiz.com/posts/inversion-of-control-and-dependency-injection
 categories:
 - spring
 tags:
@@ -11,6 +13,7 @@ tags:
 - dependency-injection
 - ioc
 toc: true
+emoji: true
 ---
 
 ### Inversion of control (IoC)

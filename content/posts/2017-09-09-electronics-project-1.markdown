@@ -24,16 +24,16 @@ This automatic staircase light circuit switch on the staircase lights automatica
 
 
 
- 	
+
   * There are three important components in this circuit
 
- 	
+
     * PIR Sensor (Passive Infrared Sensor)
 
- 	
+
     * Relay
 
- 	
+
     * Arduino UNO
 
 
@@ -51,31 +51,31 @@ This automatic staircase light circuit switch on the staircase lights automatica
 
 
 
- 	
+
   * Arduino UNO
 
- 	
+
   * One breadboard
 
- 	
+
   * PIR Sencor
 
- 	
+
   * Relay Module
 
- 	
+
   * 1N4007 rectifier Diode
 
- 	
+
   * Jumper wires
 
- 	
+
   * Power Plug and Bulb
 
- 	
+
   * Battery
 
- 	
+
   * 220v AC supply
 
 
@@ -136,16 +136,16 @@ Basically it detects the Change in Heat, and produce output whenever such detect
 
 
 
- 	
+
   * Relay is an electromagnetic switch, which is controlled by small current, and used to switch ON and OFF relatively much larger current
 
- 	
+
   * By applying small current we can switch ON the relay which allow much larger current to flow
 
- 	
+
   * Relay is configured by using a small Driver circuit which consist a Transistor, Diode and a resistor
 
- 	
+
   * Transistor is used to amplify the current so that full current (from the DC source – 9v battery) can flow through coil to fully energies it
 
 
@@ -174,16 +174,16 @@ Basically it detects the Change in Heat, and produce output whenever such detect
 
 
 
- 	
+
   * Relay is configured by using a small Driver circuit which consist a Transistor, Diode and a resistor
 
- 	
+
   * Transistor is used to amplify the current so that full current (from the DC source – 9v battery) can flow through coil to fully energies it
 
- 	
+
   * Resistor is used to provide biasing to transistor
 
- 	
+
   * And Diode is used to prevent reverse current flow, when the transistor is switched OFF
 
 
@@ -225,13 +225,13 @@ Basically it detects the Change in Heat, and produce output whenever such detect
 
 
 
- 	
+
   * The Uno is a microcontroller board based on the ATmega328P.
 
- 	
+
   * It has 14 digital input/output pins (of which 6 can be used as PWM outputs), 6 analog inputs, a 16 MHz quartz crystal, a USB connection, a power jack, an ICSP header and a reset button
 
- 	
+
   * It contains everything needed to support the micro controller, simply connect it to a computer with a USB cable or power it with a AC-to-DC adapter or battery to get started
 
 
@@ -255,13 +255,13 @@ Basically it detects the Change in Heat, and produce output whenever such detect
 
 
 
- 	
+
   * PIR sensor out to Pin 4 and the Relay input to Pin 8 of Arduino.
 
- 	
+
   * The light bulb has one of the 120V wire spliced to connect the end connected to the power plug to the COM(Common) Pin of the Relay module and the one going to the lamp is connected to the NC(Normally Closed) Pin.
 
- 	
+
   * We use a bread board to connect the VCC and Ground to both modules from our UNO, but we connect a 1N4007 rectifier Diode to the VCC line of the Relay Module to allow the current to go only one way.
 
 
@@ -297,14 +297,11 @@ Copy the code of the Arduino from this [link](https://github.com/rimonmostafiz
 
 
 
- 	
+
   * This project is easy to made and fun to use.
 
- 	
+
   * Can also use in corridor.
 
- 	
+
   * We can save some electricity bill with it
-
-
-

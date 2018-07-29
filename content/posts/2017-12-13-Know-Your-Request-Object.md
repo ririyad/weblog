@@ -1,9 +1,11 @@
 ---
-title: Know Your Request Object
 date: 2017-12-13 05:30:10+00:00
+title: Know Your Request Object
+description:
 authors: ["rimonmostafiz"]
 comments: true
 slug: know-your-request-object
+link: http://rimonmostafiz.com/posts/know-your-request-object
 categories:
 - javaee
 tags:
@@ -11,6 +13,7 @@ tags:
 - query-parameters
 - request
 toc: true
+emoji: true
 ---
 
 ## HTTPServletRequest
