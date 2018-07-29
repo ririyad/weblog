@@ -273,6 +273,15 @@
     </item>
     
     <item>
+      <title>Install-npm-package-globally</title>
+      <link>/tags/install-npm-package-globally/</link>
+      <pubDate>Sun, 29 Jul 2018 15:35:41 +0600</pubDate>
+      
+      <guid>/tags/install-npm-package-globally/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Ioc</title>
       <link>/tags/ioc/</link>
       <pubDate>Thu, 15 Mar 2018 11:00:47 +0000</pubDate>
@@ -642,11 +651,29 @@
     </item>
     
     <item>
+      <title>Uninstall-npm-package-globally</title>
+      <link>/tags/uninstall-npm-package-globally/</link>
+      <pubDate>Sun, 29 Jul 2018 15:35:41 +0600</pubDate>
+      
+      <guid>/tags/uninstall-npm-package-globally/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Unix</title>
       <link>/tags/unix/</link>
       <pubDate>Fri, 20 Oct 2017 18:39:46 +0000</pubDate>
       
       <guid>/tags/unix/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Update-npm-package-globally</title>
+      <link>/tags/update-npm-package-globally/</link>
+      <pubDate>Sun, 29 Jul 2018 15:35:41 +0600</pubDate>
+      
+      <guid>/tags/update-npm-package-globally/</guid>
       <description></description>
     </item>
     
