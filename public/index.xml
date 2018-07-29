@@ -6,10 +6,23 @@
     <description>Recent content on ~/dev/rimon</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>© Creative Commons Attribution-ShareAlike 4.0 International License</copyright>
-    <lastBuildDate>Fri, 27 Jul 2018 20:01:41 +0600</lastBuildDate>
+    <lastBuildDate>Sun, 29 Jul 2018 15:35:41 +0600</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Manage NPM Global Packages</title>
+      <link>/posts/manage-npm-global-packages/</link>
+      <pubDate>Sun, 29 Jul 2018 15:35:41 +0600</pubDate>
+      
+      <guid>/posts/manage-npm-global-packages/</guid>
+      <description>Introduction This post is about how can we install, update, uninstall and list out installed global packages of NPM.
+The commands that start with $ are meant to be run in the terminal or command line.
+The output of the command will follow immediately. Comments will begin with #.
+Install Global Packages $ npm install -g &amp;lt;package&amp;gt;  For example, to install express globally, type
+$ npm install -g express + express@4.</description>
+    </item>
     
     <item>
       <title>Goodbye Wordpress, Welcome to HUGO</title>

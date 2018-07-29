@@ -11,7 +11,6 @@ tags:
   - install-npm-package-globally
   - update-npm-package-globally
   - uninstall-npm-package-globally
-draft: true
 toc: true
 emoji: true
 ---

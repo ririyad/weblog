@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/posts/manage-npm-global-packages/</loc>
+    <lastmod>2018-07-29T15:35:41+06:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/posts/goodbye-wordpress-welcome-to-hugo/</loc>
     <lastmod>2018-07-27T20:01:41+06:00</lastmod>
   </url>
@@ -363,6 +368,12 @@
   </url>
   
   <url>
+    <loc>/tags/install-npm-package-globally/</loc>
+    <lastmod>2018-07-29T15:35:41+06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tags/ioc/</loc>
     <lastmod>2018-03-15T11:00:47+00:00</lastmod>
     <priority>0</priority>
@@ -495,6 +506,12 @@
   </url>
   
   <url>
+    <loc>/categories/npm/</loc>
+    <lastmod>2018-07-29T15:35:41+06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tags/npm/</loc>
     <lastmod>2018-07-07T04:17:09+00:00</lastmod>
     <priority>0</priority>
@@ -532,7 +549,7 @@
   
   <url>
     <loc>/posts/</loc>
-    <lastmod>2018-07-27T20:01:41+06:00</lastmod>
+    <lastmod>2018-07-29T15:35:41+06:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -580,7 +597,7 @@
   
   <url>
     <loc>/authors/rimonmostafiz/</loc>
-    <lastmod>2018-07-27T20:01:41+06:00</lastmod>
+    <lastmod>2018-07-29T15:35:41+06:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -692,8 +709,20 @@
   </url>
   
   <url>
+    <loc>/tags/uninstall-npm-package-globally/</loc>
+    <lastmod>2018-07-29T15:35:41+06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tags/unix/</loc>
     <lastmod>2017-10-20T18:39:46+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/update-npm-package-globally/</loc>
+    <lastmod>2018-07-29T15:35:41+06:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -723,7 +752,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2018-07-27T20:01:41+06:00</lastmod>
+    <lastmod>2018-07-29T15:35:41+06:00</lastmod>
     <priority>0</priority>
   </url>
   
