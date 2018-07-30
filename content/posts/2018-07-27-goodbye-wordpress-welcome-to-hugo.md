@@ -1,6 +1,6 @@
 ---
 date: 2018-07-27T20:01:41+06:00
-title: Goodbye Wordpress, Welcome to HUGO
+title: Goodbye wordpress, Welcome to HUGO
 description: Moving from Wordpress to Hugo
 authors: ["rimonmostafiz"]
 slug: goodbye-wordpress-welcome-to-hugo

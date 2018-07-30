@@ -1,6 +1,6 @@
 ---
 date: 2017-08-16 22:00:00+00:00
-title: Google Drive in Ubuntu
+title: Google drive in ubuntu
 authors: ["rimonmostafiz"]
 comments: true
 slug: google-drive-in-ubuntu

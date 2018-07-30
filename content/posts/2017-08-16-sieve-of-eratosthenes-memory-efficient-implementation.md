@@ -1,6 +1,6 @@
 ---
 date: 2017-08-16 00:30:00+00:00
-title: Sieve Of Eratosthenes (Memory Efficient Implementation)
+title: Sieve of Eratosthenes (memory efficient implementation)
 description: A memory efficient technique for prime number generation
 authors: [rimonmostafiz]
 comments: true

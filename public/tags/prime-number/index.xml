@@ -12,7 +12,7 @@
     
     
     <item>
-      <title>UVa 10311 - Goldbach and Euler</title>
+      <title>Uva 10311 - goldbach and euler</title>
       <link>/posts/uva-10311-goldbach-and-euler/</link>
       <pubDate>Sun, 03 Sep 2017 00:21:00 +0000</pubDate>
       
@@ -24,7 +24,7 @@ Solution Idea: First of all we need to find prime numbers between [0:108].</desc
     </item>
     
     <item>
-      <title>UVa 406 - Prime Cuts</title>
+      <title>Uva 406 - prime cuts</title>
       <link>/posts/uva-406-prime-cuts/</link>
       <pubDate>Tue, 29 Aug 2017 21:39:00 +0000</pubDate>
       
@@ -35,7 +35,7 @@ Solution Idea: First of all use Sieve of Eratosthenes to generate primes betwe
     </item>
     
     <item>
-      <title>Sieve Of Eratosthenes (Memory Efficient Implementation)</title>
+      <title>Sieve of Eratosthenes (memory efficient implementation)</title>
       <link>/posts/sieve-of-eratosthenes-memory-efficient-implementation/</link>
       <pubDate>Wed, 16 Aug 2017 00:30:00 +0000</pubDate>
       

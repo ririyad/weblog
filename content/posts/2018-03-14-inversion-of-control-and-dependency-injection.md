@@ -1,6 +1,6 @@
 ---
 date: 2018-03-14 10:36:12+00:00
-title: Inversion of Control and Dependency Injection
+title: Inversion of control and dependency injection
 description:
 authors: ["rimonmostafiz"]
 comments: true

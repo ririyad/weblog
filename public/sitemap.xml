@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/posts/get-insulted-by-sudo/</loc>
+    <lastmod>2018-07-30T14:35:07+06:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/posts/manage-npm-global-packages/</loc>
     <lastmod>2018-07-29T15:35:41+06:00</lastmod>
   </url>
@@ -290,14 +295,14 @@
   </url>
   
   <url>
-    <loc>/categories/elasticsearch/</loc>
-    <lastmod>2017-09-16T09:19:51+00:00</lastmod>
+    <loc>/tags/elasticsearch/</loc>
+    <lastmod>2017-09-15T12:36:35+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/elasticsearch/</loc>
-    <lastmod>2017-09-15T12:36:35+00:00</lastmod>
+    <loc>/categories/elasticsearch/</loc>
+    <lastmod>2017-09-16T09:19:51+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -320,6 +325,12 @@
   </url>
   
   <url>
+    <loc>/tags/fun/</loc>
+    <lastmod>2018-07-30T14:35:07+06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tags/gcd/</loc>
     <lastmod>2017-08-15T16:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -332,13 +343,13 @@
   </url>
   
   <url>
-    <loc>/categories/git/</loc>
+    <loc>/tags/git/</loc>
     <lastmod>2017-08-17T12:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/git/</loc>
+    <loc>/categories/git/</loc>
     <lastmod>2017-08-17T12:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -374,14 +385,14 @@
   </url>
   
   <url>
-    <loc>/tags/ioc/</loc>
-    <lastmod>2018-03-15T11:00:47+00:00</lastmod>
+    <loc>/tags/insults/</loc>
+    <lastmod>2018-07-30T14:35:07+06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/java/</loc>
-    <lastmod>2017-12-12T16:57:27+00:00</lastmod>
+    <loc>/tags/ioc/</loc>
+    <lastmod>2018-03-15T11:00:47+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -392,14 +403,20 @@
   </url>
   
   <url>
-    <loc>/categories/javaee/</loc>
-    <lastmod>2018-01-09T06:30:00+00:00</lastmod>
+    <loc>/categories/java/</loc>
+    <lastmod>2017-12-12T16:57:27+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/javaee/</loc>
     <lastmod>2017-12-12T16:57:27+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/javaee/</loc>
+    <lastmod>2018-01-09T06:30:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -434,14 +451,14 @@
   </url>
   
   <url>
-    <loc>/categories/linux/</loc>
+    <loc>/tags/linux/</loc>
     <lastmod>2017-11-30T11:50:41+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/linux/</loc>
-    <lastmod>2017-11-30T11:50:41+00:00</lastmod>
+    <loc>/categories/linux/</loc>
+    <lastmod>2018-07-30T14:35:07+06:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -452,14 +469,14 @@
   </url>
   
   <url>
-    <loc>/categories/math/</loc>
-    <lastmod>2017-08-16T00:30:00+00:00</lastmod>
+    <loc>/tags/math/</loc>
+    <lastmod>2017-08-15T18:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/math/</loc>
-    <lastmod>2017-08-15T18:00:00+00:00</lastmod>
+    <loc>/categories/math/</loc>
+    <lastmod>2017-08-16T00:30:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -506,14 +523,14 @@
   </url>
   
   <url>
-    <loc>/categories/npm/</loc>
-    <lastmod>2018-07-29T15:35:41+06:00</lastmod>
+    <loc>/tags/npm/</loc>
+    <lastmod>2018-07-07T04:17:09+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/npm/</loc>
-    <lastmod>2018-07-07T04:17:09+00:00</lastmod>
+    <loc>/categories/npm/</loc>
+    <lastmod>2018-07-29T15:35:41+06:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -549,7 +566,7 @@
   
   <url>
     <loc>/posts/</loc>
-    <lastmod>2018-07-29T15:35:41+06:00</lastmod>
+    <lastmod>2018-07-30T14:35:07+06:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -597,7 +614,7 @@
   
   <url>
     <loc>/authors/rimonmostafiz/</loc>
-    <lastmod>2018-07-29T15:35:41+06:00</lastmod>
+    <lastmod>2018-07-30T14:35:07+06:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -643,14 +660,14 @@
   </url>
   
   <url>
-    <loc>/categories/spring/</loc>
-    <lastmod>2018-05-29T10:19:29+00:00</lastmod>
+    <loc>/tags/spring/</loc>
+    <lastmod>2017-10-30T09:19:54+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/spring/</loc>
-    <lastmod>2017-10-30T09:19:54+00:00</lastmod>
+    <loc>/categories/spring/</loc>
+    <lastmod>2018-05-29T10:19:29+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -669,6 +686,12 @@
   <url>
     <loc>/tags/static-site/</loc>
     <lastmod>2018-07-27T20:01:41+06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/sudo/</loc>
+    <lastmod>2018-07-30T14:35:07+06:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -699,6 +722,12 @@
   <url>
     <loc>/tags/tomcat/</loc>
     <lastmod>2017-12-12T16:57:27+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/tweak/</loc>
+    <lastmod>2018-07-30T14:35:07+06:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -752,7 +781,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2018-07-29T15:35:41+06:00</lastmod>
+    <lastmod>2018-07-30T14:35:07+06:00</lastmod>
     <priority>0</priority>
   </url>
   

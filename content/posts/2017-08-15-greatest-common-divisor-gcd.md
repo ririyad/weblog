@@ -1,6 +1,6 @@
 ---
 date: 2017-08-15 16:00:00+00:00
-title: Greatest Common Divisor (GCD)
+title: Greatest common divisor (GCD)
 authors: ["rimonmostafiz"]
 comments: true
 slug: greatest-common-divisor-gcd

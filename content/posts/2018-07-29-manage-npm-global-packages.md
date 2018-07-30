@@ -1,6 +1,6 @@
 ---
 date: 2018-07-29T15:35:41+06:00
-title: Manage NPM Global Packages
+title: Manage npm global packages
 description: Install, Update, List and Uninstall global npm packages
 authors: ["rimonmostafiz"]
 slug: manage-npm-global-packages

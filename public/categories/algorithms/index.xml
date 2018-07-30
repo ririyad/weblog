@@ -12,7 +12,7 @@
     
     
     <item>
-      <title>Sieve Of Eratosthenes (Memory Efficient Implementation)</title>
+      <title>Sieve of Eratosthenes (memory efficient implementation)</title>
       <link>/posts/sieve-of-eratosthenes-memory-efficient-implementation/</link>
       <pubDate>Wed, 16 Aug 2017 00:30:00 +0000</pubDate>
       
@@ -22,7 +22,7 @@ Lets see how can we reduce the memory, the main idea here is we can store a Bo
     </item>
     
     <item>
-      <title>Least Common Multiple (LCM)</title>
+      <title>Least common multiple (LCM)</title>
       <link>/posts/least-common-multiple-lcm/</link>
       <pubDate>Tue, 15 Aug 2017 18:00:00 +0000</pubDate>
       
@@ -32,7 +32,7 @@ int lcm(int a, int b) { for ( int i = 1; ; i ) { if ( i % a == 0 &amp;amp;&amp;a
     </item>
     
     <item>
-      <title>Greatest Common Divisor (GCD)</title>
+      <title>Greatest common divisor (GCD)</title>
       <link>/posts/greatest-common-divisor-gcd/</link>
       <pubDate>Tue, 15 Aug 2017 16:00:00 +0000</pubDate>
       

@@ -12,7 +12,7 @@
     
     
     <item>
-      <title>The Spring IoC Container</title>
+      <title>The spring IoC container</title>
       <link>/posts/the-spring-ioc-container/</link>
       <pubDate>Thu, 15 Mar 2018 11:00:47 +0000</pubDate>
       
@@ -23,7 +23,7 @@ Some people confuse the general principle here with the specific styles of inver
     </item>
     
     <item>
-      <title>Inversion of Control and Dependency Injection</title>
+      <title>Inversion of control and dependency injection</title>
       <link>/posts/inversion-of-control-and-dependency-injection/</link>
       <pubDate>Wed, 14 Mar 2018 10:36:12 +0000</pubDate>
       

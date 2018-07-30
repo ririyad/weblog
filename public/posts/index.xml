@@ -6,13 +6,26 @@
     <description>Recent content in Posts on ~/dev/rimon</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>© Creative Commons Attribution-ShareAlike 4.0 International License</copyright>
-    <lastBuildDate>Sun, 29 Jul 2018 15:35:41 +0600</lastBuildDate>
+    <lastBuildDate>Mon, 30 Jul 2018 14:35:07 +0600</lastBuildDate>
     
 	<atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Manage NPM Global Packages</title>
+      <title>Get insulted by sudo</title>
+      <link>/posts/get-insulted-by-sudo/</link>
+      <pubDate>Mon, 30 Jul 2018 14:35:07 +0600</pubDate>
+      
+      <guid>/posts/get-insulted-by-sudo/</guid>
+      <description>Do you know sudo can insult you? wait, what ❓ 😕
+Take a look at what I&amp;rsquo;m talking about. sudo can insult you for typing incorrect password. 💥
+Enable insults in sudo Open a terminal and type:
+$ sudo visudo  This should open the configuration file in your default editor. In ubuntu like distros, it will be opened in nano.
+Now you will have to find the section where the defaults are listed.</description>
+    </item>
+    
+    <item>
+      <title>Manage npm global packages</title>
       <link>/posts/manage-npm-global-packages/</link>
       <pubDate>Sun, 29 Jul 2018 15:35:41 +0600</pubDate>
       
@@ -25,7 +38,7 @@ $ npm install -g express + express@4.</description>
     </item>
     
     <item>
-      <title>Goodbye Wordpress, Welcome to HUGO</title>
+      <title>Goodbye wordpress, Welcome to HUGO</title>
       <link>/posts/goodbye-wordpress-welcome-to-hugo/</link>
       <pubDate>Fri, 27 Jul 2018 20:01:41 +0600</pubDate>
       
@@ -36,7 +49,7 @@ This is my attempt to making everything more simple and content-focused. In this
     </item>
     
     <item>
-      <title>Install and Manage Node Js Using NVM</title>
+      <title>Install and manage node js using NVM</title>
       <link>/posts/install-and-manage-node-js-using-nvm/</link>
       <pubDate>Sat, 07 Jul 2018 04:17:09 +0000</pubDate>
       
@@ -48,7 +61,7 @@ export NVM_DIR=&amp;quot;$HOME/.nvm&amp;quot; [ -s &amp;quot;$NVM_DIR/nvm.</desc
     </item>
     
     <item>
-      <title>Spring Bean Wiring Using JavaConfig</title>
+      <title>Spring bean wiring using javaconfig</title>
       <link>/posts/spring-bean-wiring-using-javaconfig/</link>
       <pubDate>Tue, 29 May 2018 10:19:29 +0000</pubDate>
       
@@ -68,7 +81,7 @@ Different Types of Bean Wiring Spring Offers three primary wiring mechanism
     </item>
     
     <item>
-      <title>Spring Application Context and Configuration Metadata</title>
+      <title>Spring application context and configuration metadata</title>
       <link>/posts/spring-application-context-and-configuration-metadata/</link>
       <pubDate>Sat, 26 May 2018 06:42:47 +0000</pubDate>
       
@@ -79,7 +92,7 @@ Spring IoC container consumes a form of configuration metadata. This configura
     </item>
     
     <item>
-      <title>The Spring IoC Container</title>
+      <title>The spring IoC container</title>
       <link>/posts/the-spring-ioc-container/</link>
       <pubDate>Thu, 15 Mar 2018 11:00:47 +0000</pubDate>
       
@@ -90,7 +103,7 @@ Some people confuse the general principle here with the specific styles of inver
     </item>
     
     <item>
-      <title>Inversion of Control and Dependency Injection</title>
+      <title>Inversion of control and dependency injection</title>
       <link>/posts/inversion-of-control-and-dependency-injection/</link>
       <pubDate>Wed, 14 Mar 2018 10:36:12 +0000</pubDate>
       
@@ -100,7 +113,7 @@ In traditional programming, our custom code that expresses the purpose of the pr
     </item>
     
     <item>
-      <title>Know Your Response Object</title>
+      <title>Know your response object</title>
       <link>/posts/know-your-response-object/</link>
       <pubDate>Tue, 09 Jan 2018 06:30:00 +0000</pubDate>
       
@@ -111,7 +124,7 @@ You can use the response object to do things such as
     </item>
     
     <item>
-      <title>Know Your Request Object</title>
+      <title>Know your request object</title>
       <link>/posts/know-your-request-object/</link>
       <pubDate>Wed, 13 Dec 2017 05:30:10 +0000</pubDate>
       
@@ -252,7 +265,7 @@ The operation of the project is simple. When we approach an object sensor LEDs l
     </item>
     
     <item>
-      <title>UVa 10311 - Goldbach and Euler</title>
+      <title>Uva 10311 - goldbach and euler</title>
       <link>/posts/uva-10311-goldbach-and-euler/</link>
       <pubDate>Sun, 03 Sep 2017 00:21:00 +0000</pubDate>
       
@@ -264,7 +277,7 @@ Solution Idea: First of all we need to find prime numbers between [0:108].</desc
     </item>
     
     <item>
-      <title>UVa 406 - Prime Cuts</title>
+      <title>Uva 406 - prime cuts</title>
       <link>/posts/uva-406-prime-cuts/</link>
       <pubDate>Tue, 29 Aug 2017 21:39:00 +0000</pubDate>
       
@@ -275,7 +288,7 @@ Solution Idea: First of all use Sieve of Eratosthenes to generate primes betwe
     </item>
     
     <item>
-      <title>Oracle SQL Developer in Ubuntu</title>
+      <title>Oracle SQL developer in ubuntu</title>
       <link>/posts/oracle-sql-developer-in-ubuntu/</link>
       <pubDate>Mon, 28 Aug 2017 15:13:24 +0000</pubDate>
       
@@ -287,7 +300,7 @@ Move the download file to /home/rimonmostafiz/Applications.</description>
     </item>
     
     <item>
-      <title>Git Notes</title>
+      <title>Git notes</title>
       <link>/posts/git-notes/</link>
       <pubDate>Thu, 17 Aug 2017 12:00:00 +0000</pubDate>
       
@@ -297,7 +310,7 @@ $ git init # transform the current directory into a Git repository. This adds a�
     </item>
     
     <item>
-      <title>Google Drive in Ubuntu</title>
+      <title>Google drive in ubuntu</title>
       <link>/posts/google-drive-in-ubuntu/</link>
       <pubDate>Wed, 16 Aug 2017 22:00:00 +0000</pubDate>
       
@@ -307,7 +320,7 @@ Those of you used Google Drive client on Windows or Mac, Grive2 will do the same
     </item>
     
     <item>
-      <title>Sieve Of Eratosthenes (Memory Efficient Implementation)</title>
+      <title>Sieve of Eratosthenes (memory efficient implementation)</title>
       <link>/posts/sieve-of-eratosthenes-memory-efficient-implementation/</link>
       <pubDate>Wed, 16 Aug 2017 00:30:00 +0000</pubDate>
       
@@ -317,7 +330,7 @@ Lets see how can we reduce the memory, the main idea here is we can store a Bo
     </item>
     
     <item>
-      <title>Least Common Multiple (LCM)</title>
+      <title>Least common multiple (LCM)</title>
       <link>/posts/least-common-multiple-lcm/</link>
       <pubDate>Tue, 15 Aug 2017 18:00:00 +0000</pubDate>
       
@@ -327,7 +340,7 @@ int lcm(int a, int b) { for ( int i = 1; ; i ) { if ( i % a == 0 &amp;amp;&amp;a
     </item>
     
     <item>
-      <title>Greatest Common Divisor (GCD)</title>
+      <title>Greatest common divisor (GCD)</title>
       <link>/posts/greatest-common-divisor-gcd/</link>
       <pubDate>Tue, 15 Aug 2017 16:00:00 +0000</pubDate>
       

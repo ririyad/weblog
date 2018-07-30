@@ -1,6 +1,6 @@
 ---
 date: 2018-05-29 10:19:29+00:00
-title: Spring Bean Wiring Using JavaConfig
+title: Spring bean wiring using javaconfig
 description:
 authors: ["rimonmostafiz"]
 comments: true
