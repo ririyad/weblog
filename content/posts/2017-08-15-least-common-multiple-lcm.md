@@ -1,6 +1,6 @@
 ---
 date: 2017-08-15 18:00:00+00:00
-title: Least Common Multiple (LCM)
+title: Least common multiple (LCM)
 authors: ["rimonmostafiz"]
 comments: true
 slug: least-common-multiple-lcm

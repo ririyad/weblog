@@ -1,7 +1,7 @@
 ---
 date: 2018-01-09 06:30:00+00:00
-title: Know Your Response Object
-description: 
+title: Know your response object
+description:
 authors: ["rimonmostafiz"]
 comments: true
 slug: know-your-response-object

@@ -1,6 +1,6 @@
 ---
 date: 2018-05-26 06:42:47+00:00
-title: Spring Application Context and Configuration Metadata
+title: Spring application context and configuration metadata
 description:
 authors: ["rimonmostafiz"]
 comments: true

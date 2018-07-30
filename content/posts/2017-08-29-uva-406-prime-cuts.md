@@ -1,6 +1,6 @@
 ---
 date: 2017-08-29 21:39:00+00:00
-title: UVa 406 - Prime Cuts
+title: Uva 406 - prime cuts
 description: Solution idea of UVa 406 - Prime Cuts
 author: rimonmostafiz
 comments: true

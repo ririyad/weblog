@@ -1,6 +1,6 @@
 ---
 date: 2018-03-15 11:00:47+00:00
-title: The Spring IoC Container
+title: The spring IoC container
 description:
 authors: ["rimonmostafiz"]
 comments: true

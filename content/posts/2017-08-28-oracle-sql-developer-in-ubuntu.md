@@ -1,6 +1,6 @@
 ---
 date: 2017-08-28 15:13:24+00:00
-title: Oracle SQL Developer in Ubuntu
+title: Oracle SQL developer in ubuntu
 description:
 author: rimonmostafiz
 comments: true

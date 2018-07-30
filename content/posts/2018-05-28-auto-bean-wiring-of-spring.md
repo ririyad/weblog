@@ -36,7 +36,7 @@ Spring attacks automatic wiring from two angles:
 
 To understand those concepts properly we will create a project for an online store, let's create a new maven project first
 
-![Create Maven Project](/img/create-maven-project.gif)
+![Create Maven Project](/images/create-maven-project.gif)
 
 ### Add Dependency
 

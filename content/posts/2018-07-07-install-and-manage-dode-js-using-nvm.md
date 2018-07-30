@@ -1,6 +1,6 @@
 ---
 date: 2018-07-07 04:17:09+00:00
-title: Install and Manage Node Js Using NVM
+title: Install and manage node js using NVM
 description: Manage different version of node in your development environment using NVM
 authors: ["rimonmostafiz"]
 comments: true

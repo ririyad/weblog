@@ -1,6 +1,6 @@
 ---
 date: 2017-09-03 00:21:00+00:00
-title: UVa 10311 - Goldbach and Euler
+title: Uva 10311 - goldbach and euler
 description:
 author: rimonmostafiz
 comments: true
