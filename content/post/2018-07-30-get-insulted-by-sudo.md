@@ -15,6 +15,8 @@ tags:
 toc: false
 emoji: true
 share: true
+comments: true
+image: "/images/sudo-insults.gif"
 ---
 Do you know `sudo` can insult you? wait, what :question: :confused:
 
