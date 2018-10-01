@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Spring-mvc on ~/dev/rimon</title>
+    <title>Spring-mvc on Rimon&#39;s Weblog</title>
     <link>/tags/spring-mvc/</link>
-    <description>Recent content in Spring-mvc on ~/dev/rimon</description>
+    <description>Recent content in Spring-mvc on Rimon&#39;s Weblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>© Creative Commons Attribution-ShareAlike 4.0 International License</copyright>
     <lastBuildDate>Mon, 30 Oct 2017 09:19:54 +0000</lastBuildDate>
@@ -13,10 +13,10 @@
     
     <item>
       <title>a bit of spring: part one</title>
-      <link>/posts/a-bit-of-spring-part-one/</link>
+      <link>/post/a-bit-of-spring-part-one/</link>
       <pubDate>Mon, 30 Oct 2017 09:19:54 +0000</pubDate>
       
-      <guid>/posts/a-bit-of-spring-part-one/</guid>
+      <guid>/post/a-bit-of-spring-part-one/</guid>
       <description>Spring MVC Java Configuration Hi All, This _should_ be the first in a series of &amp;ldquo;Rimon learns Spring&amp;rdquo; type blog posts I plan on writing as I learn bits of Spring. I am just documenting my learnings, not advising others based on what I&amp;rsquo;ve learned.
 Spring traditionally supports two types of configurations:
  XML based configuration

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Filter on ~/dev/rimon</title>
+    <title>Filter on Rimon&#39;s Weblog</title>
     <link>/tags/filter/</link>
-    <description>Recent content in Filter on ~/dev/rimon</description>
+    <description>Recent content in Filter on Rimon&#39;s Weblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>© Creative Commons Attribution-ShareAlike 4.0 International License</copyright>
     <lastBuildDate>Tue, 12 Dec 2017 10:08:51 +0000</lastBuildDate>
@@ -13,10 +13,10 @@
     
     <item>
       <title>Basic Web Application Structure of JavaEE</title>
-      <link>/posts/basic-web-application-structure-of-javaee/</link>
+      <link>/post/basic-web-application-structure-of-javaee/</link>
       <pubDate>Tue, 12 Dec 2017 10:08:51 +0000</pubDate>
       
-      <guid>/posts/basic-web-application-structure-of-javaee/</guid>
+      <guid>/post/basic-web-application-structure-of-javaee/</guid>
       <description>Basic Web Application Structure A lot of components go into making a Java EE application.
  Application Code and Third Party Libraries it depends on
  Deployment Descriptor, which includes instructions for deploying and starting the application

@@ -1,122 +1,61 @@
 baseURL = "/"
-title = "~/dev/rimon"
+title = "Rimon's Weblog"
 # for smart copyright line, leave this blank and check [params.copyright]
 copyright = "© Creative Commons Attribution-ShareAlike 4.0 International License"
 
-theme = "minimo"
+theme = "casper"
 
-disqusShortname = "rimonmostafiz"
-googleAnalytics = "UA-106775249-1"
+DisqusShortname = "rimonmostafiz"
 
-Paginate = 7
+Paginate = 10
 preserveTaxonomyNames = true
 
 enableRobotsTXT = true # generate robots.txt
 
 # Syntax Highlighting ( https://gohugo.io/content-management/syntax-highlighting/ )
 pygmentsCodefences = true
-
 enableEmoji = true
 
 # Missing translations will default to this content language
 defaultContentLanguage = "en"
 
-[params.info]
-description = "It's not what you read, it's what you ignore"
-title404 = "Nothing's here!"
+[params]
+  description = "Whatever the mind of man can conceive and believe, it can achieve."
+  title404 = "Nothing's here!"
+  metadescription = "Used as 'description' meta tag for both home and index pages. If not set, 'description' will be used instead"
+  cover = "images/pawn-mirror-chess-king.jpg"
+  author = "Rimon Mostafiz"
+  authorlocation = "Dhaka, Bangladesh"
+  authorwebsite = "https://rimonmostafiz.com"
+  authorbio= "Software Engineer at Tiger IT Bangladesh Ltd."
+  logo = "images/author.jpg"
+  googleAnalyticsUserID = "UA-106775249-1"
+  # Optional RSS-Link, if not provided it defaults to the standard index.xml
+  RSSLink = ""
+  githubName = "rimonmostafiz"
+  twitterName = "rimonmostafiz"
+  email = "ferary.rimon@gmail.com"
+  linkedinName = "rimonmostafiz"
+  twitter = "rimonmostafiz"
+  stackoverflowId = "4426099"
+  # facebookName = "RimonMostafiz"
+  # codepenName = ""
+  # keybaseName = ""
+  # flickrName = ""
+  # instagramName = ""
+  # pinterestName = ""
+  # googlePlusName = ""
+  # set true if you are not proud of using Hugo (true will hide the footer note "Proudly published with HUGO.....")
+  hideHUGOSupport = false
 
-[params.assets]
-favicon = "/images/favicon.png"
-customCSS = ["css/custom.css"]
-customJS = ["js/custom.js"]
-gopher = "" # used in 404 template ( Generator: https://gopherize.me )
+  # Setting a value will load highlight.js and enable syntax highlighting using the style selected.
+  # See https://github.com/isagalaev/highlight.js/tree/master/src/styles for available styles
+  # A preview of above styles can be viewed at https://highlightjs.org/static/demo/
+  hjsStyle = "default"
 
-[params.copyright]
-prefix = ""
-holder = ""
-startYear = ""
-suffix = ""
+  [params.social]
+    twitter = "rimonmostafiz"
 
-[params.settings]
-# date & time format: https://golang.org/pkg/time/
-dateFormat = "2006, Jan 02"
-listDateFormat = "2006, Jan 02"
-archiveDateFormat = "Jan 02"
-hideEntryNavigation = ["page"] # boolean / array of sections
-showReadingTime = true
-taxonomyCloudShuffle = true
-accentColor = "#ffcd00"
-hideMainMenu = false
-
-[params.sidebar]
-enable = true
-
-[params.widgets]
-homepage = ["recent_posts"]
-#sidebar = ["about","search","sidebar_menu","taxonomy_cloud"]
-sidebar = ["about", "sidebar_menu", "social_menu"]
-#footer = ["taxonomy_cloud"]
-
-[params.opengraph.facebook]
-admins = [] # array of Facebook IDs
-appID = ""
-pageID = ""
-
-[params.opengraph.twitter]
-page = "" # Twitter page username
-
-[params.seo]
-#Title Separator: - – — · • * ⋆ | ~ « » < >
-titleSeparator = "•"
-
-[params.social]
-#codepen = ""
-email = "ferary.rimon@gmail.com"
-facebook = "RimonMostafiz"
-github = "rimonmostafiz"
-gitlab = "rimonmostafiz"
-#instagram = ""
-linkedin = "rimonmostafiz"
-twitter = "rimonmostafiz"
-#telegram = ""
-#google_scholar = ""
-#youtube = "UCT-U0rNerYxItGcuoPX-WYA"
-
-[params.comments]
-enable = true
-
-[params.comments.staticman]
-#enable = true
-#apiEndpoint = "https://api.staticman.net/v2/entry"
-#maxDepth = 2
-
-[params.comments.staticman.github]
-#username = "RimonMostafiz"
-#repository = "minimo"
-#branch = "master"
-
-# Utterances: https://utteranc.es
-[params.comments.utterances]
-#enable = false
-#issueTerm = "pathname" # pathname / url / title
-
-[params.comments.utterances.github]
-#username = "RimonMostafiz"
-#repository = "minimo"
-
-[params.search]
-#client = "" # algolia / fuse / lunr
-
-[params.search.algolia]
-appId = ""
-indexName = ""
-searchApiKey = ""
-
-[taxonomies]
-author = "authors"
-category = "categories"
-series = "series"
-tag = "tags"
 
 [permalinks]
 page = "/:slug/"
@@ -129,33 +68,18 @@ page = "/:slug/"
 
 [[menu.main]]
 name = "Home"
-weight = -11
+weight = -1
 identifier = "home"
 url = "/"
 
 [[menu.main]]
-name = "Blog"
-weight = -10
-identifier = "blog"
-url = "/posts"
-
-[[menu.main]]
-name = "WhoAmI"
-weight = -9
-identifier = "whoami"
+name = "About"
+weight = -2
+identifier = "About"
 url = "/pages/whoami"
 
-[sidebar_menu]
-title = ""
-mirror = "main"
-
-
-[blackfriday]
-hrefTargetBlank = true
-
-[languages]
-# edit this block for your own language
-[languages.en]
-lang = "en"
-languageName = "English"
-weight = 1
+[[menu.main]]
+name = "Post"
+weight = -3
+identifier = "post"
+url = "/post/"

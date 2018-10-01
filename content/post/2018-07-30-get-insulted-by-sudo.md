@@ -14,6 +14,7 @@ tags:
   - fun
 toc: false
 emoji: true
+share: true
 ---
 Do you know `sudo` can insult you? wait, what :question: :confused:
 

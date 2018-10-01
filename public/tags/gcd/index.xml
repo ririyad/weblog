@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Gcd on ~/dev/rimon</title>
+    <title>Gcd on Rimon&#39;s Weblog</title>
     <link>/tags/gcd/</link>
-    <description>Recent content in Gcd on ~/dev/rimon</description>
+    <description>Recent content in Gcd on Rimon&#39;s Weblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>© Creative Commons Attribution-ShareAlike 4.0 International License</copyright>
     <lastBuildDate>Tue, 15 Aug 2017 16:00:00 +0000</lastBuildDate>
@@ -13,10 +13,10 @@
     
     <item>
       <title>Greatest common divisor (GCD)</title>
-      <link>/posts/greatest-common-divisor-gcd/</link>
+      <link>/post/greatest-common-divisor-gcd/</link>
       <pubDate>Tue, 15 Aug 2017 16:00:00 +0000</pubDate>
       
-      <guid>/posts/greatest-common-divisor-gcd/</guid>
+      <guid>/post/greatest-common-divisor-gcd/</guid>
       <description>Greatest Common Divisor (GCD) of two number a and b is the largest number that divides both a and b evenly.
 if g = gcd(a, b), then g divides both a and b when at least one of them is non zero.
 when gcd(a, b) == 1 then we said a and b is co-prime or relatively prime numbers.

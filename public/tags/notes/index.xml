@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Notes on ~/dev/rimon</title>
+    <title>Notes on Rimon&#39;s Weblog</title>
     <link>/tags/notes/</link>
-    <description>Recent content in Notes on ~/dev/rimon</description>
+    <description>Recent content in Notes on Rimon&#39;s Weblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>© Creative Commons Attribution-ShareAlike 4.0 International License</copyright>
     <lastBuildDate>Fri, 20 Oct 2017 18:39:46 +0000</lastBuildDate>
@@ -13,29 +13,29 @@
     
     <item>
       <title>Manage JDK Using SDKMAN</title>
-      <link>/posts/manage-jdk-using-sdkman/</link>
+      <link>/post/manage-jdk-using-sdkman/</link>
       <pubDate>Fri, 20 Oct 2017 18:39:46 +0000</pubDate>
       
-      <guid>/posts/manage-jdk-using-sdkman/</guid>
+      <guid>/post/manage-jdk-using-sdkman/</guid>
       <description>What is SDKMAN? [SDKMAN!](http://sdkman.io/index.html) is a tool for managing parallel versions of multiple Software Development Kits on most Unix based systems. It provides a convenient Command Line Interface (CLI) and API for installing, switching, removing and listing Candidates. Its also open source. You can see the codes form [SDKMAN&#39;s github repository](https://github.com/sdkman). As a developer its very common that you work on multiple projects which use different JDK version. Obviously, you can use update-alternatives to manage multiple JDK libraries on the same system to select which one you want to use as the main one.</description>
     </item>
     
     <item>
       <title>Installing and Running Elasticsearch</title>
-      <link>/posts/installing-and-running-elasticsearch/</link>
+      <link>/post/installing-and-running-elasticsearch/</link>
       <pubDate>Fri, 15 Sep 2017 12:36:35 +0000</pubDate>
       
-      <guid>/posts/installing-and-running-elasticsearch/</guid>
+      <guid>/post/installing-and-running-elasticsearch/</guid>
       <description>&amp;ldquo;tagline&amp;rdquo;: &amp;ldquo;You Know, for Search&amp;rdquo; _This article is part of a series. Check out the full series [icon name=&amp;ldquo;external-link&amp;rdquo; class=&amp;ldquo;&amp;rdquo; unprefixedclass=&amp;ldquo;&amp;rdquo;]
 The easiest way to understand what Elasticsearch is to play with it, so let’s get started. Elastic search is easy to install. In this tutorial, I will walk you through the elasticsearch installation process in Ubuntu 16.04. Elasticsearch requires a recent version of java. Oracle JDK version 1.8 is recommended.</description>
     </item>
     
     <item>
       <title>Git notes</title>
-      <link>/posts/git-notes/</link>
+      <link>/post/git-notes/</link>
       <pubDate>Thu, 17 Aug 2017 12:00:00 +0000</pubDate>
       
-      <guid>/posts/git-notes/</guid>
+      <guid>/post/git-notes/</guid>
       <description>Git cheat sheet for everyday life. Will update this in future&amp;hellip;
 $ git init # transform the current directory into a Git repository. This adds a .git folder to the current directory and makes it possible to start recording revisions $ git config --global user.email &amp;quot;you@example.com&amp;quot; $ git config --global user.name &amp;quot;Your Name&amp;quot; $ git config --global color.status auto $ git config --global color.diff auto $ git config --global color.branch auto $ git clone &amp;lt;git host&amp;gt;:/repo/&amp;lt;project name&amp;gt;.</description>
     </item>
