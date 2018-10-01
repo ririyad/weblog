@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Oracle on ~/dev/rimon</title>
+    <title>Oracle on Rimon&#39;s Weblog</title>
     <link>/tags/oracle/</link>
-    <description>Recent content in Oracle on ~/dev/rimon</description>
+    <description>Recent content in Oracle on Rimon&#39;s Weblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>© Creative Commons Attribution-ShareAlike 4.0 International License</copyright>
     <lastBuildDate>Fri, 20 Oct 2017 18:39:46 +0000</lastBuildDate>
@@ -13,19 +13,19 @@
     
     <item>
       <title>Manage JDK Using SDKMAN</title>
-      <link>/posts/manage-jdk-using-sdkman/</link>
+      <link>/post/manage-jdk-using-sdkman/</link>
       <pubDate>Fri, 20 Oct 2017 18:39:46 +0000</pubDate>
       
-      <guid>/posts/manage-jdk-using-sdkman/</guid>
+      <guid>/post/manage-jdk-using-sdkman/</guid>
       <description>What is SDKMAN? [SDKMAN!](http://sdkman.io/index.html) is a tool for managing parallel versions of multiple Software Development Kits on most Unix based systems. It provides a convenient Command Line Interface (CLI) and API for installing, switching, removing and listing Candidates. Its also open source. You can see the codes form [SDKMAN&#39;s github repository](https://github.com/sdkman). As a developer its very common that you work on multiple projects which use different JDK version. Obviously, you can use update-alternatives to manage multiple JDK libraries on the same system to select which one you want to use as the main one.</description>
     </item>
     
     <item>
       <title>Oracle SQL developer in ubuntu</title>
-      <link>/posts/oracle-sql-developer-in-ubuntu/</link>
+      <link>/post/oracle-sql-developer-in-ubuntu/</link>
       <pubDate>Mon, 28 Aug 2017 15:13:24 +0000</pubDate>
       
-      <guid>/posts/oracle-sql-developer-in-ubuntu/</guid>
+      <guid>/post/oracle-sql-developer-in-ubuntu/</guid>
       <description>You will need a free Oracle account to log in and download SQL Developer from Oracle Technology Network site. For ubuntu download the _Other Platforms version.
 At the time of writing this post, I download version is sqldeveloper-17.2.0.188.1159-no-jre.zip._ You will also need Java to run Oracle SQL developer.
 After download, I moved the download file to /home/rimonmostafiz/Applications (you can choose any other location you prefer).

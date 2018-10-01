@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Request on ~/dev/rimon</title>
+    <title>Request on Rimon&#39;s Weblog</title>
     <link>/tags/request/</link>
-    <description>Recent content in Request on ~/dev/rimon</description>
+    <description>Recent content in Request on Rimon&#39;s Weblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>© Creative Commons Attribution-ShareAlike 4.0 International License</copyright>
     <lastBuildDate>Wed, 13 Dec 2017 05:30:10 +0000</lastBuildDate>
@@ -13,10 +13,10 @@
     
     <item>
       <title>Know your request object</title>
-      <link>/posts/know-your-request-object/</link>
+      <link>/post/know-your-request-object/</link>
       <pubDate>Wed, 13 Dec 2017 05:30:10 +0000</pubDate>
       
-      <guid>/posts/know-your-request-object/</guid>
+      <guid>/post/know-your-request-object/</guid>
       <description>HTTPServletRequest The HServletRequestttp interface is an extension of ServletRequest that provides additional HTTP protocol-specific information about a received request. It specifies dozens of methods that you can use to obtain details about an HTTP request. It also permits you to set request attributes (different from request parameters).
 Request Param Request parameters come in two different forms:
  Query parameters (also called URI parameters) An application/x-www-form-urlencoded or multipart/form-data encoded request body(typically called post variables or form variables).</description>
