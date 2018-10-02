@@ -20,7 +20,7 @@
 
   	<meta property="og:title" content="Basics and Key Concepts of Elasticsearch &middot; Rimon&#39;s Weblog" />
   	<meta property="og:site_name" content="Rimon&#39;s Weblog" />
-  	<meta property="og:url" content="/post/basics-and-key-concepts-of-elasticsearch/" />
+  	<meta property="og:url" content="https://rimonmostafiz.com/post/basics-and-key-concepts-of-elasticsearch/" />
 
     
         
@@ -34,8 +34,6 @@
     <meta property="article:published_time" content="2017-09-15T10:26:28Z" />
 
     
-    <meta property="article:tag" content="database" />
-    
     <meta property="article:tag" content="elasticsearch" />
     
     <meta property="article:tag" content="nosql" />
@@ -47,7 +45,7 @@
     <title>Basics and Key Concepts of Elasticsearch &middot; Rimon&#39;s Weblog</title>
 
     
-    <meta name="description" content="Getting Started with Elasticsearch Basics _This article is part of a series. Check out the full series [icon name=&amp;ldquo;external-link&amp;rdquo; class=&amp;ldquo;&amp;rdqu" />
+    <meta name="description" content="Getting Started with Elasticsearch Basics This week finally I started learning Elasticsearch, I decided to keep some notes and share my concepts and understandi" />
     
 
     <meta name="HandheldFriendly" content="True" />
@@ -76,7 +74,7 @@
     
     <meta name="generator" content="Hugo 0.45" />
 
-    <link rel="canonical" href="/post/basics-and-key-concepts-of-elasticsearch/" />
+    <link rel="canonical" href="https://rimonmostafiz.com/post/basics-and-key-concepts-of-elasticsearch/" />
 
     
       
@@ -88,7 +86,7 @@
     "publisher": {
         "@type": "Organization",
         "name": ,
-        "logo": /images/author.jpg
+        "logo": https://rimonmostafiz.com/images/author.jpg
     },
     "author": {
         "@type": "Person",
@@ -96,7 +94,7 @@
         
         "image": {
             "@type": "ImageObject",
-            "url": /images/author.jpg,
+            "url": https://rimonmostafiz.com/images/author.jpg,
             "width": 250,
             "height": 250
         }, 
@@ -117,21 +115,21 @@
     },
     "headline": Basics and Key Concepts of Elasticsearch,
     "name": Basics and Key Concepts of Elasticsearch,
-    "wordCount": 1022,
+    "wordCount": 1006,
     "timeRequired": "PT5M",
     "inLanguage": {
       "@type": "Language",
       "alternateName": en
     },
-    "url": /post/basics-and-key-concepts-of-elasticsearch/,
+    "url": https://rimonmostafiz.com/post/basics-and-key-concepts-of-elasticsearch/,
     "datePublished": 2017-09-15T10:26Z,
     "dateModified": 2017-09-15T10:26Z,
     
-    "keywords": database, elasticsearch, nosql, restful,
+    "keywords": elasticsearch, nosql, restful,
     "description": ,
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": /post/basics-and-key-concepts-of-elasticsearch/
+        "@id": https://rimonmostafiz.com/post/basics-and-key-concepts-of-elasticsearch/
     }
 }
     </script>
@@ -205,7 +203,7 @@
 
 
   
-      <a class="blog-logo" href="/"><img src="/images/author.jpg" alt="Home" /></a>
+      <a class="blog-logo" href="https://rimonmostafiz.com/"><img src="/images/author.jpg" alt="Home" /></a>
   
   
       <a class="menu-button" href="#"><span class="burger">&#9776;</span><span class="word">Menu</span></a>
@@ -233,13 +231,11 @@
           </time>
         
          
-          <span class="post-tag small"><a href="//tags/database/">#database</a></span>
+          <span class="post-tag small"><a href="https://rimonmostafiz.com//tags/elasticsearch/">#elasticsearch</a></span>
          
-          <span class="post-tag small"><a href="//tags/elasticsearch/">#elasticsearch</a></span>
+          <span class="post-tag small"><a href="https://rimonmostafiz.com//tags/nosql/">#nosql</a></span>
          
-          <span class="post-tag small"><a href="//tags/nosql/">#nosql</a></span>
-         
-          <span class="post-tag small"><a href="//tags/restful/">#restful</a></span>
+          <span class="post-tag small"><a href="https://rimonmostafiz.com//tags/restful/">#restful</a></span>
          
         </section>
     </header>
@@ -247,9 +243,7 @@
     <section class="post-content">
       
 
-<h2 id="getting-started-with-elasticsearch-basics">Getting Started with Elasticsearch Basics</h2>
-
-<p>_This article is part of a series. Check out the <a href="http://www.rimonmostafiz.com/category/elasticsearch-series/">full series </a>[icon name=&ldquo;external-link&rdquo; class=&ldquo;&rdquo; unprefixed<em>class=&ldquo;&rdquo;]</em></p>
+<h3 id="getting-started-with-elasticsearch-basics">Getting Started with Elasticsearch Basics</h3>
 
 <p>This week finally I started learning Elasticsearch, I decided to keep some notes and share my concepts and understanding on this blog. So that if anyone wants to learn Elasticsearch he/she can learn with me.</p>
 
@@ -261,28 +255,28 @@
 
 <p>Elastic Search comes with lots of buzzwords and some key concepts, let me explain some of them a little&hellip;</p>
 
-<p><strong>Near Real Time: </strong>A near real-time search platform means there is a slight latency. When you index a document normally within one second it becomes searchable.</p>
+<p><strong>Near Real Time:</strong> A near real-time search platform means there is a slight latency. When you index a document normally within one second it becomes searchable.</p>
 
-<p><strong>Distributed: </strong>Elasticsearch is distributed by nature, I can start a node on my machine, and if you were to start nodes on your laptop&rsquo;s they&rsquo;d start talking to each other and form a cluster and they&rsquo;d be able to spread the load up between the cluster. Which makes it really scalable. You can give it more hardware and it knows how to spread all the loads across all of this hardware automatically.</p>
+<p><strong>Distributed:</strong> Elasticsearch is distributed by nature, I can start a node on my machine, and if you were to start nodes on your laptop&rsquo;s they&rsquo;d start talking to each other and form a cluster and they&rsquo;d be able to spread the load up between the cluster. Which makes it really scalable. You can give it more hardware and it knows how to spread all the loads across all of this hardware automatically.</p>
 
-<p><strong>Schema-less:</strong> A _schema_ is a description of one or more fields that describe the document type and how to handle the different fields of a document.</p>
+<p><strong>Schema-less:</strong> A schema is a description of one or more fields that describe the document type and how to handle the different fields of a document.</p>
 
 <p>Elasticsearch is schema-less which not completely true, it has the ability to be schema-less, which means that documents can be indexed without explicitly providing a schema. If you do not specify a mapping, Elasticsearch will by default generate one dynamically for you when detecting new fields in documents during indexing.</p>
 
-<p><strong>Cluster: </strong>A cluster is a collection of one or more nodes (servers) that together holds your entire data and provide federated indexing and search capabilities across all the nodes. Every cluster has a unique name, by default it is <code>elasticsearch</code>. A node can be configured to join a specific cluster by the cluster name.</p>
+<p><strong>Cluster:</strong> A cluster is a collection of one or more nodes (servers) that together holds your entire data and provide federated indexing and search capabilities across all the nodes. Every cluster has a unique name, by default it is <code>elasticsearch</code>. A node can be configured to join a specific cluster by the cluster name.</p>
 
-<p><strong>Nodes: </strong>A node is a single server that is part of your cluster, stores your data, and participates in the cluster’s indexing and search capabilities. A node also identified by a name which is by default is a random <em>Universally Unique IDentifier (UUID)</em> that is assigned to the node at startup.</p>
+<p><strong>Nodes:</strong> A node is a single server that is part of your cluster, stores your data, and participates in the cluster’s indexing and search capabilities. A node also identified by a name which is by default is a random <em>Universally Unique IDentifier (UUID)</em> that is assigned to the node at startup.</p>
 
 <p>By default, each node is set up to join a cluster named <code>elasticsearch</code> which means that if you start up a number of nodes on your network and—assuming they can discover each other—they will all automatically form and join a single cluster named <code>elasticsearch</code>.</p>
 
-<p>**Index: **An index is a collection of documents that have somewhat similar characteristics. An index is identified by a name (that must be all lowercase) and this name is used to refer to the index when performing indexing, search, update, and delete operations against the documents in it. In a single cluster, you can define as many indexes as you want.</p>
+<p><strong>Index:</strong> An index is a collection of documents that have somewhat similar characteristics. An index is identified by a name (that must be all lowercase) and this name is used to refer to the index when performing indexing, search, update, and delete operations against the documents in it. In a single cluster, you can define as many indexes as you want.</p>
 
 <p><strong>Type:</strong> Within an index, you can define one or more types. A type is defined for documents that have a set of common fields. For example, let’s assume you run a blogging platform and store all your data in a single index. In this index, you may define a type of user data, another type of blog data, and yet another type of comments data.</p>
 
-<p><strong>Documents: </strong>A document is a basic unit of information that can be indexed. For example, you can have a document for a single customer, another document for a single product, and yet another for a single order. This document is expressed in <a href="http://json.org/">JSON</a> (JavaScript Object Notation) which is a ubiquitous internet data interchange format. Within an index/type, you can store as many documents as you want.
+<p><strong>Documents:</strong> A document is a basic unit of information that can be indexed. For example, you can have a document for a single customer, another document for a single product, and yet another for a single order. This document is expressed in <a href="http://json.org/">JSON</a> (JavaScript Object Notation) which is a ubiquitous internet data interchange format. Within an index/type, you can store as many documents as you want.
 [table id=1 /]</p>
 
-<p><strong>Shards &amp; Replicas: </strong>Let&rsquo;s say you have a 1 TB machine and your data is on it. If your data is growing really fast - at one point, you&rsquo;ll run out of that 1 TB and disk space may not fit on the disk of a single node or may be too slow to serve search requests from a single node alone. To solve this problem, Elasticsearch provides the ability to subdivide your index into multiple pieces called shards. When you create an index, you can simply define the number of shards that you want. Each shard is in itself a fully-functional and independent &ldquo;index&rdquo; that can be hosted on any node in the cluster.</p>
+<p><strong>Shards &amp; Replicas:</strong> Let&rsquo;s say you have a 1 TB machine and your data is on it. If your data is growing really fast - at one point, you&rsquo;ll run out of that 1 TB and disk space may not fit on the disk of a single node or may be too slow to serve search requests from a single node alone. To solve this problem, Elasticsearch provides the ability to subdivide your index into multiple pieces called shards. When you create an index, you can simply define the number of shards that you want. Each shard is in itself a fully-functional and independent &ldquo;index&rdquo; that can be hosted on any node in the cluster.</p>
 
 <p>A shard is an unbreakable entity in Elasticsearch, in the sense that a shard can only stay on one machine (Node). An index which is a group of shards can spread across multiple machines (ES nodes) but shards can not.</p>
 
@@ -290,7 +284,7 @@
 
 <p>To summarize, each index can be split into multiple shards. An index can also be replicated zero (meaning no replicas) or more times. Once replicated, each index will have primary shards (the original shards that were replicated from) and replica shards (the copies of the primary shards). The number of shards and replicas can be defined per index at the time the index is created. After the index is created, you may change the number of replicas dynamically anytime but you cannot change the number of shards after-the-fact.</p>
 
-<p>For today I will stop here, <a href="http://wp.me/p94Vft-aH">next part</a> is about Elasticsearch Installation.</p>
+<p>For today I will stop here, <a href="https://rimonmostafiz.com/post/installing-and-running-elasticsearch/">next part</a> is about Elasticsearch Installation.</p>
 
     </section>
 
@@ -308,12 +302,12 @@
 
 
 <figure class="author-image">
-    <a class="img" href="/" style="background-image: url(/images/author.jpg)"><span class="hidden">rimonmostafiz's Picture</span></a>
+    <a class="img" href="https://rimonmostafiz.com/" style="background-image: url(/images/author.jpg)"><span class="hidden">Rimon Mostafiz's Picture</span></a>
 </figure>
 
 
 <section class="author">
-  <h4><a href="/">rimonmostafiz</a></h4>
+  <h4><a href="https://rimonmostafiz.com/">Rimon Mostafiz</a></h4>
   
   <p>Software Engineer at Tiger IT Bangladesh Ltd.</p>
   
@@ -329,19 +323,19 @@
     
 <section class="share">
   <h4>Share this post</h4>
-  <a class="icon-twitter" style="font-size: 1.4em" href="https://twitter.com/share?text=Basics%20and%20Key%20Concepts%20of%20Elasticsearch&nbsp;-&nbsp;Rimon%27s%20Weblog&amp;url=%2fpost%2fbasics-and-key-concepts-of-elasticsearch%2f"
+  <a class="icon-twitter" style="font-size: 1.4em" href="https://twitter.com/share?text=Basics%20and%20Key%20Concepts%20of%20Elasticsearch&nbsp;-&nbsp;Rimon%27s%20Weblog&amp;url=https%3a%2f%2frimonmostafiz.com%2fpost%2fbasics-and-key-concepts-of-elasticsearch%2f"
       onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
       <span class="hidden">Twitter</span>
   </a>
-  <a class="icon-facebook" style="font-size: 1.4em" href="https://www.facebook.com/sharer/sharer.php?u=%2fpost%2fbasics-and-key-concepts-of-elasticsearch%2f"
+  <a class="icon-facebook" style="font-size: 1.4em" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2frimonmostafiz.com%2fpost%2fbasics-and-key-concepts-of-elasticsearch%2f"
       onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
       <span class="hidden">Facebook</span>
   </a>
-  <a class="icon-pinterest" style="font-size: 1.4em" href="http://pinterest.com/pin/create/button/?url=%2fpost%2fbasics-and-key-concepts-of-elasticsearch%2f&amp;description=Basics%20and%20Key%20Concepts%20of%20Elasticsearch"
+  <a class="icon-pinterest" style="font-size: 1.4em" href="http://pinterest.com/pin/create/button/?url=https%3a%2f%2frimonmostafiz.com%2fpost%2fbasics-and-key-concepts-of-elasticsearch%2f&amp;description=Basics%20and%20Key%20Concepts%20of%20Elasticsearch"
       onclick="window.open(this.href, 'pinterest-share','width=580,height=296');return false;">
       <span class="hidden">Pinterest</span>
   </a>
-  <a class="icon-google-plus" style="font-size: 1.4em" href="https://plus.google.com/share?url=%2fpost%2fbasics-and-key-concepts-of-elasticsearch%2f"
+  <a class="icon-google-plus" style="font-size: 1.4em" href="https://plus.google.com/share?url=https%3a%2f%2frimonmostafiz.com%2fpost%2fbasics-and-key-concepts-of-elasticsearch%2f"
      onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
       <span class="hidden">Google+</span>
   </a>
@@ -358,8 +352,8 @@
 
 
 var disqus_config = function () {
-this.page.url = "\/post\/basics-and-key-concepts-of-elasticsearch\/";  
-this.page.identifier = "\/post\/basics-and-key-concepts-of-elasticsearch\/"; 
+this.page.url = "https:\/\/rimonmostafiz.com\/post\/basics-and-key-concepts-of-elasticsearch\/";  
+this.page.identifier = "https:\/\/rimonmostafiz.com\/post\/basics-and-key-concepts-of-elasticsearch\/"; 
 };
 
 (function() { 

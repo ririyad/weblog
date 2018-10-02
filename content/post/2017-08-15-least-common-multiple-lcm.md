@@ -1,19 +1,20 @@
 ---
-date: 2017-08-15 18:00:00+00:00
-title: Least common multiple (LCM)
-authors: ["rimonmostafiz"]
+author: Rimon Mostafiz
 comments: true
+date: 2017-08-15 18:00:00+00:00
+description:
+emoji: true
+image:
+link: https://rimonmostafiz.com/post/least-common-multiple-lcm/
+share: true
 slug: least-common-multiple-lcm
-link: http://rimonmostafiz.com/posts/least-common-multiple-lcm
-categories:
+tags:
 - algorithms
 - math
-tags:
 - lcm
-- math
+- gcd
 - number-theory
-toc: false
-emoji: true
+title: Least Common Multiple (LCM)
 ---
 
 Least Common Multiple (LCM) of two number a and b is the smallest positive integer that is divisible by both a and b. Since division of integers by zero is undefined, this definition has meaning only if a and b are both different from zero.

@@ -1,22 +1,17 @@
 ---
-date: 2018-07-30T14:35:07+06:00
-title: "Get insulted by sudo"
-description:
-authors: ["rimonmostafiz"]
-slug: get-insulted-by-sudo
-link: http://rimonmostafiz.com/posts/get-insulted-by-sudo
-categories:
-  - linux
-tags:
-  - sudo
-  - insults
-  - tweak
-  - fun
-toc: false
-emoji: true
-share: true
+author: Rimon Mostafiz
 comments: true
-image: "/images/sudo-insults.gif"
+date: 2018-07-30T14:35:07+06:00
+description:
+emoji: true
+image: /images/sudo-insults.gif
+share: true
+slug: get-insulted-by-sudo
+link: https://rimonmostafiz.com/post/get-insulted-by-sudo/
+tags:
+  - linux
+  - terminal
+title: "Get Insulted by sudo"
 ---
 Do you know `sudo` can insult you? wait, what :question: :confused:
 

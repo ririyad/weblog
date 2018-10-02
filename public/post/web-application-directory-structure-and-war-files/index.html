@@ -7,7 +7,9 @@
 
     
     
-        <meta name="twitter:card" content="summary"/>
+        
+        <meta name="twitter:card" content="summary_large_image"/>
+        <meta name="twitter:image" content="/images/web-application-directory-structure-and-war-files-cover.jpg"/>
     
 
 
@@ -20,12 +22,10 @@
 
   	<meta property="og:title" content="Web Application Directory Structure and WAR Files &middot; Rimon&#39;s Weblog" />
   	<meta property="og:site_name" content="Rimon&#39;s Weblog" />
-  	<meta property="og:url" content="/post/web-application-directory-structure-and-war-files/" />
+  	<meta property="og:url" content="https://rimonmostafiz.com/post/web-application-directory-structure-and-war-files/" />
 
     
-        
-            <meta property="og:image" content="/images/pawn-mirror-chess-king.jpg"/>
-        
+       <meta property="og:image" content="/images/web-application-directory-structure-and-war-files-cover.jpg"/>
     
 
     
@@ -34,24 +34,16 @@
     <meta property="article:published_time" content="2017-12-12T11:30:40Z" />
 
     
-    <meta property="article:tag" content="directory-structure" />
-    
-    <meta property="article:tag" content="java" />
-    
     <meta property="article:tag" content="javaee" />
     
-    <meta property="article:tag" content="server" />
-    
-    <meta property="article:tag" content="war" />
-    
-    <meta property="article:tag" content="web-app" />
+    <meta property="article:tag" content="web-application" />
     
     
 
     <title>Web Application Directory Structure and WAR Files &middot; Rimon&#39;s Weblog</title>
 
     
-    <meta name="description" content="Directory Structure and WAR Files Standard Java EE web applications are deployed as WAR files or “exploded” (unarchived) web application directories. All Java E" />
+    <meta name="description" content="Directory Structure and WAR Files Standard Java EE web applications are deployed as WAR files or exploded (unarchived) web application directories. All Java EE " />
     
 
     <meta name="HandheldFriendly" content="True" />
@@ -80,7 +72,7 @@
     
     <meta name="generator" content="Hugo 0.45" />
 
-    <link rel="canonical" href="/post/web-application-directory-structure-and-war-files/" />
+    <link rel="canonical" href="https://rimonmostafiz.com/post/web-application-directory-structure-and-war-files/" />
 
     
       
@@ -92,7 +84,7 @@
     "publisher": {
         "@type": "Organization",
         "name": ,
-        "logo": /images/author.jpg
+        "logo": https://rimonmostafiz.com/images/author.jpg
     },
     "author": {
         "@type": "Person",
@@ -100,7 +92,7 @@
         
         "image": {
             "@type": "ImageObject",
-            "url": /images/author.jpg,
+            "url": https://rimonmostafiz.com/images/author.jpg,
             "width": 250,
             "height": 250
         }, 
@@ -127,15 +119,22 @@
       "@type": "Language",
       "alternateName": en
     },
-    "url": /post/web-application-directory-structure-and-war-files/,
+    "url": https://rimonmostafiz.com/post/web-application-directory-structure-and-war-files/,
     "datePublished": 2017-12-12T11:30Z,
     "dateModified": 2017-12-12T11:30Z,
     
-    "keywords": directory-structure, java, javaee, server, war, web-app,
+    "image": {
+        "@type": "ImageObject",
+        "url": https://rimonmostafiz.com/images/web-application-directory-structure-and-war-files-cover.jpg,
+        "width": 3000,
+        "height": 1445
+    },
+    
+    "keywords": javaee, web-application,
     "description": ,
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": /post/web-application-directory-structure-and-war-files/
+        "@id": https://rimonmostafiz.com/post/web-application-directory-structure-and-war-files/
     }
 }
     </script>
@@ -204,12 +203,14 @@
 
 
 
-<header class="main-header post-head no-cover">
-  <nav class="main-nav clearfix">
+  
+  <header class="main-header post-head" style="background-image: url(/images/web-application-directory-structure-and-war-files-cover.jpg)">
+  
+  <nav class="main-nav overlay clearfix">
 
 
   
-      <a class="blog-logo" href="/"><img src="/images/author.jpg" alt="Home" /></a>
+      <a class="blog-logo" href="https://rimonmostafiz.com/"><img src="/images/author.jpg" alt="Home" /></a>
   
   
       <a class="menu-button" href="#"><span class="burger">&#9776;</span><span class="word">Menu</span></a>
@@ -237,17 +238,9 @@
           </time>
         
          
-          <span class="post-tag small"><a href="//tags/directory-structure/">#directory-structure</a></span>
+          <span class="post-tag small"><a href="https://rimonmostafiz.com//tags/javaee/">#javaee</a></span>
          
-          <span class="post-tag small"><a href="//tags/java/">#java</a></span>
-         
-          <span class="post-tag small"><a href="//tags/javaee/">#javaee</a></span>
-         
-          <span class="post-tag small"><a href="//tags/server/">#server</a></span>
-         
-          <span class="post-tag small"><a href="//tags/war/">#war</a></span>
-         
-          <span class="post-tag small"><a href="//tags/web-app/">#web-app</a></span>
+          <span class="post-tag small"><a href="https://rimonmostafiz.com//tags/web-application/">#web-application</a></span>
          
         </section>
     </header>
@@ -257,38 +250,36 @@
 
 <h3 id="directory-structure-and-war-files">Directory Structure and WAR Files</h3>
 
-<p>Standard Java EE web applications are deployed as <strong>WAR</strong> files or <strong>“exploded” (unarchived)</strong> web application directories. All Java EE web application servers support WAR file application archives. Whether archived or exploded, the directory structure convention, as shown in Figure is the same.</p>
+<p>Standard Java EE web applications are deployed as <strong>WAR</strong> files or <strong>exploded (unarchived)</strong> web application directories. All Java EE web application servers support WAR file application archives. Whether archived or exploded, the directory structure convention, as shown in Figure is the same.</p>
 
-<p><img src="http://www.rimonmostafiz.com/wp-content/uploads/2017/12/directory-structure-and-WAR-files-229x300.jpg" alt="" /></p>
+<p><img src="/images/directory-structure.jpg" alt="Directory Structure" /></p>
 
 <ul>
 <li><p>This structure contains classes and other application resources, the class files live in <strong><em>/WEB-INF/classes</em></strong>. The <strong>WEB-INF</strong> directory stores informational and instructional files that Java EE web application servers use to determine how to deploy and run the application. Its classes directory acts as the package root. All compiled application class files and other resources live within this directory.</p></li>
 
-<li><p>WAR files can contain bundled JAR files, which live in _<strong>/WEB-INF/lib.  </strong>_All the classes in the JAR files in this directory are also available to the application on the application’s classpath.</p></li>
+<li><p>WAR files can contain bundled JAR files, which live in <em><strong>/WEB-INF/lib.</strong></em> All the classes in the JAR files in this directory are also available to the application on the application’s classpath.</p></li>
 
-<li><p>The <em><strong>/WEB-INF/tags</strong></em> and _<strong>/WEB-INF/tld</strong>_ directories are reserved for holding JSP tag files and tag library descriptors, respectively.</p></li>
+<li><p>The <em><strong>/WEB-INF/tags</strong></em> and <strong><em>/WEB-INF/tld</em></strong> directories are reserved for holding JSP tag files and tag library descriptors, respectively.</p></li>
 
 <li><p>The <em><strong>i18n</strong></em> directory is not actually part of the Java EE specifications, but it is a convention that most application developers follow for storing internationalization (<em><strong>i18n</strong></em>) and localization (<em><strong>L10n</strong></em>) files.</p></li>
 
 <li><p>There are two different <em><strong>META-INF</strong></em> directories.</p>
 
 <ul>
-<li><p>The root-level <em><strong>/META-INF</strong></em> directory contains the application manifest file. This directory is not on the application classpath. You cannot
-use the ClassLoader to obtain resources in this directory.
-It contains resources for specific web containers or application servers.
-For example, Apache Tomcat looks for and uses a _context._xml file in this directory to help customize how the application is deployed in Tomcat.
-None of these files are part of the Java EE specification, and the supported files can vary from one application server or web container to the next.</p></li>
+<li><p>The root-level <em><strong>/META-INF</strong></em> directory contains the application manifest file. This directory is not on the application classpath. You cannot use the ClassLoader to obtain resources in this directory.
+It contains resources for specific web containers or application servers.<br>
+For example, Apache Tomcat looks for and uses a <em>context.xml</em> file in this directory to help customize how the application is deployed in Tomcat. None of these files are part of the Java EE specification, and the supported files can vary from one application server or web container to the next.</p></li>
 
-<li><p><em><strong>WEB-INF/classes/META-INF</strong></em> is on the classpath.
-Any application resources you desire in this directory, and they become accessible through the ClassLoader.
-Some Java EE components specify files that belong in this directory.
-For example, the Java Persistence API specifies two files, _persistence.xml, <em>and orm</em>.xml_ — that live in <em><strong>/WEB-INF/classes/META-INF</strong></em>.</p></li>
+<li><p><em><strong>WEB-INF/classes/META-INF</strong></em> is on the classpath. Any application resources you desire in this directory, and they become accessible through the ClassLoader.<br>
+Some Java EE components specify files that belong in this directory.<br>
+For example, the Java Persistence API specifies two files, <em>persistence.xml</em>, and <em>orm.xml</em> — that live in <em><strong>/WEB-INF/classes/META-INF</strong></em>.</p></li>
 </ul></li>
 </ul>
 
 <p>Most files contained within a <strong>WAR</strong> file or <strong>exploded</strong> web application directory are resources directly accessible through a URL.
-For example, the file <em>/bar.html</em> relative to the root of an application deployed to <em><a href="http://example.org/foo">http://example.org/foo</a></em> is accessible from <em><a href="http://example.org/foo/bar.html">http://example.org/foo/bar.html</a></em>.
-In the absence of any filter or security rules to the contrary, this holds true for all resources in your application except those resources under the <em><strong>/WEB-INF</strong></em> and <em><strong>/META-INF</strong></em> directories. The files in these directories are protected resources that are not accessible via URL.</p>
+For example, the file <em>/bar.html</em> relative to the root of an application deployed to <em><a href="http://example.org/foo">http://example.org/foo</a></em> is accessible from <em><a href="http://example.org/foo/bar.html">http://example.org/foo/bar.html</a></em>.</p>
+
+<p>In the absence of any filter or security rules to the contrary, this holds true for all resources in your application except those resources under the <em><strong>/WEB-INF</strong></em> and <em><strong>/META-INF</strong></em> directories. The files in these directories are protected resources that are not accessible via URL.</p>
 
     </section>
 
@@ -306,12 +297,12 @@ In the absence of any filter or security rules to the contrary, this holds true 
 
 
 <figure class="author-image">
-    <a class="img" href="/" style="background-image: url(/images/author.jpg)"><span class="hidden">rimonmostafiz's Picture</span></a>
+    <a class="img" href="https://rimonmostafiz.com/" style="background-image: url(/images/author.jpg)"><span class="hidden">Rimon Mostafiz's Picture</span></a>
 </figure>
 
 
 <section class="author">
-  <h4><a href="/">rimonmostafiz</a></h4>
+  <h4><a href="https://rimonmostafiz.com/">Rimon Mostafiz</a></h4>
   
   <p>Software Engineer at Tiger IT Bangladesh Ltd.</p>
   
@@ -327,19 +318,19 @@ In the absence of any filter or security rules to the contrary, this holds true 
     
 <section class="share">
   <h4>Share this post</h4>
-  <a class="icon-twitter" style="font-size: 1.4em" href="https://twitter.com/share?text=Web%20Application%20Directory%20Structure%20and%20WAR%20Files&nbsp;-&nbsp;Rimon%27s%20Weblog&amp;url=%2fpost%2fweb-application-directory-structure-and-war-files%2f"
+  <a class="icon-twitter" style="font-size: 1.4em" href="https://twitter.com/share?text=Web%20Application%20Directory%20Structure%20and%20WAR%20Files&nbsp;-&nbsp;Rimon%27s%20Weblog&amp;url=https%3a%2f%2frimonmostafiz.com%2fpost%2fweb-application-directory-structure-and-war-files%2f"
       onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
       <span class="hidden">Twitter</span>
   </a>
-  <a class="icon-facebook" style="font-size: 1.4em" href="https://www.facebook.com/sharer/sharer.php?u=%2fpost%2fweb-application-directory-structure-and-war-files%2f"
+  <a class="icon-facebook" style="font-size: 1.4em" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2frimonmostafiz.com%2fpost%2fweb-application-directory-structure-and-war-files%2f"
       onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
       <span class="hidden">Facebook</span>
   </a>
-  <a class="icon-pinterest" style="font-size: 1.4em" href="http://pinterest.com/pin/create/button/?url=%2fpost%2fweb-application-directory-structure-and-war-files%2f&amp;description=Web%20Application%20Directory%20Structure%20and%20WAR%20Files"
+  <a class="icon-pinterest" style="font-size: 1.4em" href="http://pinterest.com/pin/create/button/?url=https%3a%2f%2frimonmostafiz.com%2fpost%2fweb-application-directory-structure-and-war-files%2f&amp;description=Web%20Application%20Directory%20Structure%20and%20WAR%20Files"
       onclick="window.open(this.href, 'pinterest-share','width=580,height=296');return false;">
       <span class="hidden">Pinterest</span>
   </a>
-  <a class="icon-google-plus" style="font-size: 1.4em" href="https://plus.google.com/share?url=%2fpost%2fweb-application-directory-structure-and-war-files%2f"
+  <a class="icon-google-plus" style="font-size: 1.4em" href="https://plus.google.com/share?url=https%3a%2f%2frimonmostafiz.com%2fpost%2fweb-application-directory-structure-and-war-files%2f"
      onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
       <span class="hidden">Google+</span>
   </a>
@@ -356,8 +347,8 @@ In the absence of any filter or security rules to the contrary, this holds true 
 
 
 var disqus_config = function () {
-this.page.url = "\/post\/web-application-directory-structure-and-war-files\/";  
-this.page.identifier = "\/post\/web-application-directory-structure-and-war-files\/"; 
+this.page.url = "https:\/\/rimonmostafiz.com\/post\/web-application-directory-structure-and-war-files\/";  
+this.page.identifier = "https:\/\/rimonmostafiz.com\/post\/web-application-directory-structure-and-war-files\/"; 
 };
 
 (function() { 

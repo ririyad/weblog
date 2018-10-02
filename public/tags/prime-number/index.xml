@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Prime-number on Rimon&#39;s Weblog</title>
-    <link>/tags/prime-number/</link>
+    <link>https://rimonmostafiz.com/tags/prime-number/</link>
     <description>Recent content in Prime-number on Rimon&#39;s Weblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>© Creative Commons Attribution-ShareAlike 4.0 International License</copyright>
     <lastBuildDate>Sun, 03 Sep 2017 00:21:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/prime-number/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://rimonmostafiz.com/tags/prime-number/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Uva 10311 - goldbach and euler</title>
-      <link>/post/uva-10311-goldbach-and-euler/</link>
+      <title>Uva 10311 - Goldbach and Euler</title>
+      <link>https://rimonmostafiz.com/post/uva-10311-goldbach-and-euler/</link>
       <pubDate>Sun, 03 Sep 2017 00:21:00 +0000</pubDate>
       
-      <guid>/post/uva-10311-goldbach-and-euler/</guid>
+      <guid>https://rimonmostafiz.com/post/uva-10311-goldbach-and-euler/</guid>
       <description>Problem Statement: UVa 10311 - Goldbach and Euler
 We can express the problem statement like: Given an integer N (0 &amp;lt; N ≤ 108).
 we have to find(if exists) two number P1 and P2 where, * P1 and P2 both prime * P1 + P2 = n * P1 &amp;lt; P2 * P2 - P1 is minimized
@@ -24,22 +24,22 @@ Solution Idea: First of all we need to find prime numbers between [0:108].</desc
     </item>
     
     <item>
-      <title>Uva 406 - prime cuts</title>
-      <link>/post/uva-406-prime-cuts/</link>
+      <title>Uva 406 - Prime Cuts</title>
+      <link>https://rimonmostafiz.com/post/uva-406-prime-cuts/</link>
       <pubDate>Tue, 29 Aug 2017 21:39:00 +0000</pubDate>
       
-      <guid>/post/uva-406-prime-cuts/</guid>
+      <guid>https://rimonmostafiz.com/post/uva-406-prime-cuts/</guid>
       <description>Problem Statement: UVa 406 – Prime Cuts
 Before beginning I want to say the problem description seems quite awkward to me, for me it took a time to understand what is actually asked by the problem. but when I found out its very easy to code.
 Solution Idea: First of all use Sieve of Eratosthenes to generate primes between 1000. You will be given two numbers N and C, then you need to make a list of primes between 1 to N(inclusive).</description>
     </item>
     
     <item>
-      <title>Sieve of Eratosthenes (memory efficient implementation)</title>
-      <link>/post/sieve-of-eratosthenes-memory-efficient-implementation/</link>
+      <title>Sieve of Eratosthenes (Memory Efficient Implementation)</title>
+      <link>https://rimonmostafiz.com/post/sieve-of-eratosthenes-memory-efficient-implementation/</link>
       <pubDate>Wed, 16 Aug 2017 00:30:00 +0000</pubDate>
       
-      <guid>/post/sieve-of-eratosthenes-memory-efficient-implementation/</guid>
+      <guid>https://rimonmostafiz.com/post/sieve-of-eratosthenes-memory-efficient-implementation/</guid>
       <description>Say we want to find all prime numbers up to an integer N where N is 108. If we write a regular implementation of Sieve Of Eratosthenes using a bool array for each integer in the range [1:N] then we could end up using N bytes of memory, which would roughly be 95 MB which is a not a very small memory.
 Lets see how can we reduce the memory, the main idea here is we can store a Boolean value in a single bit, so we can store 8 Boolean values in a single byte.</description>
     </item>

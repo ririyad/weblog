@@ -7,7 +7,9 @@
 
     
     
-        <meta name="twitter:card" content="summary"/>
+        
+        <meta name="twitter:card" content="summary_large_image"/>
+        <meta name="twitter:image" content="/images/sdkman.jpg"/>
     
 
 
@@ -20,12 +22,10 @@
 
   	<meta property="og:title" content="Manage JDK Using SDKMAN &middot; Rimon&#39;s Weblog" />
   	<meta property="og:site_name" content="Rimon&#39;s Weblog" />
-  	<meta property="og:url" content="/post/manage-jdk-using-sdkman/" />
+  	<meta property="og:url" content="https://rimonmostafiz.com/post/manage-jdk-using-sdkman/" />
 
     
-        
-            <meta property="og:image" content="/images/pawn-mirror-chess-king.jpg"/>
-        
+       <meta property="og:image" content="/images/sdkman.jpg"/>
     
 
     
@@ -34,25 +34,11 @@
     <meta property="article:published_time" content="2017-10-20T18:39:46Z" />
 
     
-    <meta property="article:tag" content="command" />
-    
     <meta property="article:tag" content="java" />
     
     <meta property="article:tag" content="jdk" />
     
-    <meta property="article:tag" content="linux" />
-    
-    <meta property="article:tag" content="notes" />
-    
-    <meta property="article:tag" content="oracle" />
-    
-    <meta property="article:tag" content="sdk" />
-    
     <meta property="article:tag" content="sdkman" />
-    
-    <meta property="article:tag" content="ubuntu" />
-    
-    <meta property="article:tag" content="unix" />
     
     
 
@@ -88,7 +74,7 @@
     
     <meta name="generator" content="Hugo 0.45" />
 
-    <link rel="canonical" href="/post/manage-jdk-using-sdkman/" />
+    <link rel="canonical" href="https://rimonmostafiz.com/post/manage-jdk-using-sdkman/" />
 
     
       
@@ -100,7 +86,7 @@
     "publisher": {
         "@type": "Organization",
         "name": ,
-        "logo": /images/author.jpg
+        "logo": https://rimonmostafiz.com/images/author.jpg
     },
     "author": {
         "@type": "Person",
@@ -108,7 +94,7 @@
         
         "image": {
             "@type": "ImageObject",
-            "url": /images/author.jpg,
+            "url": https://rimonmostafiz.com/images/author.jpg,
             "width": 250,
             "height": 250
         }, 
@@ -129,21 +115,28 @@
     },
     "headline": Manage JDK Using SDKMAN,
     "name": Manage JDK Using SDKMAN,
-    "wordCount": 867,
+    "wordCount": 863,
     "timeRequired": "PT5M",
     "inLanguage": {
       "@type": "Language",
       "alternateName": en
     },
-    "url": /post/manage-jdk-using-sdkman/,
+    "url": https://rimonmostafiz.com/post/manage-jdk-using-sdkman/,
     "datePublished": 2017-10-20T18:39Z,
     "dateModified": 2017-10-20T18:39Z,
     
-    "keywords": command, java, jdk, linux, notes, oracle, sdk, sdkman, ubuntu, unix,
+    "image": {
+        "@type": "ImageObject",
+        "url": https://rimonmostafiz.com/images/sdkman.jpg,
+        "width": 3000,
+        "height": 1445
+    },
+    
+    "keywords": java, jdk, sdkman,
     "description": ,
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": /post/manage-jdk-using-sdkman/
+        "@id": https://rimonmostafiz.com/post/manage-jdk-using-sdkman/
     }
 }
     </script>
@@ -212,12 +205,14 @@
 
 
 
-<header class="main-header post-head no-cover">
-  <nav class="main-nav clearfix">
+  
+  <header class="main-header post-head" style="background-image: url(/images/sdkman.jpg)">
+  
+  <nav class="main-nav overlay clearfix">
 
 
   
-      <a class="blog-logo" href="/"><img src="/images/author.jpg" alt="Home" /></a>
+      <a class="blog-logo" href="https://rimonmostafiz.com/"><img src="/images/author.jpg" alt="Home" /></a>
   
   
       <a class="menu-button" href="#"><span class="burger">&#9776;</span><span class="word">Menu</span></a>
@@ -245,25 +240,11 @@
           </time>
         
          
-          <span class="post-tag small"><a href="//tags/command/">#command</a></span>
+          <span class="post-tag small"><a href="https://rimonmostafiz.com//tags/java/">#java</a></span>
          
-          <span class="post-tag small"><a href="//tags/java/">#java</a></span>
+          <span class="post-tag small"><a href="https://rimonmostafiz.com//tags/jdk/">#jdk</a></span>
          
-          <span class="post-tag small"><a href="//tags/jdk/">#jdk</a></span>
-         
-          <span class="post-tag small"><a href="//tags/linux/">#linux</a></span>
-         
-          <span class="post-tag small"><a href="//tags/notes/">#notes</a></span>
-         
-          <span class="post-tag small"><a href="//tags/oracle/">#oracle</a></span>
-         
-          <span class="post-tag small"><a href="//tags/sdk/">#sdk</a></span>
-         
-          <span class="post-tag small"><a href="//tags/sdkman/">#sdkman</a></span>
-         
-          <span class="post-tag small"><a href="//tags/ubuntu/">#ubuntu</a></span>
-         
-          <span class="post-tag small"><a href="//tags/unix/">#unix</a></span>
+          <span class="post-tag small"><a href="https://rimonmostafiz.com//tags/sdkman/">#sdkman</a></span>
          
         </section>
     </header>
@@ -275,7 +256,7 @@
 
 <blockquote>[SDKMAN!](http://sdkman.io/index.html) is a tool for managing parallel versions of multiple Software Development Kits on most Unix based systems. It provides a convenient Command Line Interface (CLI) and API for installing, switching, removing and listing Candidates. Its also open source. You can see the codes form [SDKMAN's github repository](https://github.com/sdkman).</blockquote>
 
-<p>As a developer its very common that you work on multiple projects which use different JDK version. Obviously, you can use <code>update-alternatives</code> to manage multiple JDK libraries on the same system to select which one you want to use as the main one.</p>
+<p>If you are a developer then its very common that you work on multiple projects which use different JDK version. Obviously, you can use <code>update-alternatives</code> to manage multiple JDK libraries on the same system to select which one you want to use as the main one.</p>
 
 <p>Did you ever tried the <code>update-alternatives</code> and then <code>java -version</code> was correct, but the link in <code>$JAVA_HOME</code> and <code>javac -version</code> was still wrong&hellip; and you changed that one manually?</p>
 
@@ -334,11 +315,10 @@ Available Java Versions
 <p>Now I want to install JDK 8 in my system, so first I need to downloaded Java SE Development Kit 8u152(you can choose any other version you like) from <a href="http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html">Oracle JDK Download Page</a>. Then extract the folder and then run following command:</p>
 
 <pre><code>$ sdk install java 8u152 /home/rimonmostafiz/Downloads/jdk1.8.0_152
-&lt;span style=&quot;color: #339966;&quot;&gt;Linking java 8u152 to /home/rimonmostafiz/Downloads/jdk1.8.0_152
-Done installing!
+&gt; Linking java 8u152 to /home/rimonmostafiz/Downloads/jdk1.8.0_152
+&gt; Done installing!
 
-&lt;span style=&quot;color: #000000;&quot;&gt;# for you, oviously you need to specify your jdk folder loacaion&lt;/span&gt;
-&lt;/span&gt;
+# for you, oviously you need to specify your jdk folder loacaion
 </code></pre>
 
 <p>It will install JDK 8 as a local version on the system. Actually, its linked to your JDK folder, if you delete this folder, then the link will be broken, so you have to keep it there(in my case in my download folder).
@@ -349,43 +329,37 @@ Done installing!
 
 <p>If you don&rsquo;t to want this download and linking hassle, The following command will install a latest stable version of java</p>
 
-<pre><code>&lt;code&gt;$ sdk install java&lt;/code&gt;
+<pre><code>$ sdk install java
 </code></pre>
 
 <p>If you want to choose the version</p>
 
-<pre><code>&lt;code&gt;$ sdk install java 8u151-oracle
-&lt;/code&gt;
+<pre><code>$ sdk install java 8u151-oracle
 </code></pre>
 
 <p>Make a given version the default:</p>
 
-<pre><code>&lt;code&gt;$ sdk default java 7u45
-&lt;/code&gt;
+<pre><code>$ sdk default java 7u45
 
+# check java version
+$ java -version
+java version &quot;1.7.0_80&quot;
+Java(TM) SE Runtime Environment (build 1.7.0_80-b15)
+Java HotSpot(TM) 64-Bit Server VM (build 24.80-b11, mixed mode)
 
+# check javac version
+$ javac -version
+javac 1.7.0_80
 
-
-&lt;code&gt;# check java version 
-$ java -version 
-java version &quot;1.7.0_80&quot; 
-Java(TM) SE Runtime Environment (build 1.7.0_80-b15) 
-Java HotSpot(TM) 64-Bit Server VM (build 24.80-b11, mixed mode) 
-
-# check javac version 
-$ javac -version 
-javac 1.7.0_80 
-
-# chack JAVA_HOME 
-$JAVA_HOME 
-bash: /home/rimonmostafiz/.sdkman/candidates/java/current: Is a directory&lt;/code&gt;
+# chack JAVA_HOME
+$JAVA_HOME
+bash: /home/rimonmostafiz/.sdkman/candidates/java/current: Is a directory
 </code></pre>
 
 <p>To see the current version</p>
 
-<pre><code>&lt;code&gt;$ sdk current java
+<pre><code>$ sdk current java
 Using java version 7u80
-&lt;/code&gt;
 </code></pre>
 
 <p>Now your default java version is JDK 7 and you are working on a project which is configured in JDK 8, and you need to compile the project JDK 8.
@@ -403,9 +377,9 @@ Go to the project directory and then open a terminal and enter:</p>
 Want to see which SDK you can also manage using SDKMAN
 Run on your terminal</p>
 
-<pre><code>&lt;code&gt;$ sdk list
+<pre><code>$ sdk list
 # a list will appear
-&lt;/code&gt;&lt;code&gt;
+
 ================================================================================
 Available Candidates
 ================================================================================
@@ -426,7 +400,7 @@ programming.
                                                             $ sdk install groovy
 --------------------------------------------------------------------------------
 Scala (2.11.7)                                        http://www.scala-lang.org/
-...&lt;/code&gt;
+...
 </code></pre>
 
 <p>Visit <a href="http://sdkman.io/sdks.html">this link</a> to see the SDK Installation Candidates.
@@ -479,12 +453,12 @@ sdkman_curl_max_time=10
 
 
 <figure class="author-image">
-    <a class="img" href="/" style="background-image: url(/images/author.jpg)"><span class="hidden">rimonmostafiz's Picture</span></a>
+    <a class="img" href="https://rimonmostafiz.com/" style="background-image: url(/images/author.jpg)"><span class="hidden">Rimon Mostafiz's Picture</span></a>
 </figure>
 
 
 <section class="author">
-  <h4><a href="/">rimonmostafiz</a></h4>
+  <h4><a href="https://rimonmostafiz.com/">Rimon Mostafiz</a></h4>
   
   <p>Software Engineer at Tiger IT Bangladesh Ltd.</p>
   
@@ -500,19 +474,19 @@ sdkman_curl_max_time=10
     
 <section class="share">
   <h4>Share this post</h4>
-  <a class="icon-twitter" style="font-size: 1.4em" href="https://twitter.com/share?text=Manage%20JDK%20Using%20SDKMAN&nbsp;-&nbsp;Rimon%27s%20Weblog&amp;url=%2fpost%2fmanage-jdk-using-sdkman%2f"
+  <a class="icon-twitter" style="font-size: 1.4em" href="https://twitter.com/share?text=Manage%20JDK%20Using%20SDKMAN&nbsp;-&nbsp;Rimon%27s%20Weblog&amp;url=https%3a%2f%2frimonmostafiz.com%2fpost%2fmanage-jdk-using-sdkman%2f"
       onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
       <span class="hidden">Twitter</span>
   </a>
-  <a class="icon-facebook" style="font-size: 1.4em" href="https://www.facebook.com/sharer/sharer.php?u=%2fpost%2fmanage-jdk-using-sdkman%2f"
+  <a class="icon-facebook" style="font-size: 1.4em" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2frimonmostafiz.com%2fpost%2fmanage-jdk-using-sdkman%2f"
       onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
       <span class="hidden">Facebook</span>
   </a>
-  <a class="icon-pinterest" style="font-size: 1.4em" href="http://pinterest.com/pin/create/button/?url=%2fpost%2fmanage-jdk-using-sdkman%2f&amp;description=Manage%20JDK%20Using%20SDKMAN"
+  <a class="icon-pinterest" style="font-size: 1.4em" href="http://pinterest.com/pin/create/button/?url=https%3a%2f%2frimonmostafiz.com%2fpost%2fmanage-jdk-using-sdkman%2f&amp;description=Manage%20JDK%20Using%20SDKMAN"
       onclick="window.open(this.href, 'pinterest-share','width=580,height=296');return false;">
       <span class="hidden">Pinterest</span>
   </a>
-  <a class="icon-google-plus" style="font-size: 1.4em" href="https://plus.google.com/share?url=%2fpost%2fmanage-jdk-using-sdkman%2f"
+  <a class="icon-google-plus" style="font-size: 1.4em" href="https://plus.google.com/share?url=https%3a%2f%2frimonmostafiz.com%2fpost%2fmanage-jdk-using-sdkman%2f"
      onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
       <span class="hidden">Google+</span>
   </a>
@@ -529,8 +503,8 @@ sdkman_curl_max_time=10
 
 
 var disqus_config = function () {
-this.page.url = "\/post\/manage-jdk-using-sdkman\/";  
-this.page.identifier = "\/post\/manage-jdk-using-sdkman\/"; 
+this.page.url = "https:\/\/rimonmostafiz.com\/post\/manage-jdk-using-sdkman\/";  
+this.page.identifier = "https:\/\/rimonmostafiz.com\/post\/manage-jdk-using-sdkman\/"; 
 };
 
 (function() { 
@@ -559,7 +533,7 @@ s.setAttribute('data-timestamp', +new Date());
   
       <a class="read-next-story" style="no-cover" href="/post/a-bit-of-spring-part-one/">
           <section class="post">
-              <h2>a bit of spring: part one</h2>
+              <h2>A Bit of Spring</h2>
               
           </section>
       </a>

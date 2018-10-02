@@ -1,19 +1,19 @@
 ---
-date: 2017-12-13 05:30:10+00:00
-title: Know your request object
-description:
-authors: ["rimonmostafiz"]
+author: Rimon Mostafiz
 comments: true
-slug: know-your-request-object
-link: http://rimonmostafiz.com/posts/know-your-request-object
-categories:
-- javaee
-tags:
-- post-variables
-- query-parameters
-- request
-toc: true
+date: 2017-12-13 05:30:10+00:00
+description:
 emoji: true
+image:
+link: https://rimonmostafiz.com/post/know-your-request-object/
+share: true
+slug: know-your-request-object
+tags:
+- javaee
+- web-application
+- servlet
+- request
+title: Know Your Request Object
 ---
 
 ## HTTPServletRequest

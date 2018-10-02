@@ -1,22 +1,20 @@
 ---
-date: 2018-05-26 06:42:47+00:00
-title: Spring application context and configuration metadata
-description:
-authors: ["rimonmostafiz"]
+author: Rimon Mostafiz
 comments: true
-slug: spring-application-context-and-configuration-metadata
-link: http://rimonmostafiz.com/posts/spring-application-context-and-configuration-metadata
-categories:
-- spring
-tags:
-- beans
-- configuration
-- metadata
-toc: false
+date: 2018-05-26 06:42:47+00:00
+description:
 emoji: true
+image:
+link: https://rimonmostafiz.com/post/spring-application-context-and-configuration-metadata/
+share: true
+slug: spring-application-context-and-configuration-metadata
+tags:
+- java
+- spring
+title: Spring Application Context and Configuration Metadata
 ---
 
-In the [last post](http://www.rimonmostafiz.com/blog/auto-bean-wiring-of-spring/) of Spring Diary, we discussed the basics of spring IoC Container and we saw a high-level view of how Spring Container works.
+In the [last post](https://rimonmostafiz.com/post/auto-bean-wiring-of-spring/) of Spring Diary, we discussed the basics of spring IoC Container and we saw a high-level view of how Spring Container works.
 
 In this post, we will learn about how can we Instantiate a Spring IoC container(using `ApplicaitonContext` Interface) and configure that container using configuration metadata.
 

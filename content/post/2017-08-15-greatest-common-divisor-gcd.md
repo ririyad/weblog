@@ -1,19 +1,19 @@
 ---
-date: 2017-08-15 16:00:00+00:00
-title: Greatest common divisor (GCD)
-authors: ["rimonmostafiz"]
+authors: Rimon Mostafiz
 comments: true
+date: 2017-08-15 16:00:00+00:00
+description:
+emoji: true
+image:
+link: https://rimonmostafiz.com/post/greatest-common-divisor-gcd/
+share: true
 slug: greatest-common-divisor-gcd
-link: http://rimonmostafiz.com/posts/greatest-common-divisor-gcd
-categories:
+tags:
 - algorithms
 - math
-tags:
 - gcd
-- math
 - number-theory
-toc: false
-emoji: true
+title: Greatest Common Divisor (GCD)
 ---
 
 Greatest Common Divisor (GCD) of two number a and b is the largest number that divides both a and b evenly.

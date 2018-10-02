@@ -12,15 +12,15 @@
 
 
 
-<meta name="twitter:title" content="a bit of spring: part one"/>
+<meta name="twitter:title" content="A Bit of Spring"/>
 <meta name="twitter:description" content=""/>
 <meta name="twitter:site" content="@rimonmostafiz"/>
 
 
 
-  	<meta property="og:title" content="a bit of spring: part one &middot; Rimon&#39;s Weblog" />
+  	<meta property="og:title" content="A Bit of Spring &middot; Rimon&#39;s Weblog" />
   	<meta property="og:site_name" content="Rimon&#39;s Weblog" />
-  	<meta property="og:url" content="/post/a-bit-of-spring-part-one/" />
+  	<meta property="og:url" content="https://rimonmostafiz.com/post/a-bit-of-spring-part-one/" />
 
     
         
@@ -34,24 +34,17 @@
     <meta property="article:published_time" content="2017-10-30T09:19:54Z" />
 
     
-    <meta property="article:tag" content="annotation" />
-    
-    <meta property="article:tag" content="configuration" />
-    
     <meta property="article:tag" content="java" />
-    
-    <meta property="article:tag" content="servlet" />
     
     <meta property="article:tag" content="spring" />
     
-    <meta property="article:tag" content="spring-mvc" />
-    
     
 
-    <title>a bit of spring: part one &middot; Rimon&#39;s Weblog</title>
+    <title>A Bit of Spring &middot; Rimon&#39;s Weblog</title>
 
     
-    <meta name="description" content="Spring MVC Java Configuration Hi All, This _should_ be the first in a series of &amp;ldquo;Rimon learns Spring&amp;rdquo; type blog posts I plan on writing as I learn b" />
+    <meta name="description" content="Spring MVC Java Configuration Spring traditionally supports two types of configurations:
+ XML based configuration Annotation-based configuration  This post is a" />
     
 
     <meta name="HandheldFriendly" content="True" />
@@ -80,7 +73,7 @@
     
     <meta name="generator" content="Hugo 0.45" />
 
-    <link rel="canonical" href="/post/a-bit-of-spring-part-one/" />
+    <link rel="canonical" href="https://rimonmostafiz.com/post/a-bit-of-spring-part-one/" />
 
     
       
@@ -92,7 +85,7 @@
     "publisher": {
         "@type": "Organization",
         "name": ,
-        "logo": /images/author.jpg
+        "logo": https://rimonmostafiz.com/images/author.jpg
     },
     "author": {
         "@type": "Person",
@@ -100,7 +93,7 @@
         
         "image": {
             "@type": "ImageObject",
-            "url": /images/author.jpg,
+            "url": https://rimonmostafiz.com/images/author.jpg,
             "width": 250,
             "height": 250
         }, 
@@ -119,23 +112,23 @@
         "description": Software Engineer at Tiger IT Bangladesh Ltd.
         
     },
-    "headline": a bit of spring: part one,
-    "name": a bit of spring: part one,
-    "wordCount": 634,
+    "headline": A Bit of Spring,
+    "name": A Bit of Spring,
+    "wordCount": 581,
     "timeRequired": "PT3M",
     "inLanguage": {
       "@type": "Language",
       "alternateName": en
     },
-    "url": /post/a-bit-of-spring-part-one/,
+    "url": https://rimonmostafiz.com/post/a-bit-of-spring-part-one/,
     "datePublished": 2017-10-30T09:19Z,
     "dateModified": 2017-10-30T09:19Z,
     
-    "keywords": annotation, configuration, java, servlet, spring, spring-mvc,
+    "keywords": java, spring,
     "description": ,
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": /post/a-bit-of-spring-part-one/
+        "@id": https://rimonmostafiz.com/post/a-bit-of-spring-part-one/
     }
 }
     </script>
@@ -209,7 +202,7 @@
 
 
   
-      <a class="blog-logo" href="/"><img src="/images/author.jpg" alt="Home" /></a>
+      <a class="blog-logo" href="https://rimonmostafiz.com/"><img src="/images/author.jpg" alt="Home" /></a>
   
   
       <a class="menu-button" href="#"><span class="burger">&#9776;</span><span class="word">Menu</span></a>
@@ -227,7 +220,7 @@
   <article class="post post">
 
     <header class="post-header">
-        <h1 class="post-title">a bit of spring: part one</h1>
+        <h1 class="post-title">A Bit of Spring</h1>
         <small></small>
 
         <section class="post-meta">
@@ -237,17 +230,9 @@
           </time>
         
          
-          <span class="post-tag small"><a href="//tags/annotation/">#annotation</a></span>
+          <span class="post-tag small"><a href="https://rimonmostafiz.com//tags/java/">#java</a></span>
          
-          <span class="post-tag small"><a href="//tags/configuration/">#configuration</a></span>
-         
-          <span class="post-tag small"><a href="//tags/java/">#java</a></span>
-         
-          <span class="post-tag small"><a href="//tags/servlet/">#servlet</a></span>
-         
-          <span class="post-tag small"><a href="//tags/spring/">#spring</a></span>
-         
-          <span class="post-tag small"><a href="//tags/spring-mvc/">#spring-mvc</a></span>
+          <span class="post-tag small"><a href="https://rimonmostafiz.com//tags/spring/">#spring</a></span>
          
         </section>
     </header>
@@ -257,15 +242,11 @@
 
 <h2 id="spring-mvc-java-configuration">Spring MVC Java Configuration</h2>
 
-<p>Hi All, This _should_ be the first in a series of <strong>&ldquo;<em>Rimon learns Spring&rdquo;</em></strong> type blog posts I plan on writing as I learn bits of <a href="https://spring.io/">Spring</a>.
-<strong>I am just documenting my learnings, not advising others based on what I&rsquo;ve learned.</strong></p>
-
 <p>Spring traditionally supports two types of configurations:</p>
 
 <ul>
-<li><p>XML based configuration</p></li>
-
-<li><p>Annotation-based configuration</p></li>
+<li>XML based configuration</li>
+<li>Annotation-based configuration</li>
 </ul>
 
 <p>This post is about a bare minimum annotation-based configuration of spring MVC.</p>
@@ -304,9 +285,6 @@
 
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
-/**
- * @author Rimon Mostafiz
- */
 public class WebAppInitializer extends AbstractAnnotationConfigDispatcherServletInitializer {
 
     protected String[] getServletMappings() {
@@ -336,32 +314,20 @@ public class WebAppInitializer extends AbstractAnnotationConfigDispatcherServlet
 <p><strong><em>getServletMappings() :</em></strong></p>
 
 <ul>
-<li><p>This method Identifies one or more paths that DispatcherServlet will be mapped to.</p></li>
-
-<li><p>In this case, it’s mapped to &ldquo;/&rdquo;, indicating that it will be the application’s default servlet.</p></li>
-
-<li><p>It will handle all requests coming into the application.</p></li>
+<li>This method Identifies one or more paths that DispatcherServlet will be mapped to.</li>
+<li>In this case, it’s mapped to &ldquo;/&rdquo;, indicating that it will be the application’s default servlet.</li>
+<li>It will handle all requests coming into the application.</li>
 </ul>
 
-<p><strong><em>getServletConfigClasses() :</em></strong></p>
+<p><strong><em>getServletConfigClasses() :</em></strong>
+  * When DispatcherServlet starts up, it creates a Spring application context and starts loading it with beans declared in the configuration files or classes that it’s given.
+  * Here we are asking Dispatcher-Servlet to load its application context with beans defined in the WebConfig configuration class.</p>
 
-<ul>
-<li><p>When DispatcherServlet starts up, it creates a Spring application context and starts loading it with beans declared in the configuration files or classes that it’s given.</p></li>
-
-<li><p>Here we are asking Dispatcher-Servlet to load its application context with beans defined in the WebConfig configuration class.</p></li>
-</ul>
-
-<p><strong><em>getRootConfigClasses() :</em></strong></p>
-
-<ul>
-<li><p>In Spring web applications, there’s often another application context.</p></li>
-
-<li><p>This other application context is created by <code>ContextLoaderListener</code></p></li>
-
-<li><p>Whereas DispatcherServlet is expected to load beans containing web components such as controllers, view resolvers, and handler mappings, ContextLoaderListener is expected to load the other beans in your application.</p></li>
-
-<li><p>These beans are typically the middle-tier and data-tier components that drive the back end of the application.</p></li>
-</ul>
+<p><strong><em>getRootConfigClasses() :</em></strong>
+  * In Spring web applications, there’s often another application context.
+  * This other application context is created by <code>ContextLoaderListener</code>
+  * Whereas DispatcherServlet is expected to load beans containing web components such as controllers, view resolvers, and handler mappings, ContextLoaderListener is expected to load the other beans in your application.
+  * These beans are typically the middle-tier and data-tier components that drive the back end of the application.</p>
 
 <h4 id="3-enable-web-mvc-and-webconfig-class">3. Enable Web MVC and WebConfig.class</h4>
 
@@ -376,9 +342,6 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 import org.springframework.web.servlet.view.InternalResourceViewResolver;
 
-/**
- * @author Rimon Mostafiz
- */
 @Configuration
 @EnableWebMvc
 @ComponentScan({&quot;com.rimonmostafiz&quot;})
@@ -402,11 +365,9 @@ public class WebConfig implements WebMvcConfigurer {
 <p>WebConfig class is annotated with</p>
 
 <ul>
-<li><p><em><strong>@Configuration</strong></em> as it is a configuration class, It indicates that a class declares one or more <code>@Bean</code> methods and may be processed by the Spring container to generate bean definitions and service requests for those beans at runtime</p></li>
-
-<li><p><em><strong>@EnableWebMvc</strong></em> as we are using java configuration so we are using this annotation to enable Spring MVC.</p></li>
-
-<li><p>_<strong>@ComponentScan </strong>_so that the rimonmostafiz.web package will be scanned for components.</p></li>
+<li><em><strong>@Configuration</strong></em> as it is a configuration class, It indicates that a class declares one or more <code>@Bean</code> methods and may be processed by the Spring container to generate bean definitions and service requests for those beans at runtime</li>
+<li><em><strong>@EnableWebMvc</strong></em> as we are using java configuration so we are using this annotation to enable Spring MVC.</li>
+<li><em><strong>@ComponentScan</strong></em> so that the <code>rimonmostafiz.web</code> package will be scanned for components.</li>
 </ul>
 
 <p>We have added a ViewResolver bean. It’s an InternalResourceViewResolver.
@@ -425,9 +386,6 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.FilterType;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 
-/**
- * @author Rimon Mostafiz
- */
 @Configuration
 @ComponentScan(basePackages={&quot;rimonmostafiz&quot;},
         excludeFilters={@ComponentScan.Filter(type= FilterType.ANNOTATION, value=EnableWebMvc.class)})
@@ -450,12 +408,12 @@ public class RootConfig {}
 
 
 <figure class="author-image">
-    <a class="img" href="/" style="background-image: url(/images/author.jpg)"><span class="hidden">rimonmostafiz's Picture</span></a>
+    <a class="img" href="https://rimonmostafiz.com/" style="background-image: url(/images/author.jpg)"><span class="hidden">Rimon Mostafiz's Picture</span></a>
 </figure>
 
 
 <section class="author">
-  <h4><a href="/">rimonmostafiz</a></h4>
+  <h4><a href="https://rimonmostafiz.com/">Rimon Mostafiz</a></h4>
   
   <p>Software Engineer at Tiger IT Bangladesh Ltd.</p>
   
@@ -471,19 +429,19 @@ public class RootConfig {}
     
 <section class="share">
   <h4>Share this post</h4>
-  <a class="icon-twitter" style="font-size: 1.4em" href="https://twitter.com/share?text=a%20bit%20of%20spring%3a%20part%20one&nbsp;-&nbsp;Rimon%27s%20Weblog&amp;url=%2fpost%2fa-bit-of-spring-part-one%2f"
+  <a class="icon-twitter" style="font-size: 1.4em" href="https://twitter.com/share?text=A%20Bit%20of%20Spring&nbsp;-&nbsp;Rimon%27s%20Weblog&amp;url=https%3a%2f%2frimonmostafiz.com%2fpost%2fa-bit-of-spring-part-one%2f"
       onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
       <span class="hidden">Twitter</span>
   </a>
-  <a class="icon-facebook" style="font-size: 1.4em" href="https://www.facebook.com/sharer/sharer.php?u=%2fpost%2fa-bit-of-spring-part-one%2f"
+  <a class="icon-facebook" style="font-size: 1.4em" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2frimonmostafiz.com%2fpost%2fa-bit-of-spring-part-one%2f"
       onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
       <span class="hidden">Facebook</span>
   </a>
-  <a class="icon-pinterest" style="font-size: 1.4em" href="http://pinterest.com/pin/create/button/?url=%2fpost%2fa-bit-of-spring-part-one%2f&amp;description=a%20bit%20of%20spring%3a%20part%20one"
+  <a class="icon-pinterest" style="font-size: 1.4em" href="http://pinterest.com/pin/create/button/?url=https%3a%2f%2frimonmostafiz.com%2fpost%2fa-bit-of-spring-part-one%2f&amp;description=A%20Bit%20of%20Spring"
       onclick="window.open(this.href, 'pinterest-share','width=580,height=296');return false;">
       <span class="hidden">Pinterest</span>
   </a>
-  <a class="icon-google-plus" style="font-size: 1.4em" href="https://plus.google.com/share?url=%2fpost%2fa-bit-of-spring-part-one%2f"
+  <a class="icon-google-plus" style="font-size: 1.4em" href="https://plus.google.com/share?url=https%3a%2f%2frimonmostafiz.com%2fpost%2fa-bit-of-spring-part-one%2f"
      onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
       <span class="hidden">Google+</span>
   </a>
@@ -500,8 +458,8 @@ public class RootConfig {}
 
 
 var disqus_config = function () {
-this.page.url = "\/post\/a-bit-of-spring-part-one\/";  
-this.page.identifier = "\/post\/a-bit-of-spring-part-one\/"; 
+this.page.url = "https:\/\/rimonmostafiz.com\/post\/a-bit-of-spring-part-one\/";  
+this.page.identifier = "https:\/\/rimonmostafiz.com\/post\/a-bit-of-spring-part-one\/"; 
 };
 
 (function() { 
@@ -536,7 +494,7 @@ s.setAttribute('data-timestamp', +new Date());
       </a>
   
   
-      <a class="read-next-story prev" style="no-cover" href="/post/manage-jdk-using-sdkman/">
+      <a class="read-next-story prev" style="background-image: url(/images/sdkman.jpg)" href="/post/manage-jdk-using-sdkman/">
           <section class="post">
               <h2>Manage JDK Using SDKMAN</h2>
           </section>

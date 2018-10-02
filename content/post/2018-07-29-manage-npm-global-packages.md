@@ -1,18 +1,17 @@
 ---
+author: Rimon Mostafiz
+comments: true
 date: 2018-07-29T15:35:41+06:00
-title: Manage npm global packages
-description: Install, Update, List and Uninstall global npm packages
-authors: ["rimonmostafiz"]
-slug: manage-npm-global-packages
-link: http://rimonmostafiz.com/posts/manage-npm-global-packages
-categories:
-  - npm
-tags:
-  - install-npm-package-globally
-  - update-npm-package-globally
-  - uninstall-npm-package-globally
-toc: true
+description: Install, Update, List and Uninstall Global npm Packages
 emoji: true
+image: images/manage-npm-global-packages-cover.jpg
+link: https://rimonmostafiz.com/post/manage-npm-global-packages/
+share: true
+slug: manage-npm-global-packages
+tags:
+  - npm
+  - nodejs
+title: Manage npm Global Packages
 ---
 ### Introduction
 This post is about how can we install, update, uninstall and list out installed global packages of NPM.

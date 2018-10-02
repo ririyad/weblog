@@ -1,73 +1,55 @@
 ---
-author: rimonmostafiz
+author: Rimon Mostafiz
 comments: true
 date: 2017-09-15 12:36:35+00:00
-layout: post
-link: http://www.rimonmostafiz.com/installing-and-running-elasticsearch/
+description:
+emoji:
+image:
+link: https://rimonmostafiz.com/post/installing-and-running-elasticsearch/
+share: true
 slug: installing-and-running-elasticsearch
-title: Installing and Running Elasticsearch
-wordpress_id: 663
-categories:
-- elasticsearch
-- elasticsearch-series
 tags:
 - elasticsearch
 - java
-- linux
-- notes
-- ubuntu
+title: Installing and Running Elasticsearch
 ---
 
-## "tagline": "You Know, for Search"
-
-
-_This article is part of a series. Check out the [full series ](http://www.rimonmostafiz.com/category/elasticsearch-series/)[icon name="external-link" class="" unprefixed_class=""]_
-
-The easiest way to understand what Elasticsearch is to play with it, so let’s get started. Elastic search is easy to install. In this tutorial, I will walk you through the elasticsearch installation process in Ubuntu 16.04. Elasticsearch requires a recent version of java. Oracle JDK version 1.8 is recommended. I am using JDK 1.8.0_131.
+The easiest way to understand what Elasticsearch is to play with it, so let’s get started. Elastic search is easy to install. In this tutorial, I will walk you through the elasticsearch installation process in Ubuntu 16.04. Elasticsearch requires a recent version of java. Oracle JDK version 1.8 is recommended. <br>
+I am using **JDK 1.8.0_131**.
 
 Before you install Elasticsearch, please check your Java version first by running:
 
-    
-    <span class="pln">java </span><span class="pun">-</span><span class="pln">version
-    echo $JAVA_HOME</span>
+
+    java -version
+    echo $JAVA_HOME
 
 
-We can download Elasticsearch from along[`www.elastic.co/downloads`](http://www.elastic.co/downloads) with all the release that has been made in the past. For each release `zip` `tar` archive, or `DEB` and `RPM` package is available.
+We can download Elasticsearch from [`www.elastic.co/downloads`](http://www.elastic.co/downloads) along with all the release that has been made in the past. For each release `zip` `tar` archive, or `DEB` and `RPM` package is available.
 
 
 At the time of writing post the latest version of Elasticsearch is 5.6.0.
 Let's download `tar.gz`from `[www.elastic.co/downloads/elasticsearch](http://www.elastic.co/downloads/elasticsearch)`
 Then extract it as follows:
 
-
-
-
-    
     tar -xvf elasticsearch-5.6.0.tar.gz
-
 
 Now go to the bin directory:
 
-    
     cd elasticsearch-5.6.0/bin
-
 
 And now we are ready to start our node and single cluster:
 
-    
     ./elasticsearch
 
 
-
-
-<blockquote>Add `-d` if you want to run it in the background as a daemon.
+<blockquote>Add -d if you want to run it in the background as a daemon.
 
 If you’re running Elasticsearch on Windows, simply run `bin\elasticsearch.bat` instead.</blockquote>
 
 
 If everything goes well, you should see a bunch of messages that look like:
 
-    
+
     [2017-09-15T23:49:35,321][INFO ][o.e.n.Node ] [] initializing ...
     [2017-09-15T23:49:35,729][INFO ][o.e.e.NodeEnvironment ] [AxGDTVX] using [1] data paths, mounts [[/ (/dev/sda2)]], net usable_space [19.1gb], net total_space [96.5gb], spins? [possibly], types [ext4]
     [2017-09-15T23:49:35,730][INFO ][o.e.e.NodeEnvironment ] [AxGDTVX] heap size [1.9gb], compressed ordinary object pointers [true]
@@ -100,7 +82,7 @@ If everything goes well, you should see a bunch of messages that look like:
 Here we can see our node name is `AxGDTVX`(which will be a different set of characters in your case) has started and elected itself as a master in a single cluster.
 We can override either the cluster or node name. This can be done from the command line when starting Elasticsearch as follows:
 
-    
+
     ./elasticsearch -Ecluster.name=my_cluster_name -Enode.name=my_node_name
 
 
@@ -109,7 +91,7 @@ By default, Elasticsearch uses port 9200 to provide access to its REST API. This
 
 So if now we fire up a browser and hit `http://localhost:9200,` Its gives something like:
 
-    
+
     {
       "name" : "AxGDTVX",
       "cluster_name" : "elasticsearch",

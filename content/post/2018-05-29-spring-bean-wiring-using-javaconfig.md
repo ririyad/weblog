@@ -1,24 +1,22 @@
 ---
-date: 2018-05-29 10:19:29+00:00
-title: Spring bean wiring using javaconfig
-description:
-authors: ["rimonmostafiz"]
+authors: Rimon Mostafiz
 comments: true
-slug: spring-bean-wiring-using-javaconfig
-link: http://rimonmostafiz.com/posts/spring-bean-wiring-using-javaconfig
-categories:
-- spring
-tags:
-- annotation
-- application-context
-- constructor-injection
-toc: true
+date: 2018-05-29 10:19:29+00:00
+description:
 emoji: true
+image:
+link: https://rimonmostafiz.com/post/spring-bean-wiring-using-javaconfig/
+share: true
+slug: spring-bean-wiring-using-javaconfig
+tags:
+- java
+- spring
+title: Spring Bean Wiring Using Javaonfig
 ---
 
-In the [previous post](https://www.rimonmostafiz.com/posts/auto-bean-wiring-of-spring/), I wrote about how can we implicitly wire beans automatically in Spring container. In my previous post I created a new maven project and started writing code so that we can understand the topics more clearly. In this post, I am documenting my learning of how we can wire bean using Explicit Java Configuration. I will work on the same project I have created earlier.
+In the [previous post](https://rimonmostafiz.com/post/auto-bean-wiring-of-spring/), I wrote about how can we implicitly wire beans automatically in Spring container. In my previous post I created a new maven project and started writing code so that we can understand the topics more clearly. In this post, I am documenting my learning of how we can wire bean using Explicit Java Configuration. I will work on the same project I have created earlier.
 
-## Explicit wiring using Java
+### Explicit wiring using Java
 
 When an automatic configuration isn’t an option then we must configure Spring explicitly. Let’s say that we want to wire components from some third-party library into our application. Because we don’t have the source code for that library, there’s no opportunity to annotate its classes with `@Component` and `@Autowired` annotations. Therefore, automatic configuration isn’t an option.
 
@@ -132,9 +130,7 @@ Here, the `store()` method asks for an Item as a parameter. When spring calls `s
 
 Let's test all this java configuration by creating an `App` class.
 
-[video width="1326" height="906" mp4="http://www.rimonmostafiz.com/wp-content/uploads/2018/05/wiring_bean_using_java_config.mp4"][/video]
-
-App.class Code
+**App.class Code**
 
     package com.rimonmostafiz;
 

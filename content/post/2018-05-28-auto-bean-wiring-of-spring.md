@@ -1,24 +1,22 @@
 ---
-date: 2018-05-28 07:44:03+00:00
-title: Auto Bean Wiring of Spring
-description:
-authors: ["rimonmostafiz"]
+author: Rimon Mostafiz
 comments: true
-slug: auto-bean-wiring-of-spring
-link: http://rimonmostafiz.com/posts/auto-bean-wiring-of-spring
-categories:
-- spring
-tags:
-- Autowired
-- Component
-- ComponentScan
-toc: true
+date: 2018-05-28 07:44:03+00:00
+description:
 emoji: true
+image: /images/create-maven-project.gif
+link: https://rimonmostafiz.com/post/auto-bean-wiring-of-spring/
+share: true
+slug: auto-bean-wiring-of-spring
+tags:
+- java
+- spring
+title: Auto Bean Wiring of Spring
 ---
 
 As we previously discussed that the Spring container is responsible for creating the beans in your application and coordinating the relationship between those objects vi DI. The act of creating these associations between application objects in the essence of dependency injection(DI) and is commonly referred to as wiring.
 
-## Different Types of Bean Wiring
+### Different Types of Bean Wiring
 Spring Offers three primary wiring mechanism
 
   * An explicit configuration in XML
@@ -27,7 +25,7 @@ Spring Offers three primary wiring mechanism
 
 In this post, I am going to write notes about Spring's automatic wiring, I will write about the other two in later posts.
 
-## Automatically wiring beans
+### Automatically wiring beans
 Spring attacks automatic wiring from two angles:
 
   * **Component scanning** - Spring automatically discovers beans to be created in the application context
@@ -199,6 +197,6 @@ Aautowiring is a means of letting Spring automatically satisfy a bean’s depend
 
 
 
-## Test
+### Test
 If you now run the test it will pass.
-![Test](/video/autowiring-test-spring-diary.mp4)
+<iframe width="600" height="400" src="/videos/autowiring-test-spring-diary.mp4" frameborder="0" allowfullscreen></iframe>

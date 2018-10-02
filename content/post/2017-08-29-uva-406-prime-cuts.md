@@ -1,19 +1,18 @@
 ---
-date: 2017-08-29 21:39:00+00:00
-title: Uva 406 - prime cuts
-description: Solution idea of UVa 406 - Prime Cuts
-author: rimonmostafiz
+author: Rimon Mostafiz
 comments: true
+date: 2017-08-29 21:39:00+00:00
+description: Solution idea of UVa 406 - Prime Cuts
+emoji: true
+image:
+link: https://rimonmostafiz.com/post/uva-406-prime-cuts/
+share: true
 slug: uva-406-prime-cuts
-link: http://rimonmostafiz.com/posts/uva-406-prime-cuts
-categories:
-- uva
 tags:
-- idea
+- uva
 - prime-number
 - problem-solving
-toc: true
-emoji: true
+title: Uva 406 - Prime Cuts
 ---
 ### Problem Statement:
 [UVa 406 – Prime Cuts](http://uva.onlinejudge.org/external/4/406.html)

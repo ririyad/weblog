@@ -1,51 +1,30 @@
 ---
-author: rimonmostafiz
+author: Rimon Mostafiz
 comments: true
 date: 2017-10-30 09:19:54+00:00
-layout: post
-link: http://www.rimonmostafiz.com/a-bit-of-spring-part-one/
+description:
+emoji: true
+image:
+link: https://www.rimonmostafiz.com/post/a-bit-of-spring-part-one/
+share: true
 slug: a-bit-of-spring-part-one
-title: 'a bit of spring: part one'
-wordpress_id: 830
-categories:
-- java
-- learning
-- spring
-- technology
 tags:
-- annotation
-- configuration
 - java
-- servlet
 - spring
-- spring-mvc
+title: A Bit of Spring
 ---
 
 ## Spring MVC Java Configuration
 
-
-Hi All, This _should_ be the first in a series of **"_Rimon learns Spring"_** type blog posts I plan on writing as I learn bits of [Spring](https://spring.io/).
-**I am just documenting my learnings, not advising others based on what I've learned.**
-
 Spring traditionally supports two types of configurations:
 
-
-
- 	
   * XML based configuration
-
- 	
   * Annotation-based configuration
-
 
 This post is about a bare minimum annotation-based configuration of spring MVC.
 
-
 #### 1. Maven Dependencies
 
-
-
-    
     <dependencyManagement>
         <dependencies>
             <dependency>
@@ -57,13 +36,13 @@ This post is about a bare minimum annotation-based configuration of spring MVC.
             </dependency>
         </dependencies>
     </dependencyManagement>
-    
+
     <dependencies>
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-webmvc</artifactId>
         </dependency>
-    
+
         <dependency>
             <groupId>javax.servlet</groupId>
             <artifactId>javax.servlet-api</artifactId>
@@ -71,37 +50,27 @@ This post is about a bare minimum annotation-based configuration of spring MVC.
         </dependency>
     </dependencies>
 
-
-
-
-
 #### 2. Configure DispatcherServlet
 
-
-
-    
     package com.rimonmostafiz.config;
-    
+
     import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
-    
-    /**
-     * @author Rimon Mostafiz
-     */
+
     public class WebAppInitializer extends AbstractAnnotationConfigDispatcherServletInitializer {
-    
+
         protected String[] getServletMappings() {
             return new String[] {"/"};
         }
-    
+
         protected Class<?>[] getServletConfigClasses() {
             return new Class<?>[] {RootConfig.class};
         }
-    
+
         protected Class<?>[] getRootConfigClasses() {
             return new Class<?>[] {WebConfig.class};
         }
     }
-    
+
 
 
 In a Servlet 3.0, If an application has any class in the classpath which implements  `javax.servlet.ServletContainerInitializer` interface, then that class is used to configure the servlet container.
@@ -116,55 +85,24 @@ WebAppInitializer overrides three methods. Let's talk about them a bit
 
 **_getServletMappings() :_**
 
-
-
- 	
   * This method Identifies one or more paths that DispatcherServlet will be mapped to.
-
- 	
   * In this case, it’s mapped to "/", indicating that it will be the application’s default servlet.
-
- 	
   * It will handle all requests coming into the application.
 
-
 **_getServletConfigClasses() :_**
-
-
-
- 	
   * When DispatcherServlet starts up, it creates a Spring application context and starts loading it with beans declared in the configuration files or classes that it’s given.
-
- 	
   * Here we are asking Dispatcher-Servlet to load its application context with beans defined in the WebConfig configuration class.
 
-
 **_getRootConfigClasses() :_**
-
-
-
- 	
   * In Spring web applications, there’s often another application context.
-
- 	
   * This other application context is created by `ContextLoaderListener`
-
- 	
   * Whereas DispatcherServlet is expected to load beans containing web components such as controllers, view resolvers, and handler mappings, ContextLoaderListener is expected to load the other beans in your application.
-
- 	
   * These beans are typically the middle-tier and data-tier components that drive the back end of the application.
-
-
-
 
 #### 3. Enable Web MVC and WebConfig.class
 
-
-
-    
     package com.rimonmostafiz.config;
-    
+
     import org.springframework.context.annotation.Bean;
     import org.springframework.context.annotation.ComponentScan;
     import org.springframework.context.annotation.Configuration;
@@ -173,15 +111,12 @@ WebAppInitializer overrides three methods. Let's talk about them a bit
     import org.springframework.web.servlet.config.annotation.EnableWebMvc;
     import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
     import org.springframework.web.servlet.view.InternalResourceViewResolver;
-    
-    /**
-     * @author Rimon Mostafiz
-     */
+
     @Configuration
     @EnableWebMvc
     @ComponentScan({"com.rimonmostafiz"})
     public class WebConfig implements WebMvcConfigurer {
-    
+
         @Bean // configure a jsp view resolver
         ViewResolver viewResolver() {
             InternalResourceViewResolver resolver = new InternalResourceViewResolver();
@@ -190,26 +125,17 @@ WebAppInitializer overrides three methods. Let's talk about them a bit
             resolver.setExposeContextBeansAsAttributes(true);
             return resolver;
         }
-        
+
         public void configureDefaultServletHandling(DefaultServletHandlerConfigurer configurer) {
             configurer.enable();
         }
     }
-    
-
 
 WebConfig class is annotated with
 
-
-
- 	
   * _**@Configuration**_ as it is a configuration class, It indicates that a class declares one or more `@Bean` methods and may be processed by the Spring container to generate bean definitions and service requests for those beans at runtime
-
- 	
   * _**@EnableWebMvc**_ as we are using java configuration so we are using this annotation to enable Spring MVC.
-
- 	
-  * _**@ComponentScan **_so that the rimonmostafiz.web package will be scanned for components.
+  * _**@ComponentScan**_ so that the `rimonmostafiz.web` package will be scanned for components.
 
 
 We have added a ViewResolver bean. It’s an InternalResourceViewResolver.
@@ -222,19 +148,13 @@ By calling `enable()` on the given `DefaultServletHandlerConfigurer`, we are ask
 
 #### 4. Minimum RootConfig.class
 
-
-
-    
     package com.rimonmostafiz.config;
-    
+
     import org.springframework.context.annotation.ComponentScan;
     import org.springframework.context.annotation.Configuration;
     import org.springframework.context.annotation.FilterType;
     import org.springframework.web.servlet.config.annotation.EnableWebMvc;
-    
-    /**
-     * @author Rimon Mostafiz
-     */
+
     @Configuration
     @ComponentScan(basePackages={"rimonmostafiz"},
             excludeFilters={@ComponentScan.Filter(type= FilterType.ANNOTATION, value=EnableWebMvc.class)})
