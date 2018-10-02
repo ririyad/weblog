@@ -1,19 +1,18 @@
 ---
-date: 2018-03-15 11:00:47+00:00
-title: The spring IoC container
-description:
-authors: ["rimonmostafiz"]
+author: Rimon Mostafiz
 comments: true
-slug: the-spring-ioc-container
-link: http://rimonmostafiz.com/posts/the-spring-ioc-container
-categories:
-- spring
-tags:
-- applicaiton-context
-- container
-- ioc
-toc: true
+date: 2018-03-15 11:00:47+00:00
+description:
 emoji: true
+image:
+link: https://rimonmostafiz.com/post/the-spring-ioc-container/
+share: true
+slug: the-spring-ioc-container
+tags:
+- java
+- spring
+- ioc
+title: The Spring IoC Container
 ---
 
 ## Overview

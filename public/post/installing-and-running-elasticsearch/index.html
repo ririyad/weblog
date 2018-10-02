@@ -20,7 +20,7 @@
 
   	<meta property="og:title" content="Installing and Running Elasticsearch &middot; Rimon&#39;s Weblog" />
   	<meta property="og:site_name" content="Rimon&#39;s Weblog" />
-  	<meta property="og:url" content="/post/installing-and-running-elasticsearch/" />
+  	<meta property="og:url" content="https://rimonmostafiz.com/post/installing-and-running-elasticsearch/" />
 
     
         
@@ -38,18 +38,12 @@
     
     <meta property="article:tag" content="java" />
     
-    <meta property="article:tag" content="linux" />
-    
-    <meta property="article:tag" content="notes" />
-    
-    <meta property="article:tag" content="ubuntu" />
-    
     
 
     <title>Installing and Running Elasticsearch &middot; Rimon&#39;s Weblog</title>
 
     
-    <meta name="description" content="&amp;ldquo;tagline&amp;rdquo;: &amp;ldquo;You Know, for Search&amp;rdquo; _This article is part of a series. Check out the full series [icon name=&amp;ldquo;external-link&amp;rdquo; cl" />
+    <meta name="description" content="The easiest way to understand what Elasticsearch is to play with it, so let’s get started. Elastic search is easy to install. In this tutorial, I will walk you " />
     
 
     <meta name="HandheldFriendly" content="True" />
@@ -78,7 +72,7 @@
     
     <meta name="generator" content="Hugo 0.45" />
 
-    <link rel="canonical" href="/post/installing-and-running-elasticsearch/" />
+    <link rel="canonical" href="https://rimonmostafiz.com/post/installing-and-running-elasticsearch/" />
 
     
       
@@ -90,7 +84,7 @@
     "publisher": {
         "@type": "Organization",
         "name": ,
-        "logo": /images/author.jpg
+        "logo": https://rimonmostafiz.com/images/author.jpg
     },
     "author": {
         "@type": "Person",
@@ -98,7 +92,7 @@
         
         "image": {
             "@type": "ImageObject",
-            "url": /images/author.jpg,
+            "url": https://rimonmostafiz.com/images/author.jpg,
             "width": 250,
             "height": 250
         }, 
@@ -119,21 +113,21 @@
     },
     "headline": Installing and Running Elasticsearch,
     "name": Installing and Running Elasticsearch,
-    "wordCount": 630,
+    "wordCount": 607,
     "timeRequired": "PT3M",
     "inLanguage": {
       "@type": "Language",
       "alternateName": en
     },
-    "url": /post/installing-and-running-elasticsearch/,
+    "url": https://rimonmostafiz.com/post/installing-and-running-elasticsearch/,
     "datePublished": 2017-09-15T12:36Z,
     "dateModified": 2017-09-15T12:36Z,
     
-    "keywords": elasticsearch, java, linux, notes, ubuntu,
+    "keywords": elasticsearch, java,
     "description": ,
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": /post/installing-and-running-elasticsearch/
+        "@id": https://rimonmostafiz.com/post/installing-and-running-elasticsearch/
     }
 }
     </script>
@@ -207,7 +201,7 @@
 
 
   
-      <a class="blog-logo" href="/"><img src="/images/author.jpg" alt="Home" /></a>
+      <a class="blog-logo" href="https://rimonmostafiz.com/"><img src="/images/author.jpg" alt="Home" /></a>
   
   
       <a class="menu-button" href="#"><span class="burger">&#9776;</span><span class="word">Menu</span></a>
@@ -235,35 +229,24 @@
           </time>
         
          
-          <span class="post-tag small"><a href="//tags/elasticsearch/">#elasticsearch</a></span>
+          <span class="post-tag small"><a href="https://rimonmostafiz.com//tags/elasticsearch/">#elasticsearch</a></span>
          
-          <span class="post-tag small"><a href="//tags/java/">#java</a></span>
-         
-          <span class="post-tag small"><a href="//tags/linux/">#linux</a></span>
-         
-          <span class="post-tag small"><a href="//tags/notes/">#notes</a></span>
-         
-          <span class="post-tag small"><a href="//tags/ubuntu/">#ubuntu</a></span>
+          <span class="post-tag small"><a href="https://rimonmostafiz.com//tags/java/">#java</a></span>
          
         </section>
     </header>
 
     <section class="post-content">
-      
-
-<h2 id="tagline-you-know-for-search">&ldquo;tagline&rdquo;: &ldquo;You Know, for Search&rdquo;</h2>
-
-<p>_This article is part of a series. Check out the <a href="http://www.rimonmostafiz.com/category/elasticsearch-series/">full series </a>[icon name=&ldquo;external-link&rdquo; class=&ldquo;&rdquo; unprefixed<em>class=&ldquo;&rdquo;]</em></p>
-
-<p>The easiest way to understand what Elasticsearch is to play with it, so let’s get started. Elastic search is easy to install. In this tutorial, I will walk you through the elasticsearch installation process in Ubuntu 16.04. Elasticsearch requires a recent version of java. Oracle JDK version 1.8 is recommended. I am using JDK 1.8.0_131.</p>
+      <p>The easiest way to understand what Elasticsearch is to play with it, so let’s get started. Elastic search is easy to install. In this tutorial, I will walk you through the elasticsearch installation process in Ubuntu 16.04. Elasticsearch requires a recent version of java. Oracle JDK version 1.8 is recommended. <br>
+I am using <strong>JDK 1.8.0_131</strong>.</p>
 
 <p>Before you install Elasticsearch, please check your Java version first by running:</p>
 
-<pre><code>&lt;span class=&quot;pln&quot;&gt;java &lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt;version
-echo $JAVA_HOME&lt;/span&gt;
+<pre><code>java -version
+echo $JAVA_HOME
 </code></pre>
 
-<p>We can download Elasticsearch from along<a href="http://www.elastic.co/downloads"><code>www.elastic.co/downloads</code></a> with all the release that has been made in the past. For each release <code>zip</code> <code>tar</code> archive, or <code>DEB</code> and <code>RPM</code> package is available.</p>
+<p>We can download Elasticsearch from <a href="http://www.elastic.co/downloads"><code>www.elastic.co/downloads</code></a> along with all the release that has been made in the past. For each release <code>zip</code> <code>tar</code> archive, or <code>DEB</code> and <code>RPM</code> package is available.</p>
 
 <p>At the time of writing post the latest version of Elasticsearch is 5.6.0.
 Let&rsquo;s download <code>tar.gz</code>from <code>[www.elastic.co/downloads/elasticsearch](http://www.elastic.co/downloads/elasticsearch)</code>
@@ -282,7 +265,7 @@ Then extract it as follows:</p>
 <pre><code>./elasticsearch
 </code></pre>
 
-<blockquote>Add `-d` if you want to run it in the background as a daemon.
+<blockquote>Add -d if you want to run it in the background as a daemon.
 
 If you’re running Elasticsearch on Windows, simply run `bin\elasticsearch.bat` instead.</blockquote>
 
@@ -362,12 +345,12 @@ If you use windows then you can find the installation guide from <a href="https:
 
 
 <figure class="author-image">
-    <a class="img" href="/" style="background-image: url(/images/author.jpg)"><span class="hidden">rimonmostafiz's Picture</span></a>
+    <a class="img" href="https://rimonmostafiz.com/" style="background-image: url(/images/author.jpg)"><span class="hidden">Rimon Mostafiz's Picture</span></a>
 </figure>
 
 
 <section class="author">
-  <h4><a href="/">rimonmostafiz</a></h4>
+  <h4><a href="https://rimonmostafiz.com/">Rimon Mostafiz</a></h4>
   
   <p>Software Engineer at Tiger IT Bangladesh Ltd.</p>
   
@@ -383,19 +366,19 @@ If you use windows then you can find the installation guide from <a href="https:
     
 <section class="share">
   <h4>Share this post</h4>
-  <a class="icon-twitter" style="font-size: 1.4em" href="https://twitter.com/share?text=Installing%20and%20Running%20Elasticsearch&nbsp;-&nbsp;Rimon%27s%20Weblog&amp;url=%2fpost%2finstalling-and-running-elasticsearch%2f"
+  <a class="icon-twitter" style="font-size: 1.4em" href="https://twitter.com/share?text=Installing%20and%20Running%20Elasticsearch&nbsp;-&nbsp;Rimon%27s%20Weblog&amp;url=https%3a%2f%2frimonmostafiz.com%2fpost%2finstalling-and-running-elasticsearch%2f"
       onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
       <span class="hidden">Twitter</span>
   </a>
-  <a class="icon-facebook" style="font-size: 1.4em" href="https://www.facebook.com/sharer/sharer.php?u=%2fpost%2finstalling-and-running-elasticsearch%2f"
+  <a class="icon-facebook" style="font-size: 1.4em" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2frimonmostafiz.com%2fpost%2finstalling-and-running-elasticsearch%2f"
       onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
       <span class="hidden">Facebook</span>
   </a>
-  <a class="icon-pinterest" style="font-size: 1.4em" href="http://pinterest.com/pin/create/button/?url=%2fpost%2finstalling-and-running-elasticsearch%2f&amp;description=Installing%20and%20Running%20Elasticsearch"
+  <a class="icon-pinterest" style="font-size: 1.4em" href="http://pinterest.com/pin/create/button/?url=https%3a%2f%2frimonmostafiz.com%2fpost%2finstalling-and-running-elasticsearch%2f&amp;description=Installing%20and%20Running%20Elasticsearch"
       onclick="window.open(this.href, 'pinterest-share','width=580,height=296');return false;">
       <span class="hidden">Pinterest</span>
   </a>
-  <a class="icon-google-plus" style="font-size: 1.4em" href="https://plus.google.com/share?url=%2fpost%2finstalling-and-running-elasticsearch%2f"
+  <a class="icon-google-plus" style="font-size: 1.4em" href="https://plus.google.com/share?url=https%3a%2f%2frimonmostafiz.com%2fpost%2finstalling-and-running-elasticsearch%2f"
      onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
       <span class="hidden">Google+</span>
   </a>
@@ -412,8 +395,8 @@ If you use windows then you can find the installation guide from <a href="https:
 
 
 var disqus_config = function () {
-this.page.url = "\/post\/installing-and-running-elasticsearch\/";  
-this.page.identifier = "\/post\/installing-and-running-elasticsearch\/"; 
+this.page.url = "https:\/\/rimonmostafiz.com\/post\/installing-and-running-elasticsearch\/";  
+this.page.identifier = "https:\/\/rimonmostafiz.com\/post\/installing-and-running-elasticsearch\/"; 
 };
 
 (function() { 

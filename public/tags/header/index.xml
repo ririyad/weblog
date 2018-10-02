@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Header on Rimon&#39;s Weblog</title>
-    <link>/tags/header/</link>
+    <link>https://rimonmostafiz.com/tags/header/</link>
     <description>Recent content in Header on Rimon&#39;s Weblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>© Creative Commons Attribution-ShareAlike 4.0 International License</copyright>
     <lastBuildDate>Tue, 09 Jan 2018 06:30:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/header/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://rimonmostafiz.com/tags/header/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Know your response object</title>
-      <link>/post/know-your-response-object/</link>
+      <link>https://rimonmostafiz.com/post/know-your-response-object/</link>
       <pubDate>Tue, 09 Jan 2018 06:30:00 +0000</pubDate>
       
-      <guid>/post/know-your-response-object/</guid>
+      <guid>https://rimonmostafiz.com/post/know-your-response-object/</guid>
       <description>HttpServletResponse The HttpServletResponse interface extends ServletResponse and provides access to the HTTP protocol-specific properties of a response.
 You can use the response object to do things such as
  Set response headers Write to the response body Redirect the request Set the HTTP status code Send cookies back to the client.  Writing to Response Body The most common thing you’ll do with a response object is written content to the response body.</description>

@@ -1,18 +1,18 @@
 ---
-date: 2017-08-16 22:00:00+00:00
-title: Google drive in ubuntu
-authors: ["rimonmostafiz"]
+author: Rimon Mostafiz
 comments: true
+date: 2017-08-16 22:00:00+00:00
+description:
+emoji: true
+image:
+link: http://rimonmostafiz.com/post/google-drive-in-ubuntu/
+share: true
 slug: google-drive-in-ubuntu
-link: http://rimonmostafiz.com/posts/google-drive-in-ubuntu
-categories:
-- technology
 tags:
 - google-drive
 - linux
 - ubuntu
-toc: false
-emoji: true
+title: Google Drive in Ubuntu
 ---
 
 At the time of writing, there is no official Google Drive client for Ubuntu or Linux Mint but if you need to use it then there is an unofficial client called **_Grive2_**. <br>

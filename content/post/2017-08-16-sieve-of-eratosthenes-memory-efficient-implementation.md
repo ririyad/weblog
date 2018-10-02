@@ -1,20 +1,19 @@
 ---
-date: 2017-08-16 00:30:00+00:00
-title: Sieve of Eratosthenes (memory efficient implementation)
-description: A memory efficient technique for prime number generation
-authors: [rimonmostafiz]
+author: Rimon Mostafiz
 comments: true
+date: 2017-08-16 00:30:00+00:00
+description: A memory efficient technique for prime number generation
+emoji: true
+image:
+link: https://rimonmostafiz.com/post/sieve-of-eratosthenes-memory-efficient-implementation/
+share: true
 slug: sieve-of-eratosthenes-memory-efficient-implementation
-link: http://rimonmostafiz.com/posts/sieve-of-eratosthenes-memory-efficient-implementation
-categories:
+tags:
 - algorithms
 - math
-tags:
-- number-theory
 - prime-number
-- sieve
-toc: false
-emoji: true
+- number-theory
+title: Sieve of Eratosthenes (Memory Efficient Implementation)
 ---
 Say we want to find all prime numbers up to an integer **N** where **N** is **10<sup>8</sup>**. If we write a regular implementation of [Sieve Of Eratosthenes](http://en.wikipedia.org/wiki/Sieve_of_Eratosthenes) using a bool array for each integer in the range `[1:N]` then we could end up using **N** bytes of memory, which would roughly be **95 MB** which is a not a very small memory.
 

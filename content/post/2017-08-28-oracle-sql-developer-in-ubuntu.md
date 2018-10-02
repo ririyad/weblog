@@ -1,19 +1,19 @@
 ---
-date: 2017-08-28 15:13:24+00:00
-title: Oracle SQL developer in ubuntu
-description:
-author: rimonmostafiz
+author: Rimon Mostafiz
 comments: true
+date: 2017-08-28 15:13:24+00:00
+description:
+emoji: true
+image:
+link: https://rimonmostafiz.com/post/oracle-sql-developer-in-ubuntu/
+share: true
 slug: oracle-sql-developer-in-ubuntu
-link: http://rimonmostafiz.com/posts/oracle-sql-developer-in-ubuntu
-categories:
-- technology
 tags:
 - oracle
 - sqldeveloper
+- linux
 - ubuntu
-toc: false
-emoji: true
+title: Oracle SQL Developer in Ubuntu
 ---
 
 You will need a free Oracle account to log in and download SQL Developer from [Oracle Technology Network](http://www.oracle.com/technetwork/developer-tools/sql-developer/downloads/index.html) site. For ubuntu download the _Other Platforms_ version.<br>

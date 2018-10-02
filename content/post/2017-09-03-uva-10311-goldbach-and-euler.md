@@ -1,19 +1,18 @@
 ---
-date: 2017-09-03 00:21:00+00:00
-title: Uva 10311 - goldbach and euler
-description:
-author: rimonmostafiz
+author: Rimon Mostafiz
 comments: true
+date: 2017-09-03 00:21:00+00:00
+description: Solution idea of Uva 10311 - Goldbach and Euler
+emoji: true
+image:
+link: https://rimonmostafiz.com/post/uva-10311-goldbach-and-euler/
+share: true
 slug: uva-10311-goldbach-and-euler
-link: http://www.rimonmostafiz.com/posts/uva-10311-goldbach-and-euler/
-categories:
-- uva
 tags:
-- idea
+- uva
 - prime-number
 - problem-solving
-toc: true
-emoji: true
+title: Uva 10311 - Goldbach and Euler
 ---
 ### Problem Statement:
 [UVa 10311 - Goldbach and Euler](https://uva.onlinejudge.org/external/103/p10311.pdf)

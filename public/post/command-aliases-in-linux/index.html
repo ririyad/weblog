@@ -20,7 +20,7 @@
 
   	<meta property="og:title" content="Command Aliases in Ubuntu Linux &middot; Rimon&#39;s Weblog" />
   	<meta property="og:site_name" content="Rimon&#39;s Weblog" />
-  	<meta property="og:url" content="/post/command-aliases-in-linux/" />
+  	<meta property="og:url" content="https://rimonmostafiz.com/post/command-aliases-in-linux/" />
 
     
         
@@ -34,17 +34,11 @@
     <meta property="article:published_time" content="2017-11-30T11:50:41Z" />
 
     
-    <meta property="article:tag" content="alias" />
-    
-    <meta property="article:tag" content="bashrc" />
-    
-    <meta property="article:tag" content="command" />
-    
     <meta property="article:tag" content="linux" />
     
-    <meta property="article:tag" content="terminal" />
+    <meta property="article:tag" content="alias" />
     
-    <meta property="article:tag" content="ubuntu" />
+    <meta property="article:tag" content="terminal" />
     
     
 
@@ -80,7 +74,7 @@
     
     <meta name="generator" content="Hugo 0.45" />
 
-    <link rel="canonical" href="/post/command-aliases-in-linux/" />
+    <link rel="canonical" href="https://rimonmostafiz.com/post/command-aliases-in-linux/" />
 
     
       
@@ -92,7 +86,7 @@
     "publisher": {
         "@type": "Organization",
         "name": ,
-        "logo": /images/author.jpg
+        "logo": https://rimonmostafiz.com/images/author.jpg
     },
     "author": {
         "@type": "Person",
@@ -100,7 +94,7 @@
         
         "image": {
             "@type": "ImageObject",
-            "url": /images/author.jpg,
+            "url": https://rimonmostafiz.com/images/author.jpg,
             "width": 250,
             "height": 250
         }, 
@@ -127,15 +121,15 @@
       "@type": "Language",
       "alternateName": en
     },
-    "url": /post/command-aliases-in-linux/,
+    "url": https://rimonmostafiz.com/post/command-aliases-in-linux/,
     "datePublished": 2017-11-30T11:50Z,
     "dateModified": 2017-11-30T11:50Z,
     
-    "keywords": alias, bashrc, command, linux, terminal, ubuntu,
+    "keywords": linux, alias, terminal,
     "description": ,
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": /post/command-aliases-in-linux/
+        "@id": https://rimonmostafiz.com/post/command-aliases-in-linux/
     }
 }
     </script>
@@ -209,7 +203,7 @@
 
 
   
-      <a class="blog-logo" href="/"><img src="/images/author.jpg" alt="Home" /></a>
+      <a class="blog-logo" href="https://rimonmostafiz.com/"><img src="/images/author.jpg" alt="Home" /></a>
   
   
       <a class="menu-button" href="#"><span class="burger">&#9776;</span><span class="word">Menu</span></a>
@@ -237,17 +231,11 @@
           </time>
         
          
-          <span class="post-tag small"><a href="//tags/alias/">#alias</a></span>
+          <span class="post-tag small"><a href="https://rimonmostafiz.com//tags/linux/">#linux</a></span>
          
-          <span class="post-tag small"><a href="//tags/bashrc/">#bashrc</a></span>
+          <span class="post-tag small"><a href="https://rimonmostafiz.com//tags/alias/">#alias</a></span>
          
-          <span class="post-tag small"><a href="//tags/command/">#command</a></span>
-         
-          <span class="post-tag small"><a href="//tags/linux/">#linux</a></span>
-         
-          <span class="post-tag small"><a href="//tags/terminal/">#terminal</a></span>
-         
-          <span class="post-tag small"><a href="//tags/ubuntu/">#ubuntu</a></span>
+          <span class="post-tag small"><a href="https://rimonmostafiz.com//tags/terminal/">#terminal</a></span>
          
         </section>
     </header>
@@ -271,44 +259,59 @@ less project-name.log
 
 <h3 id="open-your-bashrc-file">Open your .bashrc file</h3>
 
-<p>Your _.bashrc_ file is located in your user directory. Open it in your favorite text editor. I like vim
-<code>vim ~/.bashrc</code>
-Then go to the end of the file
-In vim you can<code>
-Press        Shift + G (Will go to the last line of your file)
+<p>Your _.bashrc_ file is located in your user directory. Open it in your favorite text editor. I like vim</p>
+
+<pre><code>vim ~/.bashrc
+</code></pre>
+
+<p>Then go to the end of the file In vim you can</p>
+
+<pre><code>Press        Shift + G (Will go to the last line of your file)
 Then Press   Shift + A (Will start appending after the last line)
 Then Press   Enter
-</code></p>
+</code></pre>
 
 <h3 id="add-alias">Add alias</h3>
 
-<p>Basic format of the alias is
-<code>alias aliasname='mycommand'</code>
-Note that there is no space between aliasname then the EQUAL and the mycommand
-So my alias should be
-<code>alias logs='cd /home/rimonmostafiz/Applications/Oracle/Middleware/Oracle_Home/user_projects/domains/base_domain/logs/'</code></p>
+<p>Basic format of the alias is<br>
+<code>alias aliasname='mycommand'</code><br>
+Note that there is no space between alias name and the EQUAL(=) and command</p>
+
+<p>So my alias should be</p>
+
+<pre><code>alias logs='cd /home/rimonmostafiz/Applications/Oracle/Middleware/Oracle_Home/user_projects/domains/base_domain/logs/'
+</code></pre>
 
 <h3 id="chain-multiple-commands-in-alias">Chain Multiple Commands In alias</h3>
 
-<p><code>alias logs='cd /home/rimonmostafiz/Applications/Oracle/Middleware/Oracle_Home/ &amp;&amp; cd user_projects/domains/base_domain/logs/'</code>
-This &amp;&amp; operator will run a set of commands and only continue to the next command if the previous one was successful.</p>
+<pre><code>alias logs='cd /home/rimonmostafiz/Applications/Oracle/Middleware/Oracle_Home/ &amp;&amp; cd user_projects/domains/base_domain/logs/'
+</code></pre>
+
+<p>This &amp;&amp; operator will run a set of commands and only continue to the next command if the previous one was successful.</p>
 
 <h3 id="write-and-close-bashrc-file">Write and Close .bashrc File</h3>
 
-<p>In vim, Press ESCAPE to get to normal mode and run the following command and press ENTER to write and quit:
-<code>:wq</code>
-If you use any other editor, just save and close the file.</p>
+<p>In vim, Press ESCAPE to get to normal mode and run the following command and press ENTER to write and quit:</p>
+
+<pre><code>:wq
+</code></pre>
+
+<p>If you use any other editor, just save and close the file.</p>
 
 <h3 id="source-bashrc">Source .bashrc</h3>
 
-<p><code>$source ~/.bashrc</code>
-Done, Now your alias should work.</p>
+<pre><code>$source ~/.bashrc
+</code></pre>
+
+<p>Done, Now your alias should work.</p>
 
 <h3 id="another-cool-approach">Another Cool Approach</h3>
 
-<p>So Isn&rsquo;t it be cooler If you could do something like this?
-<code>less_logs project-name.log</code>
-<code>tail-f_logs project-name.log</code></p>
+<p>So Isn&rsquo;t it be cooler If you could do something like this?</p>
+
+<pre><code>less_logs project-name.log
+tail-f_logs project-name.log
+</code></pre>
 
 <p>Guess what, Yes you can do that :)
 <code>alias</code> does not accept parameters but a function can be called just like an alias. For example:</p>
@@ -317,9 +320,9 @@ Done, Now your alias should work.</p>
 
 <p>I have added following functions in my .bashrc</p>
 
-<pre><code>less_logs() { 
-    cd /home/rimonmostafiz/Applications/Oracle/Middleware/Oracle_Home/user_projects/domains/base_domain/logs/; 
-    less &quot;$1&quot;; 
+<pre><code>less_logs() {
+    cd /home/rimonmostafiz/Applications/Oracle/Middleware/Oracle_Home/user_projects/domains/base_domain/logs/;
+    less &quot;$1&quot;;
 }
 
 tail_f_logs() {
@@ -346,12 +349,12 @@ tail_f_logs() {
 
 
 <figure class="author-image">
-    <a class="img" href="/" style="background-image: url(/images/author.jpg)"><span class="hidden">rimonmostafiz's Picture</span></a>
+    <a class="img" href="https://rimonmostafiz.com/" style="background-image: url(/images/author.jpg)"><span class="hidden">Rimon Mostafiz's Picture</span></a>
 </figure>
 
 
 <section class="author">
-  <h4><a href="/">rimonmostafiz</a></h4>
+  <h4><a href="https://rimonmostafiz.com/">Rimon Mostafiz</a></h4>
   
   <p>Software Engineer at Tiger IT Bangladesh Ltd.</p>
   
@@ -367,19 +370,19 @@ tail_f_logs() {
     
 <section class="share">
   <h4>Share this post</h4>
-  <a class="icon-twitter" style="font-size: 1.4em" href="https://twitter.com/share?text=Command%20Aliases%20in%20Ubuntu%20Linux&nbsp;-&nbsp;Rimon%27s%20Weblog&amp;url=%2fpost%2fcommand-aliases-in-linux%2f"
+  <a class="icon-twitter" style="font-size: 1.4em" href="https://twitter.com/share?text=Command%20Aliases%20in%20Ubuntu%20Linux&nbsp;-&nbsp;Rimon%27s%20Weblog&amp;url=https%3a%2f%2frimonmostafiz.com%2fpost%2fcommand-aliases-in-linux%2f"
       onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
       <span class="hidden">Twitter</span>
   </a>
-  <a class="icon-facebook" style="font-size: 1.4em" href="https://www.facebook.com/sharer/sharer.php?u=%2fpost%2fcommand-aliases-in-linux%2f"
+  <a class="icon-facebook" style="font-size: 1.4em" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2frimonmostafiz.com%2fpost%2fcommand-aliases-in-linux%2f"
       onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
       <span class="hidden">Facebook</span>
   </a>
-  <a class="icon-pinterest" style="font-size: 1.4em" href="http://pinterest.com/pin/create/button/?url=%2fpost%2fcommand-aliases-in-linux%2f&amp;description=Command%20Aliases%20in%20Ubuntu%20Linux"
+  <a class="icon-pinterest" style="font-size: 1.4em" href="http://pinterest.com/pin/create/button/?url=https%3a%2f%2frimonmostafiz.com%2fpost%2fcommand-aliases-in-linux%2f&amp;description=Command%20Aliases%20in%20Ubuntu%20Linux"
       onclick="window.open(this.href, 'pinterest-share','width=580,height=296');return false;">
       <span class="hidden">Pinterest</span>
   </a>
-  <a class="icon-google-plus" style="font-size: 1.4em" href="https://plus.google.com/share?url=%2fpost%2fcommand-aliases-in-linux%2f"
+  <a class="icon-google-plus" style="font-size: 1.4em" href="https://plus.google.com/share?url=https%3a%2f%2frimonmostafiz.com%2fpost%2fcommand-aliases-in-linux%2f"
      onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
       <span class="hidden">Google+</span>
   </a>
@@ -396,8 +399,8 @@ tail_f_logs() {
 
 
 var disqus_config = function () {
-this.page.url = "\/post\/command-aliases-in-linux\/";  
-this.page.identifier = "\/post\/command-aliases-in-linux\/"; 
+this.page.url = "https:\/\/rimonmostafiz.com\/post\/command-aliases-in-linux\/";  
+this.page.identifier = "https:\/\/rimonmostafiz.com\/post\/command-aliases-in-linux\/"; 
 };
 
 (function() { 
@@ -434,7 +437,7 @@ s.setAttribute('data-timestamp', +new Date());
   
       <a class="read-next-story prev" style="no-cover" href="/post/a-bit-of-spring-part-one/">
           <section class="post">
-              <h2>a bit of spring: part one</h2>
+              <h2>A Bit of Spring</h2>
           </section>
       </a>
   

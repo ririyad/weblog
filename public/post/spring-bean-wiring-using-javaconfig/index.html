@@ -12,15 +12,15 @@
 
 
 
-<meta name="twitter:title" content="Spring bean wiring using javaconfig"/>
+<meta name="twitter:title" content="Spring Bean Wiring Using Javaonfig"/>
 <meta name="twitter:description" content=""/>
 <meta name="twitter:site" content="@rimonmostafiz"/>
 
 
 
-  	<meta property="og:title" content="Spring bean wiring using javaconfig &middot; Rimon&#39;s Weblog" />
+  	<meta property="og:title" content="Spring Bean Wiring Using Javaonfig &middot; Rimon&#39;s Weblog" />
   	<meta property="og:site_name" content="Rimon&#39;s Weblog" />
-  	<meta property="og:url" content="/post/spring-bean-wiring-using-javaconfig/" />
+  	<meta property="og:url" content="https://rimonmostafiz.com/post/spring-bean-wiring-using-javaconfig/" />
 
     
         
@@ -34,15 +34,13 @@
     <meta property="article:published_time" content="2018-05-29T10:19:29Z" />
 
     
-    <meta property="article:tag" content="annotation" />
+    <meta property="article:tag" content="java" />
     
-    <meta property="article:tag" content="application-context" />
-    
-    <meta property="article:tag" content="constructor-injection" />
+    <meta property="article:tag" content="spring" />
     
     
 
-    <title>Spring bean wiring using javaconfig &middot; Rimon&#39;s Weblog</title>
+    <title>Spring Bean Wiring Using Javaonfig &middot; Rimon&#39;s Weblog</title>
 
     
     <meta name="description" content="In the previous post, I wrote about how can we implicitly wire beans automatically in Spring container. In my previous post I created a new maven project and st" />
@@ -74,7 +72,7 @@
     
     <meta name="generator" content="Hugo 0.45" />
 
-    <link rel="canonical" href="/post/spring-bean-wiring-using-javaconfig/" />
+    <link rel="canonical" href="https://rimonmostafiz.com/post/spring-bean-wiring-using-javaconfig/" />
 
     
       
@@ -86,7 +84,7 @@
     "publisher": {
         "@type": "Organization",
         "name": ,
-        "logo": /images/author.jpg
+        "logo": https://rimonmostafiz.com/images/author.jpg
     },
     "author": {
         "@type": "Person",
@@ -94,7 +92,7 @@
         
         "image": {
             "@type": "ImageObject",
-            "url": /images/author.jpg,
+            "url": https://rimonmostafiz.com/images/author.jpg,
             "width": 250,
             "height": 250
         }, 
@@ -113,23 +111,23 @@
         "description": Software Engineer at Tiger IT Bangladesh Ltd.
         
     },
-    "headline": Spring bean wiring using javaconfig,
-    "name": Spring bean wiring using javaconfig,
-    "wordCount": 899,
+    "headline": Spring Bean Wiring Using Javaonfig,
+    "name": Spring Bean Wiring Using Javaonfig,
+    "wordCount": 895,
     "timeRequired": "PT5M",
     "inLanguage": {
       "@type": "Language",
       "alternateName": en
     },
-    "url": /post/spring-bean-wiring-using-javaconfig/,
+    "url": https://rimonmostafiz.com/post/spring-bean-wiring-using-javaconfig/,
     "datePublished": 2018-05-29T10:19Z,
     "dateModified": 2018-05-29T10:19Z,
     
-    "keywords": annotation, application-context, constructor-injection,
+    "keywords": java, spring,
     "description": ,
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": /post/spring-bean-wiring-using-javaconfig/
+        "@id": https://rimonmostafiz.com/post/spring-bean-wiring-using-javaconfig/
     }
 }
     </script>
@@ -203,7 +201,7 @@
 
 
   
-      <a class="blog-logo" href="/"><img src="/images/author.jpg" alt="Home" /></a>
+      <a class="blog-logo" href="https://rimonmostafiz.com/"><img src="/images/author.jpg" alt="Home" /></a>
   
   
       <a class="menu-button" href="#"><span class="burger">&#9776;</span><span class="word">Menu</span></a>
@@ -221,7 +219,7 @@
   <article class="post post">
 
     <header class="post-header">
-        <h1 class="post-title">Spring bean wiring using javaconfig</h1>
+        <h1 class="post-title">Spring Bean Wiring Using Javaonfig</h1>
         <small></small>
 
         <section class="post-meta">
@@ -231,11 +229,9 @@
           </time>
         
          
-          <span class="post-tag small"><a href="//tags/annotation/">#annotation</a></span>
+          <span class="post-tag small"><a href="https://rimonmostafiz.com//tags/java/">#java</a></span>
          
-          <span class="post-tag small"><a href="//tags/application-context/">#application-context</a></span>
-         
-          <span class="post-tag small"><a href="//tags/constructor-injection/">#constructor-injection</a></span>
+          <span class="post-tag small"><a href="https://rimonmostafiz.com//tags/spring/">#spring</a></span>
          
         </section>
     </header>
@@ -243,9 +239,9 @@
     <section class="post-content">
       
 
-<p>In the <a href="https://www.rimonmostafiz.com/posts/auto-bean-wiring-of-spring/">previous post</a>, I wrote about how can we implicitly wire beans automatically in Spring container. In my previous post I created a new maven project and started writing code so that we can understand the topics more clearly. In this post, I am documenting my learning of how we can wire bean using Explicit Java Configuration. I will work on the same project I have created earlier.</p>
+<p>In the <a href="https://rimonmostafiz.com/post/auto-bean-wiring-of-spring/">previous post</a>, I wrote about how can we implicitly wire beans automatically in Spring container. In my previous post I created a new maven project and started writing code so that we can understand the topics more clearly. In this post, I am documenting my learning of how we can wire bean using Explicit Java Configuration. I will work on the same project I have created earlier.</p>
 
-<h2 id="explicit-wiring-using-java">Explicit wiring using Java</h2>
+<h3 id="explicit-wiring-using-java">Explicit wiring using Java</h3>
 
 <p>When an automatic configuration isn’t an option then we must configure Spring explicitly. Let’s say that we want to wire components from some third-party library into our application. Because we don’t have the source code for that library, there’s no opportunity to annotate its classes with <code>@Component</code> and <code>@Autowired</code> annotations. Therefore, automatic configuration isn’t an option.</p>
 
@@ -365,9 +361,7 @@ Store store(Item foodItem) {
 
 <p>Let&rsquo;s test all this java configuration by creating an <code>App</code> class.</p>
 
-<p>[video width=&ldquo;1326&rdquo; height=&ldquo;906&rdquo; mp4=&ldquo;<a href="http://www.rimonmostafiz.com/wp-content/uploads/2018/05/wiring_bean_using_java_config.mp4&quot;][/video">http://www.rimonmostafiz.com/wp-content/uploads/2018/05/wiring_bean_using_java_config.mp4&quot;][/video</a>]</p>
-
-<p>App.class Code</p>
+<p><strong>App.class Code</strong></p>
 
 <pre><code>package com.rimonmostafiz;
 
@@ -399,12 +393,12 @@ public class App {
 
 
 <figure class="author-image">
-    <a class="img" href="/" style="background-image: url(/images/author.jpg)"><span class="hidden">Rimon Mostafiz's Picture</span></a>
+    <a class="img" href="https://rimonmostafiz.com/" style="background-image: url(/images/author.jpg)"><span class="hidden">Rimon Mostafiz's Picture</span></a>
 </figure>
 
 
 <section class="author">
-  <h4><a href="/">Rimon Mostafiz</a></h4>
+  <h4><a href="https://rimonmostafiz.com/">Rimon Mostafiz</a></h4>
   
   <p>Software Engineer at Tiger IT Bangladesh Ltd.</p>
   
@@ -420,19 +414,19 @@ public class App {
     
 <section class="share">
   <h4>Share this post</h4>
-  <a class="icon-twitter" style="font-size: 1.4em" href="https://twitter.com/share?text=Spring%20bean%20wiring%20using%20javaconfig&nbsp;-&nbsp;Rimon%27s%20Weblog&amp;url=%2fpost%2fspring-bean-wiring-using-javaconfig%2f"
+  <a class="icon-twitter" style="font-size: 1.4em" href="https://twitter.com/share?text=Spring%20Bean%20Wiring%20Using%20Javaonfig&nbsp;-&nbsp;Rimon%27s%20Weblog&amp;url=https%3a%2f%2frimonmostafiz.com%2fpost%2fspring-bean-wiring-using-javaconfig%2f"
       onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
       <span class="hidden">Twitter</span>
   </a>
-  <a class="icon-facebook" style="font-size: 1.4em" href="https://www.facebook.com/sharer/sharer.php?u=%2fpost%2fspring-bean-wiring-using-javaconfig%2f"
+  <a class="icon-facebook" style="font-size: 1.4em" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2frimonmostafiz.com%2fpost%2fspring-bean-wiring-using-javaconfig%2f"
       onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
       <span class="hidden">Facebook</span>
   </a>
-  <a class="icon-pinterest" style="font-size: 1.4em" href="http://pinterest.com/pin/create/button/?url=%2fpost%2fspring-bean-wiring-using-javaconfig%2f&amp;description=Spring%20bean%20wiring%20using%20javaconfig"
+  <a class="icon-pinterest" style="font-size: 1.4em" href="http://pinterest.com/pin/create/button/?url=https%3a%2f%2frimonmostafiz.com%2fpost%2fspring-bean-wiring-using-javaconfig%2f&amp;description=Spring%20Bean%20Wiring%20Using%20Javaonfig"
       onclick="window.open(this.href, 'pinterest-share','width=580,height=296');return false;">
       <span class="hidden">Pinterest</span>
   </a>
-  <a class="icon-google-plus" style="font-size: 1.4em" href="https://plus.google.com/share?url=%2fpost%2fspring-bean-wiring-using-javaconfig%2f"
+  <a class="icon-google-plus" style="font-size: 1.4em" href="https://plus.google.com/share?url=https%3a%2f%2frimonmostafiz.com%2fpost%2fspring-bean-wiring-using-javaconfig%2f"
      onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
       <span class="hidden">Google+</span>
   </a>
@@ -449,8 +443,8 @@ public class App {
 
 
 var disqus_config = function () {
-this.page.url = "\/post\/spring-bean-wiring-using-javaconfig\/";  
-this.page.identifier = "\/post\/spring-bean-wiring-using-javaconfig\/"; 
+this.page.url = "https:\/\/rimonmostafiz.com\/post\/spring-bean-wiring-using-javaconfig\/";  
+this.page.identifier = "https:\/\/rimonmostafiz.com\/post\/spring-bean-wiring-using-javaconfig\/"; 
 };
 
 (function() { 
@@ -477,15 +471,15 @@ s.setAttribute('data-timestamp', +new Date());
 
   <aside class="read-next">
   
-      <a class="read-next-story" style="no-cover" href="/post/install-and-manage-node-js-using-nvm/">
+      <a class="read-next-story" style="background-image: url(/images/install-and-manage-node-js-using-nvm-cover.jpg)" href="/post/install-and-manage-node-js-using-nvm/">
           <section class="post">
-              <h2>Install and manage node js using NVM</h2>
+              <h2>Install and Manage Node JS Using NVM</h2>
               
           </section>
       </a>
   
   
-      <a class="read-next-story prev" style="no-cover" href="/post/auto-bean-wiring-of-spring/">
+      <a class="read-next-story prev" style="background-image: url(/images/create-maven-project.gif)" href="/post/auto-bean-wiring-of-spring/">
           <section class="post">
               <h2>Auto Bean Wiring of Spring</h2>
           </section>

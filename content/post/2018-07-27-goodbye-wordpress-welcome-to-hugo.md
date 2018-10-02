@@ -1,18 +1,18 @@
 ---
+author: Rimon Mostafiz
+comments: true
 date: 2018-07-27T20:01:41+06:00
-title: Goodbye wordpress, Welcome to HUGO
 description: Moving from Wordpress to Hugo
-authors: ["rimonmostafiz"]
+emoji: true
+image: images/goodbye-wordpress-welcome-to-hugo-cover.jpeg
+link: https:rimonmostafiz.com/post/goodbye-wordpress-welcome-to-hugo/
+share: true
 slug: goodbye-wordpress-welcome-to-hugo
-link: http:rimonmostafiz.com/posts/goodbye-wordpress-welcome-to-hugo
-categories:
-  - thoughts
 tags:
   - static-site
   - hugo
-  - general
-toc: true
-emoji: true
+  - smart-and-simple
+title: Goodbye Wordpress, Welcome to HUGO
 ---
 Do you notice anything new? <br>
 Of course not. No one follows my blog and theme does not matter. :unamused:

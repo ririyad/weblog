@@ -1,19 +1,18 @@
 ---
-date: 2018-07-07 04:17:09+00:00
-title: Install and manage node js using NVM
-description: Manage different version of node in your development environment using NVM
-authors: ["rimonmostafiz"]
+author: Rimon Mostafiz
 comments: true
+date: 2018-07-07 04:17:09+00:00
+description: Manage ifferent version of node in your development environment using NVM
+emoji: true
+image: images/install-and-manage-node-js-using-nvm-cover.jpg
+link: https://rimonmostafiz.com/post/install-and-manage-node-js-using-nvm/
+share: true
 slug: install-and-manage-node-js-using-nvm
-link: http://rimonmostafiz.com/posts/install-and-manage-node-js-using-nvm
-categories:
-- nodejs
 tags:
-- node
+- nodejs
 - npm
 - nvm
-toc: true
-emoji: true
+title: Install and Manage Node JS Using NVM
 ---
 
 Node Version Manager (NVM) is a simple bash script to manage multiple active node.js versions.

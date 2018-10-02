@@ -1,15 +1,18 @@
 ---
-date: {{ .Date }}
-title: "{{ replace .Name "-" " " | title }}"
-description:
-authors: ["rimonmostafiz"]
-slug:
-link: 
-categories:
-  -
-tags:
-  -
 draft: true
-toc: true
+
+author: Rimon Mostafiz
+comments: true	# set false to hide Disqus
+date: {{ .Date }}
+description:
 emoji: true
+image:
+link: https://rimonmostafiz.com/post/{{slug}}
+menu: 		# set "main" to add this content to the main menu
+share: true	# set false to hide share buttons
+slug:
+tags:
+  - tag1
+  - tag2
+title:
 ---

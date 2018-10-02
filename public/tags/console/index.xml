@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Console on Rimon&#39;s Weblog</title>
-    <link>/tags/console/</link>
+    <link>https://rimonmostafiz.com/tags/console/</link>
     <description>Recent content in Console on Rimon&#39;s Weblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>© Creative Commons Attribution-ShareAlike 4.0 International License</copyright>
     <lastBuildDate>Sat, 16 Sep 2017 09:19:51 +0000</lastBuildDate>
     
-	<atom:link href="/tags/console/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://rimonmostafiz.com/tags/console/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Installing and Running Kibana</title>
-      <link>/post/installing-and-running-kibana/</link>
+      <link>https://rimonmostafiz.com/post/installing-and-running-kibana/</link>
       <pubDate>Sat, 16 Sep 2017 09:19:51 +0000</pubDate>
       
-      <guid>/post/installing-and-running-kibana/</guid>
+      <guid>https://rimonmostafiz.com/post/installing-and-running-kibana/</guid>
       <description>Installing Kibana and Console _This article is part of a series. Check out the full series [icon name=&amp;ldquo;external-link&amp;rdquo; class=&amp;ldquo;&amp;rdquo; unprefixedclass=&amp;ldquo;&amp;rdquo;]
 Kibana is an open source analytics and visualization platform designed to work with Elasticsearch and Console (Previously its name was Sence, Sence was renamed to Console and it is available on Kibana 5.*) is a Kibana plugin [](https://www.elastic.co/guide/en/elasticsearch/guide/2.x/running-elasticsearch.html#id-1.4.3.13.19.2.2)[](https://www.elastic.co/guide/en/elasticsearch/guide/2.x/running-elasticsearch.html#id-1.4.3.13.19.2.3)that provides an interactive console for submitting requests to Elasticsearch directly from your browser.</description>
     </item>

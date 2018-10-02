@@ -1,19 +1,17 @@
 ---
-date: 2018-03-14 10:36:12+00:00
-title: Inversion of control and dependency injection
-description:
-authors: ["rimonmostafiz"]
+author: Rimon Mostafiz
 comments: true
+date: 2018-03-14 10:36:12+00:00
+description:
+emoji: true
+image:
+link: https://rimonmostafiz.com/post/inversion-of-control-and-dependency-injection/
+share: true
 slug: inversion-of-control-and-dependency-injection
-link: http://rimonmostafiz.com/posts/inversion-of-control-and-dependency-injection
-categories:
-- spring
 tags:
-- container
 - dependency-injection
 - ioc
-toc: true
-emoji: true
+title: Inversion of Control and Dependency Injection
 ---
 
 ### Inversion of control (IoC)

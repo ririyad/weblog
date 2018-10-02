@@ -1,19 +1,19 @@
 ---
-date: 2018-01-09 06:30:00+00:00
-title: Know your response object
-description:
-authors: ["rimonmostafiz"]
+author: Rimon Mostafiz
 comments: true
-slug: know-your-response-object
-link: http://rimonmostafiz.com/posts/know-your-response-object
-categories:
-- javaee
-tags:
-- header
-- response
-- servlet
-toc: true
+date: 2018-01-09 06:30:00+00:00
+description:
 emoji: true
+image:
+link: https://rimonmostafiz.com/post/know-your-response-object/
+share: true
+slug: know-your-response-object
+tags:
+- javaee
+- servlet
+- web-application
+- response
+title: Know Your Response Object
 ---
 
 ## HttpServletResponse
