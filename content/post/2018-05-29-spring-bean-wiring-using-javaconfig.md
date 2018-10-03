@@ -13,7 +13,6 @@ tags:
 - spring
 title: Spring Bean Wiring Using Javaonfig
 ---
-
 In the [previous post](https://rimonmostafiz.com/post/auto-bean-wiring-of-spring/), I wrote about how can we implicitly wire beans automatically in Spring container. In my previous post I created a new maven project and started writing code so that we can understand the topics more clearly. In this post, I am documenting my learning of how we can wire bean using Explicit Java Configuration. I will work on the same project I have created earlier.
 
 ### Explicit wiring using Java

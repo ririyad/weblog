@@ -13,10 +13,6 @@ tags:
 - web-application
 title: Web Application Directory Structure and WAR Files
 ---
-
-
-### Directory Structure and WAR Files
-
 Standard Java EE web applications are deployed as **WAR** files or **exploded (unarchived)** web application directories. All Java EE web application servers support WAR file application archives. Whether archived or exploded, the directory structure convention, as shown in Figure is the same.
 
 ![Directory Structure](/images/directory-structure.jpg)

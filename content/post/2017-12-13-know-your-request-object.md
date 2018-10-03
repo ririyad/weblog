@@ -17,7 +17,6 @@ title: Know Your Request Object
 ---
 
 ## HTTPServletRequest
-
 The `HServletRequestttp` interface is an extension of `ServletRequest` that provides additional HTTP protocol-specific information about a received request.
 It specifies dozens of methods that you can use to obtain details about an HTTP request. It also permits you to set request attributes (different from request parameters).
 
