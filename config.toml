@@ -77,7 +77,7 @@ url = "/"
 name = "About"
 weight = -2
 identifier = "About"
-url = "/pages/whoami"
+url = "/pages/about"
 
 [[menu.main]]
 name = "Post"

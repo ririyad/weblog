@@ -334,11 +334,11 @@ int gcd (int a, int b) { int g; for (int i = 1; i &amp;lt;= min(a, b); i++) { if
     </item>
     
     <item>
-      <title>WhoAmI</title>
-      <link>https://rimonmostafiz.com/pages/whoami/</link>
+      <title>About</title>
+      <link>https://rimonmostafiz.com/pages/about/</link>
       <pubDate>Tue, 15 Aug 2017 15:31:05 +0000</pubDate>
       
-      <guid>https://rimonmostafiz.com/pages/whoami/</guid>
+      <guid>https://rimonmostafiz.com/pages/about/</guid>
       <description>It is not our abilities that show what we truly are, It is our choices.
  Welcome, Thanks for stopping by 👍 rimonmostafiz.com is the personal and professional blog of Molla Mostafizur Rahman Rimon (Rimon Mostafiz in short).
 ✏️ Education I graduated from Department of Computer Science and Engineering at United International University (UIU), Bangladesh in 2016.
