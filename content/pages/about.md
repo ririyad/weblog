@@ -1,10 +1,13 @@
 ---
-title: "WhoAmI"
-date: "2017-08-15 15:31:05+00:00"
+author: Rimon Mostafiz
 comments: false
-emoji: true
-authors: ["rimonmostafiz"]
-toc: true
+date: 2017-08-15 15:31:05+00:00
+description:
+share: true
+slug: about
+image:
+link: https://rimonmostafiz.com/pages/about
+title: "About"
 ---
 
 > It is not our abilities that show what we truly are, It is our choices.
