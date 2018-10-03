@@ -33,7 +33,7 @@ Now go ahead, and read some of the stuff form **[blog posts](/posts)** and add m
 If you wanted to know what I'm up to now,  you can visit the **[now page](/pages/now)**.
 
 #### !important :warning:
-This blog is built using [Hugo](https://gohugo.io/), a static site generator. The theme used is [minimo](https://themes.gohugo.io/minimo). <br>
+This blog is built using [Hugo](https://gohugo.io/), a static site generator. The theme used is [casper](https://github.com/vjeantet/hugo-theme-casper). <br>
 The source code of this blog can be found on [GitHub](https://github.com/rimonmostafiz/rimonmostafiz.com).
 
 You can find me on [Twitter](https://twitter.com/rimonmostafiz), [Linkedin](https://linkedin.com/in/rimonmostafiz), [Github](https://github.com/rimonmostafiz), and [StackOverflow](https://stackoverflow.com/users/4426099/rimon-mostafiz).<br>
