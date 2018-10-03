@@ -1,1 +1,4 @@
 
+[submodule "themes/casper"]
+	path = themes/casper
+	url = https://github.com/rimonmostafiz/hugo-theme-casper
