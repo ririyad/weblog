@@ -13,7 +13,6 @@ tags:
   - nodejs
 title: Manage npm Global Packages
 ---
-### Introduction
 This post is about how can we install, update, uninstall and list out installed global packages of NPM.
 
 The commands that start with `$` are meant to be run in the terminal or command line.<br>

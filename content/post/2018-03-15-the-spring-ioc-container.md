@@ -14,8 +14,6 @@ tags:
 - ioc
 title: The Spring IoC Container
 ---
-
-## Overview
 There is some confusion these days over the meaning of _**inversion of control**_ due to the rise of _**IoC containers**_.
 
 **An IoC container is a common characteristic of frameworks that implement Inversion of Control (IoC).**

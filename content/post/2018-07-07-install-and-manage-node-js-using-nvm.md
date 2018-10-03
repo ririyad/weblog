@@ -14,7 +14,6 @@ tags:
 - nvm
 title: Install and Manage Node JS Using NVM
 ---
-
 Node Version Manager (NVM) is a simple bash script to manage multiple active node.js versions.
 
 ## Install NVM

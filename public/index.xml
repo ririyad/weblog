@@ -30,7 +30,7 @@ Now you will have to find the section where the defaults are listed.</descriptio
       <pubDate>Sun, 29 Jul 2018 15:35:41 +0600</pubDate>
       
       <guid>https://rimonmostafiz.com/post/manage-npm-global-packages/</guid>
-      <description>Introduction This post is about how can we install, update, uninstall and list out installed global packages of NPM.
+      <description>This post is about how can we install, update, uninstall and list out installed global packages of NPM.
 The commands that start with $ are meant to be run in the terminal or command line.
 The output of the command will follow immediately. Comments will begin with #.
 Install Global Packages $ npm install -g &amp;lt;package&amp;gt;  For example, to install express globally, type
@@ -97,7 +97,7 @@ Spring IoC container consumes a form of configuration metadata. This configura
       <pubDate>Thu, 15 Mar 2018 11:00:47 +0000</pubDate>
       
       <guid>https://rimonmostafiz.com/post/the-spring-ioc-container/</guid>
-      <description>Overview There is some confusion these days over the meaning of inversion of control due to the rise of IoC containers.
+      <description>There is some confusion these days over the meaning of inversion of control due to the rise of IoC containers.
 An IoC container is a common characteristic of frameworks that implement Inversion of Control (IoC).
 Some people confuse the general principle here with the specific styles of inversion of control (such as dependency injection) that these containers use. It is a process whereby objects define their dependencies, that is, the other objects they work with, only through constructor arguments, arguments to a factory method, or properties that are set on the object instance after it is constructed or returned from a factory method.</description>
     </item>
@@ -150,7 +150,7 @@ Maven Dependency &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;javax.servlet
       <pubDate>Tue, 12 Dec 2017 11:30:40 +0000</pubDate>
       
       <guid>https://rimonmostafiz.com/post/web-application-directory-structure-and-war-files/</guid>
-      <description>Directory Structure and WAR Files Standard Java EE web applications are deployed as WAR files or exploded (unarchived) web application directories. All Java EE web application servers support WAR file application archives. Whether archived or exploded, the directory structure convention, as shown in Figure is the same.
+      <description>Standard Java EE web applications are deployed as WAR files or exploded (unarchived) web application directories. All Java EE web application servers support WAR file application archives. Whether archived or exploded, the directory structure convention, as shown in Figure is the same.
  This structure contains classes and other application resources, the class files live in /WEB-INF/classes. The WEB-INF directory stores informational and instructional files that Java EE web application servers use to determine how to deploy and run the application.</description>
     </item>
     

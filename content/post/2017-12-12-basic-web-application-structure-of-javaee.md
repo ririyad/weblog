@@ -14,7 +14,6 @@ tags:
 - web-application
 title: Basic Web Application Structure of JavaEE
 ---
-
 ### Basic Web Application Structure
 
 A lot of components go into making a Java EE application.

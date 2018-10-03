@@ -52,6 +52,7 @@ defaultContentLanguage = "en"
   # See https://github.com/isagalaev/highlight.js/tree/master/src/styles for available styles
   # A preview of above styles can be viewed at https://highlightjs.org/static/demo/
   hjsStyle = "default"
+  summaryLength = 30
 
   [params.social]
     twitter = "rimonmostafiz"
