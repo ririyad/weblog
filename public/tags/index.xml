@@ -6,10 +6,19 @@
     <description>Recent content in Tags on Rimon&#39;s Weblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>© Creative Commons Attribution-ShareAlike 4.0 International License</copyright>
-    <lastBuildDate>Wed, 16 Aug 2017 00:30:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 04 Oct 2018 01:21:19 +0600</lastBuildDate>
     
 	<atom:link href="https://rimonmostafiz.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title></title>
+      <link>https://rimonmostafiz.com/tags/</link>
+      <pubDate>Thu, 04 Oct 2018 01:21:19 +0600</pubDate>
+      
+      <guid>https://rimonmostafiz.com/tags/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Algorithms</title>
@@ -35,6 +44,24 @@
       <pubDate>Sat, 09 Sep 2017 11:34:00 +0000</pubDate>
       
       <guid>https://rimonmostafiz.com/tags/arduino/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Book</title>
+      <link>https://rimonmostafiz.com/tags/book/</link>
+      <pubDate>Thu, 04 Oct 2018 11:34:48 +0600</pubDate>
+      
+      <guid>https://rimonmostafiz.com/tags/book/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>C-programming</title>
+      <link>https://rimonmostafiz.com/tags/c-programming/</link>
+      <pubDate>Thu, 04 Oct 2018 11:34:48 +0600</pubDate>
+      
+      <guid>https://rimonmostafiz.com/tags/c-programming/</guid>
       <description></description>
     </item>
     
@@ -107,6 +134,15 @@
       <pubDate>Fri, 27 Jul 2018 20:01:41 +0600</pubDate>
       
       <guid>https://rimonmostafiz.com/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Interview-preparation</title>
+      <link>https://rimonmostafiz.com/tags/interview-preparation/</link>
+      <pubDate>Thu, 04 Oct 2018 11:34:48 +0600</pubDate>
+      
+      <guid>https://rimonmostafiz.com/tags/interview-preparation/</guid>
       <description></description>
     </item>
     
