@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Book on Rimon&#39;s Weblog</title>
+    <link>https://rimonmostafiz.com/tags/book/</link>
+    <description>Recent content in Book on Rimon&#39;s Weblog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>© Creative Commons Attribution-ShareAlike 4.0 International License</copyright>
+    <lastBuildDate>Thu, 04 Oct 2018 11:34:48 +0600</lastBuildDate>
+    
+	<atom:link href="https://rimonmostafiz.com/tags/book/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Taking a Step Back: Starting With C</title>
+      <link>https://rimonmostafiz.com/post/taking-a-step-back-starting-with-c/</link>
+      <pubDate>Thu, 04 Oct 2018 11:34:48 +0600</pubDate>
+      
+      <guid>https://rimonmostafiz.com/post/taking-a-step-back-starting-with-c/</guid>
+      <description>I&amp;rsquo;m going back in time, Sometimes taking a step back can move you forward.
+At my 2nd trimester at university I took SPL(Structured Programming Language) course. Where I first learned C programming and it was spring of 2012.
+After that from 2013 to 2015 I wrote a fair number of C code. I used to participate programming contests and I solved problems in different online judge. Now-a-days I don&amp;rsquo;t write C codes.</description>
+    </item>
+    
+  </channel>
+</rss>
