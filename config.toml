@@ -53,6 +53,7 @@ defaultContentLanguage = "en"
   # A preview of above styles can be viewed at https://highlightjs.org/static/demo/
   hjsStyle = "default"
   summaryLength = 30
+  enableEmoji = true
 
   [params.social]
     twitter = "rimonmostafiz"
