@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://rimonmostafiz.com/post/taking-a-step-back-starting-with-c/</loc>
+    <lastmod>2018-10-04T11:34:48+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rimonmostafiz.com/post/the-game-is-on/</loc>
+    <lastmod>2018-10-04T01:21:19+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rimonmostafiz.com/post/get-insulted-by-sudo/</loc>
+    <lastmod>2018-07-30T14:35:07+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rimonmostafiz.com/post/manage-npm-global-packages/</loc>
+    <lastmod>2018-07-29T15:35:41+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rimonmostafiz.com/post/goodbye-wordpress-welcome-to-hugo/</loc>
+    <lastmod>2018-07-27T20:01:41+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rimonmostafiz.com/post/install-and-manage-node-js-using-nvm/</loc>
+    <lastmod>2018-07-07T04:17:09+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rimonmostafiz.com/post/spring-bean-wiring-using-javaconfig/</loc>
+    <lastmod>2018-05-29T10:19:29+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rimonmostafiz.com/post/auto-bean-wiring-of-spring/</loc>
+    <lastmod>2018-05-28T07:44:03+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rimonmostafiz.com/post/spring-application-context-and-configuration-metadata/</loc>
+    <lastmod>2018-05-26T06:42:47+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rimonmostafiz.com/post/the-spring-ioc-container/</loc>
+    <lastmod>2018-03-15T11:00:47+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rimonmostafiz.com/post/inversion-of-control-and-dependency-injection/</loc>
+    <lastmod>2018-03-14T10:36:12+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rimonmostafiz.com/post/know-your-response-object/</loc>
+    <lastmod>2018-01-09T06:30:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rimonmostafiz.com/post/know-your-request-object/</loc>
+    <lastmod>2017-12-13T05:30:10+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rimonmostafiz.com/post/up-and-running-with-servlet-in-tomcat/</loc>
+    <lastmod>2017-12-12T16:57:27+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rimonmostafiz.com/post/web-application-directory-structure-and-war-files/</loc>
+    <lastmod>2017-12-12T11:30:40+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rimonmostafiz.com/post/basic-web-application-structure-of-javaee/</loc>
+    <lastmod>2017-12-12T10:08:51+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rimonmostafiz.com/post/command-aliases-in-linux/</loc>
+    <lastmod>2017-11-30T11:50:41+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rimonmostafiz.com/post/a-bit-of-spring-part-one/</loc>
+    <lastmod>2017-10-30T09:19:54+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rimonmostafiz.com/post/manage-jdk-using-sdkman/</loc>
+    <lastmod>2017-10-20T18:39:46+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rimonmostafiz.com/post/installing-and-running-kibana/</loc>
+    <lastmod>2017-09-16T09:19:51+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rimonmostafiz.com/post/installing-and-running-elasticsearch/</loc>
+    <lastmod>2017-09-15T12:36:35+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rimonmostafiz.com/post/basics-and-key-concepts-of-elasticsearch/</loc>
+    <lastmod>2017-09-15T10:26:28+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rimonmostafiz.com/post/electronics-project-1/</loc>
+    <lastmod>2017-09-09T11:34:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rimonmostafiz.com/post/electronics-project-2/</loc>
+    <lastmod>2017-09-09T10:58:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rimonmostafiz.com/post/uva-10311-goldbach-and-euler/</loc>
+    <lastmod>2017-09-03T00:21:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rimonmostafiz.com/post/uva-406-prime-cuts/</loc>
+    <lastmod>2017-08-29T21:39:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rimonmostafiz.com/post/oracle-sql-developer-in-ubuntu/</loc>
+    <lastmod>2017-08-28T15:13:24+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rimonmostafiz.com/post/git-notes/</loc>
+    <lastmod>2017-08-17T12:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rimonmostafiz.com/post/google-drive-in-ubuntu/</loc>
+    <lastmod>2017-08-16T22:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rimonmostafiz.com/post/sieve-of-eratosthenes-memory-efficient-implementation/</loc>
+    <lastmod>2017-08-16T00:30:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rimonmostafiz.com/post/least-common-multiple-lcm/</loc>
+    <lastmod>2017-08-15T18:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rimonmostafiz.com/post/greatest-common-divisor-gcd/</loc>
+    <lastmod>2017-08-15T16:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rimonmostafiz.com/pages/about/</loc>
+    <lastmod>2017-08-15T15:31:05+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rimonmostafiz.com/tags/algorithms/</loc>
+    <lastmod>2017-08-16T00:30:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://rimonmostafiz.com/tags/alias/</loc>
+    <lastmod>2017-11-30T11:50:41+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://rimonmostafiz.com/tags/arduino/</loc>
+    <lastmod>2017-09-09T11:34:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://rimonmostafiz.com/tags/book/</loc>
+    <lastmod>2018-10-04T11:34:48+06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://rimonmostafiz.com/tags/c-programming/</loc>
+    <lastmod>2018-10-04T11:34:48+06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://rimonmostafiz.com/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://rimonmostafiz.com/tags/command/</loc>
+    <lastmod>2017-08-17T12:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://rimonmostafiz.com/tags/dependency-injection/</loc>
+    <lastmod>2018-03-14T10:36:12+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://rimonmostafiz.com/tags/elasticsearch/</loc>
+    <lastmod>2017-09-16T09:19:51+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://rimonmostafiz.com/tags/electronics/</loc>
+    <lastmod>2017-09-09T11:34:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://rimonmostafiz.com/tags/gcd/</loc>
+    <lastmod>2017-08-15T18:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://rimonmostafiz.com/tags/git/</loc>
+    <lastmod>2017-08-17T12:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://rimonmostafiz.com/tags/google-drive/</loc>
+    <lastmod>2017-08-16T22:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://rimonmostafiz.com/tags/hugo/</loc>
+    <lastmod>2018-07-27T20:01:41+06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://rimonmostafiz.com/tags/interview-preparation/</loc>
+    <lastmod>2018-10-04T11:34:48+06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://rimonmostafiz.com/tags/ioc/</loc>
+    <lastmod>2018-03-15T11:00:47+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://rimonmostafiz.com/tags/java/</loc>
+    <lastmod>2018-05-29T10:19:29+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://rimonmostafiz.com/tags/javaee/</loc>
+    <lastmod>2018-01-09T06:30:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://rimonmostafiz.com/tags/jdk/</loc>
+    <lastmod>2017-10-20T18:39:46+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://rimonmostafiz.com/tags/kibana/</loc>
+    <lastmod>2017-09-16T09:19:51+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://rimonmostafiz.com/tags/lcm/</loc>
+    <lastmod>2017-08-15T18:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://rimonmostafiz.com/tags/linux/</loc>
+    <lastmod>2018-07-30T14:35:07+06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://rimonmostafiz.com/tags/math/</loc>
+    <lastmod>2017-08-16T00:30:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://rimonmostafiz.com/tags/motivation/</loc>
+    <lastmod>2018-10-04T01:21:19+06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://rimonmostafiz.com/tags/nodejs/</loc>
+    <lastmod>2018-07-29T15:35:41+06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://rimonmostafiz.com/tags/nosql/</loc>
+    <lastmod>2017-09-15T10:26:28+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://rimonmostafiz.com/tags/notes/</loc>
+    <lastmod>2017-08-17T12:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://rimonmostafiz.com/tags/npm/</loc>
+    <lastmod>2018-07-29T15:35:41+06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://rimonmostafiz.com/tags/number-theory/</loc>
+    <lastmod>2017-08-16T00:30:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://rimonmostafiz.com/tags/nvm/</loc>
+    <lastmod>2018-07-07T04:17:09+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://rimonmostafiz.com/tags/oracle/</loc>
+    <lastmod>2017-08-28T15:13:24+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://rimonmostafiz.com/pages/</loc>
+    <lastmod>2017-08-15T15:31:05+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://rimonmostafiz.com/post/</loc>
+    <lastmod>2018-10-04T11:34:48+06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://rimonmostafiz.com/tags/prime-number/</loc>
+    <lastmod>2017-09-03T00:21:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://rimonmostafiz.com/tags/problem-solving/</loc>
+    <lastmod>2017-09-03T00:21:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://rimonmostafiz.com/tags/project/</loc>
+    <lastmod>2017-09-09T11:34:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://rimonmostafiz.com/tags/request/</loc>
+    <lastmod>2017-12-13T05:30:10+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://rimonmostafiz.com/tags/response/</loc>
+    <lastmod>2018-01-09T06:30:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://rimonmostafiz.com/tags/restful/</loc>
+    <lastmod>2017-09-15T10:26:28+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://rimonmostafiz.com/</loc>
+    <lastmod>2018-10-04T11:34:48+06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://rimonmostafiz.com/tags/sdkman/</loc>
+    <lastmod>2017-10-20T18:39:46+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://rimonmostafiz.com/tags/servlet/</loc>
+    <lastmod>2018-01-09T06:30:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://rimonmostafiz.com/tags/smart-and-simple/</loc>
+    <lastmod>2018-07-27T20:01:41+06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://rimonmostafiz.com/tags/spring/</loc>
+    <lastmod>2018-05-29T10:19:29+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://rimonmostafiz.com/tags/sqldeveloper/</loc>
+    <lastmod>2017-08-28T15:13:24+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://rimonmostafiz.com/tags/static-site/</loc>
+    <lastmod>2018-07-27T20:01:41+06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://rimonmostafiz.com/tags/</loc>
+    <lastmod>2017-08-16T00:30:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://rimonmostafiz.com/tags/terminal/</loc>
+    <lastmod>2018-07-30T14:35:07+06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://rimonmostafiz.com/tags/tomcat/</loc>
+    <lastmod>2017-12-12T16:57:27+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://rimonmostafiz.com/tags/ubuntu/</loc>
+    <lastmod>2017-08-28T15:13:24+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://rimonmostafiz.com/tags/uva/</loc>
+    <lastmod>2017-09-03T00:21:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://rimonmostafiz.com/tags/web-application/</loc>
+    <lastmod>2018-01-09T06:30:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Arduino on Rimon&#39;s Weblog</title>
+    <link>https://rimonmostafiz.com/tags/arduino/</link>
+    <description>Recent content in Arduino on Rimon&#39;s Weblog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>© Creative Commons Attribution-ShareAlike 4.0 International License</copyright>
+    <lastBuildDate>Sat, 09 Sep 2017 11:34:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://rimonmostafiz.com/tags/arduino/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Automatic Staircase Light Using Arduino, PIR Sensor &amp; Relay</title>
+      <link>https://rimonmostafiz.com/post/electronics-project-1/</link>
+      <pubDate>Sat, 09 Sep 2017 11:34:00 +0000</pubDate>
+      
+      <guid>https://rimonmostafiz.com/post/electronics-project-1/</guid>
+      <description>This automatic staircase light circuit switch on the staircase lights automatically when someone enters on the stairs and gets off after some time.
+ There are three important components in this circuit  PIR Sensor (Passive Infrared Sensor) Relay Arduino UNO   Components required for this project:
+ Arduino UNO One breadboard PIR Sencor Relay Module 1N4007 rectifier Diode Jumper wires Power Plug and Bulb Battery 220v AC supply  Description about the components: PIR</description>
+    </item>
+    
+    <item>
+      <title>Obstacle Sensor Using Arduino and Ultrasonic Sensor HC-SR04</title>
+      <link>https://rimonmostafiz.com/post/electronics-project-2/</link>
+      <pubDate>Sat, 09 Sep 2017 10:58:00 +0000</pubDate>
+      
+      <guid>https://rimonmostafiz.com/post/electronics-project-2/</guid>
+      <description>Objective for this project is to make an obstacle sensor which will detect some object in front of it and send some signal.
+The operation of the project is simple. When we approach an object sensor LEDs light up according to the distance of the object. The green LED switches on if you are away, yellow if in the middle distance and red if it is close. The sensing distances LEDs are programmable, if we want to change we can just change the source code of the project.</description>
+    </item>
+    
+  </channel>
+</rss>
