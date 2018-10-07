@@ -9,7 +9,8 @@ menu: false		# set "main" to add this content to the main menu
 share: true	# set false to hide share buttons
 slug: the-game-is-on
 tags:
- - interview-preparation
+ - init 
+ - career
  - motivation
 title: The Game Is On
 ---

@@ -10,9 +10,9 @@ menu: false		# set "main" to add this content to the main menu
 share: true	# set false to hide share buttons
 slug: taking-a-step-back-starting-with-c
 tags:
- - interview-preparation
- - c-programming
- - book
+ - reading
+ - C
+ - books
 title: "Taking a Step Back: Starting With C"
 ---
 I'm going back in time, Sometimes taking a step back can move you forward.

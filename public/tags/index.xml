@@ -39,20 +39,29 @@
     </item>
     
     <item>
-      <title>Book</title>
-      <link>https://rimonmostafiz.com/tags/book/</link>
+      <title>Books</title>
+      <link>https://rimonmostafiz.com/tags/books/</link>
       <pubDate>Thu, 04 Oct 2018 11:34:48 +0600</pubDate>
       
-      <guid>https://rimonmostafiz.com/tags/book/</guid>
+      <guid>https://rimonmostafiz.com/tags/books/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>C-programming</title>
-      <link>https://rimonmostafiz.com/tags/c-programming/</link>
+      <title>C</title>
+      <link>https://rimonmostafiz.com/tags/c/</link>
       <pubDate>Thu, 04 Oct 2018 11:34:48 +0600</pubDate>
       
-      <guid>https://rimonmostafiz.com/tags/c-programming/</guid>
+      <guid>https://rimonmostafiz.com/tags/c/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Career</title>
+      <link>https://rimonmostafiz.com/tags/career/</link>
+      <pubDate>Thu, 04 Oct 2018 01:21:19 +0600</pubDate>
+      
+      <guid>https://rimonmostafiz.com/tags/career/</guid>
       <description></description>
     </item>
     
@@ -129,11 +138,11 @@
     </item>
     
     <item>
-      <title>Interview-preparation</title>
-      <link>https://rimonmostafiz.com/tags/interview-preparation/</link>
-      <pubDate>Thu, 04 Oct 2018 11:34:48 +0600</pubDate>
+      <title>Init</title>
+      <link>https://rimonmostafiz.com/tags/init/</link>
+      <pubDate>Thu, 04 Oct 2018 01:21:19 +0600</pubDate>
       
-      <guid>https://rimonmostafiz.com/tags/interview-preparation/</guid>
+      <guid>https://rimonmostafiz.com/tags/init/</guid>
       <description></description>
     </item>
     
@@ -305,6 +314,15 @@
       <pubDate>Sat, 09 Sep 2017 11:34:00 +0000</pubDate>
       
       <guid>https://rimonmostafiz.com/tags/project/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Reading</title>
+      <link>https://rimonmostafiz.com/tags/reading/</link>
+      <pubDate>Thu, 04 Oct 2018 11:34:48 +0600</pubDate>
+      
+      <guid>https://rimonmostafiz.com/tags/reading/</guid>
       <description></description>
     </item>
     
