@@ -9,16 +9,16 @@ menu: false		# set "main" to add this content to the main menu
 share: true	# set false to hide share buttons
 slug: the-game-is-on
 tags:
- - init 
+ - init
  - career
  - motivation
 title: The Game Is On
 ---
 2-3 months ago, I was surfing the web and found an article titled  [Why I studied full-time for 8 months for a Google interview](https://medium.freecodecamp.org/why-i-studied-full-time-for-8-months-for-a-google-interview-cc662ce9bb13).
 
-The writer of this is [John Washam](https://startupnextdoor.com/about/), who is a self-taught web developer with 15 years of experience. While he was seeking a career change he wanted to join Google as Software Engineer. But he doesn't have any computer science degree and doesn't have the knowledge that large companies expect from candidates.
+The article is written by [John Washam](https://startupnextdoor.com/about/), who is a self-taught web developer with 15 years of experience. While he was seeking a career change he wanted to join Google as Software Engineer. But he doesn't have any computer science degree and doesn't have the knowledge that large companies expect from candidates.
 
-In 2016, He somehow got a copy of Google’s coaching notes that Google provides to interview candidates. That became the basis of his study plan. He turned the topics on the notes into an outline and started filling in the topics with YouTube videos of lectures from MIT and UC Berkeley. The list started to grow.
+In 2016, He somehow got a copy of Google’s coaching notes that Google provides to interview candidates. That became the basis of his study plan. He turned the topics on the notes into an outline and started filling in the topics with YouTube videos of lectures from MIT and UC Berkeley. He started to learning those by himself and the list started to grow.
 
 He published a GitHub repository named
 [Coding Interview University](https://github.com/jwasham/coding-interview-university) with his study material and which now has **69,251** stars.
