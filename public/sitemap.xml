@@ -186,14 +186,20 @@
   </url>
   
   <url>
-    <loc>https://rimonmostafiz.com/tags/book/</loc>
+    <loc>https://rimonmostafiz.com/tags/books/</loc>
     <lastmod>2018-10-04T11:34:48+06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://rimonmostafiz.com/tags/c-programming/</loc>
+    <loc>https://rimonmostafiz.com/tags/c/</loc>
     <lastmod>2018-10-04T11:34:48+06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://rimonmostafiz.com/tags/career/</loc>
+    <lastmod>2018-10-04T01:21:19+06:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -251,8 +257,8 @@
   </url>
   
   <url>
-    <loc>https://rimonmostafiz.com/tags/interview-preparation/</loc>
-    <lastmod>2018-10-04T11:34:48+06:00</lastmod>
+    <loc>https://rimonmostafiz.com/tags/init/</loc>
+    <lastmod>2018-10-04T01:21:19+06:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -379,6 +385,12 @@
   <url>
     <loc>https://rimonmostafiz.com/tags/project/</loc>
     <lastmod>2017-09-09T11:34:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://rimonmostafiz.com/tags/reading/</loc>
+    <lastmod>2018-10-04T11:34:48+06:00</lastmod>
     <priority>0</priority>
   </url>
   
