@@ -39,5 +39,5 @@ If you wanted to know what I'm up to now,  you can visit the **[now page](/page
 This blog is built using [Hugo](https://gohugo.io/), a static site generator. The theme used is [casper](https://github.com/vjeantet/hugo-theme-casper). <br>
 The source code of this blog can be found on [GitHub](https://github.com/rimonmostafiz/rimonmostafiz.com).
 
-You can find me on [Twitter](https://twitter.com/rimonmostafiz), [Linkedin](https://linkedin.com/in/rimonmostafiz), [Github](https://github.com/rimonmostafiz), and [StackOverflow](https://stackoverflow.com/users/4426099/rimon-mostafiz).<br>
-If you are want to contact me, just drop me an :e-mail: at _ferary[dot]rimon[at]gmail[dot]com_
+You can find me on [Twitter](https://twitter.com/rimonmostafiz), [Linkedin](https://linkedin.com/in/rimonmostafiz), [Github](https://github.com/rimonmostafiz), and [StackOverflow](https://stackoverflow.com/users/4426099/rimonmostafiz).<br>
+If you are want to contact me, just drop me an :e-mail: at _rimonmostafiz[at]gmail[dot]com_
