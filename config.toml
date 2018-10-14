@@ -29,7 +29,7 @@ defaultContentLanguage = "en"
   authorwebsite = "https://rimonmostafiz.com"
   authorbio= "Software Engineer at Tiger IT Bangladesh Ltd."
   logo = "images/author.jpg"
-  googleAnalyticsUserID = "UA-106775249-1"
+  googleAnalyticsUserID = "UA-127460370-1"
   # Optional RSS-Link, if not provided it defaults to the standard index.xml
   RSSLink = ""
   githubName = "rimonmostafiz"
