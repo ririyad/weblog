@@ -113,16 +113,6 @@
   </url>
   
   <url>
-    <loc>https://rimonmostafiz.com/post/electronics-project-1/</loc>
-    <lastmod>2017-09-09T11:34:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rimonmostafiz.com/post/electronics-project-2/</loc>
-    <lastmod>2017-09-09T10:58:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://rimonmostafiz.com/post/uva-10311-goldbach-and-euler/</loc>
     <lastmod>2017-09-03T00:21:00+00:00</lastmod>
   </url>
@@ -180,12 +170,6 @@
   </url>
   
   <url>
-    <loc>https://rimonmostafiz.com/tags/arduino/</loc>
-    <lastmod>2017-09-09T11:34:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://rimonmostafiz.com/tags/books/</loc>
     <lastmod>2018-10-04T11:34:48+06:00</lastmod>
     <priority>0</priority>
@@ -223,12 +207,6 @@
   <url>
     <loc>https://rimonmostafiz.com/tags/elasticsearch/</loc>
     <lastmod>2017-09-16T09:19:51+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://rimonmostafiz.com/tags/electronics/</loc>
-    <lastmod>2017-09-09T11:34:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -379,12 +357,6 @@
   <url>
     <loc>https://rimonmostafiz.com/tags/problem-solving/</loc>
     <lastmod>2017-09-03T00:21:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://rimonmostafiz.com/tags/project/</loc>
-    <lastmod>2017-09-09T11:34:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
