@@ -21,7 +21,7 @@ The article is written by [John Washam](https://www.linkedin.com/in/johnawasham/
 In 2016, he managed to get a copy of Google’s coaching notes that Google provides to interview candidates. That became the basis of his study plan. He turned the topics on the notes into an outline and started filling in the topics with YouTube videos of lectures from MIT and UC Berkeley. He started to learning those by himself and the list started to grow.
 
 He published a GitHub repository named
-[Coding Interview University](https://github.com/jwasham/coding-interview-university) with his study material and which now has **69,251** stars.
+[Coding Interview University](https://github.com/jwasham/coding-interview-university) with his study material and which now has over **70,000** stars and more than **20,000** people forked this repository.
 
 After going through his computer science study plan which took months to get through, and more months of practicing for the whiteboard interview. He finally made it!!<br>
 **He got a job as Software Development Engineer at Amazon.com.** :tada:
