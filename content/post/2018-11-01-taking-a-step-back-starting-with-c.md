@@ -19,7 +19,7 @@ I'm going back in time, Sometimes taking a step back can move you forward.
 
 At my 2nd trimester at university(February, 2012) I took SPL(Structured Programming Language) course. Where I first learned C programming.
 
-After that from 2013 to 2015 I wrote a fair number of C code. I used to participate programming contests and I solved problems in different online judge. Now-a-days I don't write C codes. Its been almost 2 year I'm working in Java. But for Software Engineering interview my choice is C/C++ (or maybe python).
+After that from 2013 to 2015 I wrote a fair number of C code. I used to participate programming contests and I solved problems in different online judge. Now-a-days I don't write C codes. Its been almost 2 year I'm working in Java. But for Software Engineering interview my choice is C/C++ (also will practice coding in Java).
 
 I'll be reading the classic book: [The C Programming Language](https://www.amazon.com/Programming-Language-Brian-W-Kernighan/dp/0131103628) by Kernighan & Ritchie.<br>
 I bought a hard copy and also got a kindle edition. I will take notes and will practice some exercise.
