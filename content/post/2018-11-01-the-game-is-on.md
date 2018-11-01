@@ -30,7 +30,7 @@ I read all his articles from [medium](https://medium.freecodecamp.org/@googleyas
 
 ##### I am very much inspired by his story. I decided to give it a try.
 
-So I will follow in his footsteps, I will cover this syllabus and I will start from the beginning. <br>
+So I will follow his footsteps, I will cover this syllabus and I will start from the beginning. <br>
 I already know some of the algorithm and data structure as I studied some in university. Also, I had learned some of those for programming contests. <br>
 
 I want to upgrade my skills enough to be hired at a large tech company like Google or Amazon. <br>
