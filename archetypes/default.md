@@ -7,7 +7,7 @@ date: {{ .Date }}
 image:
 link: https://rimonmostafiz.com/
 menu: false		# set "main" to add this content to the main menu
-share: true	# set false to hide share buttons
+share: true	    # set false to hide share buttons
 slug:
 tags:
  -

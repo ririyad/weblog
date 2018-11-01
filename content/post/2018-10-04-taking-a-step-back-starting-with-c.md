@@ -1,7 +1,7 @@
 ---
 author: Rimon Mostafiz
 comments: true	# set false to hide Disqus
-date: 2018-10-04T11:34:48+06:00
+date: 2018-11-01T11:34:48+06:00
 description:
 emoji: true
 image: images/the-c-programing-book.jpg
@@ -17,7 +17,7 @@ title: "Taking a Step Back: Starting With C"
 ---
 I'm going back in time, Sometimes taking a step back can move you forward.
 
-At my 2nd trimester at university I took SPL(Structured Programming Language) course. Where I first learned C programming and it was spring of 2012.
+At my 2nd trimester at university(February, 2012) I took SPL(Structured Programming Language) course. Where I first learned C programming.
 
 After that from 2013 to 2015 I wrote a fair number of C code. I used to participate programming contests and I solved problems in different online judge. Now-a-days I don't write C codes. Its been almost 2 year I'm working in Java. But for Software Engineering interview my choice is C/C++ (or maybe python).
 
