@@ -1,6 +1,4 @@
 ---
-draft: true
-
 author: Rimon Mostafiz
 comments: true	# set false to hide Disqus
 date: 2018-12-31T14:23:15+06:00
