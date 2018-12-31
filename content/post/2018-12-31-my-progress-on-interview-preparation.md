@@ -21,7 +21,7 @@ So what was the problem?
  - I want to learn lots of things
  - I've too many interests in new technology
  - I've very short attention span
- - There are so many destruction out there for me
+ - I get distracted easily
 
 I was playing Badminton after office, I was on a vacation for a week with family and was busy on a project for a week, little did I noticed that I'm not continuing my study plan properly.
 
